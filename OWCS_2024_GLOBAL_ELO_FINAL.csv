@@ -1,0 +1,133 @@
+rank,team,elo,home_region,maps_played,maps_won,maps_lost,maps_drawn,win_pct,first_event,last_event
+1,Team Falcons,1865.7,Korea,137,85,51,1,62.5%,owcs_2024_asia_s1_korea,owcs_2024_world_finals
+2,Crazy Raccoon,1799.1,Korea,123,86,36,1,70.5%,owcs_2024_asia_s1_korea,owcs_2024_world_finals
+3,Toronto Defiant,1775.2,NA,137,104,33,0,75.9%,owcs_2024_na_s1_groups,owcs_2024_world_finals
+4,Spacestation Gaming,1742.7,EMEA,173,117,56,0,67.6%,owcs_2024_emea_s1_groups,owcs_2024_world_finals
+5,Virtus.pro,1718.7,EMEA,111,70,41,0,63.1%,faceit_2024_s1_emea_master,faceit_2024_s3_emea_master
+6,NTMR,1700.4,NA,78,51,27,0,65.4%,owcs_2024_na_s3_groups,owcs_2024_world_finals
+7,Twisted Minds,1686.6,EMEA,128,74,54,0,57.8%,owcs_2024_emea_s1_groups,owcs_2024_world_finals
+8,ZETA DIVISION,1674.1,Korea,103,54,48,1,52.9%,owcs_2024_asia_s1_korea,owcs_2024_asia_s2_main
+9,ENCE,1665.7,EMEA,151,93,57,1,62.0%,owcs_2024_emea_s1_main,owcs_2024_world_finals
+10,NRG Shock,1655.3,NA,78,42,36,0,53.8%,owcs_2024_dallas_major,owcs_2024_world_finals
+11,Poker Face,1633.7,Korea,60,33,27,0,55.0%,owcs_2024_asia_s1_korea,owcs_2024_asia_s2_main
+12,Students of the Game,1626.4,NA,37,25,12,0,67.6%,owcs_2024_na_s1_groups,owcs_2024_na_s2_main
+13,Timeless,1623.4,NA,108,64,44,0,59.3%,owcs_2024_na_s1_groups,faceit_2024_s2_na_master
+14,Fluffy Aimers,1594.2,NA,38,22,16,0,57.9%,faceit_2024_s2_na_master,owcs_2024_na_s4_main
+15,Toronto Ultra,1593.4,Intl,21,13,8,0,61.9%,ewc_2024,ewc_2024
+16,TSM,1591.6,NA,76,41,35,0,53.9%,faceit_2024_s1_na_master,owcs_2024_na_s4_main
+17,VARREL,1575.8,Japan,46,32,14,0,69.6%,owcs_2024_asia_s1_japan,owcs_2024_asia_s2_wildcard
+18,M80,1575.1,NA,82,45,37,0,54.9%,owcs_2024_na_s1_groups,ewc_2024
+19,Washington Hospice,1572.2,EMEA,10,7,3,0,70.0%,faceit_2024_s2_emea_master,faceit_2024_s2_emea_master
+20,BuboSprayCheck,1567.2,EMEA,6,6,0,0,100.0%,owcs_2024_emea_s1_groups,owcs_2024_emea_s1_groups
+21,FullHouse,1562.6,Pacific,19,13,6,0,68.4%,owcs_2024_asia_s2_pacific,owcs_2024_asia_s2_pacific
+22,Vision Esports,1562.0,EMEA,15,9,6,0,60.0%,faceit_2024_s3_emea_master,faceit_2024_s3_emea_master
+23,Bleed Esports,1561.0,Pacific,30,17,13,0,56.7%,owcs_2024_asia_s2_pacific,owcs_2024_asia_s2_main
+24,Pandia,1553.4,Japan,13,10,3,0,76.9%,owcs_2024_asia_s1_japan,owcs_2024_asia_s1_japan
+25,Piece of Cake,1553.3,EMEA,17,10,7,0,58.8%,owcs_2024_emea_s4_groups,owcs_2024_emea_s4_main
+26,Team PEPS,1550.3,EMEA,11,8,3,0,72.7%,owcs_2024_emea_s2_groups,owcs_2024_emea_s2_groups
+27,DAF,1547.8,Pacific,25,15,10,0,60.0%,owcs_2024_asia_s1_pacific,owcs_2024_asia_s1_main
+28,Peace and Love,1533.6,EMEA,21,12,9,0,57.1%,owcs_2024_emea_s2_groups,owcs_2024_emea_s2_main
+29,Honeypot,1533.5,Pacific,28,16,12,0,57.1%,owcs_2024_asia_s1_pacific,owcs_2024_asia_s1_main
+30,YETI,1533.5,Korea,44,23,21,0,52.3%,owcs_2024_asia_s1_korea,owcs_2024_asia_s1_main
+31,Rad x Avidity,1530.3,NA,40,20,20,0,50.0%,owcs_2024_na_s4_groups,faceit_2024_s3_na_master
+32,RTFM,1517.8,Pacific,14,8,6,0,57.1%,owcs_2024_asia_s1_pacific,owcs_2024_asia_s1_pacific
+33,LFO,1516.8,NA,20,11,9,0,55.0%,owcs_2024_na_s1_groups,owcs_2024_na_s1_main
+34,Vendetta (European team),1516.3,EMEA,23,12,11,0,52.2%,owcs_2024_emea_s3_groups,owcs_2024_emea_s4_groups
+35,Lazuli,1513.0,Japan,28,15,13,0,53.6%,owcs_2024_asia_s2_japan,owcs_2024_asia_s2_main
+36,Citrus Nation,1512.1,NA,90,41,49,0,45.6%,owcs_2024_na_s1_groups,faceit_2024_s3_na_master
+37,FMCL,1511.9,NA,18,9,9,0,50.0%,owcs_2024_na_s2_groups,owcs_2024_na_s2_main
+38,Fluffy Dreamland,1511.5,NA,27,14,13,0,51.9%,owcs_2024_na_s3_groups,faceit_2024_s2_na_master
+39,O3 Splash,1511.3,NA,26,11,15,0,42.3%,owcs_2024_na_s4_groups,faceit_2024_s3_na_master
+40,Luminosity Gaming,1509.2,NA,47,26,21,0,55.3%,owcs_2024_na_s1_groups,faceit_2024_s1_na_master
+41,99DIVINE,1508.0,Pacific,29,14,15,0,48.3%,owcs_2024_asia_s2_pacific,owcs_2024_asia_s2_main
+42,HaeJeokDan,1506.6,Korea,6,3,3,0,50.0%,owcs_2024_asia_s2_korea,owcs_2024_asia_s2_korea
+43,Gaimin Gladiators,1504.9,EMEA,28,12,16,0,42.9%,faceit_2024_s1_emea_master,owcs_2024_emea_s3_groups
+44,Sin Prisa Gaming,1502.8,Korea,19,10,9,0,52.6%,owcs_2024_asia_s1_korea,owcs_2024_asia_s1_korea
+45,Wasp X Ohhhh No,1502.4,EMEA,15,7,8,0,46.7%,faceit_2024_s3_emea_master,faceit_2024_s3_emea_master
+46,Ereus,1501.6,EMEA,13,6,7,0,46.2%,faceit_2024_s3_emea_master,faceit_2024_s3_emea_master
+47,SrPeakCheck,1501.0,EMEA,35,15,20,0,42.9%,owcs_2024_emea_s3_groups,owcs_2024_emea_s4_main
+48,Fnatic,1500.4,Korea,16,6,10,0,37.5%,ewc_2024,owcs_2024_asia_s2_korea
+49,Pirates in Pyjamas,1496.9,NA,44,21,23,0,47.7%,owcs_2024_na_s1_groups,owcs_2024_na_s2_main
+50,Rocstars,1496.8,EMEA,11,5,6,0,45.5%,owcs_2024_emea_s2_groups,owcs_2024_emea_s2_groups
+51,ROC Esports,1494.1,EMEA,12,6,6,0,50.0%,owcs_2024_emea_s1_groups,owcs_2024_emea_s1_main
+52,DhillDucks,1493.0,NA,10,4,6,0,40.0%,owcs_2024_na_s2_groups,owcs_2024_na_s2_groups
+53,Ataraxia,1492.5,EMEA,12,6,6,0,50.0%,owcs_2024_emea_s2_groups,owcs_2024_emea_s2_groups
+54,Negative Mental Attitude,1492.4,EMEA,12,5,7,0,41.7%,owcs_2024_emea_s4_groups,owcs_2024_emea_s4_groups
+55,SixBlow,1492.1,Japan,28,13,15,0,46.4%,owcs_2024_asia_s1_japan,owcs_2024_asia_s1_wildcard
+56,Blast OFF Buds,1490.9,NA,9,3,6,0,33.3%,owcs_2024_na_s4_groups,owcs_2024_na_s4_groups
+57,Far East Society,1490.8,Pacific,12,6,6,0,50.0%,owcs_2024_asia_s1_pacific,owcs_2024_asia_s1_pacific
+58,YFP Gaming,1490.1,NA,10,4,6,0,40.0%,owcs_2024_na_s4_groups,owcs_2024_na_s4_groups
+59,Team Peps,1490.0,EMEA,60,28,32,0,46.7%,owcs_2024_emea_s1_groups,faceit_2024_s3_emea_master
+60,Vendetta (European Team),1489.6,EMEA,8,2,6,0,25.0%,owcs_2024_emea_s4_main,owcs_2024_emea_s4_main
+61,Arise Project,1489.0,Japan,11,5,6,0,45.5%,owcs_2024_asia_s1_japan,owcs_2024_asia_s1_japan
+62,Old Ocean,1487.9,Korea,5,2,3,0,40.0%,owcs_2024_asia_s2_korea,owcs_2024_asia_s2_korea
+63,REVATI X NTMR,1486.3,Japan,8,4,4,0,50.0%,owcs_2024_asia_s2_japan,owcs_2024_asia_s2_japan
+64,Avidity,1486.0,NA,9,3,6,0,33.3%,owcs_2024_na_s3_groups,owcs_2024_na_s3_groups
+65,Timeless Ethereal,1485.4,NA,16,7,9,0,43.8%,owcs_2024_na_s3_groups,owcs_2024_na_s3_main
+66,Genesis,1485.2,Korea,13,6,7,0,46.2%,owcs_2024_asia_s1_korea,owcs_2024_asia_s1_korea
+67,Ramattra Punch,1485.1,NA,13,5,8,0,38.5%,owcs_2024_na_s4_groups,owcs_2024_na_s4_groups
+68,UNC INC,1484.3,NA,12,5,7,0,41.7%,owcs_2024_na_s2_groups,owcs_2024_na_s2_groups
+69,A One Man Army,1483.9,EMEA,55,23,32,0,41.8%,owcs_2024_emea_s3_groups,owcs_2024_emea_s4_main
+70,VEC,1474.4,Korea,8,3,5,0,37.5%,owcs_2024_asia_s2_korea,owcs_2024_asia_s2_korea
+71,Cat,1473.7,Pacific,10,4,6,0,40.0%,owcs_2024_asia_s2_pacific,owcs_2024_asia_s2_pacific
+72,Shikigami,1472.9,NA,70,27,43,0,38.6%,owcs_2024_na_s1_groups,owcs_2024_na_s4_main
+73,Who is Goldfish,1472.2,NA,16,6,10,0,37.5%,owcs_2024_na_s2_groups,owcs_2024_na_s2_main
+74,WISP,1470.7,NA,10,4,6,0,40.0%,faceit_2024_s3_na_master,faceit_2024_s3_na_master
+75,LGD.OA,1470.0,Intl,5,1,4,0,20.0%,ewc_2024,ewc_2024
+76,Timeless Obsidian,1468.5,NA,9,3,6,0,33.3%,owcs_2024_na_s1_groups,owcs_2024_na_s1_groups
+77,Deimpero,1466.9,EMEA,18,7,11,0,38.9%,owcs_2024_emea_s2_groups,owcs_2024_emea_s2_main
+78,LeftRightGnight,1466.4,EMEA,9,3,6,0,33.3%,owcs_2024_emea_s1_groups,owcs_2024_emea_s1_groups
+79,Gass T3 is not a Job,1464.0,EMEA,8,2,6,0,25.0%,faceit_2024_s3_emea_master,faceit_2024_s3_emea_master
+80,Ex Oblivione NA,1463.9,NA,15,6,9,0,40.0%,faceit_2024_s3_na_master,faceit_2024_s3_na_master
+81,Miku Fan Club X Supreme,1463.8,Japan,9,3,6,0,33.3%,owcs_2024_asia_s2_japan,owcs_2024_asia_s2_japan
+82,Supershy,1462.8,EMEA,48,21,27,0,43.8%,owcs_2024_emea_s2_groups,faceit_2024_s2_emea_master
+83,Dreamland,1462.2,NA,23,9,14,0,39.1%,owcs_2024_na_s1_groups,faceit_2024_s3_na_master
+84,Insomnia (Japanese team),1461.2,Japan,50,20,30,0,40.0%,owcs_2024_asia_s1_japan,owcs_2024_asia_s2_japan
+85,Telomere,1460.3,Japan,3,0,3,0,0.0%,owcs_2024_asia_s2_japan,owcs_2024_asia_s2_japan
+86,Celtas,1459.7,EMEA,10,3,7,0,30.0%,owcs_2024_emea_s1_groups,owcs_2024_emea_s1_groups
+87,AWW YEAH,1459.5,EMEA,48,20,28,0,41.7%,owcs_2024_emea_s1_groups,owcs_2024_emea_s3_main
+88,Hypnos,1456.0,EMEA,30,10,20,0,33.3%,owcs_2024_emea_s3_groups,owcs_2024_emea_s4_groups
+89,UCI Esports,1455.8,NA,7,1,6,0,14.3%,faceit_2024_s3_na_master,faceit_2024_s3_na_master
+90,Beluga's Platoon,1455.2,NA,8,2,6,0,25.0%,owcs_2024_na_s1_groups,owcs_2024_na_s1_groups
+91,Namekuji Brothers,1454.7,Japan,29,12,17,0,41.4%,owcs_2024_asia_s1_japan,owcs_2024_asia_s2_japan
+92,Sovereigns,1452.0,EMEA,6,0,6,0,0.0%,faceit_2024_s1_emea_master,faceit_2024_s1_emea_master
+93,Team Z,1450.7,NA,36,15,21,0,41.7%,owcs_2024_na_s3_groups,owcs_2024_na_s4_groups
+94,Arizona State University,1449.2,NA,11,3,8,0,27.3%,owcs_2024_na_s3_groups,owcs_2024_na_s3_groups
+95,Citrus Nightmare,1449.1,NA,27,10,17,0,37.0%,faceit_2024_s1_na_master,owcs_2024_na_s3_main
+96,Ohana Aloha,1448.8,EMEA,6,0,6,0,0.0%,owcs_2024_emea_s3_groups,owcs_2024_emea_s3_groups
+97,Team G4mbit,1448.5,EMEA,7,1,6,0,14.3%,owcs_2024_emea_s4_groups,owcs_2024_emea_s4_groups
+98,EXN Zenith,1446.2,NA,7,1,6,0,14.3%,owcs_2024_na_s4_groups,owcs_2024_na_s4_groups
+99,Fries In The Bag,1446.2,NA,7,1,6,0,14.3%,owcs_2024_na_s3_groups,owcs_2024_na_s3_groups
+100,Hayabusa Gaming,1445.5,Japan,7,1,6,0,14.3%,owcs_2024_asia_s1_japan,owcs_2024_asia_s1_japan
+101,REVATI,1444.0,Japan,25,9,16,0,36.0%,owcs_2024_asia_s1_japan,owcs_2024_asia_s1_japan
+102,Nightmare Rotation,1443.0,NA,7,1,6,0,14.3%,owcs_2024_na_s2_groups,owcs_2024_na_s2_groups
+103,RunAway,1442.8,Korea,7,1,6,0,14.3%,owcs_2024_asia_s1_korea,owcs_2024_asia_s1_korea
+104,SCHMUNGUS,1441.6,EMEA,6,0,6,0,0.0%,owcs_2024_emea_s2_groups,owcs_2024_emea_s2_groups
+105,Green Fortnite,1440.0,NA,8,2,6,0,25.0%,faceit_2024_s2_na_master,faceit_2024_s2_na_master
+106,Ex Oblivione,1439.5,EMEA,80,37,43,0,46.2%,owcs_2024_emea_s1_groups,faceit_2024_s3_emea_master
+107,USIA Esports,1438.5,Pacific,19,6,13,0,31.6%,owcs_2024_asia_s2_pacific,owcs_2024_asia_s2_wildcard
+108,Al Qadsiah,1436.3,EMEA,6,0,6,0,0.0%,owcs_2024_emea_s3_groups,owcs_2024_emea_s3_groups
+109,BangBangPow Galaxy,1435.0,NA,6,0,6,0,0.0%,owcs_2024_na_s1_groups,owcs_2024_na_s1_groups
+110,Bingus,1434.9,EMEA,6,0,6,0,0.0%,owcs_2024_emea_s1_groups,owcs_2024_emea_s1_groups
+111,Visored,1434.3,NA,6,0,6,0,0.0%,owcs_2024_na_s2_groups,owcs_2024_na_s2_groups
+112,Teenage Rising,1434.1,Pacific,17,5,12,0,29.4%,owcs_2024_asia_s1_pacific,owcs_2024_asia_s2_pacific
+113,Flexodiax,1434.1,EMEA,6,0,6,0,0.0%,owcs_2024_emea_s2_groups,owcs_2024_emea_s2_groups
+114,Personate Gang,1432.8,Pacific,6,0,6,0,0.0%,owcs_2024_asia_s1_pacific,owcs_2024_asia_s1_pacific
+115,Final Gambit,1432.8,NA,6,0,6,0,0.0%,owcs_2024_na_s1_groups,owcs_2024_na_s1_groups
+116,Nah I'd Win,1432.8,NA,6,0,6,0,0.0%,owcs_2024_na_s1_groups,owcs_2024_na_s1_groups
+117,A-Square Tengu,1432.8,EMEA,6,0,6,0,0.0%,owcs_2024_emea_s1_groups,owcs_2024_emea_s1_groups
+118,EF Flexodiax,1432.8,EMEA,6,0,6,0,0.0%,owcs_2024_emea_s1_groups,owcs_2024_emea_s1_groups
+119,321 Diving,1432.0,Pacific,27,10,17,0,37.0%,owcs_2024_asia_s1_pacific,owcs_2024_asia_s1_wildcard
+120,Goon Squad,1428.8,Pacific,6,0,6,0,0.0%,owcs_2024_asia_s2_pacific,owcs_2024_asia_s2_pacific
+121,WASP X OHHHH NO,1426.3,EMEA,20,7,13,0,35.0%,owcs_2024_emea_s3_groups,owcs_2024_emea_s4_groups
+122,Nyam Gaming,1419.6,Japan,28,7,21,0,25.0%,owcs_2024_asia_s2_japan,owcs_2024_asia_s2_main
+123,Sheer Cold,1412.9,EMEA,28,9,19,0,32.1%,owcs_2024_emea_s1_groups,owcs_2024_emea_s2_groups
+124,AOMA Esports,1412.5,EMEA,17,4,13,0,23.5%,owcs_2024_emea_s1_groups,owcs_2024_emea_s2_groups
+125,Daybreak,1409.9,NA,15,3,12,0,20.0%,owcs_2024_na_s1_groups,owcs_2024_na_s2_groups
+126,Absolution,1409.0,NA,13,1,12,0,7.7%,owcs_2024_na_s3_groups,owcs_2024_na_s4_groups
+127,Fade Altair,1405.3,Pacific,15,3,12,0,20.0%,owcs_2024_asia_s1_pacific,owcs_2024_asia_s2_pacific
+128,nu.age,1403.7,EMEA,24,6,18,0,25.0%,owcs_2024_emea_s1_groups,faceit_2024_s2_emea_master
+129,Vice (North American team),1391.5,NA,29,8,21,0,27.6%,owcs_2024_na_s2_groups,faceit_2024_s2_na_master
+130,Tanuki Esports,1388.7,NA,14,2,12,0,14.3%,owcs_2024_na_s3_groups,owcs_2024_na_s4_groups
+131,Quick Esports,1388.2,EMEA,48,16,32,0,33.3%,owcs_2024_emea_s1_groups,faceit_2024_s3_emea_master
+132,Metaboiz,1370.5,EMEA,20,2,18,0,10.0%,owcs_2024_emea_s2_groups,owcs_2024_emea_s4_groups
