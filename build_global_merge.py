@@ -28,6 +28,16 @@ SUCCESSION: dict[str, str] = {
     "From The Gamer": "ZETA DIVISION",
     "From the Gamer": "ZETA DIVISION",
     "FTG":            "ZETA DIVISION",
+
+    # Clean roster transfers confirmed by web research
+    "Students of the Game": "NRG Shock",        # NRG acquired SotG roster (Dallas Major, 2024-05-31)
+    "Ataraxia":             "Virtus.pro",        # Virtus.pro signed Ataraxia roster (2024-06-11)
+    "DAF":                  "Bleed Esports",     # Bleed Esports acquired DAF roster (2024-06-13)
+    "Toronto Ultra":        "Toronto Defiant",   # Same org (OverActive Media), EWC-only rebrand
+    "Honeypot":             "99DIVINE",          # 99DIVINE acquired Honeypot seed + roster (Pacific S2)
+    "Avidity":              "Rad x Avidity",     # Rad x Avidity acquired Avidity roster (Sep 2024)
+    "Green Fortnite":       "Timeless Ethereal", # Timeless Ethereal acquired Green Fortnite roster (Aug 2024)
+    "YETI":                 "Fnatic",            # Fnatic signed YETI core players (Jun 2024, EWC + Korea S2)
 }
 
 # Case / display normalization: variant → canonical
@@ -70,21 +80,41 @@ CASE_NORM: dict[str, str] = {
 
     # International / disambiguation
     "321 diving":     "321 Diving",
-}
 
-TEAM_ALIAS_MAP: dict[str, str] = {**SUCCESSION, **CASE_NORM}
+    # Normalization bug fixes (same team, different capitalization in different draft files)
+    "WASP X OHHHH NO":          "Wasp X Ohhhh No",   # Liquipedia canonical: mixed case
+    "Vendetta (European Team)": "Vendetta (European team)",  # lowercase 't'
+    "Team PEPS":                "Team Peps",          # Same French team, Liquipedia: "Team Peps"
+}
 
 SPECIAL_WINNER_VALUES = {"DRAW", "[MANUAL]"}
 
+# Events where "Timeless" = original roster that became TSM (pre-signing split)
+# After OWCS 2024 Stage 2 ended, TSM signed the Timeless roster (May 2024).
+# FACEIT S1 NA onwards: "Timeless" = new/different roster (keeps the Timeless brand).
+TIMELESS_TO_TSM_EVENTS: set[str] = {
+    "owcs_2024_na_s1_groups",
+    "owcs_2024_na_s1_main",
+    "owcs_2024_na_s2_groups",
+    "owcs_2024_na_s2_main",
+}
 
-def normalize_team(name: str) -> str:
-    return TEAM_ALIAS_MAP.get(name, name)
+
+def normalize_team(name: str, event_id: str = "") -> str:
+    """Two-step normalization: CASE_NORM first, then SUCCESSION (chained)."""
+    # Step 1: fix case/variant spelling → canonical display name
+    canonical = CASE_NORM.get(name, name)
+    # Step 2: conditional Timeless split (before SUCCESSION to avoid override)
+    if canonical == "Timeless" and event_id in TIMELESS_TO_TSM_EVENTS:
+        return "TSM"
+    # Step 3: roster succession (old org name → new org name)
+    return SUCCESSION.get(canonical, canonical)
 
 
-def normalize_winner(val: str) -> str:
+def normalize_winner(val: str, event_id: str = "") -> str:
     if val in SPECIAL_WINNER_VALUES:
         return val
-    return normalize_team(val)
+    return normalize_team(val, event_id)
 
 
 # ---------------------------------------------------------------------------
@@ -230,10 +260,11 @@ def load_all_drafts() -> list[dict]:
 
 def normalize_all(rows: list[dict]) -> list[dict]:
     for row in rows:
-        row["team_a"] = normalize_team(row["team_a"])
-        row["team_b"] = normalize_team(row["team_b"])
-        row["winner"] = normalize_winner(row["winner"])
-        row["loser"]  = normalize_winner(row["loser"])
+        eid = row.get("event_id", "")
+        row["team_a"] = normalize_team(row["team_a"], eid)
+        row["team_b"] = normalize_team(row["team_b"], eid)
+        row["winner"] = normalize_winner(row["winner"], eid)
+        row["loser"]  = normalize_winner(row["loser"],  eid)
     return rows
 
 

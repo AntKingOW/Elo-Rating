@@ -28,8 +28,16 @@ OUT_CSV      = ROOT / "OWCS_2024_GLOBAL_ELO_FINAL.csv"
 OUT_HISTORY  = ROOT / "OWCS_2024_GLOBAL_ELO_HISTORY.csv"
 OUT_RANKINGS = ROOT / "OWCS_2024_GLOBAL_ELO_RANKINGS.md"
 
-BASE_ELO = 1500.0
-K        = 24.0
+BASE_ELO        = 1400.0
+K_BASE          = 24.0
+K_INTERNATIONAL = 48.0   # 2× weight for international tournaments
+
+# Events that use K_INTERNATIONAL
+INTERNATIONAL_K_EVENTS: set[str] = {
+    "owcs_2024_dallas_major",
+    "ewc_2024",
+    "owcs_2024_world_finals",
+}
 
 # Events classified as non-regional (skip when inferring home region)
 INTERNATIONAL_EVENTS = {
@@ -148,8 +156,9 @@ def main() -> None:
         ew = expected_score(tw.elo, tl.elo)   # winner's expected score
         el = 1.0 - ew                           # loser's expected score
 
-        tw.elo += K * (1.0 - ew)
-        tl.elo += K * (0.0 - el)
+        k = K_INTERNATIONAL if event_id in INTERNATIONAL_K_EVENTS else K_BASE
+        tw.elo += k * (1.0 - ew)
+        tl.elo += k * (0.0 - el)
 
         tw.maps_played += 1
         tl.maps_played += 1
@@ -245,8 +254,9 @@ def _write_markdown(ranked: list[TeamStats]) -> None:
     lines = [
         "# OWCS 2024 Global Elo Power Rankings",
         "",
-        f"- **Base Elo**: {BASE_ELO}  |  **K**: {K}  |  **Unit**: 1 map = 1 update",
+        f"- **Base Elo**: {BASE_ELO}  |  **K (regional)**: {K_BASE}  |  **K (international)**: {K_INTERNATIONAL}  |  **Unit**: 1 map = 1 update",
         "- Draw maps: no Elo change  |  Forfeit: 2:0 default applied",
+        "- International K×2 events: Dallas Major, EWC, World Finals",
         "- 35 events, 1,940 map rows, all regions in one global pool",
         "",
     ]
