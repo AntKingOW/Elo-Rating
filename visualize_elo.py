@@ -1,9 +1,9 @@
 """
-OWCS 2024 Elo Dashboard — Monthly HTML Generator
+OWCS 2025 Elo Dashboard — Phase-Based HTML Generator
 
 Builds a self-contained dashboard with:
-  - Region tabs: Global / Korea / Japan / Pacific / NA / EMEA
-  - Monthly Elo trend lines based on tournament result timing
+  - Region tabs: Global / Korea / Japan / Pacific / NA / EMEA / China
+  - 5-phase Elo trend lines (Stage 1 / Champions Clash / Stage 2 + Midseason / Stage 3 / Finals)
   - Top 5 panel for the selected region
   - Full rankings table
 
@@ -17,70 +17,108 @@ import colorsys
 import csv
 import json
 from collections import defaultdict
-from datetime import datetime
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
-FINAL_CSV = ROOT / "OWCS_2024_GLOBAL_ELO_FINAL.csv"
-HISTORY_CSV = ROOT / "OWCS_2024_GLOBAL_ELO_HISTORY.csv"
-OUTPUT_HTML = ROOT / "OWCS_2024_ELO_DASHBOARD.html"
+ROOT        = Path(__file__).resolve().parent
+FINAL_CSV   = ROOT / "OWCS_2025_GLOBAL_ELO_FINAL.csv"
+HISTORY_CSV = ROOT / "OWCS_2025_GLOBAL_ELO_HISTORY.csv"
+OUTPUT_HTML = ROOT / "OWCS_2025_ELO_DASHBOARD.html"
 
-REGIONS = ["Korea", "Japan", "Pacific", "NA", "EMEA"]
+REGIONS = ["Korea", "Japan", "Pacific", "NA", "EMEA", "China"]
 REGION_FLAGS = {
-    "all": "🌐",
-    "Korea": "🇰🇷",
-    "Japan": "🇯🇵",
+    "all":     "🌐",
+    "Korea":   "🇰🇷",
+    "Japan":   "🇯🇵",
     "Pacific": "🌏",
-    "NA": "🇺🇸",
-    "EMEA": "🌍",
+    "NA":      "🇺🇸",
+    "EMEA":    "🌍",
+    "China":   "🇨🇳",
 }
 REGION_HUE = {
-    "Korea": 0,
-    "Japan": 325,
+    "Korea":   0,
+    "Japan":   325,
     "Pacific": 195,
-    "NA": 132,
-    "EMEA": 272,
-    "Intl": 36,
+    "NA":      132,
+    "EMEA":    272,
+    "China":   18,
+    "Intl":    36,
 }
 
-EVENT_SCHEDULE = [
-    ("owcs_2024_asia_s1_pacific", "2024-03-03"),
-    ("owcs_2024_na_s1_groups", "2024-03-17"),
-    ("owcs_2024_emea_s1_groups", "2024-03-17"),
-    ("owcs_2024_na_s1_main", "2024-03-21"),
-    ("owcs_2024_emea_s1_main", "2024-03-21"),
-    ("owcs_2024_asia_s1_japan", "2024-03-24"),
-    ("owcs_2024_asia_s1_korea", "2024-03-28"),
-    ("owcs_2024_asia_s1_wildcard", "2024-04-08"),
-    ("owcs_2024_na_s2_groups", "2024-04-12"),
-    ("owcs_2024_emea_s2_groups", "2024-04-12"),
-    ("owcs_2024_asia_s1_main", "2024-04-25"),
-    ("owcs_2024_na_s2_main", "2024-04-25"),
-    ("owcs_2024_emea_s2_main", "2024-04-25"),
-    ("owcs_2024_dallas_major", "2024-05-31"),
-    ("faceit_2024_s1_na_master", "2024-06-14"),
-    ("faceit_2024_s1_emea_master", "2024-06-14"),
-    ("ewc_2024", "2024-07-26"),
-    ("owcs_2024_asia_s2_pacific", "2024-08-08"),
-    ("owcs_2024_na_s3_groups", "2024-08-16"),
-    ("owcs_2024_emea_s3_groups", "2024-08-16"),
-    ("owcs_2024_na_s3_main", "2024-08-29"),
-    ("owcs_2024_emea_s3_main", "2024-08-29"),
-    ("owcs_2024_asia_s2_korea", "2024-08-30"),
-    ("owcs_2024_asia_s2_japan", "2024-09-02"),
-    ("faceit_2024_s2_na_master", "2024-09-13"),
-    ("faceit_2024_s2_emea_master", "2024-09-13"),
-    ("owcs_2024_asia_s2_wildcard", "2024-09-13"),
-    ("owcs_2024_na_s4_groups", "2024-09-27"),
-    ("owcs_2024_emea_s4_groups", "2024-09-27"),
-    ("owcs_2024_asia_s2_main", "2024-09-27"),
-    ("owcs_2024_na_s4_main", "2024-10-10"),
-    ("owcs_2024_emea_s4_main", "2024-10-10"),
-    ("faceit_2024_s3_na_master", "2024-10-18"),
-    ("faceit_2024_s3_emea_master", "2024-10-18"),
-    ("owcs_2024_world_finals", "2024-11-22"),
+# ---------------------------------------------------------------------------
+# Phase definitions — 5 tournament phases in chronological order
+# Each entry: (display_label, [event_ids_in_phase_in_order])
+# ---------------------------------------------------------------------------
+PHASE_DEFS: list[tuple[str, list[str]]] = [
+    ("Stage 1", [
+        "owcs_2025_asia_s1_japan",
+        "owcs_2025_asia_s1_pacific",
+        "owcs_2025_asia_s1_korea",
+        "owcs_2025_na_s1",
+        "owcs_2025_emea_s1",
+        "owcs_2025_asia_s1_main",
+        "owcs_2025_china_s1",
+    ]),
+    ("Champions Clash", [
+        "owcs_2025_champions_clash",
+    ]),
+    ("Stage 2", [
+        "owcs_2025_asia_s2_korea",
+        "owcs_2025_na_s2",
+        "owcs_2025_emea_s2",
+        "owcs_2025_asia_s2_japan",
+        "owcs_2025_asia_s2_pacific",
+        "owcs_2025_china_s2",
+    ]),
+    ("Midseason Championship", [
+        "owcs_2025_midseason",
+    ]),
+    ("Stage 3", [
+        "owcs_2025_asia_s3_japan",
+        "owcs_2025_asia_s3_pacific",
+        "owcs_2025_asia_s3_korea",
+        "owcs_2025_na_s3",
+        "owcs_2025_emea_s3",
+        "owcs_2025_china_s3",
+        "owcs_2025_apac_championship",
+        "owcs_2025_korea_road_to_wf",
+    ]),
+    ("World Finals", [
+        "owcs_2025_world_finals",
+    ]),
 ]
 
+# Human-readable event names for tooltips and notes
+EVENT_NICE_LABEL: dict[str, str] = {
+    "owcs_2025_asia_s1_japan":     "Asia S1 Japan",
+    "owcs_2025_asia_s1_pacific":   "Asia S1 Pacific",
+    "owcs_2025_asia_s1_korea":     "Asia S1 Korea",
+    "owcs_2025_na_s1":             "NA Stage 1",
+    "owcs_2025_emea_s1":           "EMEA Stage 1",
+    "owcs_2025_asia_s1_main":      "Asia S1 Main",
+    "owcs_2025_china_s1":          "China Stage 1",
+    "owcs_2025_champions_clash":   "Champions Clash",
+    "owcs_2025_asia_s2_korea":     "Asia S2 Korea",
+    "owcs_2025_na_s2":             "NA Stage 2",
+    "owcs_2025_emea_s2":           "EMEA Stage 2",
+    "owcs_2025_asia_s2_japan":     "Asia S2 Japan",
+    "owcs_2025_asia_s2_pacific":   "Asia S2 Pacific",
+    "owcs_2025_china_s2":          "China Stage 2",
+    "owcs_2025_midseason":         "Midseason Championship",
+    "owcs_2025_asia_s3_japan":     "Asia S3 Japan",
+    "owcs_2025_asia_s3_pacific":   "Asia S3 Pacific",
+    "owcs_2025_asia_s3_korea":     "Asia S3 Korea",
+    "owcs_2025_na_s3":             "NA Stage 3",
+    "owcs_2025_emea_s3":           "EMEA Stage 3",
+    "owcs_2025_china_s3":          "China Stage 3",
+    "owcs_2025_apac_championship": "APAC Championship",
+    "owcs_2025_korea_road_to_wf":  "Korea Road to WF",
+    "owcs_2025_world_finals":      "World Finals",
+}
+
+
+# ---------------------------------------------------------------------------
+# Color helpers
+# ---------------------------------------------------------------------------
 
 def _hsl_to_hex(h: float, s: float, l: float) -> str:
     r, g, b = colorsys.hls_to_rgb(h / 360, l, s)
@@ -88,117 +126,121 @@ def _hsl_to_hex(h: float, s: float, l: float) -> str:
 
 
 def region_color(region: str, idx: int = 0, total: int = 1) -> str:
-    hue = REGION_HUE.get(region, 180)
-    steps = max(total, 1)
-    lightness = 0.44 + 0.28 * (idx / steps)
+    hue        = REGION_HUE.get(region, 180)
+    steps      = max(total, 1)
+    lightness  = 0.44 + 0.28 * (idx / steps)
     saturation = 0.78 - 0.12 * (idx % 2)
     return _hsl_to_hex(hue, saturation, lightness)
 
 
-def month_label(month_key: str) -> str:
-    return datetime.strptime(month_key, "%Y-%m").strftime("%b %Y")
+# ---------------------------------------------------------------------------
+# Data loading
+# ---------------------------------------------------------------------------
 
-
-def short_event_label(event_id: str) -> str:
-    text = event_id.replace("owcs_2024_", "").replace("faceit_2024_", "faceit_")
-    return (
-        text.replace("_asia_", " asia ")
-        .replace("_world_finals", " world finals")
-        .replace("_dallas_major", " dallas major")
-        .replace("_", " ")
-        .title()
-    )
-
-
-def load_data() -> tuple[list[dict], list[str], dict[str, list[str]]]:
-    final_rows = list(csv.DictReader(FINAL_CSV.open(encoding="utf-8")))
+def load_data() -> tuple[list[dict], list[str], list[list[str]]]:
+    final_rows   = list(csv.DictReader(FINAL_CSV.open(encoding="utf-8")))
     history_rows = list(csv.DictReader(HISTORY_CSV.open(encoding="utf-8")))
 
-    event_dates: dict[str, str] = dict(EVENT_SCHEDULE)
-    month_events: dict[str, list[tuple[str, str]]] = defaultdict(list)
-    event_months = sorted({date[:7] for date in event_dates.values()})
-    for event_id, date_value in sorted(event_dates.items(), key=lambda item: item[1]):
-        month_key = date_value[:7]
-        month_events[month_key].append((date_value, short_event_label(event_id)))
+    # Build lookup: event_id → phase index and ordering within phase
+    event_to_phase:        dict[str, int] = {}
+    event_order_in_phase:  dict[str, int] = {}
+    for phase_idx, (_, event_ids) in enumerate(PHASE_DEFS):
+        for pos, eid in enumerate(event_ids):
+            event_to_phase[eid]       = phase_idx
+            event_order_in_phase[eid] = pos
 
-    team_event_elo: dict[str, dict[str, float]] = defaultdict(dict)
+    num_phases = len(PHASE_DEFS)
+
+    # Accumulate per-team phase data (history rows are in global_map_order → last write wins)
+    team_phase_elo:    dict[str, dict[int, float]] = defaultdict(dict)
+    team_phase_events: dict[str, dict[int, set]]   = defaultdict(lambda: defaultdict(set))
+
     for row in history_rows:
-        team_event_elo[row["team"]][row["event_id"]] = float(row["elo_after"])
+        team     = row["team"]
+        eid      = row["event_id"]
+        elo      = float(row["elo_after"])
+        phase_idx = event_to_phase.get(eid)
+        if phase_idx is None:
+            continue
+        team_phase_elo[team][phase_idx]    = elo   # last row per (team, phase) = final elo
+        team_phase_events[team][phase_idx].add(eid)
 
-    team_event_month_elo: dict[str, dict[str, float]] = defaultdict(dict)
-    for team, event_elos in team_event_elo.items():
-        last_for_month: dict[str, tuple[str, float]] = {}
-        for event_id, elo in event_elos.items():
-            date_value = event_dates.get(event_id)
-            if not date_value:
-                continue
-            month_key = date_value[:7]
-            previous = last_for_month.get(month_key)
-            if previous is None or date_value >= previous[0]:
-                last_for_month[month_key] = (date_value, elo)
-        team_event_month_elo[team] = {
-            month_key: round(value[1], 1) for month_key, value in last_for_month.items()
-        }
-
-    teams: list[dict] = []
+    # Build sorted teams list
     region_totals: dict[str, int] = defaultdict(int)
     for row in final_rows:
         region_totals[row["home_region"]] += 1
 
     region_index: dict[str, int] = defaultdict(int)
-    for row in sorted(final_rows, key=lambda item: float(item["elo"]), reverse=True):
-        name = row["team"]
+    teams: list[dict] = []
+
+    for row in sorted(final_rows, key=lambda r: float(r["elo"]), reverse=True):
+        name   = row["team"]
         region = row["home_region"]
-        idx = region_index[region]
+        idx    = region_index[region]
         region_index[region] += 1
 
-        monthly_points: list[float | None] = []
+        # Phase Elo array with carry-forward for non-active phases
+        elo_map = team_phase_elo.get(name, {})
+        phase_elos: list[float | None] = []
         current: float | None = None
-        month_map = team_event_month_elo.get(name, {})
-        for month_key in event_months:
-            if month_key in month_map:
-                current = month_map[month_key]
-            monthly_points.append(current)
+        for i in range(num_phases):
+            if i in elo_map:
+                current = round(elo_map[i], 1)
+            phase_elos.append(current)
 
-        last_value = next((v for v in reversed(monthly_points) if v is not None), None)
-        prev_value = next(
-            (monthly_points[i] for i in range(len(monthly_points) - 2, -1, -1) if monthly_points[i] is not None),
-            None,
-        )
-        delta = round(last_value - prev_value, 1) if last_value is not None and prev_value is not None else None
+        # Phase events arrays sorted by position within each phase
+        events_map = team_phase_events.get(name, {})
+        phase_events_list: list[list[str]] = []
+        for i in range(num_phases):
+            _, phase_eids = PHASE_DEFS[i]
+            participated  = events_map.get(i, set())
+            sorted_eids   = sorted(participated, key=lambda e: event_order_in_phase.get(e, 999))
+            phase_events_list.append([EVENT_NICE_LABEL.get(e, e) for e in sorted_eids])
 
-        teams.append(
-            {
-                "name": name,
-                "region": region,
-                "finalElo": float(row["elo"]),
-                "rank": int(row["rank"]),
-                "mapsPlayed": int(row["maps_played"]),
-                "mapsWon": int(row["maps_won"]),
-                "mapsLost": int(row["maps_lost"]),
-                "mapsDrawn": int(row["maps_drawn"]),
-                "winPct": row["win_pct"],
-                "firstEvent": row["first_event"],
-                "lastEvent": row["last_event"],
-                "monthlyElo": monthly_points,
-                "lastMonthlyElo": last_value,
-                "monthlyDelta": delta,
-                "color": region_color(region, idx, region_totals[region]),
-            }
-        )
+        # Delta: last actual participation phase vs second-to-last actual participation phase
+        actual = sorted(elo_map.keys())
+        last_val = round(elo_map[actual[-1]], 1) if actual else None
+        prev_val = round(elo_map[actual[-2]], 1) if len(actual) >= 2 else None
+        delta    = round(last_val - prev_val, 1) if last_val is not None and prev_val is not None else None
 
-    month_event_labels = {
-        month: [f"{date_value}  {label}" for date_value, label in items]
-        for month, items in month_events.items()
-    }
+        teams.append({
+            "name":        name,
+            "region":      region,
+            "finalElo":    float(row["elo"]),
+            "rank":        int(row["rank"]),
+            "mapsPlayed":  int(row["maps_played"]),
+            "mapsWon":     int(row["maps_won"]),
+            "mapsLost":    int(row["maps_lost"]),
+            "mapsDrawn":   int(row["maps_drawn"]),
+            "winPct":      row["win_pct"],
+            "firstEvent":  row["first_event"],
+            "lastEvent":   row["last_event"],
+            "phaseElo":    phase_elos,
+            "phaseEvents": phase_events_list,
+            "lastPhaseElo": last_val,
+            "phaseDelta":  delta,
+            "color":       region_color(region, idx, region_totals[region]),
+        })
 
-    return teams, event_months, month_event_labels
+    phase_labels = [label for label, _ in PHASE_DEFS]
+    phase_event_labels = [
+        [EVENT_NICE_LABEL.get(e, e) for e in eids]
+        for _, eids in PHASE_DEFS
+    ]
+
+    return teams, phase_labels, phase_event_labels
 
 
-def build_html(teams: list[dict], months: list[str], month_event_labels: dict[str, list[str]]) -> str:
-    month_labels_json = json.dumps([month_label(month) for month in months], ensure_ascii=False)
-    month_event_labels_json = json.dumps(month_event_labels, ensure_ascii=False)
-    teams_json = json.dumps(sorted(teams, key=lambda item: item["finalElo"], reverse=True), ensure_ascii=False)
+# ---------------------------------------------------------------------------
+# HTML builder
+# ---------------------------------------------------------------------------
+
+def build_html(teams: list[dict], phase_labels: list[str], phase_event_labels: list[list[str]]) -> str:
+    phase_labels_json       = json.dumps(phase_labels, ensure_ascii=False)
+    phase_event_labels_json = json.dumps(phase_event_labels, ensure_ascii=False)
+    teams_json              = json.dumps(
+        sorted(teams, key=lambda t: t["finalElo"], reverse=True), ensure_ascii=False
+    )
 
     region_tabs_html = "\n".join(
         f'<button class="tab" data-region="{region}">{REGION_FLAGS.get(region, "")} {region}</button>'
@@ -210,7 +252,7 @@ def build_html(teams: list[dict], months: list[str], month_event_labels: dict[st
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OWCS 2024 Monthly Elo Dashboard</title>
+<title>OWCS 2025 Phase Elo Dashboard</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
   *, *::before, *::after {{ box-sizing: border-box; }}
@@ -410,7 +452,7 @@ def build_html(teams: list[dict], months: list[str], month_event_labels: dict[st
     font-size: 12px;
     font-weight: 700;
   }}
-  .delta.up {{ color: #74d680; }}
+  .delta.up   {{ color: #74d680; }}
   .delta.down {{ color: #ff8f7a; }}
   .delta.flat {{ color: var(--muted); }}
   .table-card {{
@@ -423,7 +465,7 @@ def build_html(teams: list[dict], months: list[str], month_event_labels: dict[st
   table {{
     width: 100%;
     border-collapse: collapse;
-    min-width: 900px;
+    min-width: 760px;
   }}
   th, td {{
     padding: 14px 12px;
@@ -459,9 +501,9 @@ def build_html(teams: list[dict], months: list[str], month_event_labels: dict[st
 <body>
   <div class="shell">
     <header>
-      <div class="eyebrow">OWCS 2024 Elo Dashboard</div>
-      <h1>월별 Elo 흐름과 지역별 Top 5를 한 화면에서</h1>
-      <p class="subtitle">대회가 끝난 시점을 기준으로 팀 Elo를 월 단위로 스냅샷화했습니다. 대회가 없는 달은 마지막 Elo를 이어받아 추세를 볼 수 있게 처리했습니다.</p>
+      <div class="eyebrow">OWCS 2025 Elo Dashboard</div>
+      <h1>페이즈별 Elo 흐름과 지역별 Top 5를 한 화면에서</h1>
+      <p class="subtitle">6개 토너먼트 페이즈(Stage 1 / Champions Clash / Stage 2 / Midseason Championship / Stage 3 / World Finals) 기준으로 Elo 흐름을 시각화했습니다. 미참가 페이즈는 이전 Elo를 이어받습니다.</p>
       <div class="tabs">
         <button class="tab active" data-region="all">{REGION_FLAGS["all"]} Global</button>
         {region_tabs_html}
@@ -473,8 +515,8 @@ def build_html(teams: list[dict], months: list[str], month_event_labels: dict[st
     <section class="layout">
       <article class="card">
         <div class="card-head">
-          <h2 id="chartTitle">Global Monthly Elo</h2>
-          <p id="chartSubtitle">최종 Elo 기준 상위 팀들의 월별 라인</p>
+          <h2 id="chartTitle">Global Phase Elo</h2>
+          <p id="chartSubtitle">최종 Elo 기준 상위 팀들의 페이즈별 라인</p>
         </div>
         <div class="chart-wrap">
           <canvas id="eloChart"></canvas>
@@ -504,8 +546,7 @@ def build_html(teams: list[dict], months: list[str], month_event_labels: dict[st
               <th>Team</th>
               <th>Region</th>
               <th>Final Elo</th>
-              <th>Latest Monthly Elo</th>
-              <th>Monthly Delta</th>
+              <th>Phase Δ</th>
               <th>Maps</th>
               <th>Record</th>
               <th>Win%</th>
@@ -518,17 +559,17 @@ def build_html(teams: list[dict], months: list[str], month_event_labels: dict[st
   </div>
 
 <script>
-const MONTH_LABELS = {month_labels_json};
-const MONTH_EVENTS = {month_event_labels_json};
-const ALL_TEAMS = {teams_json};
+const PHASE_LABELS       = {phase_labels_json};
+const PHASE_EVENT_LABELS = {phase_event_labels_json};
+const ALL_TEAMS          = {teams_json};
 
 let currentRegion = 'all';
-let eloChart = null;
+let eloChart      = null;
 
 function visibleTeams(region) {{
   const teams = region === 'all'
     ? ALL_TEAMS
-    : ALL_TEAMS.filter(team => team.region === region);
+    : ALL_TEAMS.filter(t => t.region === region);
   return [...teams].sort((a, b) => b.finalElo - a.finalElo);
 }}
 
@@ -547,131 +588,135 @@ function formatDelta(value) {{
 }}
 
 function renderStats(teams, region) {{
-  const highest = teams[0];
-  const avg = teams.length
-    ? (teams.reduce((sum, team) => sum + team.finalElo, 0) / teams.length).toFixed(1)
+  const highest  = teams[0];
+  const avg      = teams.length
+    ? (teams.reduce((s, t) => s + t.finalElo, 0) / teams.length).toFixed(1)
     : '0.0';
-  const active = teams.filter(team => team.lastMonthlyElo !== null).length;
-  const label = region === 'all' ? 'Global' : region;
+  const inFinals = teams.filter(t => t.phaseEvents[4] && t.phaseEvents[4].length > 0).length;
+  const label    = region === 'all' ? 'Global' : region;
   document.getElementById('stats').innerHTML = `
     <div class="stat"><div class="label">${{label}} Teams</div><div class="value">${{teams.length}}</div></div>
     <div class="stat"><div class="label">Highest Elo</div><div class="value">${{highest ? highest.finalElo.toFixed(1) : '0.0'}}</div></div>
     <div class="stat"><div class="label">Average Elo</div><div class="value">${{avg}}</div></div>
-    <div class="stat"><div class="label">Tracked Monthly</div><div class="value">${{active}}</div></div>
+    <div class="stat"><div class="label">Reached Finals</div><div class="value">${{inFinals}}</div></div>
   `;
 }}
 
 function renderChart(teams, region) {{
-  const limit = region === 'all' ? 12 : Math.min(10, teams.length);
+  const limit      = region === 'all' ? 12 : Math.min(10, teams.length);
   const chartTeams = teams.slice(0, limit);
+
   const datasets = chartTeams.map(team => ({{
-    label: team.name,
-    data: team.monthlyElo,
-    borderColor: team.color,
-    backgroundColor: alpha(team.color, 0.14),
+    label:              team.name,
+    data:               team.phaseElo,
+    borderColor:        team.color,
+    backgroundColor:    alpha(team.color, 0.14),
     pointBackgroundColor: team.color,
-    pointBorderColor: '#08141f',
-    pointBorderWidth: 1.5,
-    pointRadius: 3,
-    pointHoverRadius: 5,
-    borderWidth: 2.4,
-    tension: 0.26,
-    spanGaps: true,
-    fill: false,
+    pointBorderColor:   '#08141f',
+    pointBorderWidth:   1.5,
+    pointRadius:        5,
+    pointHoverRadius:   8,
+    borderWidth:        2.4,
+    tension:            0,
+    spanGaps:           true,
+    fill:               false,
   }}));
 
-  document.getElementById('chartTitle').textContent = `${{region === 'all' ? 'Global' : region}} Monthly Elo`;
+  document.getElementById('chartTitle').textContent =
+    `${{region === 'all' ? 'Global' : region}} Phase Elo`;
   document.getElementById('chartSubtitle').textContent =
-    `최종 Elo 상위 ${{chartTeams.length}}팀 기준 월별 추세`;
+    `최종 Elo 상위 ${{chartTeams.length}}팀 기준 5개 페이즈 추세`;
 
   if (eloChart) eloChart.destroy();
   eloChart = new Chart(document.getElementById('eloChart'), {{
     type: 'line',
-    data: {{
-      labels: MONTH_LABELS,
-      datasets,
-    }},
+    data: {{ labels: PHASE_LABELS, datasets }},
     options: {{
-      responsive: true,
+      responsive:          true,
       maintainAspectRatio: false,
       interaction: {{
-        mode: 'nearest',
+        mode:      'nearest',
         intersect: false,
+        axis:      'xy',
       }},
       plugins: {{
         legend: {{
           position: 'bottom',
           labels: {{
-            color: '#c7d8e5',
-            usePointStyle: true,
-            boxWidth: 8,
-            padding: 16,
+            color:          '#c7d8e5',
+            usePointStyle:  true,
+            boxWidth:       8,
+            padding:        16,
           }},
         }},
         tooltip: {{
+          mode:            'nearest',
+          intersect:       false,
           backgroundColor: 'rgba(8, 20, 31, 0.95)',
-          borderColor: 'rgba(143, 187, 216, 0.18)',
-          borderWidth: 1,
-          titleColor: '#ffffff',
-          bodyColor: '#d5e4ee',
+          borderColor:     'rgba(143, 187, 216, 0.18)',
+          borderWidth:     1,
+          titleColor:      '#ffffff',
+          bodyColor:       '#d5e4ee',
+          padding:         12,
           callbacks: {{
-            afterTitle(items) {{
-              const idx = items[0].dataIndex;
-              const monthKey = Object.keys(MONTH_EVENTS)[idx];
-              const events = MONTH_EVENTS[monthKey] || [];
-              return events.length ? [' ', 'Events:', ...events] : [' ', 'No recorded event'];
+            title(items) {{
+              if (!items.length) return '';
+              const phaseName = PHASE_LABELS[items[0].dataIndex];
+              return [items[0].dataset.label, phaseName];
             }},
             label(ctx) {{
-              if (ctx.raw === null) return ` ${{ctx.dataset.label}}: debut not yet`;
-              return ` ${{ctx.dataset.label}}: ${{ctx.raw.toFixed(1)}}`;
+              if (ctx.raw === null || ctx.raw === undefined) return null;
+              return ` Elo: ${{ctx.raw.toFixed(1)}}`;
+            }},
+            afterLabel(ctx) {{
+              if (ctx.raw === null || ctx.raw === undefined) return null;
+              const team   = ALL_TEAMS.find(t => t.name === ctx.dataset.label);
+              if (!team) return null;
+              const events = team.phaseEvents[ctx.dataIndex];
+              if (!events || events.length === 0) return ' Not active this phase';
+              return [' Events:', ...events.map(e => ` · ${{e}}`)];
             }},
           }},
         }},
       }},
       scales: {{
         x: {{
-          grid: {{
-            color: 'rgba(255,255,255,0.05)',
-          }},
-          ticks: {{
-            color: '#8eabbf',
-          }},
+          grid:  {{ color: 'rgba(255,255,255,0.05)' }},
+          ticks: {{ color: '#8eabbf', font: {{ weight: '600' }} }},
         }},
         y: {{
-          grid: {{
-            color: 'rgba(255,255,255,0.07)',
-          }},
-          ticks: {{
-            color: '#8eabbf',
-          }},
+          grid:  {{ color: 'rgba(255,255,255,0.07)' }},
+          ticks: {{ color: '#8eabbf' }},
         }},
       }},
     }},
   }});
 
-  const note = Object.entries(MONTH_EVENTS)
-    .map(([month, events]) => `<strong>${{MONTH_LABELS[Object.keys(MONTH_EVENTS).indexOf(month)]}}</strong>: ${{events.join(' / ')}}`)
-    .join('<br>');
+  // Events note below chart
+  const note = PHASE_LABELS.map((label, i) => {{
+    const evs = PHASE_EVENT_LABELS[i];
+    return `<strong>${{label}}</strong>: ${{evs.join(' / ')}}`;
+  }}).join('<br>');
   document.getElementById('eventsNote').innerHTML = note;
 }}
 
 function renderTop5(teams, region) {{
   const top5 = teams.slice(0, 5);
-  document.getElementById('topTitle').textContent = `${{region === 'all' ? 'Global' : region}} Top 5`;
-  document.getElementById('topSubtitle').textContent = '최신 월별 스냅샷과 마지막 월 대비 변동';
-  document.getElementById('top5List').innerHTML = top5.map((team, index) => {{
-    const delta = formatDelta(team.monthlyDelta);
+  document.getElementById('topTitle').textContent    = `${{region === 'all' ? 'Global' : region}} Top 5`;
+  document.getElementById('topSubtitle').textContent = '최신 페이즈 스냅샷과 이전 페이즈 대비 변동';
+  document.getElementById('top5List').innerHTML = top5.map((team, i) => {{
+    const delta = formatDelta(team.phaseDelta);
     return `
       <div class="top5-item">
         <div class="top5-row">
-          <div class="top5-rank">${{index + 1}}</div>
+          <div class="top5-rank">${{i + 1}}</div>
           <div class="team-meta">
             <div class="team-name">${{team.name}}</div>
             <div class="team-sub">${{team.region}} · ${{team.mapsWon}}W-${{team.mapsLost}}L-${{team.mapsDrawn}}D · ${{team.winPct}}</div>
           </div>
           <div class="team-elo" style="color:${{team.color}}">${{team.finalElo.toFixed(1)}}</div>
         </div>
-        <div class="delta ${{delta.cls}}">Monthly delta: ${{delta.text}}</div>
+        <div class="delta ${{delta.cls}}">Phase delta: ${{delta.text}}</div>
       </div>
     `;
   }}).join('');
@@ -680,15 +725,13 @@ function renderTop5(teams, region) {{
 function renderTable(teams, region) {{
   document.getElementById('tableTitle').textContent = `${{region === 'all' ? 'Global' : region}} Rankings Table`;
   document.getElementById('tableBody').innerHTML = teams.map(team => {{
-    const delta = formatDelta(team.monthlyDelta);
-    const latest = team.lastMonthlyElo === null ? 'n/a' : team.lastMonthlyElo.toFixed(1);
+    const delta = formatDelta(team.phaseDelta);
     return `
       <tr>
         <td>${{team.rank}}</td>
         <td style="font-weight:800;color:${{team.color}}">${{team.name}}</td>
         <td><span class="badge">${{team.region}}</span></td>
         <td>${{team.finalElo.toFixed(1)}}</td>
-        <td>${{latest}}</td>
         <td class="${{delta.cls}}">${{delta.text}}</td>
         <td>${{team.mapsPlayed}}</td>
         <td>${{team.mapsWon}}-${{team.mapsLost}}-${{team.mapsDrawn}}</td>
@@ -700,18 +743,18 @@ function renderTable(teams, region) {{
 
 function render(region) {{
   currentRegion = region;
-  const teams = visibleTeams(region);
+  const teams   = visibleTeams(region);
   renderStats(teams, region);
   renderChart(teams, region);
   renderTop5(teams, region);
   renderTable(teams, region);
 }}
 
-document.querySelectorAll('.tab').forEach(button => {{
-  button.addEventListener('click', () => {{
-    document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
-    button.classList.add('active');
-    render(button.dataset.region);
+document.querySelectorAll('.tab').forEach(btn => {{
+  btn.addEventListener('click', () => {{
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    btn.classList.add('active');
+    render(btn.dataset.region);
   }});
 }});
 
@@ -721,17 +764,24 @@ render('all');
 </html>"""
 
 
+# ---------------------------------------------------------------------------
+# Entry point
+# ---------------------------------------------------------------------------
+
 def main() -> None:
-    print("Loading monthly Elo dashboard data...")
-    teams, months, month_event_labels = load_data()
-    print(f"  Teams loaded : {len(teams)}")
-    print(f"  Months found : {len(months)}")
+    print("Loading phase Elo dashboard data...")
+    teams, phase_labels, phase_event_labels = load_data()
+    print(f"  Teams loaded  : {len(teams)}")
+    print(f"  Phases defined: {len(phase_labels)}")
+    for i, label in enumerate(phase_labels):
+        cnt = sum(1 for t in teams if any(t["phaseEvents"][i]))
+        print(f"    [{i+1}] {label:<24} — {cnt} teams active")
 
     print("Building HTML...")
-    html = build_html(teams, months, month_event_labels)
+    html = build_html(teams, phase_labels, phase_event_labels)
     OUTPUT_HTML.write_text(html, encoding="utf-8")
 
-    print(f"  Generated    : {OUTPUT_HTML}")
+    print(f"  Generated     : {OUTPUT_HTML}")
     print("Open the HTML file in a browser to explore the dashboard.")
 
 

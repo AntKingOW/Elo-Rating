@@ -42,7 +42,7 @@ except ImportError:
 REQUEST_DELAY = 10.0
 USER_AGENT = "OWCSEloRatingTool/1.0 (personal research project)"
 
-VALID_REGIONS = {"korea", "na", "emea", "japan", "pacific", "international"}
+VALID_REGIONS = {"korea", "na", "emea", "japan", "pacific", "international", "china"}
 
 MAP_MODE_MAP = {
     "control": "Control",

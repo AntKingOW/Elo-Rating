@@ -208,8 +208,6 @@ EVENT_ORDER: list[str] = [
     "owcs_2024_na_s2_main",        # 2024-04-25
     "owcs_2024_emea_s2_main",      # 2024-04-25
     "owcs_2024_dallas_major",      # 2024-05-31
-    "faceit_2024_s1_na_master",    # 2024-06-14
-    "faceit_2024_s1_emea_master",  # 2024-06-14
     "ewc_2024",                    # 2024-07-26
     "owcs_2024_asia_s2_pacific",   # 2024-08-08
     "owcs_2024_na_s3_groups",      # 2024-08-16
@@ -218,16 +216,12 @@ EVENT_ORDER: list[str] = [
     "owcs_2024_emea_s3_main",      # 2024-08-29
     "owcs_2024_asia_s2_korea",     # 2024-08-30
     "owcs_2024_asia_s2_japan",     # 2024-09-02
-    "faceit_2024_s2_na_master",    # 2024-09-13
-    "faceit_2024_s2_emea_master",  # 2024-09-13
     "owcs_2024_asia_s2_wildcard",  # 2024-09-13
     "owcs_2024_na_s4_groups",      # 2024-09-27
     "owcs_2024_emea_s4_groups",    # 2024-09-27
     "owcs_2024_asia_s2_main",      # 2024-09-27
     "owcs_2024_na_s4_main",        # 2024-10-10
     "owcs_2024_emea_s4_main",      # 2024-10-10
-    "faceit_2024_s3_na_master",    # ~Oct 2024 (no date in source, placed after Stage 4)
-    "faceit_2024_s3_emea_master",  # ~Oct 2024 (no date in source, placed after Stage 4)
     "owcs_2024_world_finals",      # 2024-11-22
 ]
 
@@ -250,10 +244,21 @@ OUTPUT_COLUMNS: list[str] = [
 # Pipeline
 # ---------------------------------------------------------------------------
 
+EXCLUDE_EVENT_IDS: set[str] = {
+    # FACEIT Masters Showdown — 2nd-division circuit, not OWCS proper
+    "faceit_2024_s1_na_master",
+    "faceit_2024_s1_emea_master",
+    "faceit_2024_s2_na_master",
+    "faceit_2024_s2_emea_master",
+    "faceit_2024_s3_na_master",
+    "faceit_2024_s3_emea_master",
+}
+
 def load_all_drafts() -> list[dict]:
     rows: list[dict] = []
     for f in sorted(DRAFTS_DIR.glob("*.csv")):
         file_rows = list(csv.DictReader(f.open(encoding="utf-8")))
+        file_rows = [r for r in file_rows if r.get("event_id") not in EXCLUDE_EVENT_IDS]
         rows.extend(file_rows)
     return rows
 
