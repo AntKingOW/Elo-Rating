@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OWCS 2024+2025 Combined Elo</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  :root {
+    --bg: #ffffff;
+    --surface: #ffffff;
+    --border: rgba(0, 0, 0, 0.12);
+    --text: #1a1a1a;
+    --muted: #555555;
+    --accent: #2563eb;
+    --shadow: 0 4px 20px rgba(0,0,0,0.08);
+  }
+  body {
+    margin: 0;
+    background: #f5f7fa;
+    color: var(--text);
+    font-family: "Segoe UI", "Noto Sans KR", sans-serif;
+    min-height: 100vh;
+  }
+  .shell {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 32px 24px;
+  }
+  header {
+    padding: 28px 32px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+  }
+  .eyebrow {
+    color: #2563eb;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    margin-bottom: 8px;
+  }
+  h1 {
+    margin: 0 0 8px;
+    font-size: clamp(22px, 4vw, 40px);
+    line-height: 1.1;
+    color: #111111;
+  }
+  .subtitle {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .card {
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: var(--shadow);
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  .card h2 {
+    margin: 0 0 4px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #111111;
+  }
+  .card .desc {
+    margin: 0 0 18px;
+    color: var(--muted);
+    font-size: 13px;
+  }
+  .chart-wrap {
+    position: relative;
+    height: 620px;
+  }
+  .legend-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 10px;
+    margin-top: 22px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: #fafafa;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .legend-item:hover {
+    background: #f0f0f0;
+  }
+  .legend-item.hidden {
+    opacity: 0.35;
+  }
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 1px solid rgba(0,0,0,0.15);
+  }
+  .legend-name {
+    flex: 1;
+    font-weight: 600;
+    color: #1a1a1a;
+  }
+  .legend-elo {
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .note {
+    margin-top: 18px;
+    padding: 14px 18px;
+    border: 1px solid rgba(37,99,235,0.2);
+    border-radius: 12px;
+    background: rgba(37,99,235,0.04);
+    color: var(--muted);
+    font-size: 12.5px;
+    line-height: 1.7;
+  }
+</style>
+</head>
+<body>
+<div class="shell">
+
+<header>
+  <div class="eyebrow">OWCS Elo Rating — 통합 시즌 차트</div>
+  <h1>2024 + 2025 Combined Elo Trajectory</h1>
+  <p class="subtitle">
+    선택된 14개 팀의 Elo Rating 변화 &mdash;
+    2024 S1부터 2025 World Finals까지 (11 phases) &middot;
+    수직 점선: 2024 / 2025 시즌 경계
+  </p>
+</header>
+
+<div class="card">
+  <h2>Phase Elo Trend</h2>
+  <p class="desc">각 Phase 종료 시점의 Elo. 클릭하여 팀 ON/OFF</p>
+  <div class="chart-wrap">
+    <canvas id="chart"></canvas>
+  </div>
+  <div class="legend-grid" id="legend"></div>
+  <div class="note">
+    <strong>⚠️ 표기 안내:</strong>
+    "Team CC (→JDG 2026)" = 2025 데이터의 Team CC (2026 시즌에 JDG Gaming으로 리브랜딩 예정) &middot;
+    T1 / Weibo Gaming / Team Liquid / Please Not Hero Ban = 2025 신규 팀 (2024 미참가, 1400에서 출발) &middot;
+    Al Qadsiah = 2024 EMEA S3부터 등장
+  </div>
+</div>
+
+</div>
+
+<script>
+const PHASES = ["2024 S1+S2", "Dallas\nMajor", "EWC 2024", "2024 S3–S4", "2024\nWorld Finals", "2025 Stage 1", "Champions\nClash", "2025 Stage 2", "Midseason\nChampionship", "2025 Stage 3", "2025\nWorld Finals"];
+const TEAMS  = [{"name": "Twisted Minds", "canonical": "Twisted Minds", "color": "#FA4B68", "phaseElo": [1522.1, 1470.8, 1444.5, 1538.4, 1588.1, 1516.8, 1516.8, 1619.8, 1698.3, 1738.8, 1830.0], "finalElo": 1830.0}, {"name": "Crazy Raccoon", "canonical": "Crazy Raccoon", "color": "#E30613", "phaseElo": [1681.4, 1743.8, 1798.5, 1792.2, 1781.8, 1847.2, 1865.0, 1785.4, 1755.2, 1839.1, 1816.8], "finalElo": 1816.8}, {"name": "Al Qadsiah", "canonical": "Al Qadsiah", "color": "#FDE100", "phaseElo": [null, null, null, 1336.8, 1336.8, 1491.2, 1479.8, 1664.4, 1673.5, 1709.6, 1784.0], "finalElo": 1784.0}, {"name": "Team Falcons", "canonical": "Team Falcons", "color": "#00A651", "phaseElo": [1573.5, 1659.3, 1663.8, 1753.1, 1841.6, 1814.8, 1790.8, 1648.9, 1760.8, 1760.5, 1782.7], "finalElo": 1782.7}, {"name": "VARREL", "canonical": "VARREL", "color": "#00B1EB", "phaseElo": [1594.6, 1594.6, 1594.6, 1574.0, 1574.0, 1573.2, 1573.2, 1737.8, 1661.2, 1793.5, 1745.4], "finalElo": 1745.4}, {"name": "Weibo Gaming", "canonical": "Weibo Gaming", "color": "#FF4500", "phaseElo": [null, null, null, null, null, null, null, 1644.6, 1627.8, 1732.7, 1710.3], "finalElo": 1710.3}, {"name": "T1", "canonical": "T1", "color": "#E2012D", "phaseElo": [null, null, null, null, null, 1496.1, 1496.1, 1724.8, 1710.2, 1700.1, 1706.3], "finalElo": 1706.3}, {"name": "Team Liquid", "canonical": "Team Liquid", "color": "#00274D", "phaseElo": [null, null, null, null, null, 1544.6, 1544.6, 1620.5, 1661.1, 1724.8, 1680.2], "finalElo": 1680.2}, {"name": "Spacestation Gaming", "canonical": "Spacestation Gaming", "color": "#FDB827", "phaseElo": [1608.2, 1597.3, 1590.6, 1686.2, 1620.4, 1614.3, 1598.9, 1518.6, 1518.6, 1636.7, 1618.9], "finalElo": 1618.9}, {"name": "Team CC (→JDG 2026)", "canonical": "Team CC", "color": "#C8102E", "phaseElo": [null, null, null, null, null, 1447.1, 1417.1, 1522.8, 1536.2, 1610.0, 1590.0], "finalElo": 1590.0}, {"name": "Virtus.pro", "canonical": "Virtus.pro", "color": "#F65101", "phaseElo": [1392.5, 1392.5, 1398.6, 1530.4, 1530.4, 1622.9, 1620.5, 1581.1, 1600.6, 1579.3, 1579.3], "finalElo": 1579.3}, {"name": "ZETA DIVISION", "canonical": "ZETA DIVISION", "color": "#000000", "phaseElo": [1548.6, 1548.6, 1586.0, 1662.0, 1662.0, 1693.0, 1693.0, 1567.3, 1567.3, 1525.6, 1525.6], "finalElo": 1525.6}, {"name": "Please Not Hero Ban", "canonical": "Please Not Hero Ban", "color": "#A8E6CF", "phaseElo": [null, null, null, null, null, 1434.9, 1434.9, 1430.0, 1430.0, 1485.6, 1485.6], "finalElo": 1485.6}, {"name": "Team Peps", "canonical": "Team Peps", "color": "#FEF100", "phaseElo": [1469.9, 1469.9, 1441.4, 1397.4, 1397.4, 1393.7, 1393.7, 1342.2, 1342.2, 1401.1, 1402.7], "finalElo": 1402.7}];
+const BOUNDARY_AFTER = 4;  // draw vertical line after this phase index
+
+// ── Build datasets ──────────────────────────────────────────────────────────
+const datasets = TEAMS.map(t => ({
+  label:           t.name,
+  data:            t.phaseElo,
+  borderColor:     t.color,
+  backgroundColor: t.color + "28",
+  borderWidth:     2.5,
+  pointRadius:     5,
+  pointHoverRadius: 8,
+  pointBackgroundColor: t.color,
+  tension:         0,
+  spanGaps:        false,   // don't connect across null (team not yet active)
+}));
+
+// ── Custom plugin: year-boundary vertical line ──────────────────────────────
+const boundaryPlugin = {
+  id: "yearBoundary",
+  afterDraw(chart) {
+    const { ctx, chartArea: { top, bottom }, scales: { x } } = chart;
+    // Draw line between index BOUNDARY_AFTER and BOUNDARY_AFTER+1
+    const xPos = (x.getPixelForValue(BOUNDARY_AFTER) + x.getPixelForValue(BOUNDARY_AFTER + 1)) / 2;
+    ctx.save();
+    ctx.beginPath();
+    ctx.setLineDash([6, 4]);
+    ctx.strokeStyle = "rgba(245, 165, 36, 0.55)";
+    ctx.lineWidth   = 1.5;
+    ctx.moveTo(xPos, top);
+    ctx.lineTo(xPos, bottom);
+    ctx.stroke();
+    // Labels
+    ctx.setLineDash([]);
+    ctx.fillStyle = "rgba(245, 165, 36, 0.75)";
+    ctx.font      = "bold 11px Segoe UI, sans-serif";
+    ctx.textAlign = "right";
+    ctx.fillText("2024", xPos - 6, top + 16);
+    ctx.textAlign = "left";
+    ctx.fillText("2025", xPos + 6, top + 16);
+    ctx.restore();
+  },
+};
+
+// ── Chart ────────────────────────────────────────────────────────────────────
+const ctx = document.getElementById("chart").getContext("2d");
+const chart = new Chart(ctx, {
+  type: "line",
+  data: { labels: PHASES, datasets },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: "nearest", intersect: true },
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        backgroundColor: "rgba(255,255,255,0.97)",
+        borderColor: "rgba(0,0,0,0.15)",
+        borderWidth: 1,
+        titleColor: "#111111",
+        bodyColor: "#333333",
+        padding: 14,
+        callbacks: {
+          label(ctx) {
+            const v = ctx.parsed.y;
+            if (v === null) return null;
+            return ` ${ctx.dataset.label}: ${v.toFixed(1)}`;
+          },
+        },
+      },
+    },
+    scales: {
+      x: {
+        grid:  { color: "rgba(0,0,0,0.07)" },
+        ticks: { color: "#555555", font: { size: 11 } },
+      },
+      y: {
+        grid:  { color: "rgba(0,0,0,0.07)" },
+        ticks: {
+          color: "#555555",
+          font:  { size: 11 },
+          callback: v => v.toFixed(0),
+        },
+        title: {
+          display: true,
+          text:    "Elo Rating",
+          color:   "#555555",
+          font:    { size: 12 },
+        },
+      },
+    },
+  },
+  plugins: [boundaryPlugin],
+});
+
+// ── Custom legend ────────────────────────────────────────────────────────────
+const legendEl = document.getElementById("legend");
+TEAMS.forEach((t, i) => {
+  const item = document.createElement("div");
+  item.className = "legend-item";
+  item.dataset.idx = i;
+  item.innerHTML = `
+    <span class="dot" style="background:${t.color}"></span>
+    <span class="legend-name">${t.name}</span>
+    <span class="legend-elo">${t.finalElo !== null ? t.finalElo.toFixed(1) : "—"}</span>
+  `;
+  item.addEventListener("click", () => {
+    const meta = chart.getDatasetMeta(i);
+    meta.hidden = !meta.hidden;
+    item.classList.toggle("hidden", meta.hidden);
+    chart.update();
+  });
+  legendEl.appendChild(item);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,635 @@
+global_map_order,event_id,team,elo_after,result
+1,owcs_2026_asia_s1_japan,Please Not Hero Ban,1492.40,win
+1,owcs_2026_asia_s1_japan,Telomere,1317.50,loss
+2,owcs_2026_asia_s1_japan,Please Not Hero Ban,1498.82,win
+2,owcs_2026_asia_s1_japan,Telomere,1311.08,loss
+3,owcs_2026_asia_s1_japan,Telomere,1329.00,win
+3,owcs_2026_asia_s1_japan,Please Not Hero Ban,1480.90,loss
+4,owcs_2026_asia_s1_japan,Please Not Hero Ban,1487.97,win
+4,owcs_2026_asia_s1_japan,Telomere,1321.93,loss
+5,owcs_2026_asia_s1_japan,Enter Force.36,1407.95,win
+5,owcs_2026_asia_s1_japan,Nyam Gaming,1270.15,loss
+6,owcs_2026_asia_s1_japan,Enter Force.36,1415.43,win
+6,owcs_2026_asia_s1_japan,Nyam Gaming,1262.67,loss
+7,owcs_2026_asia_s1_japan,Enter Force.36,1422.47,win
+7,owcs_2026_asia_s1_japan,Nyam Gaming,1255.63,loss
+8,owcs_2026_asia_s1_japan,VARREL,1748.29,win
+8,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1397.11,loss
+9,owcs_2026_asia_s1_japan,VARREL,1751.10,win
+9,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1394.30,loss
+10,owcs_2026_asia_s1_japan,VARREL,1753.83,win
+10,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1391.57,loss
+11,owcs_2026_asia_s1_japan,99DIVINE,1411.31,win
+11,owcs_2026_asia_s1_japan,Lazuli,1368.79,loss
+12,owcs_2026_asia_s1_japan,99DIVINE,1421.85,win
+12,owcs_2026_asia_s1_japan,Lazuli,1358.25,loss
+13,owcs_2026_asia_s1_japan,99DIVINE,1431.68,win
+13,owcs_2026_asia_s1_japan,Lazuli,1348.42,loss
+14,owcs_2026_asia_s1_japan,VARREL,1758.10,win
+14,owcs_2026_asia_s1_japan,Please Not Hero Ban,1483.69,loss
+15,owcs_2026_asia_s1_japan,VARREL,1762.20,win
+15,owcs_2026_asia_s1_japan,Please Not Hero Ban,1479.59,loss
+16,owcs_2026_asia_s1_japan,VARREL,1766.14,win
+16,owcs_2026_asia_s1_japan,Please Not Hero Ban,1475.65,loss
+17,owcs_2026_asia_s1_japan,Nyam Gaming,1272.10,win
+17,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1375.11,loss
+18,owcs_2026_asia_s1_japan,Nyam Gaming,1287.56,win
+18,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1359.65,loss
+19,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1369.19,win
+19,owcs_2026_asia_s1_japan,Nyam Gaming,1278.01,loss
+20,owcs_2026_asia_s1_japan,Nyam Gaming,1293.09,win
+20,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1354.11,loss
+21,owcs_2026_asia_s1_japan,Please Not Hero Ban,1483.44,win
+21,owcs_2026_asia_s1_japan,Lazuli,1340.63,loss
+22,owcs_2026_asia_s1_japan,Please Not Hero Ban,1490.77,win
+22,owcs_2026_asia_s1_japan,Lazuli,1333.30,loss
+23,owcs_2026_asia_s1_japan,Please Not Hero Ban,1497.68,win
+23,owcs_2026_asia_s1_japan,Lazuli,1326.40,loss
+24,owcs_2026_asia_s1_japan,99DIVINE,1441.04,win
+24,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1344.75,loss
+25,owcs_2026_asia_s1_japan,99DIVINE,1449.80,win
+25,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1335.99,loss
+26,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1351.79,win
+26,owcs_2026_asia_s1_japan,99DIVINE,1434.00,loss
+27,owcs_2026_asia_s1_japan,99DIVINE,1443.22,win
+27,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1342.58,loss
+28,owcs_2026_asia_s1_japan,VARREL,1769.05,win
+28,owcs_2026_asia_s1_japan,Enter Force.36,1419.55,loss
+29,owcs_2026_asia_s1_japan,Enter Force.36,1440.72,win
+29,owcs_2026_asia_s1_japan,VARREL,1747.89,loss
+30,owcs_2026_asia_s1_japan,VARREL,1751.38,win
+30,owcs_2026_asia_s1_japan,Enter Force.36,1437.22,loss
+31,owcs_2026_asia_s1_japan,VARREL,1754.76,win
+31,owcs_2026_asia_s1_japan,Enter Force.36,1433.84,loss
+32,owcs_2026_asia_s1_japan,Lazuli,1338.24,win
+32,owcs_2026_asia_s1_japan,Telomere,1310.09,loss
+33,owcs_2026_asia_s1_japan,Lazuli,1349.27,win
+33,owcs_2026_asia_s1_japan,Telomere,1299.06,loss
+34,owcs_2026_asia_s1_japan,Lazuli,1359.55,win
+34,owcs_2026_asia_s1_japan,Telomere,1288.78,loss
+35,owcs_2026_asia_s1_japan,Please Not Hero Ban,1504.65,win
+35,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1335.60,loss
+36,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1353.02,win
+36,owcs_2026_asia_s1_japan,Please Not Hero Ban,1487.23,loss
+37,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1369.44,win
+37,owcs_2026_asia_s1_japan,Please Not Hero Ban,1470.81,loss
+38,owcs_2026_asia_s1_japan,Please Not Hero Ban,1479.41,win
+38,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1360.84,loss
+39,owcs_2026_asia_s1_japan,Please Not Hero Ban,1487.47,win
+39,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1352.79,loss
+40,owcs_2026_asia_s1_japan,Enter Force.36,1446.17,win
+40,owcs_2026_asia_s1_japan,99DIVINE,1430.89,loss
+41,owcs_2026_asia_s1_japan,Enter Force.36,1457.64,win
+41,owcs_2026_asia_s1_japan,99DIVINE,1419.42,loss
+42,owcs_2026_asia_s1_japan,Enter Force.36,1468.33,win
+42,owcs_2026_asia_s1_japan,99DIVINE,1408.74,loss
+43,owcs_2026_asia_s1_japan,Please Not Hero Ban,1496.79,win
+43,owcs_2026_asia_s1_japan,99DIVINE,1399.41,loss
+44,owcs_2026_asia_s1_japan,99DIVINE,1414.69,win
+44,owcs_2026_asia_s1_japan,Please Not Hero Ban,1481.51,loss
+45,owcs_2026_asia_s1_japan,Please Not Hero Ban,1491.23,win
+45,owcs_2026_asia_s1_japan,99DIVINE,1404.97,loss
+46,owcs_2026_asia_s1_japan,Please Not Hero Ban,1500.31,win
+46,owcs_2026_asia_s1_japan,99DIVINE,1395.89,loss
+47,owcs_2026_asia_s1_japan,Enter Force.36,1474.62,win
+47,owcs_2026_asia_s1_japan,Telomere,1282.48,loss
+48,owcs_2026_asia_s1_japan,Enter Force.36,1480.59,win
+48,owcs_2026_asia_s1_japan,Telomere,1276.52,loss
+49,owcs_2026_asia_s1_japan,Enter Force.36,1486.25,win
+49,owcs_2026_asia_s1_japan,Telomere,1270.85,loss
+50,owcs_2026_asia_s1_japan,VARREL,1756.34,win
+50,owcs_2026_asia_s1_japan,Nyam Gaming,1291.52,loss
+51,owcs_2026_asia_s1_japan,VARREL,1757.88,win
+51,owcs_2026_asia_s1_japan,Nyam Gaming,1289.97,loss
+52,owcs_2026_asia_s1_japan,VARREL,1759.40,win
+52,owcs_2026_asia_s1_japan,Nyam Gaming,1288.45,loss
+53,owcs_2026_asia_s1_japan,VARREL,1761.59,win
+53,owcs_2026_asia_s1_japan,Lazuli,1357.37,loss
+54,owcs_2026_asia_s1_japan,VARREL,1763.72,win
+54,owcs_2026_asia_s1_japan,Lazuli,1355.23,loss
+55,owcs_2026_asia_s1_japan,VARREL,1765.81,win
+55,owcs_2026_asia_s1_japan,Lazuli,1353.14,loss
+56,owcs_2026_asia_s1_japan,Nyam Gaming,1299.84,win
+56,owcs_2026_asia_s1_japan,Telomere,1259.46,loss
+57,owcs_2026_asia_s1_japan,Nyam Gaming,1310.46,win
+57,owcs_2026_asia_s1_japan,Telomere,1248.85,loss
+58,owcs_2026_asia_s1_japan,Telomere,1262.96,win
+58,owcs_2026_asia_s1_japan,Nyam Gaming,1296.35,loss
+59,owcs_2026_asia_s1_japan,Nyam Gaming,1307.20,win
+59,owcs_2026_asia_s1_japan,Telomere,1252.10,loss
+60,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1369.18,win
+60,owcs_2026_asia_s1_japan,Enter Force.36,1469.86,loss
+61,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1384.57,win
+61,owcs_2026_asia_s1_japan,Enter Force.36,1454.48,loss
+62,owcs_2026_asia_s1_japan,Enter Force.36,1464.09,win
+62,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1374.95,loss
+63,owcs_2026_asia_s1_japan,Enter Force.36,1473.08,win
+63,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1365.96,loss
+64,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1381.55,win
+64,owcs_2026_asia_s1_japan,Enter Force.36,1457.49,loss
+65,owcs_2026_asia_s1_japan,Nyam Gaming,1322.20,win
+65,owcs_2026_asia_s1_japan,99DIVINE,1380.89,loss
+66,owcs_2026_asia_s1_japan,99DIVINE,1390.88,win
+66,owcs_2026_asia_s1_japan,Nyam Gaming,1312.21,loss
+67,owcs_2026_asia_s1_japan,99DIVINE,1400.21,win
+67,owcs_2026_asia_s1_japan,Nyam Gaming,1302.88,loss
+68,owcs_2026_asia_s1_japan,99DIVINE,1408.93,win
+68,owcs_2026_asia_s1_japan,Nyam Gaming,1294.15,loss
+69,owcs_2026_asia_s1_japan,VARREL,1766.99,win
+69,owcs_2026_asia_s1_japan,Telomere,1250.92,loss
+70,owcs_2026_asia_s1_japan,VARREL,1768.16,win
+70,owcs_2026_asia_s1_japan,Telomere,1249.75,loss
+71,owcs_2026_asia_s1_japan,VARREL,1769.32,win
+71,owcs_2026_asia_s1_japan,Telomere,1248.59,loss
+72,owcs_2026_asia_s1_japan,Enter Force.36,1465.99,win
+72,owcs_2026_asia_s1_japan,Lazuli,1344.64,loss
+73,owcs_2026_asia_s1_japan,Enter Force.36,1473.96,win
+73,owcs_2026_asia_s1_japan,Lazuli,1336.67,loss
+74,owcs_2026_asia_s1_japan,Enter Force.36,1481.45,win
+74,owcs_2026_asia_s1_japan,Lazuli,1329.18,loss
+75,owcs_2026_asia_s1_japan,Please Not Hero Ban,1505.93,win
+75,owcs_2026_asia_s1_japan,Nyam Gaming,1288.54,loss
+76,owcs_2026_asia_s1_japan,Please Not Hero Ban,1511.27,win
+76,owcs_2026_asia_s1_japan,Nyam Gaming,1283.20,loss
+77,owcs_2026_asia_s1_japan,Please Not Hero Ban,1516.35,win
+77,owcs_2026_asia_s1_japan,Nyam Gaming,1278.12,loss
+78,owcs_2026_asia_s1_japan,Lazuli,1342.98,win
+78,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1367.75,loss
+79,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1378.90,win
+79,owcs_2026_asia_s1_japan,Lazuli,1331.83,loss
+80,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1389.28,win
+80,owcs_2026_asia_s1_japan,Lazuli,1321.45,loss
+81,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1398.97,win
+81,owcs_2026_asia_s1_japan,Lazuli,1311.76,loss
+82,owcs_2026_asia_s1_japan,Telomere,1265.77,win
+82,owcs_2026_asia_s1_japan,99DIVINE,1391.76,loss
+83,owcs_2026_asia_s1_japan,99DIVINE,1399.59,win
+83,owcs_2026_asia_s1_japan,Telomere,1257.94,loss
+84,owcs_2026_asia_s1_japan,99DIVINE,1406.95,win
+84,owcs_2026_asia_s1_japan,Telomere,1250.58,loss
+85,owcs_2026_asia_s1_japan,99DIVINE,1413.88,win
+85,owcs_2026_asia_s1_japan,Telomere,1243.64,loss
+86,owcs_2026_asia_s1_japan,Enter Force.36,1494.66,win
+86,owcs_2026_asia_s1_japan,Please Not Hero Ban,1503.15,loss
+87,owcs_2026_asia_s1_japan,Enter Force.36,1506.95,win
+87,owcs_2026_asia_s1_japan,Please Not Hero Ban,1490.86,loss
+88,owcs_2026_asia_s1_japan,Enter Force.36,1518.39,win
+88,owcs_2026_asia_s1_japan,Please Not Hero Ban,1479.41,loss
+89,owcs_2026_asia_s1_japan,Nyam Gaming,1291.27,win
+89,owcs_2026_asia_s1_japan,Lazuli,1298.60,loss
+90,owcs_2026_asia_s1_japan,Lazuli,1310.35,win
+90,owcs_2026_asia_s1_japan,Nyam Gaming,1279.53,loss
+91,owcs_2026_asia_s1_japan,Nyam Gaming,1292.59,win
+91,owcs_2026_asia_s1_japan,Lazuli,1297.29,loss
+92,owcs_2026_asia_s1_japan,Lazuli,1309.13,win
+92,owcs_2026_asia_s1_japan,Nyam Gaming,1280.75,loss
+93,owcs_2026_asia_s1_japan,Lazuli,1320.15,win
+93,owcs_2026_asia_s1_japan,Nyam Gaming,1269.73,loss
+94,owcs_2026_asia_s1_japan,VARREL,1772.07,win
+94,owcs_2026_asia_s1_japan,99DIVINE,1411.14,loss
+95,owcs_2026_asia_s1_japan,VARREL,1774.74,win
+95,owcs_2026_asia_s1_japan,99DIVINE,1408.47,loss
+96,owcs_2026_asia_s1_japan,VARREL,1777.34,win
+96,owcs_2026_asia_s1_japan,99DIVINE,1405.87,loss
+97,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1405.94,win
+97,owcs_2026_asia_s1_japan,Telomere,1236.67,loss
+98,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1412.51,win
+98,owcs_2026_asia_s1_japan,Telomere,1230.10,loss
+99,owcs_2026_asia_s1_japan,Tokyo Ta1yo's,1418.73,win
+99,owcs_2026_asia_s1_japan,Telomere,1223.88,loss
+100,owcs_2026_asia_s1_korea,Poker Face,1429.49,win
+100,owcs_2026_asia_s1_korea,Cheeseburger,1319.61,loss
+101,owcs_2026_asia_s1_korea,Poker Face,1437.82,win
+101,owcs_2026_asia_s1_korea,Cheeseburger,1311.28,loss
+102,owcs_2026_asia_s1_korea,Poker Face,1445.63,win
+102,owcs_2026_asia_s1_korea,Cheeseburger,1303.47,loss
+103,owcs_2026_asia_s1_korea,ZETA DIVISION,1545.82,win
+103,owcs_2026_asia_s1_korea,Crazy Raccoon,1796.58,loss
+104,owcs_2026_asia_s1_korea,ZETA DIVISION,1565.23,win
+104,owcs_2026_asia_s1_korea,Crazy Raccoon,1777.17,loss
+105,owcs_2026_asia_s1_korea,Crazy Raccoon,1782.64,win
+105,owcs_2026_asia_s1_korea,ZETA DIVISION,1559.76,loss
+106,owcs_2026_asia_s1_korea,ZETA DIVISION,1578.55,win
+106,owcs_2026_asia_s1_korea,Crazy Raccoon,1763.85,loss
+107,owcs_2026_asia_s1_korea,ZAN Esports,1416.28,win
+107,owcs_2026_asia_s1_korea,ONSIDE GAMING,1513.22,loss
+108,owcs_2026_asia_s1_korea,ONSIDE GAMING,1521.96,win
+108,owcs_2026_asia_s1_korea,ZAN Esports,1407.54,loss
+109,owcs_2026_asia_s1_korea,ONSIDE GAMING,1530.14,win
+109,owcs_2026_asia_s1_korea,ZAN Esports,1399.36,loss
+110,owcs_2026_asia_s1_korea,ZAN Esports,1415.67,win
+110,owcs_2026_asia_s1_korea,ONSIDE GAMING,1513.83,loss
+111,owcs_2026_asia_s1_korea,ONSIDE GAMING,1522.53,win
+111,owcs_2026_asia_s1_korea,ZAN Esports,1406.97,loss
+112,owcs_2026_asia_s1_korea,T1,1709.21,win
+112,owcs_2026_asia_s1_korea,New Era,1359.49,loss
+113,owcs_2026_asia_s1_korea,T1,1712.04,win
+113,owcs_2026_asia_s1_korea,New Era,1356.66,loss
+114,owcs_2026_asia_s1_korea,T1,1714.79,win
+114,owcs_2026_asia_s1_korea,New Era,1353.91,loss
+115,owcs_2026_asia_s1_korea,Team Falcons,1784.13,win
+115,owcs_2026_asia_s1_korea,Cheeseburger,1302.04,loss
+116,owcs_2026_asia_s1_korea,Team Falcons,1785.54,win
+116,owcs_2026_asia_s1_korea,Cheeseburger,1300.63,loss
+117,owcs_2026_asia_s1_korea,Team Falcons,1786.93,win
+117,owcs_2026_asia_s1_korea,Cheeseburger,1299.24,loss
+118,owcs_2026_asia_s1_korea,Crazy Raccoon,1766.57,win
+118,owcs_2026_asia_s1_korea,ZAN Esports,1404.25,loss
+119,owcs_2026_asia_s1_korea,Crazy Raccoon,1769.22,win
+119,owcs_2026_asia_s1_korea,ZAN Esports,1401.60,loss
+120,owcs_2026_asia_s1_korea,ZAN Esports,1423.01,win
+120,owcs_2026_asia_s1_korea,Crazy Raccoon,1747.81,loss
+121,owcs_2026_asia_s1_korea,Crazy Raccoon,1751.01,win
+121,owcs_2026_asia_s1_korea,ZAN Esports,1419.81,loss
+122,owcs_2026_asia_s1_korea,Poker Face,1454.53,win
+122,owcs_2026_asia_s1_korea,New Era,1345.01,loss
+123,owcs_2026_asia_s1_korea,Poker Face,1462.87,win
+123,owcs_2026_asia_s1_korea,New Era,1336.67,loss
+124,owcs_2026_asia_s1_korea,Poker Face,1470.70,win
+124,owcs_2026_asia_s1_korea,New Era,1328.85,loss
+125,owcs_2026_asia_s1_korea,ONSIDE GAMING,1540.56,win
+125,owcs_2026_asia_s1_korea,T1,1696.75,loss
+126,owcs_2026_asia_s1_korea,T1,1703.69,win
+126,owcs_2026_asia_s1_korea,ONSIDE GAMING,1533.62,loss
+127,owcs_2026_asia_s1_korea,T1,1710.25,win
+127,owcs_2026_asia_s1_korea,ONSIDE GAMING,1527.07,loss
+128,owcs_2026_asia_s1_korea,ONSIDE GAMING,1544.87,win
+128,owcs_2026_asia_s1_korea,T1,1692.45,loss
+129,owcs_2026_asia_s1_korea,ONSIDE GAMING,1561.68,win
+129,owcs_2026_asia_s1_korea,T1,1675.64,loss
+130,owcs_2026_asia_s1_korea,ZETA DIVISION,1597.00,win
+130,owcs_2026_asia_s1_korea,Team Falcons,1768.48,loss
+131,owcs_2026_asia_s1_korea,Team Falcons,1775.00,win
+131,owcs_2026_asia_s1_korea,ZETA DIVISION,1590.48,loss
+132,owcs_2026_asia_s1_korea,ZETA DIVISION,1608.32,win
+132,owcs_2026_asia_s1_korea,Team Falcons,1757.16,loss
+133,owcs_2026_asia_s1_korea,Team Falcons,1764.32,win
+133,owcs_2026_asia_s1_korea,ZETA DIVISION,1601.16,loss
+134,owcs_2026_asia_s1_korea,ZETA DIVISION,1618.42,win
+134,owcs_2026_asia_s1_korea,Team Falcons,1747.06,loss
+135,owcs_2026_asia_s1_korea,ZAN Esports,1427.80,win
+135,owcs_2026_asia_s1_korea,Cheeseburger,1291.25,loss
+136,owcs_2026_asia_s1_korea,ZAN Esports,1435.32,win
+136,owcs_2026_asia_s1_korea,Cheeseburger,1283.74,loss
+137,owcs_2026_asia_s1_korea,ZAN Esports,1442.39,win
+137,owcs_2026_asia_s1_korea,Cheeseburger,1276.66,loss
+138,owcs_2026_asia_s1_korea,ZETA DIVISION,1625.60,win
+138,owcs_2026_asia_s1_korea,Poker Face,1463.51,loss
+139,owcs_2026_asia_s1_korea,ZETA DIVISION,1632.38,win
+139,owcs_2026_asia_s1_korea,Poker Face,1456.74,loss
+140,owcs_2026_asia_s1_korea,ZETA DIVISION,1638.78,win
+140,owcs_2026_asia_s1_korea,Poker Face,1450.33,loss
+141,owcs_2026_asia_s1_korea,ONSIDE GAMING,1579.64,win
+141,owcs_2026_asia_s1_korea,Crazy Raccoon,1733.05,loss
+142,owcs_2026_asia_s1_korea,Crazy Raccoon,1740.07,win
+142,owcs_2026_asia_s1_korea,ONSIDE GAMING,1572.62,loss
+143,owcs_2026_asia_s1_korea,ONSIDE GAMING,1589.99,win
+143,owcs_2026_asia_s1_korea,Crazy Raccoon,1722.70,loss
+144,owcs_2026_asia_s1_korea,Crazy Raccoon,1730.32,win
+144,owcs_2026_asia_s1_korea,ONSIDE GAMING,1582.36,loss
+145,owcs_2026_asia_s1_korea,Crazy Raccoon,1737.50,win
+145,owcs_2026_asia_s1_korea,ONSIDE GAMING,1575.19,loss
+146,owcs_2026_asia_s1_korea,Team Falcons,1749.04,win
+146,owcs_2026_asia_s1_korea,New Era,1326.86,loss
+147,owcs_2026_asia_s1_korea,Team Falcons,1750.99,win
+147,owcs_2026_asia_s1_korea,New Era,1324.92,loss
+148,owcs_2026_asia_s1_korea,Team Falcons,1752.89,win
+148,owcs_2026_asia_s1_korea,New Era,1323.02,loss
+149,owcs_2026_asia_s1_korea,T1,1680.79,win
+149,owcs_2026_asia_s1_korea,Poker Face,1445.18,loss
+150,owcs_2026_asia_s1_korea,T1,1685.71,win
+150,owcs_2026_asia_s1_korea,Poker Face,1440.26,loss
+151,owcs_2026_asia_s1_korea,T1,1690.40,win
+151,owcs_2026_asia_s1_korea,Poker Face,1435.57,loss
+152,owcs_2026_asia_s1_korea,Crazy Raccoon,1739.08,win
+152,owcs_2026_asia_s1_korea,Cheeseburger,1275.08,loss
+153,owcs_2026_asia_s1_korea,Crazy Raccoon,1740.63,win
+153,owcs_2026_asia_s1_korea,Cheeseburger,1273.53,loss
+154,owcs_2026_asia_s1_korea,Crazy Raccoon,1742.16,win
+154,owcs_2026_asia_s1_korea,Cheeseburger,1272.00,loss
+155,owcs_2026_asia_s1_korea,ONSIDE GAMING,1579.74,win
+155,owcs_2026_asia_s1_korea,New Era,1318.47,loss
+156,owcs_2026_asia_s1_korea,ONSIDE GAMING,1584.10,win
+156,owcs_2026_asia_s1_korea,New Era,1314.10,loss
+157,owcs_2026_asia_s1_korea,ONSIDE GAMING,1588.29,win
+157,owcs_2026_asia_s1_korea,New Era,1309.92,loss
+158,owcs_2026_asia_s1_korea,ZETA DIVISION,1644.64,win
+158,owcs_2026_asia_s1_korea,ZAN Esports,1436.53,loss
+159,owcs_2026_asia_s1_korea,ZETA DIVISION,1650.20,win
+159,owcs_2026_asia_s1_korea,ZAN Esports,1430.97,loss
+160,owcs_2026_asia_s1_korea,ZETA DIVISION,1655.50,win
+160,owcs_2026_asia_s1_korea,ZAN Esports,1425.67,loss
+161,owcs_2026_asia_s1_korea,T1,1704.54,win
+161,owcs_2026_asia_s1_korea,Team Falcons,1738.75,loss
+162,owcs_2026_asia_s1_korea,Team Falcons,1749.57,win
+162,owcs_2026_asia_s1_korea,T1,1693.72,loss
+163,owcs_2026_asia_s1_korea,Team Falcons,1759.66,win
+163,owcs_2026_asia_s1_korea,T1,1683.63,loss
+164,owcs_2026_asia_s1_korea,Team Falcons,1769.08,win
+164,owcs_2026_asia_s1_korea,T1,1674.21,loss
+165,owcs_2026_asia_s1_pacific,Team Secret,1412.00,win
+165,owcs_2026_asia_s1_pacific,Rankers,1388.00,loss
+166,owcs_2026_asia_s1_pacific,Team Secret,1423.17,win
+166,owcs_2026_asia_s1_pacific,Rankers,1376.83,loss
+167,owcs_2026_asia_s1_pacific,Team Secret,1433.58,win
+167,owcs_2026_asia_s1_pacific,Rankers,1366.42,loss
+168,owcs_2026_asia_s1_pacific,The Gatos Guapos,1557.12,win
+168,owcs_2026_asia_s1_pacific,MMY,1392.88,loss
+169,owcs_2026_asia_s1_pacific,The Gatos Guapos,1563.83,win
+169,owcs_2026_asia_s1_pacific,MMY,1386.17,loss
+170,owcs_2026_asia_s1_pacific,The Gatos Guapos,1570.18,win
+170,owcs_2026_asia_s1_pacific,MMY,1379.82,loss
+171,owcs_2026_asia_s1_pacific,Quasar Esports,1412.35,win
+171,owcs_2026_asia_s1_pacific,FURY,1397.65,loss
+172,owcs_2026_asia_s1_pacific,Quasar Esports,1423.84,win
+172,owcs_2026_asia_s1_pacific,FURY,1386.16,loss
+173,owcs_2026_asia_s1_pacific,FURY,1399.46,win
+173,owcs_2026_asia_s1_pacific,Quasar Esports,1410.54,loss
+174,owcs_2026_asia_s1_pacific,Quasar Esports,1422.16,win
+174,owcs_2026_asia_s1_pacific,FURY,1387.84,loss
+175,owcs_2026_asia_s1_pacific,The Gatos Guapos,1576.41,win
+175,owcs_2026_asia_s1_pacific,FURY,1381.62,loss
+176,owcs_2026_asia_s1_pacific,The Gatos Guapos,1582.30,win
+176,owcs_2026_asia_s1_pacific,FURY,1375.72,loss
+177,owcs_2026_asia_s1_pacific,The Gatos Guapos,1587.91,win
+177,owcs_2026_asia_s1_pacific,FURY,1370.12,loss
+178,owcs_2026_asia_s1_pacific,Team Secret,1443.74,win
+178,owcs_2026_asia_s1_pacific,MMY,1369.66,loss
+179,owcs_2026_asia_s1_pacific,Team Secret,1453.22,win
+179,owcs_2026_asia_s1_pacific,MMY,1360.18,loss
+180,owcs_2026_asia_s1_pacific,Team Secret,1462.08,win
+180,owcs_2026_asia_s1_pacific,MMY,1351.32,loss
+181,owcs_2026_asia_s1_pacific,Rankers,1380.33,win
+181,owcs_2026_asia_s1_pacific,Quasar Esports,1408.25,loss
+182,owcs_2026_asia_s1_pacific,Quasar Esports,1419.29,win
+182,owcs_2026_asia_s1_pacific,Rankers,1369.29,loss
+183,owcs_2026_asia_s1_pacific,Rankers,1383.01,win
+183,owcs_2026_asia_s1_pacific,Quasar Esports,1405.57,loss
+184,owcs_2026_asia_s1_pacific,Quasar Esports,1416.79,win
+184,owcs_2026_asia_s1_pacific,Rankers,1371.78,loss
+185,owcs_2026_asia_s1_pacific,Rankers,1385.33,win
+185,owcs_2026_asia_s1_pacific,Quasar Esports,1403.25,loss
+186,owcs_2026_china_s1,Milk Tea,1420.30,win
+186,owcs_2026_china_s1,Naive Piggy,1388.30,loss
+187,owcs_2026_china_s1,Naive Piggy,1401.40,win
+187,owcs_2026_china_s1,Milk Tea,1407.20,loss
+188,owcs_2026_china_s1,Milk Tea,1419.00,win
+188,owcs_2026_china_s1,Naive Piggy,1389.60,loss
+189,owcs_2026_china_s1,Naive Piggy,1402.61,win
+189,owcs_2026_china_s1,Milk Tea,1405.99,loss
+190,owcs_2026_china_s1,Naive Piggy,1414.73,win
+190,owcs_2026_china_s1,Milk Tea,1393.87,loss
+191,owcs_2026_china_s1,All Gamers,1412.00,win
+191,owcs_2026_china_s1,JD Gaming,1388.00,loss
+192,owcs_2026_china_s1,JD Gaming,1400.83,win
+192,owcs_2026_china_s1,All Gamers,1399.17,loss
+193,owcs_2026_china_s1,JD Gaming,1412.77,win
+193,owcs_2026_china_s1,All Gamers,1387.23,loss
+194,owcs_2026_china_s1,All Gamers,1400.11,win
+194,owcs_2026_china_s1,JD Gaming,1399.89,loss
+195,owcs_2026_china_s1,All Gamers,1412.10,win
+195,owcs_2026_china_s1,JD Gaming,1387.90,loss
+196,owcs_2026_china_s1,Weibo Gaming,1713.74,win
+196,owcs_2026_china_s1,Solus Victorem,1396.56,loss
+197,owcs_2026_china_s1,Weibo Gaming,1717.07,win
+197,owcs_2026_china_s1,Solus Victorem,1393.23,loss
+198,owcs_2026_china_s1,Weibo Gaming,1720.30,win
+198,owcs_2026_china_s1,Solus Victorem,1390.00,loss
+199,owcs_2026_china_s1,Milk Tea,1406.50,win
+199,owcs_2026_china_s1,All Gamers,1399.47,loss
+200,owcs_2026_china_s1,All Gamers,1411.72,win
+200,owcs_2026_china_s1,Milk Tea,1394.26,loss
+201,owcs_2026_china_s1,All Gamers,1423.11,win
+201,owcs_2026_china_s1,Milk Tea,1382.86,loss
+202,owcs_2026_china_s1,All Gamers,1433.73,win
+202,owcs_2026_china_s1,Milk Tea,1372.24,loss
+203,owcs_2026_china_s1,Weibo Gaming,1723.82,win
+203,owcs_2026_china_s1,Naive Piggy,1411.20,loss
+204,owcs_2026_china_s1,Weibo Gaming,1727.23,win
+204,owcs_2026_china_s1,Naive Piggy,1407.80,loss
+205,owcs_2026_china_s1,Weibo Gaming,1730.52,win
+205,owcs_2026_china_s1,Naive Piggy,1404.50,loss
+206,owcs_2026_emea_s1,Virtus.pro,1597.65,win
+206,owcs_2026_emea_s1,Al Qadsiah,1765.65,loss
+207,owcs_2026_emea_s1,Virtus.pro,1615.04,win
+207,owcs_2026_emea_s1,Al Qadsiah,1748.26,loss
+208,owcs_2026_emea_s1,Al Qadsiah,1755.87,win
+208,owcs_2026_emea_s1,Virtus.pro,1607.43,loss
+209,owcs_2026_emea_s1,Virtus.pro,1624.26,win
+209,owcs_2026_emea_s1,Al Qadsiah,1739.04,loss
+210,owcs_2026_emea_s1,Twisted Minds,1831.89,win
+210,owcs_2026_emea_s1,Team Peps,1400.81,loss
+211,owcs_2026_emea_s1,Twisted Minds,1833.74,win
+211,owcs_2026_emea_s1,Team Peps,1398.96,loss
+212,owcs_2026_emea_s1,Twisted Minds,1835.56,win
+212,owcs_2026_emea_s1,Team Peps,1397.14,loss
+213,owcs_2026_emea_s1,Twisted Minds,1840.52,win
+213,owcs_2026_emea_s1,Geekay Esports,1597.14,loss
+214,owcs_2026_emea_s1,Twisted Minds,1845.27,win
+214,owcs_2026_emea_s1,Geekay Esports,1592.39,loss
+215,owcs_2026_emea_s1,Twisted Minds,1849.81,win
+215,owcs_2026_emea_s1,Geekay Esports,1587.85,loss
+216,owcs_2026_emea_s1,Virtus.pro,1629.44,win
+216,owcs_2026_emea_s1,anyone's legend,1394.82,loss
+217,owcs_2026_emea_s1,Virtus.pro,1634.38,win
+217,owcs_2026_emea_s1,anyone's legend,1389.88,loss
+218,owcs_2026_emea_s1,Virtus.pro,1639.10,win
+218,owcs_2026_emea_s1,anyone's legend,1385.17,loss
+219,owcs_2026_emea_s1,Al Qadsiah,1741.98,win
+219,owcs_2026_emea_s1,Team Peps,1394.20,loss
+220,owcs_2026_emea_s1,Al Qadsiah,1744.83,win
+220,owcs_2026_emea_s1,Team Peps,1391.34,loss
+221,owcs_2026_emea_s1,Team Peps,1412.57,win
+221,owcs_2026_emea_s1,Al Qadsiah,1723.61,loss
+222,owcs_2026_emea_s1,Team Peps,1433.14,win
+222,owcs_2026_emea_s1,Al Qadsiah,1703.04,loss
+223,owcs_2026_emea_s1,Al Qadsiah,1707.23,win
+223,owcs_2026_emea_s1,Team Peps,1428.95,loss
+224,owcs_2026_emea_s1,Geekay Esports,1603.82,win
+224,owcs_2026_emea_s1,Al Qadsiah,1691.26,loss
+225,owcs_2026_emea_s1,Geekay Esports,1618.78,win
+225,owcs_2026_emea_s1,Al Qadsiah,1676.30,loss
+226,owcs_2026_emea_s1,Al Qadsiah,1686.33,win
+226,owcs_2026_emea_s1,Geekay Esports,1608.75,loss
+227,owcs_2026_emea_s1,Al Qadsiah,1695.70,win
+227,owcs_2026_emea_s1,Geekay Esports,1599.38,loss
+228,owcs_2026_emea_s1,Geekay Esports,1614.63,win
+228,owcs_2026_emea_s1,Al Qadsiah,1680.45,loss
+229,owcs_2026_emea_s1,Twisted Minds,1851.35,win
+229,owcs_2026_emea_s1,anyone's legend,1383.62,loss
+230,owcs_2026_emea_s1,Twisted Minds,1852.87,win
+230,owcs_2026_emea_s1,anyone's legend,1382.10,loss
+231,owcs_2026_emea_s1,Twisted Minds,1854.37,win
+231,owcs_2026_emea_s1,anyone's legend,1380.60,loss
+232,owcs_2026_emea_s1,Virtus.pro,1644.61,win
+232,owcs_2026_emea_s1,Team Peps,1423.43,loss
+233,owcs_2026_emea_s1,Virtus.pro,1649.86,win
+233,owcs_2026_emea_s1,Team Peps,1418.19,loss
+234,owcs_2026_emea_s1,Virtus.pro,1654.87,win
+234,owcs_2026_emea_s1,Team Peps,1413.18,loss
+235,owcs_2026_emea_s1,Geekay Esports,1620.36,win
+235,owcs_2026_emea_s1,Team Peps,1407.45,loss
+236,owcs_2026_emea_s1,Geekay Esports,1625.80,win
+236,owcs_2026_emea_s1,Team Peps,1402.00,loss
+237,owcs_2026_emea_s1,Geekay Esports,1630.99,win
+237,owcs_2026_emea_s1,Team Peps,1396.82,loss
+238,owcs_2026_emea_s1,Al Qadsiah,1684.08,win
+238,owcs_2026_emea_s1,anyone's legend,1376.97,loss
+239,owcs_2026_emea_s1,Al Qadsiah,1687.58,win
+239,owcs_2026_emea_s1,anyone's legend,1373.47,loss
+240,owcs_2026_emea_s1,Al Qadsiah,1690.96,win
+240,owcs_2026_emea_s1,anyone's legend,1370.09,loss
+241,owcs_2026_emea_s1,Twisted Minds,1861.11,win
+241,owcs_2026_emea_s1,Al Qadsiah,1684.22,loss
+242,owcs_2026_emea_s1,Twisted Minds,1867.48,win
+242,owcs_2026_emea_s1,Al Qadsiah,1677.85,loss
+243,owcs_2026_emea_s1,Twisted Minds,1873.51,win
+243,owcs_2026_emea_s1,Al Qadsiah,1671.82,loss
+244,owcs_2026_emea_s1,Team Peps,1407.90,win
+244,owcs_2026_emea_s1,anyone's legend,1359.01,loss
+245,owcs_2026_emea_s1,anyone's legend,1372.69,win
+245,owcs_2026_emea_s1,Team Peps,1394.22,loss
+246,owcs_2026_emea_s1,Team Peps,1405.48,win
+246,owcs_2026_emea_s1,anyone's legend,1361.43,loss
+247,owcs_2026_emea_s1,anyone's legend,1374.95,win
+247,owcs_2026_emea_s1,Team Peps,1391.96,loss
+248,owcs_2026_emea_s1,anyone's legend,1387.53,win
+248,owcs_2026_emea_s1,Team Peps,1379.37,loss
+249,owcs_2026_emea_s1,Virtus.pro,1666.04,win
+249,owcs_2026_emea_s1,Geekay Esports,1619.81,loss
+250,owcs_2026_emea_s1,Geekay Esports,1633.40,win
+250,owcs_2026_emea_s1,Virtus.pro,1652.46,loss
+251,owcs_2026_emea_s1,Virtus.pro,1663.80,win
+251,owcs_2026_emea_s1,Geekay Esports,1622.06,loss
+252,owcs_2026_emea_s1,Virtus.pro,1674.36,win
+252,owcs_2026_emea_s1,Geekay Esports,1611.49,loss
+253,owcs_2026_emea_s1,Twisted Minds,1879.30,win
+253,owcs_2026_emea_s1,Virtus.pro,1668.58,loss
+254,owcs_2026_emea_s1,Twisted Minds,1884.80,win
+254,owcs_2026_emea_s1,Virtus.pro,1663.08,loss
+255,owcs_2026_emea_s1,Twisted Minds,1890.03,win
+255,owcs_2026_emea_s1,Virtus.pro,1657.84,loss
+256,owcs_2026_emea_s1,Geekay Esports,1616.68,win
+256,owcs_2026_emea_s1,anyone's legend,1382.35,loss
+257,owcs_2026_emea_s1,anyone's legend,1401.40,win
+257,owcs_2026_emea_s1,Geekay Esports,1597.62,loss
+258,owcs_2026_emea_s1,Geekay Esports,1603.49,win
+258,owcs_2026_emea_s1,anyone's legend,1395.54,loss
+259,owcs_2026_emea_s1,anyone's legend,1413.97,win
+259,owcs_2026_emea_s1,Geekay Esports,1585.05,loss
+260,owcs_2026_emea_s1,Geekay Esports,1591.58,win
+260,owcs_2026_emea_s1,anyone's legend,1407.45,loss
+261,owcs_2026_na_s1,Dallas Fuel,1412.00,win
+261,owcs_2026_na_s1,disguised,1388.00,loss
+262,owcs_2026_na_s1,disguised,1400.83,win
+262,owcs_2026_na_s1,Dallas Fuel,1399.17,loss
+263,owcs_2026_na_s1,Dallas Fuel,1411.23,win
+263,owcs_2026_na_s1,disguised,1388.77,loss
+264,owcs_2026_na_s1,Dallas Fuel,1422.45,win
+264,owcs_2026_na_s1,disguised,1377.55,loss
+265,owcs_2026_na_s1,Spacestation Gaming,1624.20,win
+265,owcs_2026_na_s1,LuneX Gaming,1394.70,loss
+266,owcs_2026_na_s1,Spacestation Gaming,1629.26,win
+266,owcs_2026_na_s1,LuneX Gaming,1389.64,loss
+267,owcs_2026_na_s1,Spacestation Gaming,1634.08,win
+267,owcs_2026_na_s1,LuneX Gaming,1384.82,loss
+268,owcs_2026_na_s1,Extinction,1355.12,win
+268,owcs_2026_na_s1,Team Liquid,1659.08,loss
+269,owcs_2026_na_s1,Team Liquid,1662.63,win
+269,owcs_2026_na_s1,Extinction,1351.57,loss
+270,owcs_2026_na_s1,Team Liquid,1666.06,win
+270,owcs_2026_na_s1,Extinction,1348.14,loss
+271,owcs_2026_na_s1,Extinction,1368.82,win
+271,owcs_2026_na_s1,Team Liquid,1645.38,loss
+272,owcs_2026_na_s1,Team Liquid,1649.44,win
+272,owcs_2026_na_s1,Extinction,1364.76,loss
+273,owcs_2026_na_s1,disguised,1397.08,win
+273,owcs_2026_na_s1,Spacestation Gaming,1614.55,loss
+274,owcs_2026_na_s1,Spacestation Gaming,1619.88,win
+274,owcs_2026_na_s1,disguised,1391.75,loss
+275,owcs_2026_na_s1,disguised,1410.66,win
+275,owcs_2026_na_s1,Spacestation Gaming,1600.97,loss
+276,owcs_2026_na_s1,Spacestation Gaming,1606.98,win
+276,owcs_2026_na_s1,disguised,1404.65,loss
+277,owcs_2026_na_s1,Spacestation Gaming,1612.69,win
+277,owcs_2026_na_s1,disguised,1398.94,loss
+278,owcs_2026_na_s1,LuneX Gaming,1396.12,win
+278,owcs_2026_na_s1,Extinction,1353.45,loss
+279,owcs_2026_na_s1,LuneX Gaming,1406.66,win
+279,owcs_2026_na_s1,Extinction,1342.92,loss
+280,owcs_2026_na_s1,LuneX Gaming,1416.48,win
+280,owcs_2026_na_s1,Extinction,1333.10,loss
+281,owcs_2026_na_s1,Dallas Fuel,1441.34,win
+281,owcs_2026_na_s1,Team Liquid,1630.55,loss
+282,owcs_2026_na_s1,Dallas Fuel,1459.30,win
+282,owcs_2026_na_s1,Team Liquid,1612.60,loss
+283,owcs_2026_na_s1,Dallas Fuel,1476.28,win
+283,owcs_2026_na_s1,Team Liquid,1595.62,loss
+284,owcs_2026_na_s1,Extinction,1347.34,win
+284,owcs_2026_na_s1,disguised,1384.69,loss
+285,owcs_2026_na_s1,Extinction,1360.63,win
+285,owcs_2026_na_s1,disguised,1371.41,loss
+286,owcs_2026_na_s1,Extinction,1373.00,win
+286,owcs_2026_na_s1,disguised,1359.03,loss
+287,owcs_2026_na_s1,Dallas Fuel,1486.23,win
+287,owcs_2026_na_s1,LuneX Gaming,1406.52,loss
+288,owcs_2026_na_s1,LuneX Gaming,1421.23,win
+288,owcs_2026_na_s1,Dallas Fuel,1471.52,loss
+289,owcs_2026_na_s1,Dallas Fuel,1481.80,win
+289,owcs_2026_na_s1,LuneX Gaming,1410.96,loss
+290,owcs_2026_na_s1,LuneX Gaming,1425.37,win
+290,owcs_2026_na_s1,Dallas Fuel,1467.39,loss
+291,owcs_2026_na_s1,Dallas Fuel,1477.94,win
+291,owcs_2026_na_s1,LuneX Gaming,1414.81,loss
+292,owcs_2026_na_s1,Spacestation Gaming,1617.52,win
+292,owcs_2026_na_s1,Extinction,1368.17,loss
+293,owcs_2026_na_s1,Spacestation Gaming,1622.13,win
+293,owcs_2026_na_s1,Extinction,1363.56,loss
+294,owcs_2026_na_s1,Spacestation Gaming,1626.55,win
+294,owcs_2026_na_s1,Extinction,1359.14,loss
+295,owcs_2026_na_s1,disguised,1378.14,win
+295,owcs_2026_na_s1,Team Liquid,1576.51,loss
+296,owcs_2026_na_s1,disguised,1396.33,win
+296,owcs_2026_na_s1,Team Liquid,1558.32,loss
+297,owcs_2026_na_s1,disguised,1413.55,win
+297,owcs_2026_na_s1,Team Liquid,1541.10,loss
+298,owcs_2026_na_s1,Spacestation Gaming,1633.71,win
+298,owcs_2026_na_s1,Dallas Fuel,1470.78,loss
+299,owcs_2026_na_s1,Spacestation Gaming,1640.46,win
+299,owcs_2026_na_s1,Dallas Fuel,1464.03,loss
+300,owcs_2026_na_s1,Dallas Fuel,1481.65,win
+300,owcs_2026_na_s1,Spacestation Gaming,1622.84,loss
+301,owcs_2026_na_s1,Dallas Fuel,1498.27,win
+301,owcs_2026_na_s1,Spacestation Gaming,1606.22,loss
+302,owcs_2026_na_s1,Dallas Fuel,1513.89,win
+302,owcs_2026_na_s1,Spacestation Gaming,1590.61,loss
+303,owcs_2026_na_s1,Team Liquid,1548.92,win
+303,owcs_2026_na_s1,LuneX Gaming,1406.99,loss
+304,owcs_2026_na_s1,Team Liquid,1556.27,win
+304,owcs_2026_na_s1,LuneX Gaming,1399.64,loss
+305,owcs_2026_na_s1,LuneX Gaming,1416.71,win
+305,owcs_2026_na_s1,Team Liquid,1539.20,loss
+306,owcs_2026_na_s1,Team Liquid,1547.14,win
+306,owcs_2026_na_s1,LuneX Gaming,1408.77,loss
+307,owcs_2026_na_s1,LuneX Gaming,1420.94,win
+307,owcs_2026_na_s1,disguised,1401.39,loss
+308,owcs_2026_na_s1,disguised,1414.06,win
+308,owcs_2026_na_s1,LuneX Gaming,1408.26,loss
+309,owcs_2026_na_s1,LuneX Gaming,1420.46,win
+309,owcs_2026_na_s1,disguised,1401.86,loss
+310,owcs_2026_na_s1,LuneX Gaming,1431.82,win
+310,owcs_2026_na_s1,disguised,1390.50,loss
+311,owcs_2026_na_s1,Dallas Fuel,1520.87,win
+311,owcs_2026_na_s1,Extinction,1352.16,loss
+312,owcs_2026_na_s1,Dallas Fuel,1527.46,win
+312,owcs_2026_na_s1,Extinction,1345.57,loss
+313,owcs_2026_na_s1,Dallas Fuel,1533.70,win
+313,owcs_2026_na_s1,Extinction,1339.33,loss
+314,owcs_2026_na_s1,Spacestation Gaming,1601.11,win
+314,owcs_2026_na_s1,Team Liquid,1536.63,loss
+315,owcs_2026_na_s1,Spacestation Gaming,1610.91,win
+315,owcs_2026_na_s1,Team Liquid,1526.83,loss
+316,owcs_2026_na_s1,Team Liquid,1541.68,win
+316,owcs_2026_na_s1,Spacestation Gaming,1596.06,loss
+317,owcs_2026_na_s1,Spacestation Gaming,1606.20,win
+317,owcs_2026_na_s1,Team Liquid,1531.55,loss

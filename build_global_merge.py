@@ -38,6 +38,13 @@ SUCCESSION: dict[str, str] = {
     "Avidity":              "Rad x Avidity",     # Rad x Avidity acquired Avidity roster (Sep 2024)
     "Green Fortnite":       "Timeless Ethereal", # Timeless Ethereal acquired Green Fortnite roster (Aug 2024)
     "YETI":                 "Fnatic",            # Fnatic signed YETI core players (Jun 2024, EWC + Korea S2)
+
+    # Korea 2024
+    "Vesta Crew":           "VEC",               # Vesta Crew rebranded to VEC (Korea S2 2024)
+
+    # EMEA 2024
+    "ROC Esports":          "Rocstars",          # ROC Esports rebranded to Rocstars (EMEA S2 2024)
+    "Gaimin Gladiators":    "Team Peps",         # Team Peps used Gaimin Gladiators brand in EMEA S3 + EWC, then reverted
 }
 
 # Case / display normalization: variant → canonical
@@ -76,10 +83,12 @@ CASE_NORM: dict[str, str] = {
     "ssg":            "Spacestation Gaming",  # EMEA Stage 3 abbreviation
     "SSG":            "Spacestation Gaming",
     "roc esports":    "ROC Esports",
+    "Team PEPS":      "Team Peps",            # All-caps variant in EMEA S2 groups wikitext
     "Nu.age":         "nu.age",               # nu.age is the official lowercase form
 
     # International / disambiguation
     "321 diving":     "321 Diving",
+    "FullHouse":      "Full House",
 
     # Normalization bug fixes (same team, different capitalization in different draft files)
     "WASP X OHHHH NO":          "Wasp X Ohhhh No",   # Liquipedia canonical: mixed case

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OWCS 2024-2026 Combined Elo</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  :root {
+    --bg: #ffffff;
+    --surface: #ffffff;
+    --border: rgba(0, 0, 0, 0.12);
+    --text: #1a1a1a;
+    --muted: #555555;
+    --accent: #2563eb;
+    --shadow: 0 4px 20px rgba(0,0,0,0.08);
+  }
+  body {
+    margin: 0;
+    background: #f5f7fa;
+    color: var(--text);
+    font-family: "Segoe UI", "Noto Sans KR", sans-serif;
+    min-height: 100vh;
+  }
+  .shell {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 32px 24px;
+  }
+  header {
+    padding: 28px 32px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+  }
+  .eyebrow {
+    color: #2563eb;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    margin-bottom: 8px;
+  }
+  h1 {
+    margin: 0 0 8px;
+    font-size: clamp(22px, 4vw, 40px);
+    line-height: 1.1;
+    color: #111111;
+  }
+  .subtitle {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .card {
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: var(--shadow);
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  .card h2 {
+    margin: 0 0 4px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #111111;
+  }
+  .card .desc {
+    margin: 0 0 18px;
+    color: var(--muted);
+    font-size: 13px;
+  }
+  .chart-wrap {
+    position: relative;
+    height: 620px;
+  }
+  .region-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+  .region-filter {
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: #fafafa;
+    color: #333333;
+    padding: 8px 14px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+  }
+  .region-filter.active {
+    background: rgba(37,99,235,0.08);
+    color: #2563eb;
+    border-color: rgba(37,99,235,0.28);
+  }
+  .legend-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 10px;
+    margin-top: 22px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: #fafafa;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .legend-item:hover {
+    background: #f0f0f0;
+  }
+  .legend-item.hidden {
+    opacity: 0.35;
+  }
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 1px solid rgba(0,0,0,0.15);
+  }
+  .legend-name {
+    flex: 1;
+    font-weight: 600;
+    color: #1a1a1a;
+  }
+  .legend-elo {
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .note {
+    margin-top: 18px;
+    padding: 14px 18px;
+    border: 1px solid rgba(37,99,235,0.2);
+    border-radius: 12px;
+    background: rgba(37,99,235,0.04);
+    color: var(--muted);
+    font-size: 12.5px;
+    line-height: 1.7;
+  }
+</style>
+</head>
+<body>
+<div class="shell">
+
+<header>
+  <div class="eyebrow">OWCS Elo Rating — 통합 시즌 차트</div>
+  <h1>2024 + 2025 + 2026 Combined Elo Trajectory</h1>
+  <p class="subtitle">
+    2026 Stage 1에 실제 출전 중인 팀만 표시 &mdash;
+    팀 히스토리 엑셀 기준 같은 열은 하나의 팀으로 통합 &middot;
+    수직 점선: 2024 / 2025 / 2026 시즌 경계
+  </p>
+</header>
+
+<div class="card">
+  <h2>Phase Elo Trend</h2>
+  <p class="desc">2026 출전 팀만 대상입니다. 지역 선택 후 범례 클릭으로 팀 ON/OFF</p>
+  <div class="chart-wrap">
+    <canvas id="chart"></canvas>
+  </div>
+  <div class="region-filters" id="regionFilters"></div>
+  <div class="legend-grid" id="legend"></div>
+  <div class="note">
+    <strong>표기 안내:</strong>
+    `OWCS Team History.xlsx`의 같은 행은 동일 팀으로 취급했고, 표시 이름은 2026 S1 이름을 기준으로 맞췄습니다. 2026 S1에 출전한 팀만 차트에 남겼습니다.
+  </div>
+</div>
+
+</div>
+
+<script>
+const PHASES = ["2024 S1+S2", "Dallas\nMajor", "EWC 2024", "2024 S3–S4", "2024\nWorld Finals", "2025 Stage 1", "Champions\nClash", "2025 Stage 2", "Midseason\nChampionship", "2025 Stage 3", "2025\nWorld Finals", "2026 Stage 1"];
+const TEAMS = [{"name": "Twisted Minds", "region": "EMEA", "color": "#FA4B68", "phaseElo": [1522.1, 1470.8, 1444.5, 1538.4, 1588.1, 1516.8, 1516.8, 1619.8, 1698.3, 1738.8, 1830.0, 1890.0], "playedPhases": [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11], "finalElo": 1890.0, "defaultHidden": false}, {"name": "VARREL", "region": "Japan", "color": "#00B1EB", "phaseElo": [1594.6, 1594.6, 1594.6, 1574.0, 1574.0, 1573.2, 1573.2, 1737.8, 1661.2, 1793.5, 1745.4, 1777.3], "playedPhases": [0, 3, 5, 7, 8, 9, 10, 11], "finalElo": 1777.3, "defaultHidden": false}, {"name": "Team Falcons", "region": "Korea", "color": "#00A651", "phaseElo": [1573.5, 1659.3, 1663.8, 1753.1, 1841.6, 1814.8, 1790.8, 1648.9, 1760.8, 1760.5, 1782.7, 1769.1], "playedPhases": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "finalElo": 1769.1, "defaultHidden": false}, {"name": "Crazy Raccoon", "region": "Korea", "color": "#E30613", "phaseElo": [1681.4, 1743.8, 1798.5, 1792.2, 1781.8, 1847.2, 1865.0, 1785.4, 1755.2, 1839.1, 1816.8, 1742.2], "playedPhases": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "finalElo": 1742.2, "defaultHidden": false}, {"name": "Weibo Gaming", "region": "China", "color": "#FF4500", "phaseElo": [null, null, null, null, null, null, null, 1644.6, 1627.8, 1732.7, 1710.3, 1730.5], "playedPhases": [7, 8, 9, 10, 11], "finalElo": 1730.5, "defaultHidden": false}, {"name": "T1", "region": "Korea", "color": "#E2012D", "phaseElo": [null, null, null, null, null, 1496.1, 1496.1, 1724.8, 1710.2, 1700.1, 1706.3, 1674.2], "playedPhases": [5, 7, 8, 9, 10, 11], "finalElo": 1674.2, "defaultHidden": false}, {"name": "Al Qadsiah", "region": "EMEA", "color": "#FDE100", "phaseElo": [null, null, null, 1336.8, 1336.8, 1491.2, 1479.8, 1664.4, 1673.5, 1709.6, 1784.0, 1671.8], "playedPhases": [3, 5, 6, 7, 8, 9, 10, 11], "finalElo": 1671.8, "defaultHidden": false}, {"name": "Virtus.pro", "region": "EMEA", "color": "#F65101", "phaseElo": [1392.5, 1392.5, 1398.6, 1530.4, 1530.4, 1622.9, 1620.5, 1581.1, 1600.6, 1579.3, 1579.3, 1657.8], "playedPhases": [0, 2, 3, 5, 6, 7, 8, 9, 11], "finalElo": 1657.8, "defaultHidden": false}, {"name": "ZETA DIVISION", "region": "Korea", "color": "#000000", "phaseElo": [1548.6, 1548.6, 1586.0, 1662.0, 1662.0, 1693.0, 1693.0, 1567.3, 1567.3, 1525.6, 1525.6, 1655.5], "playedPhases": [0, 2, 3, 5, 7, 9, 11], "finalElo": 1655.5, "defaultHidden": false}, {"name": "Spacestation Gaming", "region": "NA", "color": "#FDB827", "phaseElo": [1608.2, 1597.3, 1590.6, 1686.2, 1620.4, 1614.3, 1598.9, 1518.6, 1518.6, 1636.7, 1618.9, 1606.2], "playedPhases": [0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11], "finalElo": 1606.2, "defaultHidden": false}, {"name": "Geekay Esports", "region": "EMEA", "color": "#e2cf45", "phaseElo": [null, null, null, null, null, null, null, 1630.4, 1625.6, 1622.6, 1602.1, 1591.6], "playedPhases": [7, 8, 9, 10, 11], "finalElo": 1591.6, "defaultHidden": false}, {"name": "ONSIDE Gaming", "region": "Korea", "color": "#2ce2df", "phaseElo": [null, null, null, null, null, 1497.5, 1497.5, 1414.0, 1414.0, 1529.5, 1529.5, 1588.3], "playedPhases": [5, 7, 9, 11], "finalElo": 1588.3, "defaultHidden": false}, {"name": "The Gatos Guapos", "region": "Pacific", "color": "#8c1ce2", "phaseElo": [null, null, null, null, null, null, null, 1554.9, 1513.0, 1550.0, 1550.0, 1587.9], "playedPhases": [7, 8, 9, 11], "finalElo": 1587.9, "defaultHidden": false}, {"name": "Dallas Fuel", "region": "NA", "color": "#0F5BA7", "phaseElo": [null, null, null, null, null, null, null, null, null, null, null, 1533.7], "playedPhases": [11], "finalElo": 1533.7, "defaultHidden": false}, {"name": "Team Liquid", "region": "NA", "color": "#00274D", "phaseElo": [null, null, null, null, null, 1544.6, 1544.6, 1620.5, 1661.1, 1724.8, 1680.2, 1531.5], "playedPhases": [5, 7, 8, 9, 10, 11], "finalElo": 1531.5, "defaultHidden": false}, {"name": "Enter Force.36", "region": "Japan", "color": "#e14b4d", "phaseElo": [null, null, null, null, null, null, null, null, null, null, null, 1518.4], "playedPhases": [11], "finalElo": 1518.4, "defaultHidden": false}, {"name": "Please Not Hero Ban", "region": "Japan", "color": "#A8E6CF", "phaseElo": [null, null, null, null, null, 1434.9, 1434.9, 1430.0, 1430.0, 1485.6, 1485.6, 1479.4], "playedPhases": [5, 7, 9, 11], "finalElo": 1479.4, "defaultHidden": false}, {"name": "Team Secret", "region": "Pacific", "color": "#da2f29", "phaseElo": [1481.0, 1481.0, 1481.0, 1520.6, 1520.6, 1520.6, 1520.6, 1520.6, 1520.6, 1520.6, 1520.6, 1462.1], "playedPhases": [0, 3, 11], "finalElo": 1462.1, "defaultHidden": false}, {"name": "Poker Face", "region": "Korea", "color": "#952ddb", "phaseElo": [1407.6, 1407.6, 1407.6, 1612.3, 1612.3, 1453.7, 1453.7, 1420.6, 1420.6, 1420.6, 1420.6, 1435.6], "playedPhases": [0, 3, 5, 7, 11], "finalElo": 1435.6, "defaultHidden": false}, {"name": "All Gamers", "region": "China", "color": "#d65928", "phaseElo": [null, null, null, null, null, null, null, null, null, null, null, 1433.7], "playedPhases": [11], "finalElo": 1433.7, "defaultHidden": false}, {"name": "LuneX Gaming", "region": "NA", "color": "#294fcb", "phaseElo": [null, null, null, null, null, null, null, null, null, null, null, 1431.8], "playedPhases": [11], "finalElo": 1431.8, "defaultHidden": false}, {"name": "ZAN Esports", "region": "Korea", "color": "#8050e1", "phaseElo": [null, null, null, null, null, null, null, null, null, null, null, 1425.7], "playedPhases": [11], "finalElo": 1425.7, "defaultHidden": false}, {"name": "Tokyo Ta1yo's", "region": "Japan", "color": "#26dd5a", "phaseElo": [null, null, null, null, null, null, null, null, null, null, null, 1418.7], "playedPhases": [11], "finalElo": 1418.7, "defaultHidden": false}, {"name": "Anyone's Legend", "region": "EMEA", "color": "#e37e20", "phaseElo": [null, null, null, null, null, null, null, null, null, null, null, 1407.5], "playedPhases": [11], "finalElo": 1407.5, "defaultHidden": false}, {"name": "99DIVINE", "region": "Japan", "color": "#34bd22", "phaseElo": [1455.8, 1455.8, 1455.8, 1465.7, 1465.7, 1465.7, 1465.7, 1465.7, 1465.7, 1465.7, 1465.7, 1405.9], "playedPhases": [0, 3, 11], "finalElo": 1405.9, "defaultHidden": false}, {"name": "Naive Piggy", "region": "China", "color": "#d72791", "phaseElo": [null, null, null, null, null, null, null, null, null, null, null, 1404.5], "playedPhases": [11], "finalElo": 1404.5, "defaultHidden": false}, {"name": "Quasar Esports", "region": "Pacific", "color": "#c0e344", "phaseElo": [null, null, null, null, null, null, null, null, null, null, null, 1403.2], "playedPhases": [11], "finalElo": 1403.2, "defaultHidden": false}, {"name": "Disguised", "region": "NA", "color": "#89cd1d", "phaseElo": [null, null, null, null, null, null, null, null, null, null, null, 1390.5], "playedPhases": [11], "finalElo": 1390.5, "defaultHidden": false}, {"name": "Solus Victorem", "region": "China", "color": "#db3d64", "phaseElo": [null, null, null, null, null, null, null, null, null, null, null, 1390.0], "playedPhases": [11], "finalElo": 1390.0, "defaultHidden": false}, {"name": "JDG Gaming", "region": "China", "color": "#C8102E", "phaseElo": [null, null, null, null, null, 1447.1, 1417.1, 1522.8, 1536.2, 1610.0, 1590.0, 1387.9], "playedPhases": [5, 6, 7, 8, 9, 10, 11], "finalElo": 1387.9, "defaultHidden": false}, {"name": "Rankers", "region": "Pacific", "color": "#40e78e", "phaseElo": [null, null, null, null, null, null, null, null, null, null, null, 1385.3], "playedPhases": [11], "finalElo": 1385.3, "defaultHidden": true}, {"name": "Team Peps", "region": "EMEA", "color": "#FEF100", "phaseElo": [1469.9, 1469.9, 1441.4, 1397.4, 1397.4, 1393.7, 1393.7, 1342.2, 1342.2, 1401.1, 1402.7, 1379.4], "playedPhases": [0, 2, 3, 5, 7, 9, 10, 11], "finalElo": 1379.4, "defaultHidden": true}, {"name": "Milk Tea", "region": "China", "color": "#c520b4", "phaseElo": [null, null, null, null, null, null, null, 1375.4, 1375.4, 1408.6, 1408.6, 1372.2], "playedPhases": [7, 9, 11], "finalElo": 1372.2, "defaultHidden": true}, {"name": "FURY", "region": "Pacific", "color": "#3ddb42", "phaseElo": [null, null, null, null, null, null, null, 1369.2, 1369.2, 1410.0, 1410.0, 1370.1], "playedPhases": [7, 9, 11], "finalElo": 1370.1, "defaultHidden": true}, {"name": "MMY", "region": "Pacific", "color": "#4cea7c", "phaseElo": [null, null, null, null, null, null, null, null, null, null, null, 1351.3], "playedPhases": [11], "finalElo": 1351.3, "defaultHidden": true}, {"name": "Extinction", "region": "NA", "color": "#297cda", "phaseElo": [null, null, null, 1345.7, 1345.7, 1345.7, 1345.7, 1391.5, 1391.5, 1334.0, 1334.0, 1339.3], "playedPhases": [3, 7, 9, 11], "finalElo": 1339.3, "defaultHidden": true}, {"name": "Lazuli", "region": "Japan", "color": "#2fe21c", "phaseElo": [null, null, null, 1487.9, 1487.9, 1562.8, 1562.8, 1459.4, 1459.4, 1380.1, 1380.1, 1320.2], "playedPhases": [3, 5, 7, 9, 11], "finalElo": 1320.2, "defaultHidden": true}, {"name": "New Era", "region": "Korea", "color": "#e33fbf", "phaseElo": [null, null, null, null, null, 1362.4, 1362.4, 1362.4, 1362.4, 1271.6, 1271.6, 1309.9], "playedPhases": [5, 9, 11], "finalElo": 1309.9, "defaultHidden": true}, {"name": "Cheeseburger", "region": "Korea", "color": "#e4b24d", "phaseElo": [null, null, null, null, null, null, null, null, null, 1328.5, 1328.5, 1272.0], "playedPhases": [9, 11], "finalElo": 1272.0, "defaultHidden": true}, {"name": "Nyam Gaming", "region": "Japan", "color": "#1f19d6", "phaseElo": [1209.6, 1209.6, 1209.6, 1370.3, 1370.3, 1448.2, 1448.2, 1351.7, 1351.7, 1278.1, 1278.1, 1269.7], "playedPhases": [0, 3, 5, 7, 9, 11], "finalElo": 1269.7, "defaultHidden": true}, {"name": "Telomere", "region": "Japan", "color": "#1a79df", "phaseElo": [null, null, null, 1194.0, 1194.0, 1194.0, 1194.0, 1194.0, 1194.0, 1324.3, 1324.3, 1223.9], "playedPhases": [3, 9, 11], "finalElo": 1223.9, "defaultHidden": true}];
+const BOUNDARIES = [4, 10];
+const REGIONS = ["Korea", "Japan", "Pacific", "China", "EMEA", "NA"];
+
+const datasets = TEAMS.map(t => ({
+  label: t.name,
+  data: t.phaseElo,
+  borderColor: t.color,
+  backgroundColor: t.color + "28",
+  borderWidth: 2.5,
+  pointRadius: PHASES.map((_, idx) => t.playedPhases.includes(idx) ? 5 : 0),
+  pointHoverRadius: PHASES.map((_, idx) => t.playedPhases.includes(idx) ? 8 : 0),
+  pointBackgroundColor: t.color,
+  tension: 0,
+  spanGaps: false,
+  hidden: !!t.defaultHidden,
+}));
+
+const manualHidden = TEAMS.map(t => !!t.defaultHidden);
+let activeRegions = new Set(REGIONS);
+
+const boundaryPlugin = {
+  id: "yearBoundary",
+  afterDraw(chart) {
+    const { ctx, chartArea: { top, bottom, left, right }, scales: { x } } = chart;
+    const linePositions = BOUNDARIES.map(idx =>
+      (x.getPixelForValue(idx) + x.getPixelForValue(idx + 1)) / 2
+    );
+
+    ctx.save();
+    ctx.strokeStyle = "rgba(245, 165, 36, 0.55)";
+    ctx.lineWidth = 1.5;
+    ctx.setLineDash([6, 4]);
+    linePositions.forEach(pos => {
+      ctx.beginPath();
+      ctx.moveTo(pos, top);
+      ctx.lineTo(pos, bottom);
+      ctx.stroke();
+    });
+
+    ctx.setLineDash([]);
+    ctx.fillStyle = "rgba(245, 165, 36, 0.75)";
+    ctx.font = "bold 11px Segoe UI, sans-serif";
+    ctx.textAlign = "center";
+
+    const segments = [left, ...linePositions, right];
+    const labels = ["2024", "2025", "2026"];
+    labels.forEach((label, i) => {
+      const center = (segments[i] + segments[i + 1]) / 2;
+      ctx.fillText(label, center, top + 16);
+    });
+    ctx.restore();
+  },
+};
+
+const ctx = document.getElementById("chart").getContext("2d");
+const chart = new Chart(ctx, {
+  type: "line",
+  data: { labels: PHASES, datasets },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: "nearest", intersect: true },
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        backgroundColor: "rgba(255,255,255,0.97)",
+        borderColor: "rgba(0,0,0,0.15)",
+        borderWidth: 1,
+        titleColor: "#111111",
+        bodyColor: "#333333",
+        padding: 14,
+        callbacks: {
+          label(ctx) {
+            const v = ctx.parsed.y;
+            if (v === null) return null;
+            return ` ${ctx.dataset.label}: ${v.toFixed(1)}`;
+          },
+        },
+      },
+    },
+    scales: {
+      x: {
+        grid: { color: "rgba(0,0,0,0.07)" },
+        ticks: { color: "#555555", font: { size: 11 } },
+      },
+      y: {
+        grid: { color: "rgba(0,0,0,0.07)" },
+        ticks: {
+          color: "#555555",
+          font: { size: 11 },
+          callback: v => v.toFixed(0),
+        },
+        title: {
+          display: true,
+          text: "Elo Rating",
+          color: "#555555",
+          font: { size: 12 },
+        },
+      },
+    },
+  },
+  plugins: [boundaryPlugin],
+});
+
+const regionFiltersEl = document.getElementById("regionFilters");
+const legendEl = document.getElementById("legend");
+
+function syncVisibility() {
+  TEAMS.forEach((team, idx) => {
+    const showByRegion = activeRegions.has(team.region);
+    chart.data.datasets[idx].hidden = !showByRegion || manualHidden[idx];
+  });
+  chart.update();
+}
+
+function renderRegionFilters() {
+  regionFiltersEl.innerHTML = "";
+
+  const allBtn = document.createElement("button");
+  allBtn.className = "region-filter" + (activeRegions.size === REGIONS.length ? " active" : "");
+  allBtn.textContent = "All";
+  allBtn.addEventListener("click", () => {
+    activeRegions = new Set(REGIONS);
+    renderRegionFilters();
+    renderLegend();
+    syncVisibility();
+  });
+  regionFiltersEl.appendChild(allBtn);
+
+  REGIONS.forEach(region => {
+    const btn = document.createElement("button");
+    btn.className = "region-filter" + (activeRegions.has(region) ? " active" : "");
+    btn.textContent = region;
+    btn.addEventListener("click", () => {
+      if (activeRegions.has(region)) {
+        activeRegions.delete(region);
+      } else {
+        activeRegions.add(region);
+      }
+      renderRegionFilters();
+      renderLegend();
+      syncVisibility();
+    });
+    regionFiltersEl.appendChild(btn);
+  });
+}
+
+function renderLegend() {
+  legendEl.innerHTML = "";
+  TEAMS.forEach((t, i) => {
+    if (!activeRegions.has(t.region)) return;
+    const item = document.createElement("div");
+    item.className = "legend-item" + (manualHidden[i] ? " hidden" : "");
+    item.dataset.idx = i;
+    item.innerHTML = `
+      <span class="dot" style="background:${t.color}"></span>
+      <span class="legend-name">${t.name}</span>
+      <span class="legend-elo">${t.finalElo !== null ? t.finalElo.toFixed(1) : "—"}</span>
+    `;
+    item.addEventListener("click", () => {
+      manualHidden[i] = !manualHidden[i];
+      item.classList.toggle("hidden", manualHidden[i]);
+      syncVisibility();
+    });
+    legendEl.appendChild(item);
+  });
+}
+
+renderRegionFilters();
+renderLegend();
+syncVisibility();
+</script>
+</body>
+</html>

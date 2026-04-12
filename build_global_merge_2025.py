@@ -25,11 +25,24 @@ OUTPUT_FILE = ROOT / "OWCS_2025_GLOBAL_MAP_RESULTS.csv"
 # Roster/brand succession within 2025 season: old name → canonical (later) name
 SUCCESSION: dict[str, str] = {
     # WAY roster journey: WAY (Stage 1) → All Gamers Global (Stage 2) → WAE (Stage 3)
-    "WAY":             "WAE",
-    "All Gamers Global": "WAE",
+    "WAY":                      "WAE",
+    "All Gamers Global":        "WAE",
 
-    # Avidity roster: Avidity (Stage 1) → Extinction (Stage 2+)
-    "Avidity":         "Extinction",
+    # Korea: From the Gamer rebranded to ONSIDE GAMING (S1 → S2)
+    "From the Gamer":           "ONSIDE GAMING",
+
+    # Pacific: 99DIVINE rebranded to Nosebleed Esports (S2 → S3)
+    "99DIVINE":                 "Nosebleed Esports",
+
+    # Pacific: Mud Dog rebranded to Stronghold (S2 → S3)
+    "Mud Dog":                  "Stronghold",
+
+    # Japan: Inferno rebranded to VEC (S2 → S3)
+    "Inferno (Japanese team)":  "VEC",
+
+    # NOTE: Avidity (NA 2025 S1) is a separate team from EXN Zenith → Extinction chain.
+    # Avidity's carry-over from Rad x Avidity (2024) is handled in build_owcs_2025_global_elo.py.
+    # Extinction's carry-over from EXN Zenith (2024) is handled in build_owcs_2025_global_elo.py.
 }
 
 # Case / display normalization: variant → canonical
@@ -72,13 +85,15 @@ CASE_NORM: dict[str, str] = {
     "ALL Gamers Global":          "All Gamers Global",   # handled before SUCCESSION
     "Zeta Division":              "ZETA DIVISION",
     "ZETA Division":              "ZETA DIVISION",
+    "FullHouse":                  "Full House",
     "Team CC (Chinese orgless team)": "Team CC",
     "TEAM CC (Chinese orgless team)": "Team CC",
     "TEAM XX":                    "Team XX",
 
     # Korea — group stage variants
-    "From The Gamer":             "From the Gamer",
+    "From The Gamer":             "From the Gamer",   # → SUCCESSION maps to ONSIDE GAMING
     "ONSIDE Gaming":              "ONSIDE GAMING",
+    "Onside Gaming":              "ONSIDE GAMING",    # lowercase-n variant found in S2 data
 
     # Japan — group stage variants
     "jkot":                       "JKOT",

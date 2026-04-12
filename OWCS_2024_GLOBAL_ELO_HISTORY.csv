@@ -295,11 +295,11 @@ global_map_order,event_id,team,elo_after,result
 147,owcs_2024_emea_s1_groups,LeftRightGnight,1376.83,loss
 148,owcs_2024_emea_s1_groups,Quick Esports,1433.58,win
 148,owcs_2024_emea_s1_groups,LeftRightGnight,1366.42,loss
-149,owcs_2024_emea_s1_groups,ROC Esports,1412.00,win
+149,owcs_2024_emea_s1_groups,Rocstars,1412.00,win
 149,owcs_2024_emea_s1_groups,Bingus,1388.00,loss
-150,owcs_2024_emea_s1_groups,ROC Esports,1423.17,win
+150,owcs_2024_emea_s1_groups,Rocstars,1423.17,win
 150,owcs_2024_emea_s1_groups,Bingus,1376.83,loss
-151,owcs_2024_emea_s1_groups,ROC Esports,1433.58,win
+151,owcs_2024_emea_s1_groups,Rocstars,1433.58,win
 151,owcs_2024_emea_s1_groups,Bingus,1366.42,loss
 152,owcs_2024_emea_s1_groups,Sheer Cold,1412.00,win
 152,owcs_2024_emea_s1_groups,AWW YEAH,1388.00,loss
@@ -311,11 +311,11 @@ global_map_order,event_id,team,elo_after,result
 155,owcs_2024_emea_s1_groups,AWW YEAH,1399.89,loss
 156,owcs_2024_emea_s1_groups,Sheer Cold,1412.10,win
 156,owcs_2024_emea_s1_groups,AWW YEAH,1387.90,loss
-157,owcs_2024_emea_s1_groups,ROC Esports,1444.84,win
+157,owcs_2024_emea_s1_groups,Rocstars,1444.84,win
 157,owcs_2024_emea_s1_groups,Sheer Cold,1400.84,loss
-158,owcs_2024_emea_s1_groups,ROC Esports,1455.33,win
+158,owcs_2024_emea_s1_groups,Rocstars,1455.33,win
 158,owcs_2024_emea_s1_groups,Sheer Cold,1390.35,loss
-159,owcs_2024_emea_s1_groups,ROC Esports,1465.11,win
+159,owcs_2024_emea_s1_groups,Rocstars,1465.11,win
 159,owcs_2024_emea_s1_groups,Sheer Cold,1380.57,loss
 160,owcs_2024_emea_s1_groups,AWW YEAH,1399.16,win
 160,owcs_2024_emea_s1_groups,Bingus,1355.16,loss
@@ -480,11 +480,11 @@ global_map_order,event_id,team,elo_after,result
 240,owcs_2024_emea_s1_main,Twisted Minds,1497.55,win
 240,owcs_2024_emea_s1_main,Quick Esports,1403.20,loss
 241,owcs_2024_emea_s1_main,Ex Oblivione,1464.54,win
-241,owcs_2024_emea_s1_main,ROC Esports,1452.66,loss
+241,owcs_2024_emea_s1_main,Rocstars,1452.66,loss
 242,owcs_2024_emea_s1_main,Ex Oblivione,1476.13,win
-242,owcs_2024_emea_s1_main,ROC Esports,1441.07,loss
+242,owcs_2024_emea_s1_main,Rocstars,1441.07,loss
 243,owcs_2024_emea_s1_main,Ex Oblivione,1486.92,win
-243,owcs_2024_emea_s1_main,ROC Esports,1430.28,loss
+243,owcs_2024_emea_s1_main,Rocstars,1430.28,loss
 244,owcs_2024_emea_s1_main,ENCE,1412.77,win
 244,owcs_2024_emea_s1_main,Team Peps,1409.68,loss
 245,owcs_2024_emea_s1_main,ENCE,1424.67,win
@@ -520,11 +520,11 @@ global_map_order,event_id,team,elo_after,result
 260,owcs_2024_emea_s1_main,ENCE,1499.84,win
 260,owcs_2024_emea_s1_main,Twisted Minds,1493.36,loss
 261,owcs_2024_emea_s1_main,Quick Esports,1416.13,win
-261,owcs_2024_emea_s1_main,ROC Esports,1417.34,loss
+261,owcs_2024_emea_s1_main,Rocstars,1417.34,loss
 262,owcs_2024_emea_s1_main,Quick Esports,1428.17,win
-262,owcs_2024_emea_s1_main,ROC Esports,1405.30,loss
+262,owcs_2024_emea_s1_main,Rocstars,1405.30,loss
 263,owcs_2024_emea_s1_main,Quick Esports,1439.38,win
-263,owcs_2024_emea_s1_main,ROC Esports,1394.09,loss
+263,owcs_2024_emea_s1_main,Rocstars,1394.09,loss
 264,owcs_2024_emea_s1_main,Team Peps,1398.12,win
 264,owcs_2024_emea_s1_main,Sheer Cold,1357.98,loss
 265,owcs_2024_emea_s1_main,Sheer Cold,1371.36,win
@@ -960,11 +960,11 @@ global_map_order,event_id,team,elo_after,result
 480,owcs_2024_asia_s1_korea,Poker Face,1433.58,win
 480,owcs_2024_asia_s1_korea,Sin Prisa Gaming,1366.42,loss
 481,owcs_2024_asia_s1_korea,ZETA DIVISION,1412.00,win
-481,owcs_2024_asia_s1_korea,Vesta Crew,1388.00,loss
+481,owcs_2024_asia_s1_korea,VEC,1388.00,loss
 482,owcs_2024_asia_s1_korea,ZETA DIVISION,1423.17,win
-482,owcs_2024_asia_s1_korea,Vesta Crew,1376.83,loss
+482,owcs_2024_asia_s1_korea,VEC,1376.83,loss
 483,owcs_2024_asia_s1_korea,ZETA DIVISION,1433.58,win
-483,owcs_2024_asia_s1_korea,Vesta Crew,1366.42,loss
+483,owcs_2024_asia_s1_korea,VEC,1366.42,loss
 484,owcs_2024_asia_s1_korea,Team Falcons,1445.58,win
 484,owcs_2024_asia_s1_korea,Poker Face,1421.58,loss
 485,owcs_2024_asia_s1_korea,Team Falcons,1456.75,win
@@ -990,11 +990,11 @@ global_map_order,event_id,team,elo_after,result
 495,owcs_2024_asia_s1_korea,Fnatic,1433.58,win
 495,owcs_2024_asia_s1_korea,Poker Face,1366.42,loss
 496,owcs_2024_asia_s1_korea,RunAway,1378.42,win
-496,owcs_2024_asia_s1_korea,Vesta Crew,1354.42,loss
+496,owcs_2024_asia_s1_korea,VEC,1354.42,loss
 497,owcs_2024_asia_s1_korea,RunAway,1389.59,win
-497,owcs_2024_asia_s1_korea,Vesta Crew,1343.25,loss
+497,owcs_2024_asia_s1_korea,VEC,1343.25,loss
 498,owcs_2024_asia_s1_korea,RunAway,1400.00,win
-498,owcs_2024_asia_s1_korea,Vesta Crew,1332.84,loss
+498,owcs_2024_asia_s1_korea,VEC,1332.84,loss
 499,owcs_2024_asia_s1_korea,Crazy Raccoon,1442.40,win
 499,owcs_2024_asia_s1_korea,Sin Prisa Gaming,1330.33,loss
 500,owcs_2024_asia_s1_korea,Crazy Raccoon,1450.66,win
@@ -1010,11 +1010,11 @@ global_map_order,event_id,team,elo_after,result
 505,owcs_2024_asia_s1_korea,ZETA DIVISION,1479.93,win
 505,owcs_2024_asia_s1_korea,Fnatic,1414.50,loss
 506,owcs_2024_asia_s1_korea,Poker Face,1377.26,win
-506,owcs_2024_asia_s1_korea,Vesta Crew,1321.99,loss
+506,owcs_2024_asia_s1_korea,VEC,1321.99,loss
 507,owcs_2024_asia_s1_korea,Poker Face,1387.37,win
-507,owcs_2024_asia_s1_korea,Vesta Crew,1311.89,loss
+507,owcs_2024_asia_s1_korea,VEC,1311.89,loss
 508,owcs_2024_asia_s1_korea,Poker Face,1396.80,win
-508,owcs_2024_asia_s1_korea,Vesta Crew,1302.45,loss
+508,owcs_2024_asia_s1_korea,VEC,1302.45,loss
 509,owcs_2024_asia_s1_korea,Sin Prisa Gaming,1329.23,win
 509,owcs_2024_asia_s1_korea,RunAway,1385.10,loss
 510,owcs_2024_asia_s1_korea,RunAway,1395.19,win
@@ -1024,11 +1024,11 @@ global_map_order,event_id,team,elo_after,result
 512,owcs_2024_asia_s1_korea,RunAway,1413.40,win
 512,owcs_2024_asia_s1_korea,Sin Prisa Gaming,1300.92,loss
 513,owcs_2024_asia_s1_korea,Team Falcons,1473.86,win
-513,owcs_2024_asia_s1_korea,Vesta Crew,1295.75,loss
+513,owcs_2024_asia_s1_korea,VEC,1295.75,loss
 514,owcs_2024_asia_s1_korea,Team Falcons,1480.20,win
-514,owcs_2024_asia_s1_korea,Vesta Crew,1289.42,loss
+514,owcs_2024_asia_s1_korea,VEC,1289.42,loss
 515,owcs_2024_asia_s1_korea,Team Falcons,1486.20,win
-515,owcs_2024_asia_s1_korea,Vesta Crew,1283.41,loss
+515,owcs_2024_asia_s1_korea,VEC,1283.41,loss
 516,owcs_2024_asia_s1_korea,Crazy Raccoon,1468.90,win
 516,owcs_2024_asia_s1_korea,Fnatic,1404.01,loss
 517,owcs_2024_asia_s1_korea,Crazy Raccoon,1478.68,win
@@ -1046,11 +1046,11 @@ global_map_order,event_id,team,elo_after,result
 523,owcs_2024_asia_s1_korea,RunAway,1418.48,win
 523,owcs_2024_asia_s1_korea,Genesis,1361.34,loss
 524,owcs_2024_asia_s1_korea,Crazy Raccoon,1493.48,win
-524,owcs_2024_asia_s1_korea,Vesta Crew,1277.76,loss
+524,owcs_2024_asia_s1_korea,VEC,1277.76,loss
 525,owcs_2024_asia_s1_korea,Crazy Raccoon,1498.86,win
-525,owcs_2024_asia_s1_korea,Vesta Crew,1272.38,loss
+525,owcs_2024_asia_s1_korea,VEC,1272.38,loss
 526,owcs_2024_asia_s1_korea,Crazy Raccoon,1503.98,win
-526,owcs_2024_asia_s1_korea,Vesta Crew,1267.25,loss
+526,owcs_2024_asia_s1_korea,VEC,1267.25,loss
 527,owcs_2024_asia_s1_korea,RunAway,1429.33,win
 527,owcs_2024_asia_s1_korea,Fnatic,1374.24,loss
 528,owcs_2024_asia_s1_korea,RunAway,1439.44,win
@@ -1092,11 +1092,11 @@ global_map_order,event_id,team,elo_after,result
 546,owcs_2024_asia_s1_korea,Team Falcons,1529.16,win
 546,owcs_2024_asia_s1_korea,Fnatic,1360.86,loss
 547,owcs_2024_asia_s1_korea,Genesis,1331.37,win
-547,owcs_2024_asia_s1_korea,Vesta Crew,1257.10,loss
+547,owcs_2024_asia_s1_korea,VEC,1257.10,loss
 548,owcs_2024_asia_s1_korea,Genesis,1340.84,win
-548,owcs_2024_asia_s1_korea,Vesta Crew,1247.63,loss
+548,owcs_2024_asia_s1_korea,VEC,1247.63,loss
 549,owcs_2024_asia_s1_korea,Genesis,1349.70,win
-549,owcs_2024_asia_s1_korea,Vesta Crew,1238.77,loss
+549,owcs_2024_asia_s1_korea,VEC,1238.77,loss
 550,owcs_2024_asia_s1_korea,ZETA DIVISION,1472.05,win
 550,owcs_2024_asia_s1_korea,RunAway,1437.28,loss
 551,owcs_2024_asia_s1_korea,ZETA DIVISION,1482.86,win
@@ -1138,11 +1138,11 @@ global_map_order,event_id,team,elo_after,result
 569,owcs_2024_asia_s1_korea,Crazy Raccoon,1568.91,win
 569,owcs_2024_asia_s1_korea,RunAway,1394.67,loss
 570,owcs_2024_asia_s1_korea,Sin Prisa Gaming,1322.87,win
-570,owcs_2024_asia_s1_korea,Vesta Crew,1229.31,loss
+570,owcs_2024_asia_s1_korea,VEC,1229.31,loss
 571,owcs_2024_asia_s1_korea,Sin Prisa Gaming,1331.72,win
-571,owcs_2024_asia_s1_korea,Vesta Crew,1220.47,loss
+571,owcs_2024_asia_s1_korea,VEC,1220.47,loss
 572,owcs_2024_asia_s1_korea,Sin Prisa Gaming,1340.00,win
-572,owcs_2024_asia_s1_korea,Vesta Crew,1212.19,loss
+572,owcs_2024_asia_s1_korea,VEC,1212.19,loss
 573,owcs_2024_asia_s1_korea,ZETA DIVISION,1491.86,win
 573,owcs_2024_asia_s1_korea,Genesis,1274.45,loss
 574,owcs_2024_asia_s1_korea,ZETA DIVISION,1497.20,win
@@ -1180,11 +1180,11 @@ global_map_order,event_id,team,elo_after,result
 590,owcs_2024_asia_s1_korea,ZETA DIVISION,1526.85,win
 590,owcs_2024_asia_s1_korea,Poker Face,1380.23,loss
 591,owcs_2024_asia_s1_korea,Fnatic,1395.87,win
-591,owcs_2024_asia_s1_korea,Vesta Crew,1205.83,loss
+591,owcs_2024_asia_s1_korea,VEC,1205.83,loss
 592,owcs_2024_asia_s1_korea,Fnatic,1401.89,win
-592,owcs_2024_asia_s1_korea,Vesta Crew,1199.81,loss
+592,owcs_2024_asia_s1_korea,VEC,1199.81,loss
 593,owcs_2024_asia_s1_korea,Fnatic,1407.60,win
-593,owcs_2024_asia_s1_korea,Vesta Crew,1194.09,loss
+593,owcs_2024_asia_s1_korea,VEC,1194.09,loss
 594,owcs_2024_asia_s1_korea,Fnatic,1425.34,win
 594,owcs_2024_asia_s1_korea,Crazy Raccoon,1570.96,loss
 595,owcs_2024_asia_s1_korea,Fnatic,1442.10,win
@@ -1573,40 +1573,40 @@ global_map_order,event_id,team,elo_after,result
 786,owcs_2024_emea_s2_groups,AOMA Esports,1316.62,loss
 787,owcs_2024_emea_s2_groups,Team Peps,1428.24,win
 787,owcs_2024_emea_s2_groups,AOMA Esports,1308.08,loss
-788,owcs_2024_emea_s2_groups,Twisted Minds,1550.04,win
-788,owcs_2024_emea_s2_groups,Rocstars,1392.67,loss
-789,owcs_2024_emea_s2_groups,Twisted Minds,1556.94,win
-789,owcs_2024_emea_s2_groups,Rocstars,1385.76,loss
-790,owcs_2024_emea_s2_groups,Twisted Minds,1563.47,win
-790,owcs_2024_emea_s2_groups,Rocstars,1379.24,loss
+788,owcs_2024_emea_s2_groups,Twisted Minds,1549.86,win
+788,owcs_2024_emea_s2_groups,Rocstars,1386.93,loss
+789,owcs_2024_emea_s2_groups,Twisted Minds,1556.62,win
+789,owcs_2024_emea_s2_groups,Rocstars,1380.18,loss
+790,owcs_2024_emea_s2_groups,Twisted Minds,1563.00,win
+790,owcs_2024_emea_s2_groups,Rocstars,1373.80,loss
 791,owcs_2024_emea_s2_groups,Deimpero,1412.00,win
 791,owcs_2024_emea_s2_groups,Flexodiax,1388.00,loss
 792,owcs_2024_emea_s2_groups,Deimpero,1423.17,win
 792,owcs_2024_emea_s2_groups,Flexodiax,1376.83,loss
 793,owcs_2024_emea_s2_groups,Deimpero,1433.58,win
 793,owcs_2024_emea_s2_groups,Flexodiax,1366.42,loss
-794,owcs_2024_emea_s2_groups,Twisted Minds,1571.18,win
-794,owcs_2024_emea_s2_groups,Deimpero,1425.87,loss
-795,owcs_2024_emea_s2_groups,Twisted Minds,1578.43,win
-795,owcs_2024_emea_s2_groups,Deimpero,1418.61,loss
-796,owcs_2024_emea_s2_groups,Twisted Minds,1585.27,win
-796,owcs_2024_emea_s2_groups,Deimpero,1411.78,loss
-797,owcs_2024_emea_s2_groups,Rocstars,1390.79,win
-797,owcs_2024_emea_s2_groups,Flexodiax,1354.86,loss
-798,owcs_2024_emea_s2_groups,Rocstars,1401.56,win
-798,owcs_2024_emea_s2_groups,Flexodiax,1344.10,loss
-799,owcs_2024_emea_s2_groups,Rocstars,1411.59,win
-799,owcs_2024_emea_s2_groups,Flexodiax,1334.06,loss
-800,owcs_2024_emea_s2_groups,Rocstars,1423.60,win
-800,owcs_2024_emea_s2_groups,Deimpero,1399.77,loss
-801,owcs_2024_emea_s2_groups,Rocstars,1434.78,win
-801,owcs_2024_emea_s2_groups,Deimpero,1388.59,loss
-802,owcs_2024_emea_s2_groups,Deimpero,1402.18,win
-802,owcs_2024_emea_s2_groups,Rocstars,1421.19,loss
-803,owcs_2024_emea_s2_groups,Deimpero,1414.83,win
-803,owcs_2024_emea_s2_groups,Rocstars,1408.53,loss
-804,owcs_2024_emea_s2_groups,Deimpero,1426.62,win
-804,owcs_2024_emea_s2_groups,Rocstars,1396.75,loss
+794,owcs_2024_emea_s2_groups,Twisted Minds,1570.72,win
+794,owcs_2024_emea_s2_groups,Deimpero,1425.86,loss
+795,owcs_2024_emea_s2_groups,Twisted Minds,1577.99,win
+795,owcs_2024_emea_s2_groups,Deimpero,1418.59,loss
+796,owcs_2024_emea_s2_groups,Twisted Minds,1584.84,win
+796,owcs_2024_emea_s2_groups,Deimpero,1411.74,loss
+797,owcs_2024_emea_s2_groups,Rocstars,1385.54,win
+797,owcs_2024_emea_s2_groups,Flexodiax,1354.67,loss
+798,owcs_2024_emea_s2_groups,Rocstars,1396.48,win
+798,owcs_2024_emea_s2_groups,Flexodiax,1343.74,loss
+799,owcs_2024_emea_s2_groups,Rocstars,1406.67,win
+799,owcs_2024_emea_s2_groups,Flexodiax,1333.55,loss
+800,owcs_2024_emea_s2_groups,Rocstars,1418.85,win
+800,owcs_2024_emea_s2_groups,Deimpero,1399.56,loss
+801,owcs_2024_emea_s2_groups,Rocstars,1430.18,win
+801,owcs_2024_emea_s2_groups,Deimpero,1388.23,loss
+802,owcs_2024_emea_s2_groups,Deimpero,1401.67,win
+802,owcs_2024_emea_s2_groups,Rocstars,1416.74,loss
+803,owcs_2024_emea_s2_groups,Deimpero,1414.19,win
+803,owcs_2024_emea_s2_groups,Rocstars,1404.22,loss
+804,owcs_2024_emea_s2_groups,Deimpero,1425.85,win
+804,owcs_2024_emea_s2_groups,Rocstars,1392.56,loss
 805,owcs_2024_emea_s2_groups,Peace and Love,1412.05,win
 805,owcs_2024_emea_s2_groups,AWW YEAH,1389.45,loss
 806,owcs_2024_emea_s2_groups,Peace and Love,1423.27,win
@@ -1845,316 +1845,316 @@ global_map_order,event_id,team,elo_after,result
 922,owcs_2024_emea_s2_main,Team Peps,1411.21,loss
 923,owcs_2024_emea_s2_main,Spacestation Gaming,1548.21,win
 923,owcs_2024_emea_s2_main,Team Peps,1403.48,loss
-924,owcs_2024_emea_s2_main,Peace and Love,1458.43,win
-924,owcs_2024_emea_s2_main,Deimpero,1415.32,loss
-925,owcs_2024_emea_s2_main,Peace and Love,1468.95,win
-925,owcs_2024_emea_s2_main,Deimpero,1404.80,loss
-926,owcs_2024_emea_s2_main,Peace and Love,1478.76,win
-926,owcs_2024_emea_s2_main,Deimpero,1395.00,loss
+924,owcs_2024_emea_s2_main,Peace and Love,1458.41,win
+924,owcs_2024_emea_s2_main,Deimpero,1414.58,loss
+925,owcs_2024_emea_s2_main,Peace and Love,1468.90,win
+925,owcs_2024_emea_s2_main,Deimpero,1404.09,loss
+926,owcs_2024_emea_s2_main,Peace and Love,1478.69,win
+926,owcs_2024_emea_s2_main,Deimpero,1394.30,loss
 927,owcs_2024_emea_s2_main,ENCE,1505.01,win
 927,owcs_2024_emea_s2_main,Supershy,1435.43,loss
 928,owcs_2024_emea_s2_main,ENCE,1514.64,win
 928,owcs_2024_emea_s2_main,Supershy,1425.81,loss
 929,owcs_2024_emea_s2_main,ENCE,1523.63,win
 929,owcs_2024_emea_s2_main,Supershy,1416.81,loss
-930,owcs_2024_emea_s2_main,Twisted Minds,1591.90,win
-930,owcs_2024_emea_s2_main,AWW YEAH,1411.06,loss
-931,owcs_2024_emea_s2_main,Twisted Minds,1598.16,win
-931,owcs_2024_emea_s2_main,AWW YEAH,1404.80,loss
-932,owcs_2024_emea_s2_main,Twisted Minds,1604.09,win
-932,owcs_2024_emea_s2_main,AWW YEAH,1398.87,loss
-933,owcs_2024_emea_s2_main,Spacestation Gaming,1557.85,win
-933,owcs_2024_emea_s2_main,Peace and Love,1469.13,loss
-934,owcs_2024_emea_s2_main,Spacestation Gaming,1566.85,win
-934,owcs_2024_emea_s2_main,Peace and Love,1460.13,loss
+930,owcs_2024_emea_s2_main,Twisted Minds,1591.48,win
+930,owcs_2024_emea_s2_main,AWW YEAH,1411.05,loss
+931,owcs_2024_emea_s2_main,Twisted Minds,1597.75,win
+931,owcs_2024_emea_s2_main,AWW YEAH,1404.78,loss
+932,owcs_2024_emea_s2_main,Twisted Minds,1603.69,win
+932,owcs_2024_emea_s2_main,AWW YEAH,1398.83,loss
+933,owcs_2024_emea_s2_main,Spacestation Gaming,1557.84,win
+933,owcs_2024_emea_s2_main,Peace and Love,1469.06,loss
+934,owcs_2024_emea_s2_main,Spacestation Gaming,1566.84,win
+934,owcs_2024_emea_s2_main,Peace and Love,1460.06,loss
 935,owcs_2024_emea_s2_main,Spacestation Gaming,1575.27,win
-935,owcs_2024_emea_s2_main,Peace and Love,1451.70,loss
-936,owcs_2024_emea_s2_main,ENCE,1538.36,win
-936,owcs_2024_emea_s2_main,Twisted Minds,1589.36,loss
-937,owcs_2024_emea_s2_main,ENCE,1552.11,win
-937,owcs_2024_emea_s2_main,Twisted Minds,1575.62,loss
-938,owcs_2024_emea_s2_main,ENCE,1564.92,win
-938,owcs_2024_emea_s2_main,Twisted Minds,1562.80,loss
-939,owcs_2024_emea_s2_main,ENCE,1577.28,win
-939,owcs_2024_emea_s2_main,Spacestation Gaming,1562.92,loss
-940,owcs_2024_emea_s2_main,Spacestation Gaming,1575.41,win
-940,owcs_2024_emea_s2_main,ENCE,1564.79,loss
-941,owcs_2024_emea_s2_main,Spacestation Gaming,1587.04,win
-941,owcs_2024_emea_s2_main,ENCE,1553.15,loss
-942,owcs_2024_emea_s2_main,Spacestation Gaming,1597.88,win
-942,owcs_2024_emea_s2_main,ENCE,1542.32,loss
-943,owcs_2024_emea_s2_main,Team Peps,1415.19,win
-943,owcs_2024_emea_s2_main,Deimpero,1383.29,loss
-944,owcs_2024_emea_s2_main,Deimpero,1396.39,win
-944,owcs_2024_emea_s2_main,Team Peps,1402.09,loss
-945,owcs_2024_emea_s2_main,Team Peps,1413.90,win
-945,owcs_2024_emea_s2_main,Deimpero,1384.58,loss
-946,owcs_2024_emea_s2_main,Team Peps,1424.89,win
-946,owcs_2024_emea_s2_main,Deimpero,1373.59,loss
+935,owcs_2024_emea_s2_main,Peace and Love,1451.64,loss
+936,owcs_2024_emea_s2_main,ENCE,1538.35,win
+936,owcs_2024_emea_s2_main,Twisted Minds,1588.98,loss
+937,owcs_2024_emea_s2_main,ENCE,1552.09,win
+937,owcs_2024_emea_s2_main,Twisted Minds,1575.24,loss
+938,owcs_2024_emea_s2_main,ENCE,1564.89,win
+938,owcs_2024_emea_s2_main,Twisted Minds,1562.44,loss
+939,owcs_2024_emea_s2_main,ENCE,1577.24,win
+939,owcs_2024_emea_s2_main,Spacestation Gaming,1562.91,loss
+940,owcs_2024_emea_s2_main,Spacestation Gaming,1575.40,win
+940,owcs_2024_emea_s2_main,ENCE,1564.75,loss
+941,owcs_2024_emea_s2_main,Spacestation Gaming,1587.03,win
+941,owcs_2024_emea_s2_main,ENCE,1553.12,loss
+942,owcs_2024_emea_s2_main,Spacestation Gaming,1597.87,win
+942,owcs_2024_emea_s2_main,ENCE,1542.29,loss
+943,owcs_2024_emea_s2_main,Team Peps,1415.17,win
+943,owcs_2024_emea_s2_main,Deimpero,1382.62,loss
+944,owcs_2024_emea_s2_main,Deimpero,1395.74,win
+944,owcs_2024_emea_s2_main,Team Peps,1402.05,loss
+945,owcs_2024_emea_s2_main,Team Peps,1413.83,win
+945,owcs_2024_emea_s2_main,Deimpero,1383.95,loss
+946,owcs_2024_emea_s2_main,Team Peps,1424.80,win
+946,owcs_2024_emea_s2_main,Deimpero,1372.98,loss
 947,owcs_2024_emea_s2_main,Supershy,1428.19,win
-947,owcs_2024_emea_s2_main,AWW YEAH,1387.49,loss
+947,owcs_2024_emea_s2_main,AWW YEAH,1387.45,loss
 948,owcs_2024_emea_s2_main,Supershy,1438.79,win
-948,owcs_2024_emea_s2_main,AWW YEAH,1376.88,loss
+948,owcs_2024_emea_s2_main,AWW YEAH,1376.85,loss
 949,owcs_2024_emea_s2_main,Supershy,1448.67,win
-949,owcs_2024_emea_s2_main,AWW YEAH,1367.00,loss
-950,owcs_2024_emea_s2_main,Twisted Minds,1570.28,win
-950,owcs_2024_emea_s2_main,Team Peps,1417.41,loss
-951,owcs_2024_emea_s2_main,Team Peps,1434.38,win
-951,owcs_2024_emea_s2_main,Twisted Minds,1553.31,loss
-952,owcs_2024_emea_s2_main,Team Peps,1450.33,win
-952,owcs_2024_emea_s2_main,Twisted Minds,1537.36,loss
-953,owcs_2024_emea_s2_main,Team Peps,1465.28,win
-953,owcs_2024_emea_s2_main,Twisted Minds,1522.41,loss
-954,owcs_2024_emea_s2_main,Peace and Love,1463.60,win
-954,owcs_2024_emea_s2_main,Supershy,1436.78,loss
-955,owcs_2024_emea_s2_main,Peace and Love,1474.67,win
+949,owcs_2024_emea_s2_main,AWW YEAH,1366.97,loss
+950,owcs_2024_emea_s2_main,Twisted Minds,1569.92,win
+950,owcs_2024_emea_s2_main,Team Peps,1417.32,loss
+951,owcs_2024_emea_s2_main,Team Peps,1434.27,win
+951,owcs_2024_emea_s2_main,Twisted Minds,1552.97,loss
+952,owcs_2024_emea_s2_main,Team Peps,1450.22,win
+952,owcs_2024_emea_s2_main,Twisted Minds,1537.02,loss
+953,owcs_2024_emea_s2_main,Team Peps,1465.16,win
+953,owcs_2024_emea_s2_main,Twisted Minds,1522.08,loss
+954,owcs_2024_emea_s2_main,Peace and Love,1463.53,win
+954,owcs_2024_emea_s2_main,Supershy,1436.77,loss
+955,owcs_2024_emea_s2_main,Peace and Love,1474.61,win
 955,owcs_2024_emea_s2_main,Supershy,1425.70,loss
-956,owcs_2024_emea_s2_main,Supershy,1439.38,win
-956,owcs_2024_emea_s2_main,Peace and Love,1460.99,loss
-957,owcs_2024_emea_s2_main,Peace and Love,1472.25,win
-957,owcs_2024_emea_s2_main,Supershy,1428.13,loss
-958,owcs_2024_emea_s2_main,Team Peps,1477.52,win
-958,owcs_2024_emea_s2_main,Peace and Love,1460.01,loss
-959,owcs_2024_emea_s2_main,Team Peps,1488.91,win
-959,owcs_2024_emea_s2_main,Peace and Love,1448.61,loss
-960,owcs_2024_emea_s2_main,Team Peps,1499.53,win
-960,owcs_2024_emea_s2_main,Peace and Love,1438.00,loss
-961,owcs_2024_emea_s2_main,ENCE,1552.85,win
-961,owcs_2024_emea_s2_main,Team Peps,1489.00,loss
-962,owcs_2024_emea_s2_main,ENCE,1562.67,win
-962,owcs_2024_emea_s2_main,Team Peps,1479.18,loss
-963,owcs_2024_emea_s2_main,ENCE,1571.84,win
-963,owcs_2024_emea_s2_main,Team Peps,1470.01,loss
-964,owcs_2024_emea_s2_main,ENCE,1584.74,win
-964,owcs_2024_emea_s2_main,Spacestation Gaming,1584.98,loss
-965,owcs_2024_emea_s2_main,Spacestation Gaming,1596.97,win
-965,owcs_2024_emea_s2_main,ENCE,1572.74,loss
-966,owcs_2024_emea_s2_main,ENCE,1585.58,win
-966,owcs_2024_emea_s2_main,Spacestation Gaming,1584.14,loss
-967,owcs_2024_emea_s2_main,ENCE,1597.53,win
-967,owcs_2024_emea_s2_main,Spacestation Gaming,1572.19,loss
-968,owcs_2024_emea_s2_main,Spacestation Gaming,1585.06,win
-968,owcs_2024_emea_s2_main,ENCE,1584.66,loss
-969,owcs_2024_emea_s2_main,Spacestation Gaming,1597.05,win
-969,owcs_2024_emea_s2_main,ENCE,1572.67,loss
-970,owcs_2024_emea_s2_main,Spacestation Gaming,1608.20,win
-970,owcs_2024_emea_s2_main,ENCE,1561.51,loss
-971,owcs_2024_dallas_major,Spacestation Gaming,1617.43,win
+956,owcs_2024_emea_s2_main,Supershy,1439.37,win
+956,owcs_2024_emea_s2_main,Peace and Love,1460.93,loss
+957,owcs_2024_emea_s2_main,Peace and Love,1472.19,win
+957,owcs_2024_emea_s2_main,Supershy,1428.12,loss
+958,owcs_2024_emea_s2_main,Team Peps,1477.40,win
+958,owcs_2024_emea_s2_main,Peace and Love,1459.95,loss
+959,owcs_2024_emea_s2_main,Team Peps,1488.80,win
+959,owcs_2024_emea_s2_main,Peace and Love,1448.55,loss
+960,owcs_2024_emea_s2_main,Team Peps,1499.42,win
+960,owcs_2024_emea_s2_main,Peace and Love,1437.93,loss
+961,owcs_2024_emea_s2_main,ENCE,1552.81,win
+961,owcs_2024_emea_s2_main,Team Peps,1488.89,loss
+962,owcs_2024_emea_s2_main,ENCE,1562.63,win
+962,owcs_2024_emea_s2_main,Team Peps,1479.07,loss
+963,owcs_2024_emea_s2_main,ENCE,1571.80,win
+963,owcs_2024_emea_s2_main,Team Peps,1469.90,loss
+964,owcs_2024_emea_s2_main,ENCE,1584.70,win
+964,owcs_2024_emea_s2_main,Spacestation Gaming,1584.97,loss
+965,owcs_2024_emea_s2_main,Spacestation Gaming,1596.96,win
+965,owcs_2024_emea_s2_main,ENCE,1572.71,loss
+966,owcs_2024_emea_s2_main,ENCE,1585.54,win
+966,owcs_2024_emea_s2_main,Spacestation Gaming,1584.12,loss
+967,owcs_2024_emea_s2_main,ENCE,1597.49,win
+967,owcs_2024_emea_s2_main,Spacestation Gaming,1572.17,loss
+968,owcs_2024_emea_s2_main,Spacestation Gaming,1585.04,win
+968,owcs_2024_emea_s2_main,ENCE,1584.62,loss
+969,owcs_2024_emea_s2_main,Spacestation Gaming,1597.03,win
+969,owcs_2024_emea_s2_main,ENCE,1572.63,loss
+970,owcs_2024_emea_s2_main,Spacestation Gaming,1608.19,win
+970,owcs_2024_emea_s2_main,ENCE,1561.48,loss
+971,owcs_2024_dallas_major,Spacestation Gaming,1617.42,win
 971,owcs_2024_dallas_major,NRG Shock,1517.22,loss
-972,owcs_2024_dallas_major,Spacestation Gaming,1626.06,win
+972,owcs_2024_dallas_major,Spacestation Gaming,1626.05,win
 972,owcs_2024_dallas_major,NRG Shock,1508.59,loss
-973,owcs_2024_dallas_major,Spacestation Gaming,1634.15,win
+973,owcs_2024_dallas_major,Spacestation Gaming,1634.14,win
 973,owcs_2024_dallas_major,NRG Shock,1500.50,loss
 974,owcs_2024_dallas_major,Team Falcons,1585.09,win
-974,owcs_2024_dallas_major,ENCE,1549.92,loss
+974,owcs_2024_dallas_major,ENCE,1549.89,loss
 975,owcs_2024_dallas_major,Team Falcons,1595.88,win
-975,owcs_2024_dallas_major,ENCE,1539.14,loss
+975,owcs_2024_dallas_major,ENCE,1539.10,loss
 976,owcs_2024_dallas_major,Team Falcons,1595.88,draw
-976,owcs_2024_dallas_major,ENCE,1539.14,draw
-977,owcs_2024_dallas_major,Team Falcons,1605.94,win
-977,owcs_2024_dallas_major,ENCE,1529.08,loss
+976,owcs_2024_dallas_major,ENCE,1539.10,draw
+977,owcs_2024_dallas_major,Team Falcons,1605.93,win
+977,owcs_2024_dallas_major,ENCE,1529.05,loss
 978,owcs_2024_dallas_major,Crazy Raccoon,1689.20,win
 978,owcs_2024_dallas_major,M80,1547.73,loss
 979,owcs_2024_dallas_major,Crazy Raccoon,1696.57,win
 979,owcs_2024_dallas_major,M80,1540.36,loss
 980,owcs_2024_dallas_major,Crazy Raccoon,1703.51,win
 980,owcs_2024_dallas_major,M80,1533.42,loss
-981,owcs_2024_dallas_major,Toronto Defiant,1672.46,win
-981,owcs_2024_dallas_major,Twisted Minds,1515.08,loss
-982,owcs_2024_dallas_major,Toronto Defiant,1679.37,win
-982,owcs_2024_dallas_major,Twisted Minds,1508.18,loss
-983,owcs_2024_dallas_major,Toronto Defiant,1685.89,win
-983,owcs_2024_dallas_major,Twisted Minds,1501.65,loss
-984,owcs_2024_dallas_major,Team Falcons,1618.91,win
-984,owcs_2024_dallas_major,Spacestation Gaming,1621.18,loss
-985,owcs_2024_dallas_major,Team Falcons,1630.99,win
-985,owcs_2024_dallas_major,Spacestation Gaming,1609.10,loss
+981,owcs_2024_dallas_major,Toronto Defiant,1672.45,win
+981,owcs_2024_dallas_major,Twisted Minds,1514.76,loss
+982,owcs_2024_dallas_major,Toronto Defiant,1679.35,win
+982,owcs_2024_dallas_major,Twisted Minds,1507.86,loss
+983,owcs_2024_dallas_major,Toronto Defiant,1685.87,win
+983,owcs_2024_dallas_major,Twisted Minds,1501.35,loss
+984,owcs_2024_dallas_major,Team Falcons,1618.90,win
+984,owcs_2024_dallas_major,Spacestation Gaming,1621.17,loss
+985,owcs_2024_dallas_major,Team Falcons,1630.98,win
+985,owcs_2024_dallas_major,Spacestation Gaming,1609.09,loss
 986,owcs_2024_dallas_major,Team Falcons,1642.23,win
-986,owcs_2024_dallas_major,Spacestation Gaming,1597.86,loss
+986,owcs_2024_dallas_major,Spacestation Gaming,1597.84,loss
 987,owcs_2024_dallas_major,Crazy Raccoon,1714.90,win
-987,owcs_2024_dallas_major,Toronto Defiant,1674.50,loss
+987,owcs_2024_dallas_major,Toronto Defiant,1674.48,loss
 988,owcs_2024_dallas_major,Crazy Raccoon,1725.51,win
-988,owcs_2024_dallas_major,Toronto Defiant,1663.89,loss
+988,owcs_2024_dallas_major,Toronto Defiant,1663.87,loss
 989,owcs_2024_dallas_major,Crazy Raccoon,1735.40,win
-989,owcs_2024_dallas_major,Toronto Defiant,1654.00,loss
+989,owcs_2024_dallas_major,Toronto Defiant,1653.97,loss
 990,owcs_2024_dallas_major,Team Falcons,1657.37,win
 990,owcs_2024_dallas_major,Crazy Raccoon,1720.26,loss
 991,owcs_2024_dallas_major,Crazy Raccoon,1730.11,win
 991,owcs_2024_dallas_major,Team Falcons,1647.52,loss
 992,owcs_2024_dallas_major,Crazy Raccoon,1739.31,win
 992,owcs_2024_dallas_major,Team Falcons,1638.32,loss
-993,owcs_2024_dallas_major,Team Falcons,1653.72,win
+993,owcs_2024_dallas_major,Team Falcons,1653.71,win
 993,owcs_2024_dallas_major,Crazy Raccoon,1723.92,loss
-994,owcs_2024_dallas_major,Team Falcons,1668.11,win
-994,owcs_2024_dallas_major,Crazy Raccoon,1709.53,loss
-995,owcs_2024_dallas_major,ENCE,1540.09,win
+994,owcs_2024_dallas_major,Team Falcons,1668.10,win
+994,owcs_2024_dallas_major,Crazy Raccoon,1709.52,loss
+995,owcs_2024_dallas_major,ENCE,1540.06,win
 995,owcs_2024_dallas_major,NRG Shock,1489.48,loss
-996,owcs_2024_dallas_major,ENCE,1550.36,win
+996,owcs_2024_dallas_major,ENCE,1550.33,win
 996,owcs_2024_dallas_major,NRG Shock,1479.22,loss
 997,owcs_2024_dallas_major,NRG Shock,1493.64,win
-997,owcs_2024_dallas_major,ENCE,1535.93,loss
-998,owcs_2024_dallas_major,ENCE,1546.48,win
-998,owcs_2024_dallas_major,NRG Shock,1483.10,loss
-999,owcs_2024_dallas_major,M80,1544.32,win
-999,owcs_2024_dallas_major,Twisted Minds,1490.75,loss
-1000,owcs_2024_dallas_major,M80,1554.49,win
-1000,owcs_2024_dallas_major,Twisted Minds,1480.58,loss
-1001,owcs_2024_dallas_major,M80,1563.97,win
-1001,owcs_2024_dallas_major,Twisted Minds,1471.10,loss
-1002,owcs_2024_dallas_major,ENCE,1562.08,win
-1002,owcs_2024_dallas_major,Toronto Defiant,1638.40,loss
-1003,owcs_2024_dallas_major,Toronto Defiant,1647.80,win
-1003,owcs_2024_dallas_major,ENCE,1552.67,loss
-1004,owcs_2024_dallas_major,ENCE,1567.88,win
-1004,owcs_2024_dallas_major,Toronto Defiant,1632.60,loss
-1005,owcs_2024_dallas_major,ENCE,1582.09,win
-1005,owcs_2024_dallas_major,Toronto Defiant,1618.39,loss
-1006,owcs_2024_dallas_major,M80,1577.14,win
-1006,owcs_2024_dallas_major,Spacestation Gaming,1584.69,loss
-1007,owcs_2024_dallas_major,Spacestation Gaming,1596.43,win
-1007,owcs_2024_dallas_major,M80,1565.40,loss
-1008,owcs_2024_dallas_major,Spacestation Gaming,1607.36,win
-1008,owcs_2024_dallas_major,M80,1554.47,loss
-1009,owcs_2024_dallas_major,M80,1568.28,win
-1009,owcs_2024_dallas_major,Spacestation Gaming,1593.55,loss
-1010,owcs_2024_dallas_major,Spacestation Gaming,1604.68,win
-1010,owcs_2024_dallas_major,M80,1557.15,loss
-1011,owcs_2024_dallas_major,Spacestation Gaming,1615.90,win
-1011,owcs_2024_dallas_major,ENCE,1570.87,loss
-1012,owcs_2024_dallas_major,Spacestation Gaming,1626.35,win
-1012,owcs_2024_dallas_major,ENCE,1560.42,loss
-1013,owcs_2024_dallas_major,ENCE,1574.67,win
-1013,owcs_2024_dallas_major,Spacestation Gaming,1612.10,loss
-1014,owcs_2024_dallas_major,Spacestation Gaming,1622.81,win
-1014,owcs_2024_dallas_major,ENCE,1563.95,loss
+997,owcs_2024_dallas_major,ENCE,1535.91,loss
+998,owcs_2024_dallas_major,ENCE,1546.45,win
+998,owcs_2024_dallas_major,NRG Shock,1483.09,loss
+999,owcs_2024_dallas_major,M80,1544.31,win
+999,owcs_2024_dallas_major,Twisted Minds,1490.45,loss
+1000,owcs_2024_dallas_major,M80,1554.47,win
+1000,owcs_2024_dallas_major,Twisted Minds,1480.30,loss
+1001,owcs_2024_dallas_major,M80,1563.94,win
+1001,owcs_2024_dallas_major,Twisted Minds,1470.82,loss
+1002,owcs_2024_dallas_major,ENCE,1562.05,win
+1002,owcs_2024_dallas_major,Toronto Defiant,1638.37,loss
+1003,owcs_2024_dallas_major,Toronto Defiant,1647.78,win
+1003,owcs_2024_dallas_major,ENCE,1552.65,loss
+1004,owcs_2024_dallas_major,ENCE,1567.85,win
+1004,owcs_2024_dallas_major,Toronto Defiant,1632.57,loss
+1005,owcs_2024_dallas_major,ENCE,1582.06,win
+1005,owcs_2024_dallas_major,Toronto Defiant,1618.36,loss
+1006,owcs_2024_dallas_major,M80,1577.11,win
+1006,owcs_2024_dallas_major,Spacestation Gaming,1584.68,loss
+1007,owcs_2024_dallas_major,Spacestation Gaming,1596.42,win
+1007,owcs_2024_dallas_major,M80,1565.37,loss
+1008,owcs_2024_dallas_major,Spacestation Gaming,1607.35,win
+1008,owcs_2024_dallas_major,M80,1554.44,loss
+1009,owcs_2024_dallas_major,M80,1568.25,win
+1009,owcs_2024_dallas_major,Spacestation Gaming,1593.53,loss
+1010,owcs_2024_dallas_major,Spacestation Gaming,1604.66,win
+1010,owcs_2024_dallas_major,M80,1557.13,loss
+1011,owcs_2024_dallas_major,Spacestation Gaming,1615.88,win
+1011,owcs_2024_dallas_major,ENCE,1570.84,loss
+1012,owcs_2024_dallas_major,Spacestation Gaming,1626.34,win
+1012,owcs_2024_dallas_major,ENCE,1560.39,loss
+1013,owcs_2024_dallas_major,ENCE,1574.64,win
+1013,owcs_2024_dallas_major,Spacestation Gaming,1612.08,loss
+1014,owcs_2024_dallas_major,Spacestation Gaming,1622.80,win
+1014,owcs_2024_dallas_major,ENCE,1563.93,loss
 1015,owcs_2024_dallas_major,Crazy Raccoon,1718.59,win
-1015,owcs_2024_dallas_major,Spacestation Gaming,1613.75,loss
-1016,owcs_2024_dallas_major,Crazy Raccoon,1727.08,win
-1016,owcs_2024_dallas_major,Spacestation Gaming,1605.26,loss
+1015,owcs_2024_dallas_major,Spacestation Gaming,1613.73,loss
+1016,owcs_2024_dallas_major,Crazy Raccoon,1727.07,win
+1016,owcs_2024_dallas_major,Spacestation Gaming,1605.25,loss
 1017,owcs_2024_dallas_major,Crazy Raccoon,1735.03,win
-1017,owcs_2024_dallas_major,Spacestation Gaming,1597.31,loss
+1017,owcs_2024_dallas_major,Spacestation Gaming,1597.29,loss
 1018,owcs_2024_dallas_major,Crazy Raccoon,1744.75,win
 1018,owcs_2024_dallas_major,Team Falcons,1658.39,loss
 1019,owcs_2024_dallas_major,Team Falcons,1673.31,win
-1019,owcs_2024_dallas_major,Crazy Raccoon,1729.83,loss
+1019,owcs_2024_dallas_major,Crazy Raccoon,1729.82,loss
 1020,owcs_2024_dallas_major,Crazy Raccoon,1739.89,win
 1020,owcs_2024_dallas_major,Team Falcons,1663.25,loss
-1021,owcs_2024_dallas_major,Crazy Raccoon,1749.29,win
+1021,owcs_2024_dallas_major,Crazy Raccoon,1749.28,win
 1021,owcs_2024_dallas_major,Team Falcons,1653.85,loss
 1022,owcs_2024_dallas_major,Team Falcons,1669.07,win
 1022,owcs_2024_dallas_major,Crazy Raccoon,1734.07,loss
 1023,owcs_2024_dallas_major,Crazy Raccoon,1743.85,win
 1023,owcs_2024_dallas_major,Team Falcons,1659.29,loss
-1024,ewc_2024,ENCE,1573.61,win
+1024,ewc_2024,ENCE,1573.59,win
 1024,ewc_2024,Fnatic,1485.61,loss
-1025,ewc_2024,Fnatic,1500.59,win
-1025,ewc_2024,ENCE,1558.64,loss
-1026,ewc_2024,ENCE,1568.65,win
+1025,ewc_2024,Fnatic,1500.58,win
+1025,ewc_2024,ENCE,1558.61,loss
+1026,ewc_2024,ENCE,1568.63,win
 1026,ewc_2024,Fnatic,1490.57,loss
-1027,ewc_2024,ENCE,1578.00,win
+1027,ewc_2024,ENCE,1577.97,win
 1027,ewc_2024,Fnatic,1481.22,loss
 1028,ewc_2024,Fnatic,1496.48,win
-1028,ewc_2024,ENCE,1562.74,loss
-1029,ewc_2024,ENCE,1572.48,win
+1028,ewc_2024,ENCE,1562.72,loss
+1029,ewc_2024,ENCE,1572.46,win
 1029,ewc_2024,Fnatic,1486.74,loss
 1030,ewc_2024,Team Falcons,1667.86,win
-1030,ewc_2024,M80,1548.58,loss
+1030,ewc_2024,M80,1548.56,loss
 1031,ewc_2024,Team Falcons,1675.89,win
-1031,ewc_2024,M80,1540.55,loss
+1031,ewc_2024,M80,1540.52,loss
 1032,ewc_2024,Team Falcons,1683.44,win
-1032,ewc_2024,M80,1533.00,loss
-1033,ewc_2024,Team Falcons,1690.55,win
-1033,ewc_2024,M80,1525.89,loss
-1034,ewc_2024,Spacestation Gaming,1603.14,win
-1034,ewc_2024,Gaimin Gladiators,1394.17,loss
-1035,ewc_2024,Spacestation Gaming,1608.68,win
-1035,ewc_2024,Gaimin Gladiators,1388.62,loss
-1036,ewc_2024,Spacestation Gaming,1613.96,win
-1036,ewc_2024,Gaimin Gladiators,1383.35,loss
-1037,ewc_2024,Spacestation Gaming,1618.99,win
-1037,ewc_2024,Gaimin Gladiators,1378.32,loss
-1038,ewc_2024,Toronto Defiant,1623.70,win
+1032,ewc_2024,M80,1532.97,loss
+1033,ewc_2024,Team Falcons,1690.54,win
+1033,ewc_2024,M80,1525.87,loss
+1034,ewc_2024,Spacestation Gaming,1605.08,win
+1034,ewc_2024,Team Peps,1462.12,loss
+1035,ewc_2024,Spacestation Gaming,1612.40,win
+1035,ewc_2024,Team Peps,1454.79,loss
+1036,ewc_2024,Spacestation Gaming,1619.30,win
+1036,ewc_2024,Team Peps,1447.89,loss
+1037,ewc_2024,Spacestation Gaming,1625.82,win
+1037,ewc_2024,Team Peps,1441.37,loss
+1038,ewc_2024,Toronto Defiant,1623.68,win
 1038,ewc_2024,LGD.OA,1394.68,loss
-1039,ewc_2024,Toronto Defiant,1628.77,win
+1039,ewc_2024,Toronto Defiant,1628.75,win
 1039,ewc_2024,LGD.OA,1389.62,loss
-1040,ewc_2024,Toronto Defiant,1633.61,win
+1040,ewc_2024,Toronto Defiant,1633.58,win
 1040,ewc_2024,LGD.OA,1384.78,loss
-1041,ewc_2024,LGD.OA,1404.16,win
-1041,ewc_2024,Toronto Defiant,1614.23,loss
-1042,ewc_2024,Toronto Defiant,1619.75,win
+1041,ewc_2024,LGD.OA,1404.15,win
+1041,ewc_2024,Toronto Defiant,1614.21,loss
+1042,ewc_2024,Toronto Defiant,1619.73,win
 1042,ewc_2024,LGD.OA,1398.64,loss
 1043,ewc_2024,Crazy Raccoon,1750.37,win
-1043,ewc_2024,ENCE,1565.96,loss
-1044,ewc_2024,Crazy Raccoon,1756.54,win
-1044,ewc_2024,ENCE,1559.79,loss
-1045,ewc_2024,Crazy Raccoon,1762.39,win
-1045,ewc_2024,ENCE,1553.94,loss
+1043,ewc_2024,ENCE,1565.94,loss
+1044,ewc_2024,Crazy Raccoon,1756.53,win
+1044,ewc_2024,ENCE,1559.77,loss
+1045,ewc_2024,Crazy Raccoon,1762.38,win
+1045,ewc_2024,ENCE,1553.92,loss
 1046,ewc_2024,Crazy Raccoon,1767.94,win
-1046,ewc_2024,ENCE,1548.39,loss
-1047,ewc_2024,Team Falcons,1694.21,win
+1046,ewc_2024,ENCE,1548.37,loss
+1047,ewc_2024,Team Falcons,1694.20,win
 1047,ewc_2024,Virtus.pro,1388.88,loss
-1048,ewc_2024,Team Falcons,1697.74,win
+1048,ewc_2024,Team Falcons,1697.73,win
 1048,ewc_2024,Virtus.pro,1385.35,loss
-1049,ewc_2024,Team Falcons,1701.15,win
+1049,ewc_2024,Team Falcons,1701.14,win
 1049,ewc_2024,Virtus.pro,1381.94,loss
 1050,ewc_2024,Virtus.pro,1402.65,win
 1050,ewc_2024,Team Falcons,1680.44,loss
-1051,ewc_2024,Team Falcons,1684.48,win
+1051,ewc_2024,Team Falcons,1684.47,win
 1051,ewc_2024,Virtus.pro,1398.61,loss
-1052,ewc_2024,ZETA DIVISION,1563.01,win
-1052,ewc_2024,Spacestation Gaming,1604.59,loss
-1053,ewc_2024,Spacestation Gaming,1615.16,win
-1053,ewc_2024,ZETA DIVISION,1552.44,loss
-1054,ewc_2024,ZETA DIVISION,1566.58,win
-1054,ewc_2024,Spacestation Gaming,1601.02,loss
-1055,ewc_2024,Spacestation Gaming,1611.83,win
-1055,ewc_2024,ZETA DIVISION,1555.76,loss
-1056,ewc_2024,ZETA DIVISION,1569.68,win
-1056,ewc_2024,Spacestation Gaming,1597.91,loss
-1057,ewc_2024,ZETA DIVISION,1582.66,win
-1057,ewc_2024,Spacestation Gaming,1584.94,loss
-1058,ewc_2024,Toronto Defiant,1626.91,win
-1058,ewc_2024,Twisted Minds,1463.94,loss
-1059,ewc_2024,Toronto Defiant,1633.66,win
-1059,ewc_2024,Twisted Minds,1457.19,loss
-1060,ewc_2024,Toronto Defiant,1640.04,win
-1060,ewc_2024,Twisted Minds,1450.81,loss
-1061,ewc_2024,Toronto Defiant,1646.08,win
-1061,ewc_2024,Twisted Minds,1444.77,loss
-1062,ewc_2024,Crazy Raccoon,1777.12,win
-1062,ewc_2024,Team Falcons,1675.31,loss
-1063,ewc_2024,Team Falcons,1690.73,win
-1063,ewc_2024,Crazy Raccoon,1761.70,loss
-1064,ewc_2024,Crazy Raccoon,1771.28,win
+1052,ewc_2024,ZETA DIVISION,1563.23,win
+1052,ewc_2024,Spacestation Gaming,1611.20,loss
+1053,ewc_2024,Spacestation Gaming,1621.55,win
+1053,ewc_2024,ZETA DIVISION,1552.88,loss
+1054,ewc_2024,ZETA DIVISION,1567.22,win
+1054,ewc_2024,Spacestation Gaming,1607.21,loss
+1055,ewc_2024,Spacestation Gaming,1617.83,win
+1055,ewc_2024,ZETA DIVISION,1556.59,loss
+1056,ewc_2024,ZETA DIVISION,1570.69,win
+1056,ewc_2024,Spacestation Gaming,1603.74,loss
+1057,ewc_2024,ZETA DIVISION,1583.83,win
+1057,ewc_2024,Spacestation Gaming,1590.60,loss
+1058,ewc_2024,Toronto Defiant,1626.88,win
+1058,ewc_2024,Twisted Minds,1463.67,loss
+1059,ewc_2024,Toronto Defiant,1633.62,win
+1059,ewc_2024,Twisted Minds,1456.93,loss
+1060,ewc_2024,Toronto Defiant,1639.99,win
+1060,ewc_2024,Twisted Minds,1450.55,loss
+1061,ewc_2024,Toronto Defiant,1646.03,win
+1061,ewc_2024,Twisted Minds,1444.52,loss
+1062,ewc_2024,Crazy Raccoon,1777.11,win
+1062,ewc_2024,Team Falcons,1675.30,loss
+1063,ewc_2024,Team Falcons,1690.72,win
+1063,ewc_2024,Crazy Raccoon,1761.69,loss
+1064,ewc_2024,Crazy Raccoon,1771.27,win
 1064,ewc_2024,Team Falcons,1681.14,loss
 1065,ewc_2024,Crazy Raccoon,1780.23,win
-1065,ewc_2024,Team Falcons,1672.19,loss
-1066,ewc_2024,Crazy Raccoon,1788.62,win
-1066,ewc_2024,Team Falcons,1663.81,loss
-1067,ewc_2024,Toronto Defiant,1655.91,win
-1067,ewc_2024,ZETA DIVISION,1572.82,loss
-1068,ewc_2024,ZETA DIVISION,1587.64,win
-1068,ewc_2024,Toronto Defiant,1641.10,loss
-1069,ewc_2024,Toronto Defiant,1651.26,win
-1069,ewc_2024,ZETA DIVISION,1577.47,loss
-1070,ewc_2024,ZETA DIVISION,1591.98,win
-1070,ewc_2024,Toronto Defiant,1636.75,loss
-1071,ewc_2024,Toronto Defiant,1647.21,win
-1071,ewc_2024,ZETA DIVISION,1581.52,loss
-1072,ewc_2024,ZETA DIVISION,1595.76,win
-1072,ewc_2024,Toronto Defiant,1632.97,loss
-1073,ewc_2024,Toronto Defiant,1643.69,win
-1073,ewc_2024,ZETA DIVISION,1585.04,loss
+1065,ewc_2024,Team Falcons,1672.18,loss
+1066,ewc_2024,Crazy Raccoon,1788.61,win
+1066,ewc_2024,Team Falcons,1663.80,loss
+1067,ewc_2024,Toronto Defiant,1655.90,win
+1067,ewc_2024,ZETA DIVISION,1573.95,loss
+1068,ewc_2024,ZETA DIVISION,1588.73,win
+1068,ewc_2024,Toronto Defiant,1641.13,loss
+1069,ewc_2024,Toronto Defiant,1651.33,win
+1069,ewc_2024,ZETA DIVISION,1578.53,loss
+1070,ewc_2024,ZETA DIVISION,1593.01,win
+1070,ewc_2024,Toronto Defiant,1636.85,loss
+1071,ewc_2024,Toronto Defiant,1647.34,win
+1071,ewc_2024,ZETA DIVISION,1582.51,loss
+1072,ewc_2024,ZETA DIVISION,1596.73,win
+1072,ewc_2024,Toronto Defiant,1633.13,loss
+1073,ewc_2024,Toronto Defiant,1643.88,win
+1073,ewc_2024,ZETA DIVISION,1585.98,loss
 1074,ewc_2024,Crazy Raccoon,1795.88,win
-1074,ewc_2024,Toronto Defiant,1636.43,loss
-1075,ewc_2024,Crazy Raccoon,1802.73,win
-1075,ewc_2024,Toronto Defiant,1629.58,loss
-1076,ewc_2024,Crazy Raccoon,1809.20,win
-1076,ewc_2024,Toronto Defiant,1623.11,loss
-1077,ewc_2024,Toronto Defiant,1640.98,win
-1077,ewc_2024,Crazy Raccoon,1791.33,loss
-1078,ewc_2024,Crazy Raccoon,1798.44,win
-1078,ewc_2024,Toronto Defiant,1633.87,loss
+1074,ewc_2024,Toronto Defiant,1636.61,loss
+1075,ewc_2024,Crazy Raccoon,1802.74,win
+1075,ewc_2024,Toronto Defiant,1629.75,loss
+1076,ewc_2024,Crazy Raccoon,1809.21,win
+1076,ewc_2024,Toronto Defiant,1623.28,loss
+1077,ewc_2024,Toronto Defiant,1641.15,win
+1077,ewc_2024,Crazy Raccoon,1791.34,loss
+1078,ewc_2024,Crazy Raccoon,1798.45,win
+1078,ewc_2024,Toronto Defiant,1634.04,loss
 1079,owcs_2024_asia_s2_pacific,Bleed Esports,1490.21,win
 1079,owcs_2024_asia_s2_pacific,Goon Squad,1390.75,loss
 1080,owcs_2024_asia_s2_pacific,Bleed Esports,1498.87,win
@@ -2167,11 +2167,11 @@ global_map_order,event_id,team,elo_after,result
 1083,owcs_2024_asia_s2_pacific,Teenage Rising,1333.50,loss
 1084,owcs_2024_asia_s2_pacific,Cat,1429.18,win
 1084,owcs_2024_asia_s2_pacific,Teenage Rising,1324.43,loss
-1085,owcs_2024_asia_s2_pacific,FullHouse,1410.84,win
+1085,owcs_2024_asia_s2_pacific,Full House,1410.84,win
 1085,owcs_2024_asia_s2_pacific,Fade Altair,1355.58,loss
-1086,owcs_2024_asia_s2_pacific,FullHouse,1420.95,win
+1086,owcs_2024_asia_s2_pacific,Full House,1420.95,win
 1086,owcs_2024_asia_s2_pacific,Fade Altair,1345.47,loss
-1087,owcs_2024_asia_s2_pacific,FullHouse,1430.38,win
+1087,owcs_2024_asia_s2_pacific,Full House,1430.38,win
 1087,owcs_2024_asia_s2_pacific,Fade Altair,1336.03,loss
 1088,owcs_2024_asia_s2_pacific,99DIVINE,1465.86,win
 1088,owcs_2024_asia_s2_pacific,USIA Esports,1389.91,loss
@@ -2186,15 +2186,15 @@ global_map_order,event_id,team,elo_after,result
 1093,owcs_2024_asia_s2_pacific,Bleed Esports,1533.29,win
 1093,owcs_2024_asia_s2_pacific,Cat,1402.88,loss
 1094,owcs_2024_asia_s2_pacific,99DIVINE,1494.24,win
-1094,owcs_2024_asia_s2_pacific,FullHouse,1420.22,loss
+1094,owcs_2024_asia_s2_pacific,Full House,1420.22,loss
 1095,owcs_2024_asia_s2_pacific,99DIVINE,1503.72,win
-1095,owcs_2024_asia_s2_pacific,FullHouse,1410.74,loss
-1096,owcs_2024_asia_s2_pacific,FullHouse,1425.88,win
+1095,owcs_2024_asia_s2_pacific,Full House,1410.74,loss
+1096,owcs_2024_asia_s2_pacific,Full House,1425.88,win
 1096,owcs_2024_asia_s2_pacific,99DIVINE,1488.58,loss
-1097,owcs_2024_asia_s2_pacific,FullHouse,1440.02,win
+1097,owcs_2024_asia_s2_pacific,Full House,1440.02,win
 1097,owcs_2024_asia_s2_pacific,99DIVINE,1474.44,loss
 1098,owcs_2024_asia_s2_pacific,99DIVINE,1485.26,win
-1098,owcs_2024_asia_s2_pacific,FullHouse,1429.21,loss
+1098,owcs_2024_asia_s2_pacific,Full House,1429.21,loss
 1099,owcs_2024_asia_s2_pacific,99DIVINE,1498.91,win
 1099,owcs_2024_asia_s2_pacific,Bleed Esports,1519.64,loss
 1100,owcs_2024_asia_s2_pacific,99DIVINE,1511.62,win
@@ -2215,11 +2215,11 @@ global_map_order,event_id,team,elo_after,result
 1107,owcs_2024_asia_s2_pacific,Fade Altair,1315.22,loss
 1108,owcs_2024_asia_s2_pacific,USIA Esports,1401.88,win
 1108,owcs_2024_asia_s2_pacific,Fade Altair,1305.85,loss
-1109,owcs_2024_asia_s2_pacific,FullHouse,1438.94,win
+1109,owcs_2024_asia_s2_pacific,Full House,1438.94,win
 1109,owcs_2024_asia_s2_pacific,Teenage Rising,1353.05,loss
-1110,owcs_2024_asia_s2_pacific,FullHouse,1448.03,win
+1110,owcs_2024_asia_s2_pacific,Full House,1448.03,win
 1110,owcs_2024_asia_s2_pacific,Teenage Rising,1343.96,loss
-1111,owcs_2024_asia_s2_pacific,FullHouse,1456.54,win
+1111,owcs_2024_asia_s2_pacific,Full House,1456.54,win
 1111,owcs_2024_asia_s2_pacific,Teenage Rising,1335.45,loss
 1112,owcs_2024_asia_s2_pacific,USIA Esports,1413.91,win
 1112,owcs_2024_asia_s2_pacific,Cat,1390.84,loss
@@ -2229,22 +2229,22 @@ global_map_order,event_id,team,elo_after,result
 1114,owcs_2024_asia_s2_pacific,Cat,1391.55,loss
 1115,owcs_2024_asia_s2_pacific,USIA Esports,1424.46,win
 1115,owcs_2024_asia_s2_pacific,Cat,1380.30,loss
-1116,owcs_2024_asia_s2_pacific,FullHouse,1467.44,win
+1116,owcs_2024_asia_s2_pacific,Full House,1467.44,win
 1116,owcs_2024_asia_s2_pacific,USIA Esports,1413.56,loss
-1117,owcs_2024_asia_s2_pacific,FullHouse,1477.59,win
+1117,owcs_2024_asia_s2_pacific,Full House,1477.59,win
 1117,owcs_2024_asia_s2_pacific,USIA Esports,1403.41,loss
-1118,owcs_2024_asia_s2_pacific,FullHouse,1487.07,win
+1118,owcs_2024_asia_s2_pacific,Full House,1487.07,win
 1118,owcs_2024_asia_s2_pacific,USIA Esports,1393.93,loss
 1119,owcs_2024_asia_s2_pacific,Bleed Esports,1517.74,win
-1119,owcs_2024_asia_s2_pacific,FullHouse,1475.73,loss
-1120,owcs_2024_asia_s2_pacific,FullHouse,1489.18,win
+1119,owcs_2024_asia_s2_pacific,Full House,1475.73,loss
+1120,owcs_2024_asia_s2_pacific,Full House,1489.18,win
 1120,owcs_2024_asia_s2_pacific,Bleed Esports,1504.30,loss
-1121,owcs_2024_asia_s2_pacific,FullHouse,1501.70,win
+1121,owcs_2024_asia_s2_pacific,Full House,1501.70,win
 1121,owcs_2024_asia_s2_pacific,Bleed Esports,1491.77,loss
 1122,owcs_2024_asia_s2_pacific,Bleed Esports,1504.12,win
-1122,owcs_2024_asia_s2_pacific,FullHouse,1489.36,loss
+1122,owcs_2024_asia_s2_pacific,Full House,1489.36,loss
 1123,owcs_2024_asia_s2_pacific,Bleed Esports,1515.61,win
-1123,owcs_2024_asia_s2_pacific,FullHouse,1477.87,loss
+1123,owcs_2024_asia_s2_pacific,Full House,1477.87,loss
 1124,owcs_2024_asia_s2_pacific,99DIVINE,1524.26,win
 1124,owcs_2024_asia_s2_pacific,Bleed Esports,1503.49,loss
 1125,owcs_2024_asia_s2_pacific,Bleed Esports,1516.20,win
@@ -2257,41 +2257,41 @@ global_map_order,event_id,team,elo_after,result
 1128,owcs_2024_asia_s2_pacific,99DIVINE,1499.22,loss
 1129,owcs_2024_asia_s2_pacific,Bleed Esports,1539.51,win
 1129,owcs_2024_asia_s2_pacific,99DIVINE,1488.23,loss
-1130,owcs_2024_na_s3_groups,Toronto Defiant,1638.83,win
-1130,owcs_2024_na_s3_groups,Absolution,1395.04,loss
-1131,owcs_2024_na_s3_groups,Toronto Defiant,1643.56,win
-1131,owcs_2024_na_s3_groups,Absolution,1390.31,loss
-1132,owcs_2024_na_s3_groups,Toronto Defiant,1648.10,win
-1132,owcs_2024_na_s3_groups,Absolution,1385.78,loss
+1130,owcs_2024_na_s3_groups,Toronto Defiant,1638.99,win
+1130,owcs_2024_na_s3_groups,Absolution,1395.05,loss
+1131,owcs_2024_na_s3_groups,Toronto Defiant,1643.72,win
+1131,owcs_2024_na_s3_groups,Absolution,1390.32,loss
+1132,owcs_2024_na_s3_groups,Toronto Defiant,1648.25,win
+1132,owcs_2024_na_s3_groups,Absolution,1385.79,loss
 1133,owcs_2024_na_s3_groups,Rad x Avidity,1412.00,win
 1133,owcs_2024_na_s3_groups,Timeless Ethereal,1388.00,loss
 1134,owcs_2024_na_s3_groups,Rad x Avidity,1423.17,win
 1134,owcs_2024_na_s3_groups,Timeless Ethereal,1376.83,loss
 1135,owcs_2024_na_s3_groups,Rad x Avidity,1433.58,win
 1135,owcs_2024_na_s3_groups,Timeless Ethereal,1366.42,loss
-1136,owcs_2024_na_s3_groups,Toronto Defiant,1653.50,win
-1136,owcs_2024_na_s3_groups,Rad x Avidity,1428.17,loss
-1137,owcs_2024_na_s3_groups,Toronto Defiant,1658.66,win
-1137,owcs_2024_na_s3_groups,Rad x Avidity,1423.02,loss
-1138,owcs_2024_na_s3_groups,Toronto Defiant,1663.57,win
-1138,owcs_2024_na_s3_groups,Rad x Avidity,1418.11,loss
+1136,owcs_2024_na_s3_groups,Toronto Defiant,1653.65,win
+1136,owcs_2024_na_s3_groups,Rad x Avidity,1428.18,loss
+1137,owcs_2024_na_s3_groups,Toronto Defiant,1658.80,win
+1137,owcs_2024_na_s3_groups,Rad x Avidity,1423.03,loss
+1138,owcs_2024_na_s3_groups,Toronto Defiant,1663.71,win
+1138,owcs_2024_na_s3_groups,Rad x Avidity,1418.12,loss
 1139,owcs_2024_na_s3_groups,Timeless Ethereal,1379.09,win
-1139,owcs_2024_na_s3_groups,Absolution,1373.11,loss
+1139,owcs_2024_na_s3_groups,Absolution,1373.12,loss
 1140,owcs_2024_na_s3_groups,Timeless Ethereal,1390.88,win
-1140,owcs_2024_na_s3_groups,Absolution,1361.32,loss
+1140,owcs_2024_na_s3_groups,Absolution,1361.33,loss
 1141,owcs_2024_na_s3_groups,Timeless Ethereal,1401.86,win
 1141,owcs_2024_na_s3_groups,Absolution,1350.34,loss
 1142,owcs_2024_na_s3_groups,Timeless Ethereal,1414.42,win
 1142,owcs_2024_na_s3_groups,Rad x Avidity,1405.55,loss
 1143,owcs_2024_na_s3_groups,Timeless Ethereal,1426.12,win
-1143,owcs_2024_na_s3_groups,Rad x Avidity,1393.85,loss
-1144,owcs_2024_na_s3_groups,Timeless Ethereal,1437.00,win
-1144,owcs_2024_na_s3_groups,Rad x Avidity,1382.96,loss
+1143,owcs_2024_na_s3_groups,Rad x Avidity,1393.86,loss
+1144,owcs_2024_na_s3_groups,Timeless Ethereal,1437.01,win
+1144,owcs_2024_na_s3_groups,Rad x Avidity,1382.97,loss
 1145,owcs_2024_na_s3_groups,NRG Shock,1492.28,win
 1145,owcs_2024_na_s3_groups,Tanuki Esports,1390.82,loss
 1146,owcs_2024_na_s3_groups,NRG Shock,1500.87,win
 1146,owcs_2024_na_s3_groups,Tanuki Esports,1382.22,loss
-1147,owcs_2024_na_s3_groups,NRG Shock,1508.93,win
+1147,owcs_2024_na_s3_groups,NRG Shock,1508.92,win
 1147,owcs_2024_na_s3_groups,Tanuki Esports,1374.17,loss
 1148,owcs_2024_na_s3_groups,TSM,1457.01,win
 1148,owcs_2024_na_s3_groups,Arizona State University,1389.60,loss
@@ -2300,14 +2300,14 @@ global_map_order,event_id,team,elo_after,result
 1150,owcs_2024_na_s3_groups,TSM,1475.77,win
 1150,owcs_2024_na_s3_groups,Arizona State University,1370.84,loss
 1151,owcs_2024_na_s3_groups,TSM,1488.91,win
-1151,owcs_2024_na_s3_groups,NRG Shock,1495.79,loss
-1152,owcs_2024_na_s3_groups,NRG Shock,1507.55,win
+1151,owcs_2024_na_s3_groups,NRG Shock,1495.78,loss
+1152,owcs_2024_na_s3_groups,NRG Shock,1507.54,win
 1152,owcs_2024_na_s3_groups,TSM,1477.15,loss
 1153,owcs_2024_na_s3_groups,NRG Shock,1518.50,win
-1153,owcs_2024_na_s3_groups,TSM,1466.20,loss
-1154,owcs_2024_na_s3_groups,NRG Shock,1528.71,win
+1153,owcs_2024_na_s3_groups,TSM,1466.19,loss
+1154,owcs_2024_na_s3_groups,NRG Shock,1528.70,win
 1154,owcs_2024_na_s3_groups,TSM,1455.99,loss
-1155,owcs_2024_na_s3_groups,Tanuki Esports,1386.06,win
+1155,owcs_2024_na_s3_groups,Tanuki Esports,1386.05,win
 1155,owcs_2024_na_s3_groups,Arizona State University,1358.95,loss
 1156,owcs_2024_na_s3_groups,Tanuki Esports,1397.12,win
 1156,owcs_2024_na_s3_groups,Arizona State University,1347.89,loss
@@ -2399,12 +2399,12 @@ global_map_order,event_id,team,elo_after,result
 1199,owcs_2024_na_s3_groups,Team Z,1378.47,loss
 1200,owcs_2024_na_s3_groups,Timeless,1422.69,win
 1200,owcs_2024_na_s3_groups,Team Z,1367.62,loss
-1201,owcs_2024_emea_s3_groups,Spacestation Gaming,1591.09,win
-1201,owcs_2024_emea_s3_groups,Ohana Aloha,1393.85,loss
-1202,owcs_2024_emea_s3_groups,Spacestation Gaming,1596.93,win
-1202,owcs_2024_emea_s3_groups,Ohana Aloha,1388.01,loss
-1203,owcs_2024_emea_s3_groups,Spacestation Gaming,1602.47,win
-1203,owcs_2024_emea_s3_groups,Ohana Aloha,1382.47,loss
+1201,owcs_2024_emea_s3_groups,Spacestation Gaming,1596.61,win
+1201,owcs_2024_emea_s3_groups,Ohana Aloha,1393.99,loss
+1202,owcs_2024_emea_s3_groups,Spacestation Gaming,1602.31,win
+1202,owcs_2024_emea_s3_groups,Ohana Aloha,1388.29,loss
+1203,owcs_2024_emea_s3_groups,Spacestation Gaming,1607.73,win
+1203,owcs_2024_emea_s3_groups,Ohana Aloha,1382.87,loss
 1204,owcs_2024_emea_s3_groups,Hypnos,1412.00,win
 1204,owcs_2024_emea_s3_groups,Vendetta (European team),1388.00,loss
 1205,owcs_2024_emea_s3_groups,Hypnos,1423.17,win
@@ -2413,46 +2413,46 @@ global_map_order,event_id,team,elo_after,result
 1206,owcs_2024_emea_s3_groups,Hypnos,1409.58,loss
 1207,owcs_2024_emea_s3_groups,Hypnos,1420.92,win
 1207,owcs_2024_emea_s3_groups,Vendetta (European team),1379.08,loss
-1208,owcs_2024_emea_s3_groups,Spacestation Gaming,1608.72,win
-1208,owcs_2024_emea_s3_groups,Hypnos,1414.68,loss
-1209,owcs_2024_emea_s3_groups,Spacestation Gaming,1614.64,win
-1209,owcs_2024_emea_s3_groups,Hypnos,1408.76,loss
-1210,owcs_2024_emea_s3_groups,Spacestation Gaming,1620.25,win
-1210,owcs_2024_emea_s3_groups,Hypnos,1403.14,loss
-1211,owcs_2024_emea_s3_groups,Vendetta (European team),1391.20,win
-1211,owcs_2024_emea_s3_groups,Ohana Aloha,1370.35,loss
-1212,owcs_2024_emea_s3_groups,Vendetta (European team),1402.48,win
-1212,owcs_2024_emea_s3_groups,Ohana Aloha,1359.07,loss
-1213,owcs_2024_emea_s3_groups,Vendetta (European team),1412.99,win
-1213,owcs_2024_emea_s3_groups,Ohana Aloha,1348.56,loss
-1214,owcs_2024_emea_s3_groups,Hypnos,1415.48,win
-1214,owcs_2024_emea_s3_groups,Vendetta (European team),1400.65,loss
-1215,owcs_2024_emea_s3_groups,Vendetta (European team),1413.16,win
-1215,owcs_2024_emea_s3_groups,Hypnos,1402.97,loss
-1216,owcs_2024_emea_s3_groups,Vendetta (European team),1424.81,win
-1216,owcs_2024_emea_s3_groups,Hypnos,1391.32,loss
-1217,owcs_2024_emea_s3_groups,Hypnos,1404.47,win
-1217,owcs_2024_emea_s3_groups,Vendetta (European team),1411.65,loss
-1218,owcs_2024_emea_s3_groups,Hypnos,1416.72,win
-1218,owcs_2024_emea_s3_groups,Vendetta (European team),1399.41,loss
-1219,owcs_2024_emea_s3_groups,ENCE,1554.05,win
+1208,owcs_2024_emea_s3_groups,Spacestation Gaming,1613.83,win
+1208,owcs_2024_emea_s3_groups,Hypnos,1414.81,loss
+1209,owcs_2024_emea_s3_groups,Spacestation Gaming,1619.62,win
+1209,owcs_2024_emea_s3_groups,Hypnos,1409.02,loss
+1210,owcs_2024_emea_s3_groups,Spacestation Gaming,1625.13,win
+1210,owcs_2024_emea_s3_groups,Hypnos,1403.52,loss
+1211,owcs_2024_emea_s3_groups,Vendetta (European team),1391.21,win
+1211,owcs_2024_emea_s3_groups,Ohana Aloha,1370.74,loss
+1212,owcs_2024_emea_s3_groups,Vendetta (European team),1402.50,win
+1212,owcs_2024_emea_s3_groups,Ohana Aloha,1359.45,loss
+1213,owcs_2024_emea_s3_groups,Vendetta (European team),1413.03,win
+1213,owcs_2024_emea_s3_groups,Ohana Aloha,1348.93,loss
+1214,owcs_2024_emea_s3_groups,Hypnos,1415.85,win
+1214,owcs_2024_emea_s3_groups,Vendetta (European team),1400.70,loss
+1215,owcs_2024_emea_s3_groups,Vendetta (European team),1413.22,win
+1215,owcs_2024_emea_s3_groups,Hypnos,1403.33,loss
+1216,owcs_2024_emea_s3_groups,Vendetta (European team),1424.88,win
+1216,owcs_2024_emea_s3_groups,Hypnos,1391.67,loss
+1217,owcs_2024_emea_s3_groups,Hypnos,1404.81,win
+1217,owcs_2024_emea_s3_groups,Vendetta (European team),1411.73,loss
+1218,owcs_2024_emea_s3_groups,Hypnos,1417.05,win
+1218,owcs_2024_emea_s3_groups,Vendetta (European team),1399.50,loss
+1219,owcs_2024_emea_s3_groups,ENCE,1554.03,win
 1219,owcs_2024_emea_s3_groups,Metaboiz,1338.47,loss
-1220,owcs_2024_emea_s3_groups,ENCE,1559.43,win
+1220,owcs_2024_emea_s3_groups,ENCE,1559.41,win
 1220,owcs_2024_emea_s3_groups,Metaboiz,1333.09,loss
-1221,owcs_2024_emea_s3_groups,ENCE,1564.56,win
+1221,owcs_2024_emea_s3_groups,ENCE,1564.54,win
 1221,owcs_2024_emea_s3_groups,Metaboiz,1327.96,loss
-1222,owcs_2024_emea_s3_groups,AWW YEAH,1380.14,win
+1222,owcs_2024_emea_s3_groups,AWW YEAH,1380.11,win
 1222,owcs_2024_emea_s3_groups,Wasp X Ohhhh No,1386.86,loss
-1223,owcs_2024_emea_s3_groups,AWW YEAH,1392.37,win
+1223,owcs_2024_emea_s3_groups,AWW YEAH,1392.34,win
 1223,owcs_2024_emea_s3_groups,Wasp X Ohhhh No,1374.63,loss
-1224,owcs_2024_emea_s3_groups,AWW YEAH,1403.76,win
+1224,owcs_2024_emea_s3_groups,AWW YEAH,1403.73,win
 1224,owcs_2024_emea_s3_groups,Wasp X Ohhhh No,1363.24,loss
-1225,owcs_2024_emea_s3_groups,ENCE,1571.37,win
-1225,owcs_2024_emea_s3_groups,AWW YEAH,1396.95,loss
-1226,owcs_2024_emea_s3_groups,ENCE,1577.80,win
-1226,owcs_2024_emea_s3_groups,AWW YEAH,1390.51,loss
-1227,owcs_2024_emea_s3_groups,ENCE,1583.90,win
-1227,owcs_2024_emea_s3_groups,AWW YEAH,1384.42,loss
+1225,owcs_2024_emea_s3_groups,ENCE,1571.35,win
+1225,owcs_2024_emea_s3_groups,AWW YEAH,1396.92,loss
+1226,owcs_2024_emea_s3_groups,ENCE,1577.78,win
+1226,owcs_2024_emea_s3_groups,AWW YEAH,1390.48,loss
+1227,owcs_2024_emea_s3_groups,ENCE,1583.88,win
+1227,owcs_2024_emea_s3_groups,AWW YEAH,1384.39,loss
 1228,owcs_2024_emea_s3_groups,Metaboiz,1341.18,win
 1228,owcs_2024_emea_s3_groups,Wasp X Ohhhh No,1350.03,loss
 1229,owcs_2024_emea_s3_groups,Wasp X Ohhhh No,1361.72,win
@@ -2462,47 +2462,47 @@ global_map_order,event_id,team,elo_after,result
 1231,owcs_2024_emea_s3_groups,Wasp X Ohhhh No,1382.76,win
 1231,owcs_2024_emea_s3_groups,Metaboiz,1308.44,loss
 1232,owcs_2024_emea_s3_groups,Wasp X Ohhhh No,1394.82,win
-1232,owcs_2024_emea_s3_groups,AWW YEAH,1372.36,loss
-1233,owcs_2024_emea_s3_groups,AWW YEAH,1385.14,win
+1232,owcs_2024_emea_s3_groups,AWW YEAH,1372.34,loss
+1233,owcs_2024_emea_s3_groups,AWW YEAH,1385.11,win
 1233,owcs_2024_emea_s3_groups,Wasp X Ohhhh No,1382.04,loss
-1234,owcs_2024_emea_s3_groups,AWW YEAH,1397.03,win
+1234,owcs_2024_emea_s3_groups,AWW YEAH,1397.00,win
 1234,owcs_2024_emea_s3_groups,Wasp X Ohhhh No,1370.15,loss
-1235,owcs_2024_emea_s3_groups,Wasp X Ohhhh No,1383.08,win
-1235,owcs_2024_emea_s3_groups,AWW YEAH,1384.10,loss
-1236,owcs_2024_emea_s3_groups,AWW YEAH,1396.07,win
+1235,owcs_2024_emea_s3_groups,Wasp X Ohhhh No,1383.07,win
+1235,owcs_2024_emea_s3_groups,AWW YEAH,1384.08,loss
+1236,owcs_2024_emea_s3_groups,AWW YEAH,1396.04,win
 1236,owcs_2024_emea_s3_groups,Wasp X Ohhhh No,1371.11,loss
-1237,owcs_2024_emea_s3_groups,Gaimin Gladiators,1391.07,win
-1237,owcs_2024_emea_s3_groups,Al Qadsiah,1387.25,loss
-1238,owcs_2024_emea_s3_groups,Gaimin Gladiators,1402.93,win
-1238,owcs_2024_emea_s3_groups,Al Qadsiah,1375.38,loss
-1239,owcs_2024_emea_s3_groups,Gaimin Gladiators,1413.98,win
-1239,owcs_2024_emea_s3_groups,Al Qadsiah,1364.33,loss
-1240,owcs_2024_emea_s3_groups,Twisted Minds,1455.23,win
-1240,owcs_2024_emea_s3_groups,A One Man Army,1389.54,loss
-1241,owcs_2024_emea_s3_groups,Twisted Minds,1464.99,win
-1241,owcs_2024_emea_s3_groups,A One Man Army,1379.78,loss
-1242,owcs_2024_emea_s3_groups,Twisted Minds,1474.10,win
-1242,owcs_2024_emea_s3_groups,A One Man Army,1370.67,loss
-1243,owcs_2024_emea_s3_groups,Twisted Minds,1484.05,win
-1243,owcs_2024_emea_s3_groups,Gaimin Gladiators,1404.04,loss
-1244,owcs_2024_emea_s3_groups,Twisted Minds,1493.33,win
-1244,owcs_2024_emea_s3_groups,Gaimin Gladiators,1394.76,loss
-1245,owcs_2024_emea_s3_groups,Twisted Minds,1502.01,win
-1245,owcs_2024_emea_s3_groups,Gaimin Gladiators,1386.07,loss
-1246,owcs_2024_emea_s3_groups,A One Man Army,1382.45,win
-1246,owcs_2024_emea_s3_groups,Al Qadsiah,1352.55,loss
-1247,owcs_2024_emea_s3_groups,A One Man Army,1393.42,win
-1247,owcs_2024_emea_s3_groups,Al Qadsiah,1341.58,loss
-1248,owcs_2024_emea_s3_groups,A One Man Army,1403.64,win
-1248,owcs_2024_emea_s3_groups,Al Qadsiah,1331.36,loss
-1249,owcs_2024_emea_s3_groups,Gaimin Gladiators,1398.68,win
-1249,owcs_2024_emea_s3_groups,A One Man Army,1391.03,loss
-1250,owcs_2024_emea_s3_groups,A One Man Army,1403.30,win
-1250,owcs_2024_emea_s3_groups,Gaimin Gladiators,1386.41,loss
-1251,owcs_2024_emea_s3_groups,A One Man Army,1414.71,win
-1251,owcs_2024_emea_s3_groups,Gaimin Gladiators,1375.00,loss
-1252,owcs_2024_emea_s3_groups,A One Man Army,1425.35,win
-1252,owcs_2024_emea_s3_groups,Gaimin Gladiators,1364.36,loss
+1237,owcs_2024_emea_s3_groups,Team Peps,1451.95,win
+1237,owcs_2024_emea_s3_groups,Al Qadsiah,1389.42,loss
+1238,owcs_2024_emea_s3_groups,Team Peps,1461.81,win
+1238,owcs_2024_emea_s3_groups,Al Qadsiah,1379.56,loss
+1239,owcs_2024_emea_s3_groups,Team Peps,1471.03,win
+1239,owcs_2024_emea_s3_groups,Al Qadsiah,1370.35,loss
+1240,owcs_2024_emea_s3_groups,Twisted Minds,1454.99,win
+1240,owcs_2024_emea_s3_groups,A One Man Army,1389.53,loss
+1241,owcs_2024_emea_s3_groups,Twisted Minds,1464.75,win
+1241,owcs_2024_emea_s3_groups,A One Man Army,1379.76,loss
+1242,owcs_2024_emea_s3_groups,Twisted Minds,1473.87,win
+1242,owcs_2024_emea_s3_groups,A One Man Army,1370.64,loss
+1243,owcs_2024_emea_s3_groups,Twisted Minds,1485.78,win
+1243,owcs_2024_emea_s3_groups,Team Peps,1459.12,loss
+1244,owcs_2024_emea_s3_groups,Twisted Minds,1496.86,win
+1244,owcs_2024_emea_s3_groups,Team Peps,1448.04,loss
+1245,owcs_2024_emea_s3_groups,Twisted Minds,1507.18,win
+1245,owcs_2024_emea_s3_groups,Team Peps,1437.72,loss
+1246,owcs_2024_emea_s3_groups,A One Man Army,1382.63,win
+1246,owcs_2024_emea_s3_groups,Al Qadsiah,1358.36,loss
+1247,owcs_2024_emea_s3_groups,A One Man Army,1393.79,win
+1247,owcs_2024_emea_s3_groups,Al Qadsiah,1347.20,loss
+1248,owcs_2024_emea_s3_groups,A One Man Army,1404.19,win
+1248,owcs_2024_emea_s3_groups,Al Qadsiah,1336.80,loss
+1249,owcs_2024_emea_s3_groups,Team Peps,1448.56,win
+1249,owcs_2024_emea_s3_groups,A One Man Army,1393.35,loss
+1250,owcs_2024_emea_s3_groups,A One Man Army,1407.24,win
+1250,owcs_2024_emea_s3_groups,Team Peps,1434.67,loss
+1251,owcs_2024_emea_s3_groups,A One Man Army,1420.19,win
+1251,owcs_2024_emea_s3_groups,Team Peps,1421.73,loss
+1252,owcs_2024_emea_s3_groups,A One Man Army,1432.24,win
+1252,owcs_2024_emea_s3_groups,Team Peps,1409.67,loss
 1253,owcs_2024_emea_s3_groups,SrPeakCheck,1413.05,win
 1253,owcs_2024_emea_s3_groups,Ex Oblivione,1417.32,loss
 1254,owcs_2024_emea_s3_groups,SrPeakCheck,1425.19,win
@@ -2511,14 +2511,14 @@ global_map_order,event_id,team,elo_after,result
 1255,owcs_2024_emea_s3_groups,SrPeakCheck,1412.50,loss
 1256,owcs_2024_emea_s3_groups,SrPeakCheck,1424.69,win
 1256,owcs_2024_emea_s3_groups,Ex Oblivione,1405.68,loss
-1257,owcs_2024_emea_s3_groups,Supershy,1439.11,win
+1257,owcs_2024_emea_s3_groups,Supershy,1439.10,win
 1257,owcs_2024_emea_s3_groups,Virtus.pro,1387.63,loss
-1258,owcs_2024_emea_s3_groups,Virtus.pro,1401.40,win
-1258,owcs_2024_emea_s3_groups,Supershy,1425.35,loss
+1258,owcs_2024_emea_s3_groups,Virtus.pro,1401.39,win
+1258,owcs_2024_emea_s3_groups,Supershy,1425.34,loss
 1259,owcs_2024_emea_s3_groups,Virtus.pro,1414.22,win
-1259,owcs_2024_emea_s3_groups,Supershy,1412.52,loss
+1259,owcs_2024_emea_s3_groups,Supershy,1412.51,loss
 1260,owcs_2024_emea_s3_groups,Virtus.pro,1426.16,win
-1260,owcs_2024_emea_s3_groups,Supershy,1400.58,loss
+1260,owcs_2024_emea_s3_groups,Supershy,1400.57,loss
 1261,owcs_2024_emea_s3_groups,Virtus.pro,1438.11,win
 1261,owcs_2024_emea_s3_groups,SrPeakCheck,1412.74,loss
 1262,owcs_2024_emea_s3_groups,Virtus.pro,1449.24,win
@@ -2526,29 +2526,29 @@ global_map_order,event_id,team,elo_after,result
 1263,owcs_2024_emea_s3_groups,Virtus.pro,1459.60,win
 1263,owcs_2024_emea_s3_groups,SrPeakCheck,1391.25,loss
 1264,owcs_2024_emea_s3_groups,Ex Oblivione,1417.50,win
-1264,owcs_2024_emea_s3_groups,Supershy,1388.76,loss
+1264,owcs_2024_emea_s3_groups,Supershy,1388.75,loss
 1265,owcs_2024_emea_s3_groups,Ex Oblivione,1428.51,win
-1265,owcs_2024_emea_s3_groups,Supershy,1377.75,loss
-1266,owcs_2024_emea_s3_groups,Supershy,1391.49,win
+1265,owcs_2024_emea_s3_groups,Supershy,1377.74,loss
+1266,owcs_2024_emea_s3_groups,Supershy,1391.48,win
 1266,owcs_2024_emea_s3_groups,Ex Oblivione,1414.77,loss
-1267,owcs_2024_emea_s3_groups,Supershy,1404.29,win
+1267,owcs_2024_emea_s3_groups,Supershy,1404.28,win
 1267,owcs_2024_emea_s3_groups,Ex Oblivione,1401.97,loss
-1268,owcs_2024_emea_s3_groups,Supershy,1416.21,win
+1268,owcs_2024_emea_s3_groups,Supershy,1416.20,win
 1268,owcs_2024_emea_s3_groups,Ex Oblivione,1390.05,loss
-1269,owcs_2024_emea_s3_groups,Supershy,1427.35,win
+1269,owcs_2024_emea_s3_groups,Supershy,1427.34,win
 1269,owcs_2024_emea_s3_groups,SrPeakCheck,1380.11,loss
 1270,owcs_2024_emea_s3_groups,SrPeakCheck,1393.73,win
-1270,owcs_2024_emea_s3_groups,Supershy,1413.73,loss
-1271,owcs_2024_emea_s3_groups,Supershy,1425.04,win
+1270,owcs_2024_emea_s3_groups,Supershy,1413.72,loss
+1271,owcs_2024_emea_s3_groups,Supershy,1425.03,win
 1271,owcs_2024_emea_s3_groups,SrPeakCheck,1382.42,loss
 1272,owcs_2024_emea_s3_groups,Supershy,1435.57,win
-1272,owcs_2024_emea_s3_groups,SrPeakCheck,1371.89,loss
-1273,owcs_2024_na_s3_main,Toronto Defiant,1669.84,win
+1272,owcs_2024_emea_s3_groups,SrPeakCheck,1371.88,loss
+1273,owcs_2024_na_s3_main,Toronto Defiant,1669.98,win
 1273,owcs_2024_na_s3_main,TSM,1476.75,loss
-1274,owcs_2024_na_s3_main,Toronto Defiant,1675.78,win
-1274,owcs_2024_na_s3_main,TSM,1470.80,loss
-1275,owcs_2024_na_s3_main,Toronto Defiant,1681.43,win
-1275,owcs_2024_na_s3_main,TSM,1465.16,loss
+1274,owcs_2024_na_s3_main,Toronto Defiant,1675.92,win
+1274,owcs_2024_na_s3_main,TSM,1470.81,loss
+1275,owcs_2024_na_s3_main,Toronto Defiant,1681.56,win
+1275,owcs_2024_na_s3_main,TSM,1465.17,loss
 1276,owcs_2024_na_s3_main,NTMR,1477.02,win
 1276,owcs_2024_na_s3_main,Citrus Nightmare,1394.50,loss
 1277,owcs_2024_na_s3_main,NTMR,1486.22,win
@@ -2567,38 +2567,38 @@ global_map_order,event_id,team,elo_after,result
 1283,owcs_2024_na_s3_main,Fluffy Dreamland,1404.93,loss
 1284,owcs_2024_na_s3_main,Timeless,1456.82,win
 1284,owcs_2024_na_s3_main,Fluffy Dreamland,1394.35,loss
-1285,owcs_2024_na_s3_main,Toronto Defiant,1687.54,win
+1285,owcs_2024_na_s3_main,Toronto Defiant,1687.66,win
 1285,owcs_2024_na_s3_main,NTMR,1488.72,loss
-1286,owcs_2024_na_s3_main,Toronto Defiant,1693.33,win
-1286,owcs_2024_na_s3_main,NTMR,1482.92,loss
-1287,owcs_2024_na_s3_main,Toronto Defiant,1698.84,win
-1287,owcs_2024_na_s3_main,NTMR,1477.41,loss
+1286,owcs_2024_na_s3_main,Toronto Defiant,1693.46,win
+1286,owcs_2024_na_s3_main,NTMR,1482.93,loss
+1287,owcs_2024_na_s3_main,Toronto Defiant,1698.96,win
+1287,owcs_2024_na_s3_main,NTMR,1477.42,loss
 1288,owcs_2024_na_s3_main,NRG Shock,1562.51,win
 1288,owcs_2024_na_s3_main,Timeless,1448.09,loss
 1289,owcs_2024_na_s3_main,NRG Shock,1570.69,win
 1289,owcs_2024_na_s3_main,Timeless,1439.90,loss
 1290,owcs_2024_na_s3_main,NRG Shock,1578.38,win
 1290,owcs_2024_na_s3_main,Timeless,1432.22,loss
-1291,owcs_2024_na_s3_main,Toronto Defiant,1706.84,win
+1291,owcs_2024_na_s3_main,Toronto Defiant,1706.96,win
 1291,owcs_2024_na_s3_main,NRG Shock,1570.38,loss
-1292,owcs_2024_na_s3_main,Toronto Defiant,1714.35,win
+1292,owcs_2024_na_s3_main,Toronto Defiant,1714.47,win
 1292,owcs_2024_na_s3_main,NRG Shock,1562.87,loss
-1293,owcs_2024_na_s3_main,NRG Shock,1579.79,win
-1293,owcs_2024_na_s3_main,Toronto Defiant,1697.43,loss
-1294,owcs_2024_na_s3_main,NRG Shock,1595.70,win
-1294,owcs_2024_na_s3_main,Toronto Defiant,1681.51,loss
-1295,owcs_2024_na_s3_main,NRG Shock,1610.61,win
-1295,owcs_2024_na_s3_main,Toronto Defiant,1666.61,loss
+1293,owcs_2024_na_s3_main,NRG Shock,1579.80,win
+1293,owcs_2024_na_s3_main,Toronto Defiant,1697.54,loss
+1294,owcs_2024_na_s3_main,NRG Shock,1595.71,win
+1294,owcs_2024_na_s3_main,Toronto Defiant,1681.62,loss
+1295,owcs_2024_na_s3_main,NRG Shock,1610.62,win
+1295,owcs_2024_na_s3_main,Toronto Defiant,1666.71,loss
 1296,owcs_2024_na_s3_main,Citrus Nightmare,1391.68,win
-1296,owcs_2024_na_s3_main,TSM,1450.17,loss
-1297,owcs_2024_na_s3_main,TSM,1460.17,win
+1296,owcs_2024_na_s3_main,TSM,1450.18,loss
+1297,owcs_2024_na_s3_main,TSM,1460.18,win
 1297,owcs_2024_na_s3_main,Citrus Nightmare,1381.68,loss
-1298,owcs_2024_na_s3_main,Citrus Nightmare,1396.34,win
-1298,owcs_2024_na_s3_main,TSM,1445.50,loss
-1299,owcs_2024_na_s3_main,TSM,1455.82,win
+1298,owcs_2024_na_s3_main,Citrus Nightmare,1396.35,win
+1298,owcs_2024_na_s3_main,TSM,1445.51,loss
+1299,owcs_2024_na_s3_main,TSM,1455.83,win
 1299,owcs_2024_na_s3_main,Citrus Nightmare,1386.03,loss
 1300,owcs_2024_na_s3_main,Citrus Nightmare,1400.41,win
-1300,owcs_2024_na_s3_main,TSM,1441.44,loss
+1300,owcs_2024_na_s3_main,TSM,1441.45,loss
 1301,owcs_2024_na_s3_main,Fluffy Dreamland,1406.96,win
 1301,owcs_2024_na_s3_main,Timeless Ethereal,1399.33,loss
 1302,owcs_2024_na_s3_main,Fluffy Dreamland,1418.69,win
@@ -2608,465 +2608,465 @@ global_map_order,event_id,team,elo_after,result
 1304,owcs_2024_na_s3_main,Fluffy Dreamland,1417.45,win
 1304,owcs_2024_na_s3_main,Timeless Ethereal,1388.84,loss
 1305,owcs_2024_na_s3_main,Timeless,1443.12,win
-1305,owcs_2024_na_s3_main,Citrus Nightmare,1389.50,loss
+1305,owcs_2024_na_s3_main,Citrus Nightmare,1389.51,loss
 1306,owcs_2024_na_s3_main,Timeless,1453.29,win
 1306,owcs_2024_na_s3_main,Citrus Nightmare,1379.34,loss
 1307,owcs_2024_na_s3_main,Timeless,1462.77,win
 1307,owcs_2024_na_s3_main,Citrus Nightmare,1369.86,loss
-1308,owcs_2024_na_s3_main,NTMR,1487.36,win
+1308,owcs_2024_na_s3_main,NTMR,1487.37,win
 1308,owcs_2024_na_s3_main,Fluffy Dreamland,1407.50,loss
-1309,owcs_2024_na_s3_main,NTMR,1496.65,win
+1309,owcs_2024_na_s3_main,NTMR,1496.66,win
 1309,owcs_2024_na_s3_main,Fluffy Dreamland,1398.21,loss
 1310,owcs_2024_na_s3_main,Fluffy Dreamland,1413.53,win
-1310,owcs_2024_na_s3_main,NTMR,1481.34,loss
-1311,owcs_2024_na_s3_main,NTMR,1491.03,win
+1310,owcs_2024_na_s3_main,NTMR,1481.35,loss
+1311,owcs_2024_na_s3_main,NTMR,1491.04,win
 1311,owcs_2024_na_s3_main,Fluffy Dreamland,1403.84,loss
-1312,owcs_2024_na_s3_main,NTMR,1502.05,win
+1312,owcs_2024_na_s3_main,NTMR,1502.06,win
 1312,owcs_2024_na_s3_main,Timeless,1451.74,loss
 1313,owcs_2024_na_s3_main,Timeless,1465.47,win
-1313,owcs_2024_na_s3_main,NTMR,1488.33,loss
+1313,owcs_2024_na_s3_main,NTMR,1488.34,loss
 1314,owcs_2024_na_s3_main,Timeless,1478.26,win
-1314,owcs_2024_na_s3_main,NTMR,1475.54,loss
-1315,owcs_2024_na_s3_main,NTMR,1487.63,win
-1315,owcs_2024_na_s3_main,Timeless,1466.16,loss
-1316,owcs_2024_na_s3_main,NTMR,1498.89,win
-1316,owcs_2024_na_s3_main,Timeless,1454.90,loss
-1317,owcs_2024_na_s3_main,Toronto Defiant,1673.23,win
-1317,owcs_2024_na_s3_main,NTMR,1492.27,loss
-1318,owcs_2024_na_s3_main,NTMR,1510.01,win
-1318,owcs_2024_na_s3_main,Toronto Defiant,1655.49,loss
-1319,owcs_2024_na_s3_main,NTMR,1526.76,win
-1319,owcs_2024_na_s3_main,Toronto Defiant,1638.74,loss
-1320,owcs_2024_na_s3_main,Toronto Defiant,1647.00,win
-1320,owcs_2024_na_s3_main,NTMR,1518.50,loss
-1321,owcs_2024_na_s3_main,Toronto Defiant,1654.75,win
-1321,owcs_2024_na_s3_main,NTMR,1510.75,loss
-1322,owcs_2024_na_s3_main,Toronto Defiant,1665.24,win
-1322,owcs_2024_na_s3_main,NRG Shock,1600.13,loss
-1323,owcs_2024_na_s3_main,Toronto Defiant,1675.01,win
-1323,owcs_2024_na_s3_main,NRG Shock,1590.35,loss
-1324,owcs_2024_na_s3_main,Toronto Defiant,1684.15,win
-1324,owcs_2024_na_s3_main,NRG Shock,1581.22,loss
-1325,owcs_2024_na_s3_main,Toronto Defiant,1692.69,win
-1325,owcs_2024_na_s3_main,NRG Shock,1572.67,loss
-1326,owcs_2024_emea_s3_main,Spacestation Gaming,1625.43,win
-1326,owcs_2024_emea_s3_main,AWW YEAH,1390.89,loss
-1327,owcs_2024_emea_s3_main,Spacestation Gaming,1630.37,win
-1327,owcs_2024_emea_s3_main,AWW YEAH,1385.95,loss
-1328,owcs_2024_emea_s3_main,Spacestation Gaming,1635.09,win
-1328,owcs_2024_emea_s3_main,AWW YEAH,1381.23,loss
-1329,owcs_2024_emea_s3_main,Virtus.pro,1470.42,win
-1329,owcs_2024_emea_s3_main,A One Man Army,1414.53,loss
-1330,owcs_2024_emea_s3_main,Virtus.pro,1480.51,win
-1330,owcs_2024_emea_s3_main,A One Man Army,1404.44,loss
-1331,owcs_2024_emea_s3_main,Virtus.pro,1489.92,win
-1331,owcs_2024_emea_s3_main,A One Man Army,1395.03,loss
-1332,owcs_2024_emea_s3_main,ENCE,1590.53,win
-1332,owcs_2024_emea_s3_main,Hypnos,1410.09,loss
+1314,owcs_2024_na_s3_main,NTMR,1475.55,loss
+1315,owcs_2024_na_s3_main,NTMR,1487.64,win
+1315,owcs_2024_na_s3_main,Timeless,1466.17,loss
+1316,owcs_2024_na_s3_main,NTMR,1498.90,win
+1316,owcs_2024_na_s3_main,Timeless,1454.91,loss
+1317,owcs_2024_na_s3_main,Toronto Defiant,1673.33,win
+1317,owcs_2024_na_s3_main,NTMR,1492.28,loss
+1318,owcs_2024_na_s3_main,NTMR,1510.03,win
+1318,owcs_2024_na_s3_main,Toronto Defiant,1655.59,loss
+1319,owcs_2024_na_s3_main,NTMR,1526.78,win
+1319,owcs_2024_na_s3_main,Toronto Defiant,1638.84,loss
+1320,owcs_2024_na_s3_main,Toronto Defiant,1647.09,win
+1320,owcs_2024_na_s3_main,NTMR,1518.52,loss
+1321,owcs_2024_na_s3_main,Toronto Defiant,1654.85,win
+1321,owcs_2024_na_s3_main,NTMR,1510.77,loss
+1322,owcs_2024_na_s3_main,Toronto Defiant,1665.33,win
+1322,owcs_2024_na_s3_main,NRG Shock,1600.14,loss
+1323,owcs_2024_na_s3_main,Toronto Defiant,1675.10,win
+1323,owcs_2024_na_s3_main,NRG Shock,1590.37,loss
+1324,owcs_2024_na_s3_main,Toronto Defiant,1684.23,win
+1324,owcs_2024_na_s3_main,NRG Shock,1581.24,loss
+1325,owcs_2024_na_s3_main,Toronto Defiant,1692.77,win
+1325,owcs_2024_na_s3_main,NRG Shock,1572.69,loss
+1326,owcs_2024_emea_s3_main,Spacestation Gaming,1630.19,win
+1326,owcs_2024_emea_s3_main,AWW YEAH,1390.98,loss
+1327,owcs_2024_emea_s3_main,Spacestation Gaming,1635.03,win
+1327,owcs_2024_emea_s3_main,AWW YEAH,1386.14,loss
+1328,owcs_2024_emea_s3_main,Spacestation Gaming,1639.65,win
+1328,owcs_2024_emea_s3_main,AWW YEAH,1381.52,loss
+1329,owcs_2024_emea_s3_main,Virtus.pro,1470.66,win
+1329,owcs_2024_emea_s3_main,A One Man Army,1421.18,loss
+1330,owcs_2024_emea_s3_main,Virtus.pro,1480.96,win
+1330,owcs_2024_emea_s3_main,A One Man Army,1410.88,loss
+1331,owcs_2024_emea_s3_main,Virtus.pro,1490.57,win
+1331,owcs_2024_emea_s3_main,A One Man Army,1401.27,loss
+1332,owcs_2024_emea_s3_main,ENCE,1590.52,win
+1332,owcs_2024_emea_s3_main,Hypnos,1410.41,loss
 1333,owcs_2024_emea_s3_main,ENCE,1596.80,win
-1333,owcs_2024_emea_s3_main,Hypnos,1403.81,loss
-1334,owcs_2024_emea_s3_main,ENCE,1602.75,win
-1334,owcs_2024_emea_s3_main,Hypnos,1397.87,loss
-1335,owcs_2024_emea_s3_main,Twisted Minds,1511.75,win
-1335,owcs_2024_emea_s3_main,Supershy,1425.84,loss
-1336,owcs_2024_emea_s3_main,Twisted Minds,1520.84,win
-1336,owcs_2024_emea_s3_main,Supershy,1416.75,loss
-1337,owcs_2024_emea_s3_main,Twisted Minds,1529.35,win
-1337,owcs_2024_emea_s3_main,Supershy,1408.24,loss
-1338,owcs_2024_emea_s3_main,Spacestation Gaming,1642.35,win
-1338,owcs_2024_emea_s3_main,Virtus.pro,1482.66,loss
-1339,owcs_2024_emea_s3_main,Virtus.pro,1499.82,win
-1339,owcs_2024_emea_s3_main,Spacestation Gaming,1625.20,loss
-1340,owcs_2024_emea_s3_main,Virtus.pro,1515.97,win
-1340,owcs_2024_emea_s3_main,Spacestation Gaming,1609.04,loss
-1341,owcs_2024_emea_s3_main,Spacestation Gaming,1617.90,win
-1341,owcs_2024_emea_s3_main,Virtus.pro,1507.11,loss
-1342,owcs_2024_emea_s3_main,Virtus.pro,1522.81,win
-1342,owcs_2024_emea_s3_main,Spacestation Gaming,1602.20,loss
-1343,owcs_2024_emea_s3_main,ENCE,1612.25,win
-1343,owcs_2024_emea_s3_main,Twisted Minds,1519.85,loss
-1344,owcs_2024_emea_s3_main,ENCE,1621.13,win
-1344,owcs_2024_emea_s3_main,Twisted Minds,1510.96,loss
-1345,owcs_2024_emea_s3_main,ENCE,1629.45,win
-1345,owcs_2024_emea_s3_main,Twisted Minds,1502.65,loss
-1346,owcs_2024_emea_s3_main,ENCE,1637.88,win
-1346,owcs_2024_emea_s3_main,Virtus.pro,1514.39,loss
-1347,owcs_2024_emea_s3_main,ENCE,1645.78,win
-1347,owcs_2024_emea_s3_main,Virtus.pro,1506.48,loss
-1348,owcs_2024_emea_s3_main,ENCE,1653.21,win
-1348,owcs_2024_emea_s3_main,Virtus.pro,1499.05,loss
-1349,owcs_2024_emea_s3_main,A One Man Army,1406.55,win
-1349,owcs_2024_emea_s3_main,AWW YEAH,1369.70,loss
-1350,owcs_2024_emea_s3_main,AWW YEAH,1382.97,win
-1350,owcs_2024_emea_s3_main,A One Man Army,1393.28,loss
-1351,owcs_2024_emea_s3_main,A One Man Army,1404.93,win
-1351,owcs_2024_emea_s3_main,AWW YEAH,1371.33,loss
-1352,owcs_2024_emea_s3_main,A One Man Army,1415.77,win
-1352,owcs_2024_emea_s3_main,AWW YEAH,1360.48,loss
-1353,owcs_2024_emea_s3_main,Hypnos,1410.23,win
-1353,owcs_2024_emea_s3_main,Supershy,1395.88,loss
-1354,owcs_2024_emea_s3_main,Supershy,1408.38,win
-1354,owcs_2024_emea_s3_main,Hypnos,1397.73,loss
-1355,owcs_2024_emea_s3_main,Hypnos,1410.10,win
-1355,owcs_2024_emea_s3_main,Supershy,1396.01,loss
-1356,owcs_2024_emea_s3_main,Supershy,1408.50,win
-1356,owcs_2024_emea_s3_main,Hypnos,1397.61,loss
-1357,owcs_2024_emea_s3_main,Hypnos,1409.99,win
-1357,owcs_2024_emea_s3_main,Supershy,1396.12,loss
-1358,owcs_2024_emea_s3_main,Twisted Minds,1511.71,win
-1358,owcs_2024_emea_s3_main,A One Man Army,1406.71,loss
-1359,owcs_2024_emea_s3_main,Twisted Minds,1520.19,win
-1359,owcs_2024_emea_s3_main,A One Man Army,1398.23,loss
-1360,owcs_2024_emea_s3_main,Twisted Minds,1528.14,win
-1360,owcs_2024_emea_s3_main,A One Man Army,1390.28,loss
-1361,owcs_2024_emea_s3_main,Spacestation Gaming,1608.17,win
-1361,owcs_2024_emea_s3_main,Hypnos,1404.02,loss
-1362,owcs_2024_emea_s3_main,Hypnos,1422.36,win
-1362,owcs_2024_emea_s3_main,Spacestation Gaming,1589.83,loss
-1363,owcs_2024_emea_s3_main,Spacestation Gaming,1596.45,win
-1363,owcs_2024_emea_s3_main,Hypnos,1415.74,loss
-1364,owcs_2024_emea_s3_main,Spacestation Gaming,1602.72,win
-1364,owcs_2024_emea_s3_main,Hypnos,1409.47,loss
-1365,owcs_2024_emea_s3_main,Twisted Minds,1542.68,win
-1365,owcs_2024_emea_s3_main,Spacestation Gaming,1588.18,loss
-1366,owcs_2024_emea_s3_main,Spacestation Gaming,1598.62,win
-1366,owcs_2024_emea_s3_main,Twisted Minds,1532.24,loss
-1367,owcs_2024_emea_s3_main,Spacestation Gaming,1608.36,win
-1367,owcs_2024_emea_s3_main,Twisted Minds,1522.50,loss
-1368,owcs_2024_emea_s3_main,Spacestation Gaming,1617.45,win
-1368,owcs_2024_emea_s3_main,Twisted Minds,1513.41,loss
-1369,owcs_2024_emea_s3_main,Virtus.pro,1514.99,win
-1369,owcs_2024_emea_s3_main,Spacestation Gaming,1601.51,loss
-1370,owcs_2024_emea_s3_main,Virtus.pro,1529.92,win
-1370,owcs_2024_emea_s3_main,Spacestation Gaming,1586.58,loss
-1371,owcs_2024_emea_s3_main,Virtus.pro,1543.86,win
-1371,owcs_2024_emea_s3_main,Spacestation Gaming,1572.64,loss
-1372,owcs_2024_emea_s3_main,ENCE,1661.56,win
-1372,owcs_2024_emea_s3_main,Virtus.pro,1535.51,loss
-1373,owcs_2024_emea_s3_main,ENCE,1669.39,win
-1373,owcs_2024_emea_s3_main,Virtus.pro,1527.69,loss
-1374,owcs_2024_emea_s3_main,Virtus.pro,1544.32,win
-1374,owcs_2024_emea_s3_main,ENCE,1652.75,loss
-1375,owcs_2024_emea_s3_main,Virtus.pro,1559.95,win
-1375,owcs_2024_emea_s3_main,ENCE,1637.12,loss
-1376,owcs_2024_emea_s3_main,ENCE,1646.50,win
-1376,owcs_2024_emea_s3_main,Virtus.pro,1550.57,loss
-1377,owcs_2024_emea_s3_main,ENCE,1655.26,win
-1377,owcs_2024_emea_s3_main,Virtus.pro,1541.81,loss
-1378,owcs_2024_asia_s2_korea,ZETA DIVISION,1593.74,win
-1378,owcs_2024_asia_s2_korea,Fnatic,1478.05,loss
-1379,owcs_2024_asia_s2_korea,ZETA DIVISION,1601.88,win
-1379,owcs_2024_asia_s2_korea,Fnatic,1469.91,loss
-1380,owcs_2024_asia_s2_korea,Fnatic,1486.26,win
-1380,owcs_2024_asia_s2_korea,ZETA DIVISION,1585.53,loss
-1381,owcs_2024_asia_s2_korea,Fnatic,1501.60,win
-1381,owcs_2024_asia_s2_korea,ZETA DIVISION,1570.19,loss
-1382,owcs_2024_asia_s2_korea,ZETA DIVISION,1579.85,win
-1382,owcs_2024_asia_s2_korea,Fnatic,1491.93,loss
-1383,owcs_2024_asia_s2_korea,VEC,1412.00,win
-1383,owcs_2024_asia_s2_korea,Old Ocean,1388.00,loss
-1384,owcs_2024_asia_s2_korea,Old Ocean,1400.83,win
-1384,owcs_2024_asia_s2_korea,VEC,1399.17,loss
-1385,owcs_2024_asia_s2_korea,VEC,1411.23,win
-1385,owcs_2024_asia_s2_korea,Old Ocean,1388.77,loss
-1386,owcs_2024_asia_s2_korea,Old Ocean,1401.55,win
-1386,owcs_2024_asia_s2_korea,VEC,1398.45,loss
-1387,owcs_2024_asia_s2_korea,VEC,1410.56,win
-1387,owcs_2024_asia_s2_korea,Old Ocean,1389.44,loss
-1388,owcs_2024_asia_s2_korea,Crazy Raccoon,1800.72,win
+1333,owcs_2024_emea_s3_main,Hypnos,1404.12,loss
+1334,owcs_2024_emea_s3_main,ENCE,1602.76,win
+1334,owcs_2024_emea_s3_main,Hypnos,1398.17,loss
+1335,owcs_2024_emea_s3_main,Twisted Minds,1516.74,win
+1335,owcs_2024_emea_s3_main,Supershy,1426.00,loss
+1336,owcs_2024_emea_s3_main,Twisted Minds,1525.68,win
+1336,owcs_2024_emea_s3_main,Supershy,1417.07,loss
+1337,owcs_2024_emea_s3_main,Twisted Minds,1534.04,win
+1337,owcs_2024_emea_s3_main,Supershy,1408.70,loss
+1338,owcs_2024_emea_s3_main,Spacestation Gaming,1646.80,win
+1338,owcs_2024_emea_s3_main,Virtus.pro,1483.43,loss
+1339,owcs_2024_emea_s3_main,Virtus.pro,1500.69,win
+1339,owcs_2024_emea_s3_main,Spacestation Gaming,1629.54,loss
+1340,owcs_2024_emea_s3_main,Virtus.pro,1516.94,win
+1340,owcs_2024_emea_s3_main,Spacestation Gaming,1613.28,loss
+1341,owcs_2024_emea_s3_main,Spacestation Gaming,1622.04,win
+1341,owcs_2024_emea_s3_main,Virtus.pro,1508.19,loss
+1342,owcs_2024_emea_s3_main,Virtus.pro,1523.99,win
+1342,owcs_2024_emea_s3_main,Spacestation Gaming,1606.24,loss
+1343,owcs_2024_emea_s3_main,ENCE,1612.41,win
+1343,owcs_2024_emea_s3_main,Twisted Minds,1524.39,loss
+1344,owcs_2024_emea_s3_main,ENCE,1621.44,win
+1344,owcs_2024_emea_s3_main,Twisted Minds,1515.36,loss
+1345,owcs_2024_emea_s3_main,ENCE,1629.88,win
+1345,owcs_2024_emea_s3_main,Twisted Minds,1506.92,loss
+1346,owcs_2024_emea_s3_main,ENCE,1638.33,win
+1346,owcs_2024_emea_s3_main,Virtus.pro,1515.53,loss
+1347,owcs_2024_emea_s3_main,ENCE,1646.26,win
+1347,owcs_2024_emea_s3_main,Virtus.pro,1507.61,loss
+1348,owcs_2024_emea_s3_main,ENCE,1653.71,win
+1348,owcs_2024_emea_s3_main,Virtus.pro,1500.16,loss
+1349,owcs_2024_emea_s3_main,A One Man Army,1412.59,win
+1349,owcs_2024_emea_s3_main,AWW YEAH,1370.20,loss
+1350,owcs_2024_emea_s3_main,AWW YEAH,1383.66,win
+1350,owcs_2024_emea_s3_main,A One Man Army,1399.13,loss
+1351,owcs_2024_emea_s3_main,A One Man Army,1410.60,win
+1351,owcs_2024_emea_s3_main,AWW YEAH,1372.19,loss
+1352,owcs_2024_emea_s3_main,A One Man Army,1421.27,win
+1352,owcs_2024_emea_s3_main,AWW YEAH,1361.51,loss
+1353,owcs_2024_emea_s3_main,Hypnos,1410.54,win
+1353,owcs_2024_emea_s3_main,Supershy,1396.34,loss
+1354,owcs_2024_emea_s3_main,Supershy,1408.83,win
+1354,owcs_2024_emea_s3_main,Hypnos,1398.05,loss
+1355,owcs_2024_emea_s3_main,Hypnos,1410.42,win
+1355,owcs_2024_emea_s3_main,Supershy,1396.46,loss
+1356,owcs_2024_emea_s3_main,Supershy,1408.94,win
+1356,owcs_2024_emea_s3_main,Hypnos,1397.94,loss
+1357,owcs_2024_emea_s3_main,Hypnos,1410.32,win
+1357,owcs_2024_emea_s3_main,Supershy,1396.56,loss
+1358,owcs_2024_emea_s3_main,Twisted Minds,1516.02,win
+1358,owcs_2024_emea_s3_main,A One Man Army,1412.17,loss
+1359,owcs_2024_emea_s3_main,Twisted Minds,1524.54,win
+1359,owcs_2024_emea_s3_main,A One Man Army,1403.66,loss
+1360,owcs_2024_emea_s3_main,Twisted Minds,1532.52,win
+1360,owcs_2024_emea_s3_main,A One Man Army,1395.67,loss
+1361,owcs_2024_emea_s3_main,Spacestation Gaming,1612.11,win
+1361,owcs_2024_emea_s3_main,Hypnos,1404.45,loss
+1362,owcs_2024_emea_s3_main,Hypnos,1422.87,win
+1362,owcs_2024_emea_s3_main,Spacestation Gaming,1593.68,loss
+1363,owcs_2024_emea_s3_main,Spacestation Gaming,1600.22,win
+1363,owcs_2024_emea_s3_main,Hypnos,1416.34,loss
+1364,owcs_2024_emea_s3_main,Spacestation Gaming,1606.40,win
+1364,owcs_2024_emea_s3_main,Hypnos,1410.15,loss
+1365,owcs_2024_emea_s3_main,Twisted Minds,1547.03,win
+1365,owcs_2024_emea_s3_main,Spacestation Gaming,1591.89,loss
+1366,owcs_2024_emea_s3_main,Spacestation Gaming,1602.34,win
+1366,owcs_2024_emea_s3_main,Twisted Minds,1536.58,loss
+1367,owcs_2024_emea_s3_main,Spacestation Gaming,1612.10,win
+1367,owcs_2024_emea_s3_main,Twisted Minds,1526.82,loss
+1368,owcs_2024_emea_s3_main,Spacestation Gaming,1621.21,win
+1368,owcs_2024_emea_s3_main,Twisted Minds,1517.71,loss
+1369,owcs_2024_emea_s3_main,Virtus.pro,1516.18,win
+1369,owcs_2024_emea_s3_main,Spacestation Gaming,1605.19,loss
+1370,owcs_2024_emea_s3_main,Virtus.pro,1531.19,win
+1370,owcs_2024_emea_s3_main,Spacestation Gaming,1590.18,loss
+1371,owcs_2024_emea_s3_main,Virtus.pro,1545.20,win
+1371,owcs_2024_emea_s3_main,Spacestation Gaming,1576.17,loss
+1372,owcs_2024_emea_s3_main,ENCE,1662.08,win
+1372,owcs_2024_emea_s3_main,Virtus.pro,1536.83,loss
+1373,owcs_2024_emea_s3_main,ENCE,1669.93,win
+1373,owcs_2024_emea_s3_main,Virtus.pro,1528.98,loss
+1374,owcs_2024_emea_s3_main,Virtus.pro,1545.60,win
+1374,owcs_2024_emea_s3_main,ENCE,1653.32,loss
+1375,owcs_2024_emea_s3_main,Virtus.pro,1561.21,win
+1375,owcs_2024_emea_s3_main,ENCE,1637.71,loss
+1376,owcs_2024_emea_s3_main,ENCE,1647.11,win
+1376,owcs_2024_emea_s3_main,Virtus.pro,1551.81,loss
+1377,owcs_2024_emea_s3_main,ENCE,1655.90,win
+1377,owcs_2024_emea_s3_main,Virtus.pro,1543.02,loss
+1378,owcs_2024_asia_s2_korea,ZETA DIVISION,1594.64,win
+1378,owcs_2024_asia_s2_korea,Fnatic,1478.08,loss
+1379,owcs_2024_asia_s2_korea,ZETA DIVISION,1602.76,win
+1379,owcs_2024_asia_s2_korea,Fnatic,1469.96,loss
+1380,owcs_2024_asia_s2_korea,Fnatic,1486.33,win
+1380,owcs_2024_asia_s2_korea,ZETA DIVISION,1586.38,loss
+1381,owcs_2024_asia_s2_korea,Fnatic,1501.70,win
+1381,owcs_2024_asia_s2_korea,ZETA DIVISION,1571.02,loss
+1382,owcs_2024_asia_s2_korea,ZETA DIVISION,1580.66,win
+1382,owcs_2024_asia_s2_korea,Fnatic,1492.06,loss
+1383,owcs_2024_asia_s2_korea,VEC,1212.47,win
+1383,owcs_2024_asia_s2_korea,Old Ocean,1381.62,loss
+1384,owcs_2024_asia_s2_korea,Old Ocean,1388.20,win
+1384,owcs_2024_asia_s2_korea,VEC,1205.90,loss
+1385,owcs_2024_asia_s2_korea,VEC,1223.67,win
+1385,owcs_2024_asia_s2_korea,Old Ocean,1370.42,loss
+1386,owcs_2024_asia_s2_korea,Old Ocean,1377.63,win
+1386,owcs_2024_asia_s2_korea,VEC,1216.46,loss
+1387,owcs_2024_asia_s2_korea,VEC,1233.66,win
+1387,owcs_2024_asia_s2_korea,Old Ocean,1360.44,loss
+1388,owcs_2024_asia_s2_korea,Crazy Raccoon,1800.74,win
 1388,owcs_2024_asia_s2_korea,Poker Face,1405.27,loss
-1389,owcs_2024_asia_s2_korea,Crazy Raccoon,1802.96,win
+1389,owcs_2024_asia_s2_korea,Crazy Raccoon,1802.98,win
 1389,owcs_2024_asia_s2_korea,Poker Face,1403.04,loss
-1390,owcs_2024_asia_s2_korea,Crazy Raccoon,1805.14,win
+1390,owcs_2024_asia_s2_korea,Crazy Raccoon,1805.16,win
 1390,owcs_2024_asia_s2_korea,Poker Face,1400.86,loss
 1391,owcs_2024_asia_s2_korea,HaeJeokDan,1419.69,win
-1391,owcs_2024_asia_s2_korea,Team Falcons,1644.12,loss
-1392,owcs_2024_asia_s2_korea,Team Falcons,1649.29,win
-1392,owcs_2024_asia_s2_korea,HaeJeokDan,1414.52,loss
+1391,owcs_2024_asia_s2_korea,Team Falcons,1644.11,loss
+1392,owcs_2024_asia_s2_korea,Team Falcons,1649.28,win
+1392,owcs_2024_asia_s2_korea,HaeJeokDan,1414.51,loss
 1393,owcs_2024_asia_s2_korea,Team Falcons,1654.22,win
 1393,owcs_2024_asia_s2_korea,HaeJeokDan,1409.58,loss
 1394,owcs_2024_asia_s2_korea,Team Falcons,1658.94,win
 1394,owcs_2024_asia_s2_korea,HaeJeokDan,1404.86,loss
-1395,owcs_2024_asia_s2_korea,Poker Face,1413.19,win
-1395,owcs_2024_asia_s2_korea,VEC,1398.23,loss
-1396,owcs_2024_asia_s2_korea,Poker Face,1424.67,win
-1396,owcs_2024_asia_s2_korea,VEC,1386.74,loss
-1397,owcs_2024_asia_s2_korea,Poker Face,1435.37,win
-1397,owcs_2024_asia_s2_korea,VEC,1376.05,loss
-1398,owcs_2024_asia_s2_korea,Crazy Raccoon,1808.54,win
-1398,owcs_2024_asia_s2_korea,Fnatic,1488.54,loss
-1399,owcs_2024_asia_s2_korea,Crazy Raccoon,1811.82,win
-1399,owcs_2024_asia_s2_korea,Fnatic,1485.25,loss
-1400,owcs_2024_asia_s2_korea,Crazy Raccoon,1815.00,win
-1400,owcs_2024_asia_s2_korea,Fnatic,1482.08,loss
-1401,owcs_2024_asia_s2_korea,HaeJeokDan,1416.33,win
-1401,owcs_2024_asia_s2_korea,Old Ocean,1377.97,loss
-1402,owcs_2024_asia_s2_korea,HaeJeokDan,1427.01,win
-1402,owcs_2024_asia_s2_korea,Old Ocean,1367.29,loss
-1403,owcs_2024_asia_s2_korea,Old Ocean,1381.33,win
-1403,owcs_2024_asia_s2_korea,HaeJeokDan,1412.97,loss
-1404,owcs_2024_asia_s2_korea,HaeJeokDan,1423.88,win
-1404,owcs_2024_asia_s2_korea,Old Ocean,1370.42,loss
-1405,owcs_2024_asia_s2_korea,Fnatic,1492.47,win
-1405,owcs_2024_asia_s2_korea,Poker Face,1424.97,loss
-1406,owcs_2024_asia_s2_korea,Poker Face,1439.28,win
-1406,owcs_2024_asia_s2_korea,Fnatic,1478.17,loss
-1407,owcs_2024_asia_s2_korea,Poker Face,1452.61,win
-1407,owcs_2024_asia_s2_korea,Fnatic,1464.83,loss
-1408,owcs_2024_asia_s2_korea,Poker Face,1465.04,win
-1408,owcs_2024_asia_s2_korea,Fnatic,1452.41,loss
-1409,owcs_2024_asia_s2_korea,ZETA DIVISION,1594.54,win
-1409,owcs_2024_asia_s2_korea,Team Falcons,1644.26,loss
-1410,owcs_2024_asia_s2_korea,ZETA DIVISION,1608.24,win
-1410,owcs_2024_asia_s2_korea,Team Falcons,1630.55,loss
-1411,owcs_2024_asia_s2_korea,Team Falcons,1641.78,win
-1411,owcs_2024_asia_s2_korea,ZETA DIVISION,1597.01,loss
-1412,owcs_2024_asia_s2_korea,ZETA DIVISION,1610.55,win
-1412,owcs_2024_asia_s2_korea,Team Falcons,1628.24,loss
-1413,owcs_2024_asia_s2_korea,Team Falcons,1632.80,win
-1413,owcs_2024_asia_s2_korea,VEC,1371.49,loss
-1414,owcs_2024_asia_s2_korea,Team Falcons,1637.16,win
-1414,owcs_2024_asia_s2_korea,VEC,1367.13,loss
-1415,owcs_2024_asia_s2_korea,Team Falcons,1641.35,win
-1415,owcs_2024_asia_s2_korea,VEC,1362.94,loss
-1416,owcs_2024_asia_s2_korea,ZETA DIVISION,1616.66,win
-1416,owcs_2024_asia_s2_korea,HaeJeokDan,1417.77,loss
-1417,owcs_2024_asia_s2_korea,ZETA DIVISION,1622.45,win
-1417,owcs_2024_asia_s2_korea,HaeJeokDan,1411.98,loss
-1418,owcs_2024_asia_s2_korea,ZETA DIVISION,1627.96,win
-1418,owcs_2024_asia_s2_korea,HaeJeokDan,1406.47,loss
-1419,owcs_2024_asia_s2_korea,Crazy Raccoon,1816.72,win
-1419,owcs_2024_asia_s2_korea,Old Ocean,1368.70,loss
-1420,owcs_2024_asia_s2_korea,Crazy Raccoon,1818.41,win
-1420,owcs_2024_asia_s2_korea,Old Ocean,1367.01,loss
-1421,owcs_2024_asia_s2_korea,Crazy Raccoon,1820.07,win
-1421,owcs_2024_asia_s2_korea,Old Ocean,1365.35,loss
-1422,owcs_2024_asia_s2_korea,Poker Face,1473.68,win
-1422,owcs_2024_asia_s2_korea,Old Ocean,1356.70,loss
-1423,owcs_2024_asia_s2_korea,Poker Face,1481.79,win
-1423,owcs_2024_asia_s2_korea,Old Ocean,1348.59,loss
-1424,owcs_2024_asia_s2_korea,Old Ocean,1364.98,win
-1424,owcs_2024_asia_s2_korea,Poker Face,1465.40,loss
-1425,owcs_2024_asia_s2_korea,Poker Face,1474.03,win
-1425,owcs_2024_asia_s2_korea,Old Ocean,1356.35,loss
-1426,owcs_2024_asia_s2_korea,ZETA DIVISION,1632.25,win
-1426,owcs_2024_asia_s2_korea,VEC,1358.66,loss
-1427,owcs_2024_asia_s2_korea,ZETA DIVISION,1636.36,win
-1427,owcs_2024_asia_s2_korea,VEC,1354.54,loss
-1428,owcs_2024_asia_s2_korea,ZETA DIVISION,1640.32,win
-1428,owcs_2024_asia_s2_korea,VEC,1350.58,loss
-1429,owcs_2024_asia_s2_korea,Fnatic,1460.99,win
-1429,owcs_2024_asia_s2_korea,VEC,1342.00,loss
-1430,owcs_2024_asia_s2_korea,VEC,1357.96,win
-1430,owcs_2024_asia_s2_korea,Fnatic,1445.04,loss
-1431,owcs_2024_asia_s2_korea,Fnatic,1454.09,win
-1431,owcs_2024_asia_s2_korea,VEC,1348.91,loss
-1432,owcs_2024_asia_s2_korea,Fnatic,1462.56,win
-1432,owcs_2024_asia_s2_korea,VEC,1340.43,loss
-1433,owcs_2024_asia_s2_korea,Crazy Raccoon,1826.39,win
-1433,owcs_2024_asia_s2_korea,Team Falcons,1635.03,loss
-1434,owcs_2024_asia_s2_korea,Crazy Raccoon,1832.38,win
-1434,owcs_2024_asia_s2_korea,Team Falcons,1629.04,loss
-1435,owcs_2024_asia_s2_korea,Crazy Raccoon,1838.06,win
-1435,owcs_2024_asia_s2_korea,Team Falcons,1623.36,loss
-1436,owcs_2024_asia_s2_korea,ZETA DIVISION,1646.98,win
-1436,owcs_2024_asia_s2_korea,Poker Face,1467.37,loss
-1437,owcs_2024_asia_s2_korea,Poker Face,1485.07,win
-1437,owcs_2024_asia_s2_korea,ZETA DIVISION,1629.28,loss
-1438,owcs_2024_asia_s2_korea,Poker Face,1501.79,win
-1438,owcs_2024_asia_s2_korea,ZETA DIVISION,1612.56,loss
-1439,owcs_2024_asia_s2_korea,ZETA DIVISION,1620.86,win
-1439,owcs_2024_asia_s2_korea,Poker Face,1493.49,loss
-1440,owcs_2024_asia_s2_korea,ZETA DIVISION,1628.65,win
-1440,owcs_2024_asia_s2_korea,Poker Face,1485.70,loss
-1441,owcs_2024_asia_s2_korea,Fnatic,1472.64,win
-1441,owcs_2024_asia_s2_korea,HaeJeokDan,1396.39,loss
-1442,owcs_2024_asia_s2_korea,Fnatic,1482.05,win
-1442,owcs_2024_asia_s2_korea,HaeJeokDan,1386.98,loss
-1443,owcs_2024_asia_s2_korea,HaeJeokDan,1402.19,win
-1443,owcs_2024_asia_s2_korea,Fnatic,1466.85,loss
-1444,owcs_2024_asia_s2_korea,Fnatic,1476.64,win
-1444,owcs_2024_asia_s2_korea,HaeJeokDan,1392.40,loss
-1445,owcs_2024_asia_s2_korea,Poker Face,1502.22,win
-1445,owcs_2024_asia_s2_korea,Team Falcons,1606.84,loss
-1446,owcs_2024_asia_s2_korea,Team Falcons,1615.33,win
-1446,owcs_2024_asia_s2_korea,Poker Face,1493.73,loss
-1447,owcs_2024_asia_s2_korea,Team Falcons,1623.29,win
-1447,owcs_2024_asia_s2_korea,Poker Face,1485.76,loss
-1448,owcs_2024_asia_s2_korea,Team Falcons,1630.78,win
-1448,owcs_2024_asia_s2_korea,Poker Face,1478.28,loss
-1449,owcs_2024_asia_s2_korea,Crazy Raccoon,1839.78,win
-1449,owcs_2024_asia_s2_korea,HaeJeokDan,1390.68,loss
-1450,owcs_2024_asia_s2_korea,Crazy Raccoon,1841.46,win
-1450,owcs_2024_asia_s2_korea,HaeJeokDan,1389.00,loss
-1451,owcs_2024_asia_s2_korea,Crazy Raccoon,1843.11,win
-1451,owcs_2024_asia_s2_korea,HaeJeokDan,1387.35,loss
-1452,owcs_2024_asia_s2_korea,Fnatic,1484.64,win
-1452,owcs_2024_asia_s2_korea,Old Ocean,1348.35,loss
-1453,owcs_2024_asia_s2_korea,Fnatic,1492.16,win
-1453,owcs_2024_asia_s2_korea,Old Ocean,1340.83,loss
-1454,owcs_2024_asia_s2_korea,Fnatic,1499.24,win
-1454,owcs_2024_asia_s2_korea,Old Ocean,1333.75,loss
-1455,owcs_2024_asia_s2_korea,HaeJeokDan,1397.74,win
-1455,owcs_2024_asia_s2_korea,VEC,1330.04,loss
-1456,owcs_2024_asia_s2_korea,HaeJeokDan,1407.43,win
-1456,owcs_2024_asia_s2_korea,VEC,1320.35,loss
-1457,owcs_2024_asia_s2_korea,HaeJeokDan,1416.48,win
-1457,owcs_2024_asia_s2_korea,VEC,1311.30,loss
-1458,owcs_2024_asia_s2_korea,Crazy Raccoon,1848.52,win
-1458,owcs_2024_asia_s2_korea,ZETA DIVISION,1623.24,loss
-1459,owcs_2024_asia_s2_korea,Crazy Raccoon,1853.67,win
-1459,owcs_2024_asia_s2_korea,ZETA DIVISION,1618.09,loss
-1460,owcs_2024_asia_s2_korea,Crazy Raccoon,1858.59,win
-1460,owcs_2024_asia_s2_korea,ZETA DIVISION,1613.17,loss
-1461,owcs_2024_asia_s2_korea,Team Falcons,1634.45,win
-1461,owcs_2024_asia_s2_korea,Old Ocean,1330.07,loss
-1462,owcs_2024_asia_s2_korea,Team Falcons,1638.00,win
-1462,owcs_2024_asia_s2_korea,Old Ocean,1326.53,loss
-1463,owcs_2024_asia_s2_korea,Team Falcons,1641.42,win
-1463,owcs_2024_asia_s2_korea,Old Ocean,1323.10,loss
-1464,owcs_2024_asia_s2_korea,Crazy Raccoon,1859.58,win
-1464,owcs_2024_asia_s2_korea,VEC,1310.31,loss
-1465,owcs_2024_asia_s2_korea,Crazy Raccoon,1860.55,win
-1465,owcs_2024_asia_s2_korea,VEC,1309.34,loss
-1466,owcs_2024_asia_s2_korea,Crazy Raccoon,1861.52,win
-1466,owcs_2024_asia_s2_korea,VEC,1308.37,loss
-1467,owcs_2024_asia_s2_korea,ZETA DIVISION,1616.97,win
-1467,owcs_2024_asia_s2_korea,Old Ocean,1319.30,loss
-1468,owcs_2024_asia_s2_korea,ZETA DIVISION,1620.64,win
-1468,owcs_2024_asia_s2_korea,Old Ocean,1315.63,loss
-1469,owcs_2024_asia_s2_korea,ZETA DIVISION,1624.17,win
-1469,owcs_2024_asia_s2_korea,Old Ocean,1312.10,loss
-1470,owcs_2024_asia_s2_korea,Team Falcons,1648.77,win
-1470,owcs_2024_asia_s2_korea,Fnatic,1491.90,loss
-1471,owcs_2024_asia_s2_korea,Team Falcons,1655.69,win
-1471,owcs_2024_asia_s2_korea,Fnatic,1484.97,loss
-1472,owcs_2024_asia_s2_korea,Team Falcons,1662.23,win
-1472,owcs_2024_asia_s2_korea,Fnatic,1478.44,loss
-1473,owcs_2024_asia_s2_korea,Poker Face,1488.17,win
-1473,owcs_2024_asia_s2_korea,HaeJeokDan,1406.59,loss
-1474,owcs_2024_asia_s2_korea,Poker Face,1497.40,win
-1474,owcs_2024_asia_s2_korea,HaeJeokDan,1397.36,loss
-1475,owcs_2024_asia_s2_korea,Poker Face,1506.04,win
-1475,owcs_2024_asia_s2_korea,HaeJeokDan,1388.72,loss
-1476,owcs_2024_asia_s2_korea,Crazy Raccoon,1864.26,win
-1476,owcs_2024_asia_s2_korea,Poker Face,1503.29,loss
-1477,owcs_2024_asia_s2_korea,Crazy Raccoon,1866.93,win
-1477,owcs_2024_asia_s2_korea,Poker Face,1500.62,loss
-1478,owcs_2024_asia_s2_korea,Crazy Raccoon,1869.53,win
-1478,owcs_2024_asia_s2_korea,Poker Face,1498.02,loss
-1479,owcs_2024_asia_s2_korea,Team Falcons,1672.92,win
-1479,owcs_2024_asia_s2_korea,ZETA DIVISION,1613.48,loss
-1480,owcs_2024_asia_s2_korea,ZETA DIVISION,1627.52,win
-1480,owcs_2024_asia_s2_korea,Team Falcons,1658.89,loss
-1481,owcs_2024_asia_s2_korea,Team Falcons,1669.81,win
-1481,owcs_2024_asia_s2_korea,ZETA DIVISION,1616.60,loss
-1482,owcs_2024_asia_s2_korea,ZETA DIVISION,1630.42,win
-1482,owcs_2024_asia_s2_korea,Team Falcons,1655.98,loss
-1483,owcs_2024_asia_s2_korea,Team Falcons,1667.10,win
-1483,owcs_2024_asia_s2_korea,ZETA DIVISION,1619.30,loss
-1484,owcs_2024_asia_s2_korea,Crazy Raccoon,1875.24,win
-1484,owcs_2024_asia_s2_korea,Team Falcons,1661.40,loss
-1485,owcs_2024_asia_s2_korea,Crazy Raccoon,1880.66,win
-1485,owcs_2024_asia_s2_korea,Team Falcons,1655.97,loss
-1486,owcs_2024_asia_s2_korea,Crazy Raccoon,1885.83,win
-1486,owcs_2024_asia_s2_korea,Team Falcons,1650.81,loss
-1487,owcs_2024_asia_s2_korea,ZETA DIVISION,1627.27,win
-1487,owcs_2024_asia_s2_korea,Poker Face,1490.05,loss
-1488,owcs_2024_asia_s2_korea,Poker Face,1506.56,win
-1488,owcs_2024_asia_s2_korea,ZETA DIVISION,1610.77,loss
-1489,owcs_2024_asia_s2_korea,Poker Face,1522.05,win
-1489,owcs_2024_asia_s2_korea,ZETA DIVISION,1595.27,loss
-1490,owcs_2024_asia_s2_korea,ZETA DIVISION,1604.78,win
-1490,owcs_2024_asia_s2_korea,Poker Face,1512.55,loss
-1491,owcs_2024_asia_s2_korea,Poker Face,1527.66,win
-1491,owcs_2024_asia_s2_korea,ZETA DIVISION,1589.67,loss
-1492,owcs_2024_asia_s2_korea,Team Falcons,1658.72,win
-1492,owcs_2024_asia_s2_korea,Poker Face,1519.74,loss
-1493,owcs_2024_asia_s2_korea,Poker Face,1536.30,win
-1493,owcs_2024_asia_s2_korea,Team Falcons,1642.16,loss
-1494,owcs_2024_asia_s2_korea,Poker Face,1551.85,win
-1494,owcs_2024_asia_s2_korea,Team Falcons,1626.62,loss
-1495,owcs_2024_asia_s2_korea,Poker Face,1566.39,win
-1495,owcs_2024_asia_s2_korea,Team Falcons,1612.07,loss
-1496,owcs_2024_asia_s2_korea,Crazy Raccoon,1889.52,win
-1496,owcs_2024_asia_s2_korea,ZETA DIVISION,1585.97,loss
-1497,owcs_2024_asia_s2_korea,ZETA DIVISION,1606.41,win
-1497,owcs_2024_asia_s2_korea,Crazy Raccoon,1869.08,loss
-1498,owcs_2024_asia_s2_korea,Crazy Raccoon,1873.42,win
-1498,owcs_2024_asia_s2_korea,ZETA DIVISION,1602.08,loss
-1499,owcs_2024_asia_s2_korea,ZETA DIVISION,1621.92,win
-1499,owcs_2024_asia_s2_korea,Crazy Raccoon,1853.58,loss
-1500,owcs_2024_asia_s2_korea,Crazy Raccoon,1858.58,win
-1500,owcs_2024_asia_s2_korea,ZETA DIVISION,1616.91,loss
-1501,owcs_2024_asia_s2_korea,HaeJeokDan,1403.76,win
-1501,owcs_2024_asia_s2_korea,Fnatic,1463.41,loss
-1502,owcs_2024_asia_s2_korea,HaeJeokDan,1417.80,win
-1502,owcs_2024_asia_s2_korea,Fnatic,1449.37,loss
-1503,owcs_2024_asia_s2_korea,HaeJeokDan,1430.88,win
-1503,owcs_2024_asia_s2_korea,Fnatic,1436.28,loss
-1504,owcs_2024_asia_s2_korea,VEC,1320.50,win
-1504,owcs_2024_asia_s2_korea,Old Ocean,1299.97,loss
-1505,owcs_2024_asia_s2_korea,Old Ocean,1312.68,win
-1505,owcs_2024_asia_s2_korea,VEC,1307.79,loss
-1506,owcs_2024_asia_s2_korea,Old Ocean,1324.51,win
-1506,owcs_2024_asia_s2_korea,VEC,1295.96,loss
-1507,owcs_2024_asia_s2_korea,VEC,1308.94,win
-1507,owcs_2024_asia_s2_korea,Old Ocean,1311.53,loss
-1508,owcs_2024_asia_s2_korea,VEC,1321.03,win
-1508,owcs_2024_asia_s2_korea,Old Ocean,1299.44,loss
-1509,owcs_2024_asia_s2_korea,Fnatic,1444.44,win
-1509,owcs_2024_asia_s2_korea,VEC,1312.87,loss
-1510,owcs_2024_asia_s2_korea,Fnatic,1452.10,win
-1510,owcs_2024_asia_s2_korea,VEC,1305.21,loss
-1511,owcs_2024_asia_s2_korea,Fnatic,1459.31,win
-1511,owcs_2024_asia_s2_korea,VEC,1298.00,loss
-1512,owcs_2024_asia_s2_korea,Team Falcons,1619.11,win
-1512,owcs_2024_asia_s2_korea,Fnatic,1452.27,loss
-1513,owcs_2024_asia_s2_korea,Team Falcons,1625.75,win
-1513,owcs_2024_asia_s2_korea,Fnatic,1445.63,loss
-1514,owcs_2024_asia_s2_korea,Fnatic,1463.34,win
-1514,owcs_2024_asia_s2_korea,Team Falcons,1608.04,loss
-1515,owcs_2024_asia_s2_korea,Team Falcons,1615.31,win
-1515,owcs_2024_asia_s2_korea,Fnatic,1456.07,loss
-1516,owcs_2024_asia_s2_korea,ZETA DIVISION,1623.04,win
-1516,owcs_2024_asia_s2_korea,HaeJeokDan,1424.76,loss
-1517,owcs_2024_asia_s2_korea,ZETA DIVISION,1628.85,win
-1517,owcs_2024_asia_s2_korea,HaeJeokDan,1418.95,loss
-1518,owcs_2024_asia_s2_korea,ZETA DIVISION,1634.37,win
-1518,owcs_2024_asia_s2_korea,HaeJeokDan,1413.43,loss
-1519,owcs_2024_asia_s2_korea,Crazy Raccoon,1863.33,win
-1519,owcs_2024_asia_s2_korea,Team Falcons,1610.56,loss
-1520,owcs_2024_asia_s2_korea,Team Falcons,1630.02,win
-1520,owcs_2024_asia_s2_korea,Crazy Raccoon,1843.87,loss
-1521,owcs_2024_asia_s2_korea,Team Falcons,1648.60,win
-1521,owcs_2024_asia_s2_korea,Crazy Raccoon,1825.29,loss
-1522,owcs_2024_asia_s2_korea,Team Falcons,1666.22,win
-1522,owcs_2024_asia_s2_korea,Crazy Raccoon,1807.67,loss
-1523,owcs_2024_asia_s2_korea,ZETA DIVISION,1644.05,win
-1523,owcs_2024_asia_s2_korea,Poker Face,1556.71,loss
-1524,owcs_2024_asia_s2_korea,ZETA DIVISION,1653.09,win
-1524,owcs_2024_asia_s2_korea,Poker Face,1547.66,loss
-1525,owcs_2024_asia_s2_korea,Poker Face,1563.20,win
-1525,owcs_2024_asia_s2_korea,ZETA DIVISION,1637.56,loss
-1526,owcs_2024_asia_s2_korea,ZETA DIVISION,1647.03,win
-1526,owcs_2024_asia_s2_korea,Poker Face,1553.73,loss
-1527,owcs_2024_asia_s2_korea,Team Falcons,1677.56,win
-1527,owcs_2024_asia_s2_korea,ZETA DIVISION,1635.69,loss
-1528,owcs_2024_asia_s2_korea,ZETA DIVISION,1649.13,win
-1528,owcs_2024_asia_s2_korea,Team Falcons,1664.12,loss
-1529,owcs_2024_asia_s2_korea,Team Falcons,1675.60,win
-1529,owcs_2024_asia_s2_korea,ZETA DIVISION,1637.65,loss
-1530,owcs_2024_asia_s2_korea,Team Falcons,1686.30,win
-1530,owcs_2024_asia_s2_korea,ZETA DIVISION,1626.96,loss
-1531,owcs_2024_asia_s2_korea,Team Falcons,1696.27,win
-1531,owcs_2024_asia_s2_korea,ZETA DIVISION,1616.99,loss
-1532,owcs_2024_asia_s2_korea,Crazy Raccoon,1812.18,win
-1532,owcs_2024_asia_s2_korea,Poker Face,1549.21,loss
-1533,owcs_2024_asia_s2_korea,Crazy Raccoon,1816.51,win
-1533,owcs_2024_asia_s2_korea,Poker Face,1544.88,loss
-1534,owcs_2024_asia_s2_korea,Crazy Raccoon,1820.67,win
-1534,owcs_2024_asia_s2_korea,Poker Face,1540.73,loss
+1395,owcs_2024_asia_s2_korea,Poker Face,1407.49,win
+1395,owcs_2024_asia_s2_korea,VEC,1227.02,loss
+1396,owcs_2024_asia_s2_korea,Poker Face,1413.76,win
+1396,owcs_2024_asia_s2_korea,VEC,1220.75,loss
+1397,owcs_2024_asia_s2_korea,Poker Face,1419.71,win
+1397,owcs_2024_asia_s2_korea,VEC,1214.81,loss
+1398,owcs_2024_asia_s2_korea,Crazy Raccoon,1808.56,win
+1398,owcs_2024_asia_s2_korea,Fnatic,1488.66,loss
+1399,owcs_2024_asia_s2_korea,Crazy Raccoon,1811.84,win
+1399,owcs_2024_asia_s2_korea,Fnatic,1485.38,loss
+1400,owcs_2024_asia_s2_korea,Crazy Raccoon,1815.02,win
+1400,owcs_2024_asia_s2_korea,Fnatic,1482.20,loss
+1401,owcs_2024_asia_s2_korea,HaeJeokDan,1415.34,win
+1401,owcs_2024_asia_s2_korea,Old Ocean,1349.96,loss
+1402,owcs_2024_asia_s2_korea,HaeJeokDan,1425.11,win
+1402,owcs_2024_asia_s2_korea,Old Ocean,1340.19,loss
+1403,owcs_2024_asia_s2_korea,Old Ocean,1355.07,win
+1403,owcs_2024_asia_s2_korea,HaeJeokDan,1410.23,loss
+1404,owcs_2024_asia_s2_korea,HaeJeokDan,1420.34,win
+1404,owcs_2024_asia_s2_korea,Old Ocean,1344.96,loss
+1405,owcs_2024_asia_s2_korea,Fnatic,1492.06,win
+1405,owcs_2024_asia_s2_korea,Poker Face,1409.84,loss
+1406,owcs_2024_asia_s2_korea,Poker Face,1424.63,win
+1406,owcs_2024_asia_s2_korea,Fnatic,1477.27,loss
+1407,owcs_2024_asia_s2_korea,Poker Face,1438.43,win
+1407,owcs_2024_asia_s2_korea,Fnatic,1463.47,loss
+1408,owcs_2024_asia_s2_korea,Poker Face,1451.30,win
+1408,owcs_2024_asia_s2_korea,Fnatic,1450.61,loss
+1409,owcs_2024_asia_s2_korea,ZETA DIVISION,1595.32,win
+1409,owcs_2024_asia_s2_korea,Team Falcons,1644.28,loss
+1410,owcs_2024_asia_s2_korea,ZETA DIVISION,1609.00,win
+1410,owcs_2024_asia_s2_korea,Team Falcons,1630.60,loss
+1411,owcs_2024_asia_s2_korea,Team Falcons,1641.85,win
+1411,owcs_2024_asia_s2_korea,ZETA DIVISION,1597.74,loss
+1412,owcs_2024_asia_s2_korea,ZETA DIVISION,1611.26,win
+1412,owcs_2024_asia_s2_korea,Team Falcons,1628.34,loss
+1413,owcs_2024_asia_s2_korea,Team Falcons,1630.37,win
+1413,owcs_2024_asia_s2_korea,VEC,1212.77,loss
+1414,owcs_2024_asia_s2_korea,Team Falcons,1632.36,win
+1414,owcs_2024_asia_s2_korea,VEC,1210.79,loss
+1415,owcs_2024_asia_s2_korea,Team Falcons,1634.31,win
+1415,owcs_2024_asia_s2_korea,VEC,1208.84,loss
+1416,owcs_2024_asia_s2_korea,ZETA DIVISION,1617.25,win
+1416,owcs_2024_asia_s2_korea,HaeJeokDan,1414.34,loss
+1417,owcs_2024_asia_s2_korea,ZETA DIVISION,1622.95,win
+1417,owcs_2024_asia_s2_korea,HaeJeokDan,1408.65,loss
+1418,owcs_2024_asia_s2_korea,ZETA DIVISION,1628.36,win
+1418,owcs_2024_asia_s2_korea,HaeJeokDan,1403.24,loss
+1419,owcs_2024_asia_s2_korea,Crazy Raccoon,1816.52,win
+1419,owcs_2024_asia_s2_korea,Old Ocean,1343.46,loss
+1420,owcs_2024_asia_s2_korea,Crazy Raccoon,1818.00,win
+1420,owcs_2024_asia_s2_korea,Old Ocean,1341.98,loss
+1421,owcs_2024_asia_s2_korea,Crazy Raccoon,1819.46,win
+1421,owcs_2024_asia_s2_korea,Old Ocean,1340.52,loss
+1422,owcs_2024_asia_s2_korea,Poker Face,1459.60,win
+1422,owcs_2024_asia_s2_korea,Old Ocean,1332.22,loss
+1423,owcs_2024_asia_s2_korea,Poker Face,1467.38,win
+1423,owcs_2024_asia_s2_korea,Old Ocean,1324.44,loss
+1424,owcs_2024_asia_s2_korea,Old Ocean,1341.11,win
+1424,owcs_2024_asia_s2_korea,Poker Face,1450.71,loss
+1425,owcs_2024_asia_s2_korea,Poker Face,1459.04,win
+1425,owcs_2024_asia_s2_korea,Old Ocean,1332.78,loss
+1426,owcs_2024_asia_s2_korea,ZETA DIVISION,1630.33,win
+1426,owcs_2024_asia_s2_korea,VEC,1206.87,loss
+1427,owcs_2024_asia_s2_korea,ZETA DIVISION,1632.26,win
+1427,owcs_2024_asia_s2_korea,VEC,1204.94,loss
+1428,owcs_2024_asia_s2_korea,ZETA DIVISION,1634.15,win
+1428,owcs_2024_asia_s2_korea,VEC,1203.05,loss
+1429,owcs_2024_asia_s2_korea,Fnatic,1455.26,win
+1429,owcs_2024_asia_s2_korea,VEC,1198.40,loss
+1430,owcs_2024_asia_s2_korea,VEC,1217.94,win
+1430,owcs_2024_asia_s2_korea,Fnatic,1435.72,loss
+1431,owcs_2024_asia_s2_korea,Fnatic,1441.05,win
+1431,owcs_2024_asia_s2_korea,VEC,1212.61,loss
+1432,owcs_2024_asia_s2_korea,Fnatic,1446.13,win
+1432,owcs_2024_asia_s2_korea,VEC,1207.53,loss
+1433,owcs_2024_asia_s2_korea,Crazy Raccoon,1825.61,win
+1433,owcs_2024_asia_s2_korea,Team Falcons,1628.16,loss
+1434,owcs_2024_asia_s2_korea,Crazy Raccoon,1831.44,win
+1434,owcs_2024_asia_s2_korea,Team Falcons,1622.33,loss
+1435,owcs_2024_asia_s2_korea,Crazy Raccoon,1836.98,win
+1435,owcs_2024_asia_s2_korea,Team Falcons,1616.79,loss
+1436,owcs_2024_asia_s2_korea,ZETA DIVISION,1640.56,win
+1436,owcs_2024_asia_s2_korea,Poker Face,1452.63,loss
+1437,owcs_2024_asia_s2_korea,Poker Face,1470.55,win
+1437,owcs_2024_asia_s2_korea,ZETA DIVISION,1622.64,loss
+1438,owcs_2024_asia_s2_korea,Poker Face,1487.49,win
+1438,owcs_2024_asia_s2_korea,ZETA DIVISION,1605.70,loss
+1439,owcs_2024_asia_s2_korea,ZETA DIVISION,1613.77,win
+1439,owcs_2024_asia_s2_korea,Poker Face,1479.42,loss
+1440,owcs_2024_asia_s2_korea,ZETA DIVISION,1621.35,win
+1440,owcs_2024_asia_s2_korea,Poker Face,1471.85,loss
+1441,owcs_2024_asia_s2_korea,Fnatic,1456.65,win
+1441,owcs_2024_asia_s2_korea,HaeJeokDan,1392.71,loss
+1442,owcs_2024_asia_s2_korea,Fnatic,1466.47,win
+1442,owcs_2024_asia_s2_korea,HaeJeokDan,1382.89,loss
+1443,owcs_2024_asia_s2_korea,HaeJeokDan,1397.73,win
+1443,owcs_2024_asia_s2_korea,Fnatic,1451.64,loss
+1444,owcs_2024_asia_s2_korea,Fnatic,1461.79,win
+1444,owcs_2024_asia_s2_korea,HaeJeokDan,1387.57,loss
+1445,owcs_2024_asia_s2_korea,Poker Face,1488.58,win
+1445,owcs_2024_asia_s2_korea,Team Falcons,1600.05,loss
+1446,owcs_2024_asia_s2_korea,Team Falcons,1608.33,win
+1446,owcs_2024_asia_s2_korea,Poker Face,1480.30,loss
+1447,owcs_2024_asia_s2_korea,Team Falcons,1616.10,win
+1447,owcs_2024_asia_s2_korea,Poker Face,1472.54,loss
+1448,owcs_2024_asia_s2_korea,Team Falcons,1623.40,win
+1448,owcs_2024_asia_s2_korea,Poker Face,1465.23,loss
+1449,owcs_2024_asia_s2_korea,Crazy Raccoon,1838.66,win
+1449,owcs_2024_asia_s2_korea,HaeJeokDan,1385.89,loss
+1450,owcs_2024_asia_s2_korea,Crazy Raccoon,1840.31,win
+1450,owcs_2024_asia_s2_korea,HaeJeokDan,1384.24,loss
+1451,owcs_2024_asia_s2_korea,Crazy Raccoon,1841.93,win
+1451,owcs_2024_asia_s2_korea,HaeJeokDan,1382.62,loss
+1452,owcs_2024_asia_s2_korea,Fnatic,1469.53,win
+1452,owcs_2024_asia_s2_korea,Old Ocean,1325.04,loss
+1453,owcs_2024_asia_s2_korea,Fnatic,1476.80,win
+1453,owcs_2024_asia_s2_korea,Old Ocean,1317.76,loss
+1454,owcs_2024_asia_s2_korea,Fnatic,1483.67,win
+1454,owcs_2024_asia_s2_korea,Old Ocean,1310.90,loss
+1455,owcs_2024_asia_s2_korea,HaeJeokDan,1389.04,win
+1455,owcs_2024_asia_s2_korea,VEC,1201.12,loss
+1456,owcs_2024_asia_s2_korea,HaeJeokDan,1395.12,win
+1456,owcs_2024_asia_s2_korea,VEC,1195.04,loss
+1457,owcs_2024_asia_s2_korea,HaeJeokDan,1400.88,win
+1457,owcs_2024_asia_s2_korea,VEC,1189.28,loss
+1458,owcs_2024_asia_s2_korea,Crazy Raccoon,1847.19,win
+1458,owcs_2024_asia_s2_korea,ZETA DIVISION,1616.08,loss
+1459,owcs_2024_asia_s2_korea,Crazy Raccoon,1852.21,win
+1459,owcs_2024_asia_s2_korea,ZETA DIVISION,1611.06,loss
+1460,owcs_2024_asia_s2_korea,Crazy Raccoon,1857.00,win
+1460,owcs_2024_asia_s2_korea,ZETA DIVISION,1606.27,loss
+1461,owcs_2024_asia_s2_korea,Team Falcons,1626.81,win
+1461,owcs_2024_asia_s2_korea,Old Ocean,1307.49,loss
+1462,owcs_2024_asia_s2_korea,Team Falcons,1630.10,win
+1462,owcs_2024_asia_s2_korea,Old Ocean,1304.20,loss
+1463,owcs_2024_asia_s2_korea,Team Falcons,1633.29,win
+1463,owcs_2024_asia_s2_korea,Old Ocean,1301.01,loss
+1464,owcs_2024_asia_s2_korea,Crazy Raccoon,1857.50,win
+1464,owcs_2024_asia_s2_korea,VEC,1188.77,loss
+1465,owcs_2024_asia_s2_korea,Crazy Raccoon,1858.00,win
+1465,owcs_2024_asia_s2_korea,VEC,1188.27,loss
+1466,owcs_2024_asia_s2_korea,Crazy Raccoon,1858.50,win
+1466,owcs_2024_asia_s2_korea,VEC,1187.78,loss
+1467,owcs_2024_asia_s2_korea,ZETA DIVISION,1609.80,win
+1467,owcs_2024_asia_s2_korea,Old Ocean,1297.48,loss
+1468,owcs_2024_asia_s2_korea,ZETA DIVISION,1613.21,win
+1468,owcs_2024_asia_s2_korea,Old Ocean,1294.07,loss
+1469,owcs_2024_asia_s2_korea,ZETA DIVISION,1616.51,win
+1469,owcs_2024_asia_s2_korea,Old Ocean,1290.77,loss
+1470,owcs_2024_asia_s2_korea,Team Falcons,1640.42,win
+1470,owcs_2024_asia_s2_korea,Fnatic,1476.54,loss
+1471,owcs_2024_asia_s2_korea,Team Falcons,1647.15,win
+1471,owcs_2024_asia_s2_korea,Fnatic,1469.81,loss
+1472,owcs_2024_asia_s2_korea,Team Falcons,1653.50,win
+1472,owcs_2024_asia_s2_korea,Fnatic,1463.45,loss
+1473,owcs_2024_asia_s2_korea,Poker Face,1475.03,win
+1473,owcs_2024_asia_s2_korea,HaeJeokDan,1391.08,loss
+1474,owcs_2024_asia_s2_korea,Poker Face,1484.19,win
+1474,owcs_2024_asia_s2_korea,HaeJeokDan,1381.92,loss
+1475,owcs_2024_asia_s2_korea,Poker Face,1492.75,win
+1475,owcs_2024_asia_s2_korea,HaeJeokDan,1373.36,loss
+1476,owcs_2024_asia_s2_korea,Crazy Raccoon,1861.11,win
+1476,owcs_2024_asia_s2_korea,Poker Face,1490.15,loss
+1477,owcs_2024_asia_s2_korea,Crazy Raccoon,1863.64,win
+1477,owcs_2024_asia_s2_korea,Poker Face,1487.61,loss
+1478,owcs_2024_asia_s2_korea,Crazy Raccoon,1866.12,win
+1478,owcs_2024_asia_s2_korea,Poker Face,1485.14,loss
+1479,owcs_2024_asia_s2_korea,Team Falcons,1664.23,win
+1479,owcs_2024_asia_s2_korea,ZETA DIVISION,1605.78,loss
+1480,owcs_2024_asia_s2_korea,ZETA DIVISION,1619.78,win
+1480,owcs_2024_asia_s2_korea,Team Falcons,1650.23,loss
+1481,owcs_2024_asia_s2_korea,Team Falcons,1661.18,win
+1481,owcs_2024_asia_s2_korea,ZETA DIVISION,1608.83,loss
+1482,owcs_2024_asia_s2_korea,ZETA DIVISION,1622.63,win
+1482,owcs_2024_asia_s2_korea,Team Falcons,1647.39,loss
+1483,owcs_2024_asia_s2_korea,Team Falcons,1658.53,win
+1483,owcs_2024_asia_s2_korea,ZETA DIVISION,1611.48,loss
+1484,owcs_2024_asia_s2_korea,Crazy Raccoon,1871.69,win
+1484,owcs_2024_asia_s2_korea,Team Falcons,1652.96,loss
+1485,owcs_2024_asia_s2_korea,Crazy Raccoon,1877.00,win
+1485,owcs_2024_asia_s2_korea,Team Falcons,1647.65,loss
+1486,owcs_2024_asia_s2_korea,Crazy Raccoon,1882.06,win
+1486,owcs_2024_asia_s2_korea,Team Falcons,1642.59,loss
+1487,owcs_2024_asia_s2_korea,ZETA DIVISION,1619.30,win
+1487,owcs_2024_asia_s2_korea,Poker Face,1477.32,loss
+1488,owcs_2024_asia_s2_korea,Poker Face,1493.97,win
+1488,owcs_2024_asia_s2_korea,ZETA DIVISION,1602.65,loss
+1489,owcs_2024_asia_s2_korea,Poker Face,1509.61,win
+1489,owcs_2024_asia_s2_korea,ZETA DIVISION,1587.02,loss
+1490,owcs_2024_asia_s2_korea,ZETA DIVISION,1596.39,win
+1490,owcs_2024_asia_s2_korea,Poker Face,1500.24,loss
+1491,owcs_2024_asia_s2_korea,Poker Face,1515.47,win
+1491,owcs_2024_asia_s2_korea,ZETA DIVISION,1581.15,loss
+1492,owcs_2024_asia_s2_korea,Team Falcons,1650.39,win
+1492,owcs_2024_asia_s2_korea,Poker Face,1507.68,loss
+1493,owcs_2024_asia_s2_korea,Poker Face,1524.35,win
+1493,owcs_2024_asia_s2_korea,Team Falcons,1633.72,loss
+1494,owcs_2024_asia_s2_korea,Poker Face,1540.01,win
+1494,owcs_2024_asia_s2_korea,Team Falcons,1618.06,loss
+1495,owcs_2024_asia_s2_korea,Poker Face,1554.66,win
+1495,owcs_2024_asia_s2_korea,Team Falcons,1603.41,loss
+1496,owcs_2024_asia_s2_korea,Crazy Raccoon,1885.67,win
+1496,owcs_2024_asia_s2_korea,ZETA DIVISION,1577.54,loss
+1497,owcs_2024_asia_s2_korea,ZETA DIVISION,1598.06,win
+1497,owcs_2024_asia_s2_korea,Crazy Raccoon,1865.15,loss
+1498,owcs_2024_asia_s2_korea,Crazy Raccoon,1869.39,win
+1498,owcs_2024_asia_s2_korea,ZETA DIVISION,1593.81,loss
+1499,owcs_2024_asia_s2_korea,ZETA DIVISION,1613.73,win
+1499,owcs_2024_asia_s2_korea,Crazy Raccoon,1849.47,loss
+1500,owcs_2024_asia_s2_korea,Crazy Raccoon,1854.38,win
+1500,owcs_2024_asia_s2_korea,ZETA DIVISION,1608.82,loss
+1501,owcs_2024_asia_s2_korea,HaeJeokDan,1388.40,win
+1501,owcs_2024_asia_s2_korea,Fnatic,1448.41,loss
+1502,owcs_2024_asia_s2_korea,HaeJeokDan,1402.45,win
+1502,owcs_2024_asia_s2_korea,Fnatic,1434.36,loss
+1503,owcs_2024_asia_s2_korea,HaeJeokDan,1415.55,win
+1503,owcs_2024_asia_s2_korea,Fnatic,1421.26,loss
+1504,owcs_2024_asia_s2_korea,VEC,1203.23,win
+1504,owcs_2024_asia_s2_korea,Old Ocean,1275.31,loss
+1505,owcs_2024_asia_s2_korea,Old Ocean,1284.86,win
+1505,owcs_2024_asia_s2_korea,VEC,1193.69,loss
+1506,owcs_2024_asia_s2_korea,Old Ocean,1293.78,win
+1506,owcs_2024_asia_s2_korea,VEC,1184.76,loss
+1507,owcs_2024_asia_s2_korea,VEC,1200.41,win
+1507,owcs_2024_asia_s2_korea,Old Ocean,1278.13,loss
+1508,owcs_2024_asia_s2_korea,VEC,1215.05,win
+1508,owcs_2024_asia_s2_korea,Old Ocean,1263.49,loss
+1509,owcs_2024_asia_s2_korea,Fnatic,1426.87,win
+1509,owcs_2024_asia_s2_korea,VEC,1209.44,loss
+1510,owcs_2024_asia_s2_korea,Fnatic,1432.21,win
+1510,owcs_2024_asia_s2_korea,VEC,1204.10,loss
+1511,owcs_2024_asia_s2_korea,Fnatic,1437.30,win
+1511,owcs_2024_asia_s2_korea,VEC,1199.02,loss
+1512,owcs_2024_asia_s2_korea,Team Falcons,1610.07,win
+1512,owcs_2024_asia_s2_korea,Fnatic,1430.63,loss
+1513,owcs_2024_asia_s2_korea,Team Falcons,1616.37,win
+1513,owcs_2024_asia_s2_korea,Fnatic,1424.33,loss
+1514,owcs_2024_asia_s2_korea,Fnatic,1442.36,win
+1514,owcs_2024_asia_s2_korea,Team Falcons,1598.34,loss
+1515,owcs_2024_asia_s2_korea,Team Falcons,1605.29,win
+1515,owcs_2024_asia_s2_korea,Fnatic,1435.42,loss
+1516,owcs_2024_asia_s2_korea,ZETA DIVISION,1614.76,win
+1516,owcs_2024_asia_s2_korea,HaeJeokDan,1409.61,loss
+1517,owcs_2024_asia_s2_korea,ZETA DIVISION,1620.40,win
+1517,owcs_2024_asia_s2_korea,HaeJeokDan,1403.98,loss
+1518,owcs_2024_asia_s2_korea,ZETA DIVISION,1625.76,win
+1518,owcs_2024_asia_s2_korea,HaeJeokDan,1398.61,loss
+1519,owcs_2024_asia_s2_korea,Crazy Raccoon,1859.00,win
+1519,owcs_2024_asia_s2_korea,Team Falcons,1600.67,loss
+1520,owcs_2024_asia_s2_korea,Team Falcons,1620.24,win
+1520,owcs_2024_asia_s2_korea,Crazy Raccoon,1839.43,loss
+1521,owcs_2024_asia_s2_korea,Team Falcons,1638.95,win
+1521,owcs_2024_asia_s2_korea,Crazy Raccoon,1820.72,loss
+1522,owcs_2024_asia_s2_korea,Team Falcons,1656.71,win
+1522,owcs_2024_asia_s2_korea,Crazy Raccoon,1802.96,loss
+1523,owcs_2024_asia_s2_korea,ZETA DIVISION,1635.34,win
+1523,owcs_2024_asia_s2_korea,Poker Face,1545.08,loss
+1524,owcs_2024_asia_s2_korea,ZETA DIVISION,1644.29,win
+1524,owcs_2024_asia_s2_korea,Poker Face,1536.13,loss
+1525,owcs_2024_asia_s2_korea,Poker Face,1551.75,win
+1525,owcs_2024_asia_s2_korea,ZETA DIVISION,1628.67,loss
+1526,owcs_2024_asia_s2_korea,ZETA DIVISION,1638.05,win
+1526,owcs_2024_asia_s2_korea,Poker Face,1542.36,loss
+1527,owcs_2024_asia_s2_korea,Team Falcons,1668.07,win
+1527,owcs_2024_asia_s2_korea,ZETA DIVISION,1626.70,loss
+1528,owcs_2024_asia_s2_korea,ZETA DIVISION,1640.12,win
+1528,owcs_2024_asia_s2_korea,Team Falcons,1654.64,loss
+1529,owcs_2024_asia_s2_korea,Team Falcons,1666.14,win
+1529,owcs_2024_asia_s2_korea,ZETA DIVISION,1628.62,loss
+1530,owcs_2024_asia_s2_korea,Team Falcons,1676.85,win
+1530,owcs_2024_asia_s2_korea,ZETA DIVISION,1617.91,loss
+1531,owcs_2024_asia_s2_korea,Team Falcons,1686.84,win
+1531,owcs_2024_asia_s2_korea,ZETA DIVISION,1607.93,loss
+1532,owcs_2024_asia_s2_korea,Crazy Raccoon,1807.34,win
+1532,owcs_2024_asia_s2_korea,Poker Face,1537.98,loss
+1533,owcs_2024_asia_s2_korea,Crazy Raccoon,1811.54,win
+1533,owcs_2024_asia_s2_korea,Poker Face,1533.78,loss
+1534,owcs_2024_asia_s2_korea,Crazy Raccoon,1815.58,win
+1534,owcs_2024_asia_s2_korea,Poker Face,1529.75,loss
 1535,owcs_2024_asia_s2_japan,REVATI,1431.40,win
 1535,owcs_2024_asia_s2_japan,Insomnia (Japanese team),1409.64,loss
 1536,owcs_2024_asia_s2_japan,REVATI,1442.65,win
@@ -3377,30 +3377,30 @@ global_map_order,event_id,team,elo_after,result
 1688,owcs_2024_asia_s2_japan,Insomnia (Japanese team),1492.04,loss
 1689,owcs_2024_asia_s2_japan,VARREL,1594.42,win
 1689,owcs_2024_asia_s2_japan,Insomnia (Japanese team),1483.19,loss
-1690,owcs_2024_asia_s2_wildcard,Poker Face,1554.57,win
-1690,owcs_2024_asia_s2_wildcard,VARREL,1580.58,loss
-1691,owcs_2024_asia_s2_wildcard,Poker Face,1567.46,win
-1691,owcs_2024_asia_s2_wildcard,VARREL,1567.68,loss
-1692,owcs_2024_asia_s2_wildcard,Poker Face,1579.47,win
-1692,owcs_2024_asia_s2_wildcard,VARREL,1555.67,loss
-1693,owcs_2024_asia_s2_wildcard,VARREL,1562.46,win
-1693,owcs_2024_asia_s2_wildcard,USIA Esports,1387.15,loss
-1694,owcs_2024_asia_s2_wildcard,VARREL,1568.87,win
-1694,owcs_2024_asia_s2_wildcard,USIA Esports,1380.73,loss
-1695,owcs_2024_asia_s2_wildcard,VARREL,1574.94,win
-1695,owcs_2024_asia_s2_wildcard,USIA Esports,1374.66,loss
-1696,owcs_2024_asia_s2_wildcard,Poker Face,1585.12,win
-1696,owcs_2024_asia_s2_wildcard,USIA Esports,1369.02,loss
-1697,owcs_2024_asia_s2_wildcard,Poker Face,1590.49,win
-1697,owcs_2024_asia_s2_wildcard,USIA Esports,1363.65,loss
-1698,owcs_2024_asia_s2_wildcard,Poker Face,1595.60,win
-1698,owcs_2024_asia_s2_wildcard,USIA Esports,1358.53,loss
-1699,owcs_2024_na_s4_groups,Toronto Defiant,1696.45,win
+1690,owcs_2024_asia_s2_wildcard,Poker Face,1543.96,win
+1690,owcs_2024_asia_s2_wildcard,VARREL,1580.21,loss
+1691,owcs_2024_asia_s2_wildcard,Poker Face,1557.20,win
+1691,owcs_2024_asia_s2_wildcard,VARREL,1566.96,loss
+1692,owcs_2024_asia_s2_wildcard,Poker Face,1569.54,win
+1692,owcs_2024_asia_s2_wildcard,VARREL,1554.62,loss
+1693,owcs_2024_asia_s2_wildcard,VARREL,1561.44,win
+1693,owcs_2024_asia_s2_wildcard,USIA Esports,1387.12,loss
+1694,owcs_2024_asia_s2_wildcard,VARREL,1567.88,win
+1694,owcs_2024_asia_s2_wildcard,USIA Esports,1380.68,loss
+1695,owcs_2024_asia_s2_wildcard,VARREL,1573.97,win
+1695,owcs_2024_asia_s2_wildcard,USIA Esports,1374.58,loss
+1696,owcs_2024_asia_s2_wildcard,Poker Face,1575.44,win
+1696,owcs_2024_asia_s2_wildcard,USIA Esports,1368.69,loss
+1697,owcs_2024_asia_s2_wildcard,Poker Face,1581.03,win
+1697,owcs_2024_asia_s2_wildcard,USIA Esports,1363.09,loss
+1698,owcs_2024_asia_s2_wildcard,Poker Face,1586.36,win
+1698,owcs_2024_asia_s2_wildcard,USIA Esports,1357.77,loss
+1699,owcs_2024_na_s4_groups,Toronto Defiant,1696.53,win
 1699,owcs_2024_na_s4_groups,YFP Gaming,1396.25,loss
-1700,owcs_2024_na_s4_groups,Toronto Defiant,1700.07,win
+1700,owcs_2024_na_s4_groups,Toronto Defiant,1700.15,win
 1700,owcs_2024_na_s4_groups,YFP Gaming,1392.63,loss
-1701,owcs_2024_na_s4_groups,Toronto Defiant,1703.56,win
-1701,owcs_2024_na_s4_groups,YFP Gaming,1389.13,loss
+1701,owcs_2024_na_s4_groups,Toronto Defiant,1703.64,win
+1701,owcs_2024_na_s4_groups,YFP Gaming,1389.14,loss
 1702,owcs_2024_na_s4_groups,Shikigami,1369.81,win
 1702,owcs_2024_na_s4_groups,Tanuki Esports,1346.77,loss
 1703,owcs_2024_na_s4_groups,Shikigami,1381.01,win
@@ -3408,34 +3408,34 @@ global_map_order,event_id,team,elo_after,result
 1704,owcs_2024_na_s4_groups,Shikigami,1391.45,win
 1704,owcs_2024_na_s4_groups,Tanuki Esports,1325.12,loss
 1705,owcs_2024_na_s4_groups,Shikigami,1412.04,win
-1705,owcs_2024_na_s4_groups,Toronto Defiant,1682.97,loss
+1705,owcs_2024_na_s4_groups,Toronto Defiant,1683.05,loss
 1706,owcs_2024_na_s4_groups,Shikigami,1431.87,win
-1706,owcs_2024_na_s4_groups,Toronto Defiant,1663.14,loss
-1707,owcs_2024_na_s4_groups,Toronto Defiant,1668.16,win
+1706,owcs_2024_na_s4_groups,Toronto Defiant,1663.22,loss
+1707,owcs_2024_na_s4_groups,Toronto Defiant,1668.23,win
 1707,owcs_2024_na_s4_groups,Shikigami,1426.86,loss
-1708,owcs_2024_na_s4_groups,Toronto Defiant,1672.95,win
+1708,owcs_2024_na_s4_groups,Toronto Defiant,1673.02,win
 1708,owcs_2024_na_s4_groups,Shikigami,1422.07,loss
-1709,owcs_2024_na_s4_groups,Toronto Defiant,1677.53,win
-1709,owcs_2024_na_s4_groups,Shikigami,1417.48,loss
+1709,owcs_2024_na_s4_groups,Toronto Defiant,1677.60,win
+1709,owcs_2024_na_s4_groups,Shikigami,1417.49,loss
 1710,owcs_2024_na_s4_groups,YFP Gaming,1398.95,win
 1710,owcs_2024_na_s4_groups,Tanuki Esports,1315.31,loss
-1711,owcs_2024_na_s4_groups,YFP Gaming,1408.11,win
+1711,owcs_2024_na_s4_groups,YFP Gaming,1408.12,win
 1711,owcs_2024_na_s4_groups,Tanuki Esports,1306.14,loss
 1712,owcs_2024_na_s4_groups,YFP Gaming,1416.69,win
 1712,owcs_2024_na_s4_groups,Tanuki Esports,1297.57,loss
 1713,owcs_2024_na_s4_groups,Shikigami,1429.46,win
-1713,owcs_2024_na_s4_groups,YFP Gaming,1404.71,loss
-1714,owcs_2024_na_s4_groups,Shikigami,1440.60,win
+1713,owcs_2024_na_s4_groups,YFP Gaming,1404.72,loss
+1714,owcs_2024_na_s4_groups,Shikigami,1440.61,win
 1714,owcs_2024_na_s4_groups,YFP Gaming,1393.57,loss
-1715,owcs_2024_na_s4_groups,YFP Gaming,1407.18,win
-1715,owcs_2024_na_s4_groups,Shikigami,1426.99,loss
+1715,owcs_2024_na_s4_groups,YFP Gaming,1407.19,win
+1715,owcs_2024_na_s4_groups,Shikigami,1427.00,loss
 1716,owcs_2024_na_s4_groups,Shikigami,1438.31,win
 1716,owcs_2024_na_s4_groups,YFP Gaming,1395.87,loss
-1717,owcs_2024_na_s4_groups,NRG Shock,1579.15,win
+1717,owcs_2024_na_s4_groups,NRG Shock,1579.18,win
 1717,owcs_2024_na_s4_groups,Blast OFF Buds,1393.52,loss
-1718,owcs_2024_na_s4_groups,NRG Shock,1585.29,win
+1718,owcs_2024_na_s4_groups,NRG Shock,1585.31,win
 1718,owcs_2024_na_s4_groups,Blast OFF Buds,1387.38,loss
-1719,owcs_2024_na_s4_groups,NRG Shock,1591.11,win
+1719,owcs_2024_na_s4_groups,NRG Shock,1591.13,win
 1719,owcs_2024_na_s4_groups,Blast OFF Buds,1381.56,loss
 1720,owcs_2024_na_s4_groups,Fluffy Aimers,1412.00,win
 1720,owcs_2024_na_s4_groups,EXN Zenith,1388.00,loss
@@ -3445,32 +3445,32 @@ global_map_order,event_id,team,elo_after,result
 1722,owcs_2024_na_s4_groups,Fluffy Aimers,1409.58,loss
 1723,owcs_2024_na_s4_groups,Fluffy Aimers,1420.92,win
 1723,owcs_2024_na_s4_groups,EXN Zenith,1379.08,loss
-1724,owcs_2024_na_s4_groups,NRG Shock,1597.66,win
+1724,owcs_2024_na_s4_groups,NRG Shock,1597.68,win
 1724,owcs_2024_na_s4_groups,Fluffy Aimers,1414.37,loss
 1725,owcs_2024_na_s4_groups,Fluffy Aimers,1432.17,win
-1725,owcs_2024_na_s4_groups,NRG Shock,1579.86,loss
+1725,owcs_2024_na_s4_groups,NRG Shock,1579.88,loss
 1726,owcs_2024_na_s4_groups,Fluffy Aimers,1448.99,win
-1726,owcs_2024_na_s4_groups,NRG Shock,1563.04,loss
+1726,owcs_2024_na_s4_groups,NRG Shock,1563.06,loss
 1727,owcs_2024_na_s4_groups,Fluffy Aimers,1464.79,win
-1727,owcs_2024_na_s4_groups,NRG Shock,1547.24,loss
+1727,owcs_2024_na_s4_groups,NRG Shock,1547.26,loss
 1728,owcs_2024_na_s4_groups,Blast OFF Buds,1393.48,win
 1728,owcs_2024_na_s4_groups,EXN Zenith,1367.17,loss
 1729,owcs_2024_na_s4_groups,Blast OFF Buds,1404.57,win
 1729,owcs_2024_na_s4_groups,EXN Zenith,1356.07,loss
-1730,owcs_2024_na_s4_groups,Blast OFF Buds,1414.90,win
+1730,owcs_2024_na_s4_groups,Blast OFF Buds,1414.91,win
 1730,owcs_2024_na_s4_groups,EXN Zenith,1345.74,loss
-1731,owcs_2024_na_s4_groups,NRG Shock,1554.88,win
+1731,owcs_2024_na_s4_groups,NRG Shock,1554.90,win
 1731,owcs_2024_na_s4_groups,Blast OFF Buds,1407.27,loss
-1732,owcs_2024_na_s4_groups,NRG Shock,1562.07,win
+1732,owcs_2024_na_s4_groups,NRG Shock,1562.08,win
 1732,owcs_2024_na_s4_groups,Blast OFF Buds,1400.08,loss
-1733,owcs_2024_na_s4_groups,NRG Shock,1568.84,win
+1733,owcs_2024_na_s4_groups,NRG Shock,1568.86,win
 1733,owcs_2024_na_s4_groups,Blast OFF Buds,1393.30,loss
-1734,owcs_2024_na_s4_groups,NTMR,1518.52,win
-1734,owcs_2024_na_s4_groups,Rad x Avidity,1375.19,loss
-1735,owcs_2024_na_s4_groups,NTMR,1525.84,win
-1735,owcs_2024_na_s4_groups,Rad x Avidity,1367.88,loss
-1736,owcs_2024_na_s4_groups,NTMR,1532.73,win
-1736,owcs_2024_na_s4_groups,Rad x Avidity,1360.98,loss
+1734,owcs_2024_na_s4_groups,NTMR,1518.54,win
+1734,owcs_2024_na_s4_groups,Rad x Avidity,1375.20,loss
+1735,owcs_2024_na_s4_groups,NTMR,1525.86,win
+1735,owcs_2024_na_s4_groups,Rad x Avidity,1367.89,loss
+1736,owcs_2024_na_s4_groups,NTMR,1532.75,win
+1736,owcs_2024_na_s4_groups,Rad x Avidity,1360.99,loss
 1737,owcs_2024_na_s4_groups,Ramattra Punch,1412.00,win
 1737,owcs_2024_na_s4_groups,O3 Splash,1388.00,loss
 1738,owcs_2024_na_s4_groups,O3 Splash,1400.83,win
@@ -3481,27 +3481,27 @@ global_map_order,event_id,team,elo_after,result
 1740,owcs_2024_na_s4_groups,O3 Splash,1399.89,loss
 1741,owcs_2024_na_s4_groups,Ramattra Punch,1412.10,win
 1741,owcs_2024_na_s4_groups,O3 Splash,1387.90,loss
-1742,owcs_2024_na_s4_groups,NTMR,1540.72,win
+1742,owcs_2024_na_s4_groups,NTMR,1540.74,win
 1742,owcs_2024_na_s4_groups,Ramattra Punch,1404.11,loss
 1743,owcs_2024_na_s4_groups,Ramattra Punch,1420.60,win
-1743,owcs_2024_na_s4_groups,NTMR,1524.23,loss
-1744,owcs_2024_na_s4_groups,NTMR,1532.76,win
+1743,owcs_2024_na_s4_groups,NTMR,1524.25,loss
+1744,owcs_2024_na_s4_groups,NTMR,1532.77,win
 1744,owcs_2024_na_s4_groups,Ramattra Punch,1412.08,loss
-1745,owcs_2024_na_s4_groups,NTMR,1540.75,win
-1745,owcs_2024_na_s4_groups,Ramattra Punch,1404.08,loss
-1746,owcs_2024_na_s4_groups,Rad x Avidity,1373.91,win
+1745,owcs_2024_na_s4_groups,NTMR,1540.76,win
+1745,owcs_2024_na_s4_groups,Ramattra Punch,1404.09,loss
+1746,owcs_2024_na_s4_groups,Rad x Avidity,1373.92,win
 1746,owcs_2024_na_s4_groups,O3 Splash,1374.97,loss
-1747,owcs_2024_na_s4_groups,Rad x Avidity,1385.95,win
+1747,owcs_2024_na_s4_groups,Rad x Avidity,1385.96,win
 1747,owcs_2024_na_s4_groups,O3 Splash,1362.93,loss
-1748,owcs_2024_na_s4_groups,Rad x Avidity,1397.15,win
+1748,owcs_2024_na_s4_groups,Rad x Avidity,1397.16,win
 1748,owcs_2024_na_s4_groups,O3 Splash,1351.73,loss
-1749,owcs_2024_na_s4_groups,Rad x Avidity,1409.39,win
-1749,owcs_2024_na_s4_groups,Ramattra Punch,1391.84,loss
-1750,owcs_2024_na_s4_groups,Rad x Avidity,1420.79,win
+1749,owcs_2024_na_s4_groups,Rad x Avidity,1409.40,win
+1749,owcs_2024_na_s4_groups,Ramattra Punch,1391.85,loss
+1750,owcs_2024_na_s4_groups,Rad x Avidity,1420.80,win
 1750,owcs_2024_na_s4_groups,Ramattra Punch,1380.45,loss
 1751,owcs_2024_na_s4_groups,Ramattra Punch,1393.84,win
-1751,owcs_2024_na_s4_groups,Rad x Avidity,1407.40,loss
-1752,owcs_2024_na_s4_groups,Rad x Avidity,1418.93,win
+1751,owcs_2024_na_s4_groups,Rad x Avidity,1407.41,loss
+1752,owcs_2024_na_s4_groups,Rad x Avidity,1418.94,win
 1752,owcs_2024_na_s4_groups,Ramattra Punch,1382.31,loss
 1753,owcs_2024_na_s4_groups,Team Z,1381.35,win
 1753,owcs_2024_na_s4_groups,Citrus Nation,1404.34,loss
@@ -3511,603 +3511,603 @@ global_map_order,event_id,team,elo_after,result
 1755,owcs_2024_na_s4_groups,Team Z,1359.70,loss
 1756,owcs_2024_na_s4_groups,Citrus Nation,1435.73,win
 1756,owcs_2024_na_s4_groups,Team Z,1349.97,loss
-1757,owcs_2024_na_s4_groups,TSM,1450.36,win
-1757,owcs_2024_na_s4_groups,Absolution,1341.41,loss
-1758,owcs_2024_na_s4_groups,TSM,1458.72,win
-1758,owcs_2024_na_s4_groups,Absolution,1333.06,loss
-1759,owcs_2024_na_s4_groups,TSM,1466.56,win
-1759,owcs_2024_na_s4_groups,Absolution,1325.22,loss
+1757,owcs_2024_na_s4_groups,TSM,1450.37,win
+1757,owcs_2024_na_s4_groups,Absolution,1341.42,loss
+1758,owcs_2024_na_s4_groups,TSM,1458.73,win
+1758,owcs_2024_na_s4_groups,Absolution,1333.07,loss
+1759,owcs_2024_na_s4_groups,TSM,1466.57,win
+1759,owcs_2024_na_s4_groups,Absolution,1325.23,loss
 1760,owcs_2024_na_s4_groups,Citrus Nation,1448.79,win
 1760,owcs_2024_na_s4_groups,TSM,1453.50,loss
-1761,owcs_2024_na_s4_groups,TSM,1465.33,win
+1761,owcs_2024_na_s4_groups,TSM,1465.34,win
 1761,owcs_2024_na_s4_groups,Citrus Nation,1436.95,loss
 1762,owcs_2024_na_s4_groups,Citrus Nation,1449.93,win
 1762,owcs_2024_na_s4_groups,TSM,1452.36,loss
 1763,owcs_2024_na_s4_groups,Citrus Nation,1462.01,win
-1763,owcs_2024_na_s4_groups,TSM,1440.27,loss
-1764,owcs_2024_na_s4_groups,Absolution,1338.07,win
+1763,owcs_2024_na_s4_groups,TSM,1440.28,loss
+1764,owcs_2024_na_s4_groups,Absolution,1338.08,win
 1764,owcs_2024_na_s4_groups,Team Z,1337.11,loss
 1765,owcs_2024_na_s4_groups,Team Z,1349.15,win
-1765,owcs_2024_na_s4_groups,Absolution,1326.04,loss
+1765,owcs_2024_na_s4_groups,Absolution,1326.05,loss
 1766,owcs_2024_na_s4_groups,Team Z,1360.35,win
-1766,owcs_2024_na_s4_groups,Absolution,1314.83,loss
+1766,owcs_2024_na_s4_groups,Absolution,1314.84,loss
 1767,owcs_2024_na_s4_groups,Team Z,1370.79,win
-1767,owcs_2024_na_s4_groups,Absolution,1304.40,loss
-1768,owcs_2024_na_s4_groups,TSM,1449.90,win
-1768,owcs_2024_na_s4_groups,Team Z,1361.15,loss
-1769,owcs_2024_na_s4_groups,TSM,1458.90,win
-1769,owcs_2024_na_s4_groups,Team Z,1352.15,loss
+1767,owcs_2024_na_s4_groups,Absolution,1304.41,loss
+1768,owcs_2024_na_s4_groups,TSM,1449.91,win
+1768,owcs_2024_na_s4_groups,Team Z,1361.16,loss
+1769,owcs_2024_na_s4_groups,TSM,1458.91,win
+1769,owcs_2024_na_s4_groups,Team Z,1352.16,loss
 1770,owcs_2024_na_s4_groups,TSM,1467.33,win
 1770,owcs_2024_na_s4_groups,Team Z,1343.73,loss
-1771,owcs_2024_emea_s4_groups,ENCE,1659.74,win
-1771,owcs_2024_emea_s4_groups,Vendetta (European team),1394.93,loss
-1772,owcs_2024_emea_s4_groups,ENCE,1664.03,win
-1772,owcs_2024_emea_s4_groups,Vendetta (European team),1390.64,loss
-1773,owcs_2024_emea_s4_groups,ENCE,1668.15,win
-1773,owcs_2024_emea_s4_groups,Vendetta (European team),1386.52,loss
+1771,owcs_2024_emea_s4_groups,ENCE,1660.36,win
+1771,owcs_2024_emea_s4_groups,Vendetta (European team),1395.03,loss
+1772,owcs_2024_emea_s4_groups,ENCE,1664.64,win
+1772,owcs_2024_emea_s4_groups,Vendetta (European team),1390.75,loss
+1773,owcs_2024_emea_s4_groups,ENCE,1668.75,win
+1773,owcs_2024_emea_s4_groups,Vendetta (European team),1386.64,loss
 1774,owcs_2024_emea_s4_groups,Wasp X Ohhhh No,1384.30,win
 1774,owcs_2024_emea_s4_groups,Quick Esports,1392.43,loss
 1775,owcs_2024_emea_s4_groups,Quick Esports,1404.15,win
 1775,owcs_2024_emea_s4_groups,Wasp X Ohhhh No,1372.58,loss
 1776,owcs_2024_emea_s4_groups,Quick Esports,1415.06,win
-1776,owcs_2024_emea_s4_groups,Wasp X Ohhhh No,1361.67,loss
+1776,owcs_2024_emea_s4_groups,Wasp X Ohhhh No,1361.66,loss
 1777,owcs_2024_emea_s4_groups,Quick Esports,1425.23,win
-1777,owcs_2024_emea_s4_groups,Wasp X Ohhhh No,1351.50,loss
-1778,owcs_2024_emea_s4_groups,ENCE,1672.91,win
-1778,owcs_2024_emea_s4_groups,Quick Esports,1420.48,loss
-1779,owcs_2024_emea_s4_groups,ENCE,1677.46,win
-1779,owcs_2024_emea_s4_groups,Quick Esports,1415.93,loss
-1780,owcs_2024_emea_s4_groups,ENCE,1681.81,win
-1780,owcs_2024_emea_s4_groups,Quick Esports,1411.57,loss
-1781,owcs_2024_emea_s4_groups,Vendetta (European team),1397.31,win
+1777,owcs_2024_emea_s4_groups,Wasp X Ohhhh No,1351.49,loss
+1778,owcs_2024_emea_s4_groups,ENCE,1673.49,win
+1778,owcs_2024_emea_s4_groups,Quick Esports,1420.49,loss
+1779,owcs_2024_emea_s4_groups,ENCE,1678.03,win
+1779,owcs_2024_emea_s4_groups,Quick Esports,1415.95,loss
+1780,owcs_2024_emea_s4_groups,ENCE,1682.38,win
+1780,owcs_2024_emea_s4_groups,Quick Esports,1411.61,loss
+1781,owcs_2024_emea_s4_groups,Vendetta (European team),1397.43,win
 1781,owcs_2024_emea_s4_groups,Wasp X Ohhhh No,1340.70,loss
-1782,owcs_2024_emea_s4_groups,Wasp X Ohhhh No,1354.64,win
-1782,owcs_2024_emea_s4_groups,Vendetta (European team),1383.37,loss
-1783,owcs_2024_emea_s4_groups,Vendetta (European team),1394.38,win
-1783,owcs_2024_emea_s4_groups,Wasp X Ohhhh No,1343.63,loss
-1784,owcs_2024_emea_s4_groups,Vendetta (European team),1404.64,win
-1784,owcs_2024_emea_s4_groups,Wasp X Ohhhh No,1333.37,loss
-1785,owcs_2024_emea_s4_groups,Vendetta (European team),1416.88,win
-1785,owcs_2024_emea_s4_groups,Quick Esports,1399.33,loss
-1786,owcs_2024_emea_s4_groups,Vendetta (European team),1428.28,win
-1786,owcs_2024_emea_s4_groups,Quick Esports,1387.94,loss
-1787,owcs_2024_emea_s4_groups,Quick Esports,1401.32,win
-1787,owcs_2024_emea_s4_groups,Vendetta (European team),1414.89,loss
-1788,owcs_2024_emea_s4_groups,Vendetta (European team),1426.42,win
-1788,owcs_2024_emea_s4_groups,Quick Esports,1389.79,loss
-1789,owcs_2024_emea_s4_groups,Virtus.pro,1546.77,win
-1789,owcs_2024_emea_s4_groups,Metaboiz,1303.48,loss
-1790,owcs_2024_emea_s4_groups,Virtus.pro,1551.52,win
-1790,owcs_2024_emea_s4_groups,Metaboiz,1298.73,loss
-1791,owcs_2024_emea_s4_groups,Virtus.pro,1556.06,win
-1791,owcs_2024_emea_s4_groups,Metaboiz,1294.19,loss
-1792,owcs_2024_emea_s4_groups,A One Man Army,1404.98,win
-1792,owcs_2024_emea_s4_groups,Team Peps,1455.30,loss
-1793,owcs_2024_emea_s4_groups,A One Man Army,1418.71,win
-1793,owcs_2024_emea_s4_groups,Team Peps,1441.58,loss
-1794,owcs_2024_emea_s4_groups,Team Peps,1452.79,win
-1794,owcs_2024_emea_s4_groups,A One Man Army,1407.50,loss
-1795,owcs_2024_emea_s4_groups,Team Peps,1463.23,win
-1795,owcs_2024_emea_s4_groups,A One Man Army,1397.05,loss
-1796,owcs_2024_emea_s4_groups,A One Man Army,1411.31,win
-1796,owcs_2024_emea_s4_groups,Team Peps,1448.97,loss
-1797,owcs_2024_emea_s4_groups,Virtus.pro,1563.33,win
-1797,owcs_2024_emea_s4_groups,A One Man Army,1404.04,loss
-1798,owcs_2024_emea_s4_groups,A One Man Army,1421.19,win
-1798,owcs_2024_emea_s4_groups,Virtus.pro,1546.18,loss
-1799,owcs_2024_emea_s4_groups,Virtus.pro,1554.04,win
-1799,owcs_2024_emea_s4_groups,A One Man Army,1413.33,loss
-1800,owcs_2024_emea_s4_groups,Virtus.pro,1561.43,win
-1800,owcs_2024_emea_s4_groups,A One Man Army,1405.94,loss
-1801,owcs_2024_emea_s4_groups,Team Peps,1455.95,win
-1801,owcs_2024_emea_s4_groups,Metaboiz,1287.21,loss
-1802,owcs_2024_emea_s4_groups,Team Peps,1462.55,win
-1802,owcs_2024_emea_s4_groups,Metaboiz,1280.62,loss
-1803,owcs_2024_emea_s4_groups,Team Peps,1468.78,win
-1803,owcs_2024_emea_s4_groups,Metaboiz,1274.38,loss
-1804,owcs_2024_emea_s4_groups,A One Man Army,1420.09,win
-1804,owcs_2024_emea_s4_groups,Team Peps,1454.63,loss
-1805,owcs_2024_emea_s4_groups,Team Peps,1465.44,win
-1805,owcs_2024_emea_s4_groups,A One Man Army,1409.27,loss
-1806,owcs_2024_emea_s4_groups,A One Man Army,1423.20,win
-1806,owcs_2024_emea_s4_groups,Team Peps,1451.52,loss
-1807,owcs_2024_emea_s4_groups,A One Man Army,1436.17,win
-1807,owcs_2024_emea_s4_groups,Team Peps,1438.54,loss
-1808,owcs_2024_emea_s4_groups,Spacestation Gaming,1579.39,win
-1808,owcs_2024_emea_s4_groups,Hypnos,1402.72,loss
-1809,owcs_2024_emea_s4_groups,Spacestation Gaming,1585.76,win
-1809,owcs_2024_emea_s4_groups,Hypnos,1396.35,loss
-1810,owcs_2024_emea_s4_groups,Spacestation Gaming,1591.80,win
-1810,owcs_2024_emea_s4_groups,Hypnos,1390.31,loss
+1782,owcs_2024_emea_s4_groups,Wasp X Ohhhh No,1354.65,win
+1782,owcs_2024_emea_s4_groups,Vendetta (European team),1383.49,loss
+1783,owcs_2024_emea_s4_groups,Vendetta (European team),1394.49,win
+1783,owcs_2024_emea_s4_groups,Wasp X Ohhhh No,1343.64,loss
+1784,owcs_2024_emea_s4_groups,Vendetta (European team),1404.75,win
+1784,owcs_2024_emea_s4_groups,Wasp X Ohhhh No,1333.38,loss
+1785,owcs_2024_emea_s4_groups,Vendetta (European team),1416.99,win
+1785,owcs_2024_emea_s4_groups,Quick Esports,1399.37,loss
+1786,owcs_2024_emea_s4_groups,Vendetta (European team),1428.38,win
+1786,owcs_2024_emea_s4_groups,Quick Esports,1387.98,loss
+1787,owcs_2024_emea_s4_groups,Quick Esports,1401.37,win
+1787,owcs_2024_emea_s4_groups,Vendetta (European team),1414.99,loss
+1788,owcs_2024_emea_s4_groups,Vendetta (European team),1426.52,win
+1788,owcs_2024_emea_s4_groups,Quick Esports,1389.84,loss
+1789,owcs_2024_emea_s4_groups,Virtus.pro,1547.96,win
+1789,owcs_2024_emea_s4_groups,Metaboiz,1303.50,loss
+1790,owcs_2024_emea_s4_groups,Virtus.pro,1552.68,win
+1790,owcs_2024_emea_s4_groups,Metaboiz,1298.78,loss
+1791,owcs_2024_emea_s4_groups,Virtus.pro,1557.20,win
+1791,owcs_2024_emea_s4_groups,Metaboiz,1294.27,loss
+1792,owcs_2024_emea_s4_groups,A One Man Army,1408.16,win
+1792,owcs_2024_emea_s4_groups,Team Peps,1397.19,loss
+1793,owcs_2024_emea_s4_groups,A One Man Army,1419.78,win
+1793,owcs_2024_emea_s4_groups,Team Peps,1385.57,loss
+1794,owcs_2024_emea_s4_groups,Team Peps,1398.75,win
+1794,owcs_2024_emea_s4_groups,A One Man Army,1406.60,loss
+1795,owcs_2024_emea_s4_groups,Team Peps,1411.02,win
+1795,owcs_2024_emea_s4_groups,A One Man Army,1394.33,loss
+1796,owcs_2024_emea_s4_groups,A One Man Army,1406.90,win
+1796,owcs_2024_emea_s4_groups,Team Peps,1398.44,loss
+1797,owcs_2024_emea_s4_groups,Virtus.pro,1564.31,win
+1797,owcs_2024_emea_s4_groups,A One Man Army,1399.79,loss
+1798,owcs_2024_emea_s4_groups,A One Man Army,1417.09,win
+1798,owcs_2024_emea_s4_groups,Virtus.pro,1547.01,loss
+1799,owcs_2024_emea_s4_groups,Virtus.pro,1554.72,win
+1799,owcs_2024_emea_s4_groups,A One Man Army,1409.38,loss
+1800,owcs_2024_emea_s4_groups,Virtus.pro,1561.98,win
+1800,owcs_2024_emea_s4_groups,A One Man Army,1402.12,loss
+1801,owcs_2024_emea_s4_groups,Team Peps,1406.95,win
+1801,owcs_2024_emea_s4_groups,Metaboiz,1285.76,loss
+1802,owcs_2024_emea_s4_groups,Team Peps,1414.92,win
+1802,owcs_2024_emea_s4_groups,Metaboiz,1277.78,loss
+1803,owcs_2024_emea_s4_groups,Team Peps,1422.42,win
+1803,owcs_2024_emea_s4_groups,Metaboiz,1270.29,loss
+1804,owcs_2024_emea_s4_groups,A One Man Army,1414.82,win
+1804,owcs_2024_emea_s4_groups,Team Peps,1409.72,loss
+1805,owcs_2024_emea_s4_groups,Team Peps,1421.89,win
+1805,owcs_2024_emea_s4_groups,A One Man Army,1402.65,loss
+1806,owcs_2024_emea_s4_groups,A One Man Army,1415.31,win
+1806,owcs_2024_emea_s4_groups,Team Peps,1409.23,loss
+1807,owcs_2024_emea_s4_groups,A One Man Army,1427.10,win
+1807,owcs_2024_emea_s4_groups,Team Peps,1397.44,loss
+1808,owcs_2024_emea_s4_groups,Spacestation Gaming,1582.83,win
+1808,owcs_2024_emea_s4_groups,Hypnos,1403.49,loss
+1809,owcs_2024_emea_s4_groups,Spacestation Gaming,1589.13,win
+1809,owcs_2024_emea_s4_groups,Hypnos,1397.19,loss
+1810,owcs_2024_emea_s4_groups,Spacestation Gaming,1595.11,win
+1810,owcs_2024_emea_s4_groups,Hypnos,1391.21,loss
 1811,owcs_2024_emea_s4_groups,Ex Oblivione,1401.42,win
 1811,owcs_2024_emea_s4_groups,SrPeakCheck,1360.51,loss
 1812,owcs_2024_emea_s4_groups,Ex Oblivione,1412.01,win
 1812,owcs_2024_emea_s4_groups,SrPeakCheck,1349.92,loss
 1813,owcs_2024_emea_s4_groups,Ex Oblivione,1421.89,win
 1813,owcs_2024_emea_s4_groups,SrPeakCheck,1340.04,loss
-1814,owcs_2024_emea_s4_groups,Spacestation Gaming,1598.36,win
-1814,owcs_2024_emea_s4_groups,Ex Oblivione,1415.33,loss
-1815,owcs_2024_emea_s4_groups,Spacestation Gaming,1604.56,win
-1815,owcs_2024_emea_s4_groups,Ex Oblivione,1409.13,loss
-1816,owcs_2024_emea_s4_groups,Spacestation Gaming,1610.45,win
-1816,owcs_2024_emea_s4_groups,Ex Oblivione,1403.25,loss
-1817,owcs_2024_emea_s4_groups,SrPeakCheck,1353.76,win
-1817,owcs_2024_emea_s4_groups,Hypnos,1376.59,loss
-1818,owcs_2024_emea_s4_groups,SrPeakCheck,1366.55,win
-1818,owcs_2024_emea_s4_groups,Hypnos,1363.80,loss
-1819,owcs_2024_emea_s4_groups,SrPeakCheck,1378.46,win
-1819,owcs_2024_emea_s4_groups,Hypnos,1351.90,loss
-1820,owcs_2024_emea_s4_groups,Ex Oblivione,1414.39,win
-1820,owcs_2024_emea_s4_groups,SrPeakCheck,1367.31,loss
-1821,owcs_2024_emea_s4_groups,SrPeakCheck,1380.93,win
-1821,owcs_2024_emea_s4_groups,Ex Oblivione,1400.78,loss
-1822,owcs_2024_emea_s4_groups,Ex Oblivione,1412.09,win
-1822,owcs_2024_emea_s4_groups,SrPeakCheck,1369.61,loss
-1823,owcs_2024_emea_s4_groups,SrPeakCheck,1383.07,win
-1823,owcs_2024_emea_s4_groups,Ex Oblivione,1398.63,loss
-1824,owcs_2024_emea_s4_groups,SrPeakCheck,1395.61,win
-1824,owcs_2024_emea_s4_groups,Ex Oblivione,1386.09,loss
-1825,owcs_2024_emea_s4_groups,Twisted Minds,1521.63,win
-1825,owcs_2024_emea_s4_groups,Negative Mental Attitude,1391.78,loss
-1826,owcs_2024_emea_s4_groups,Negative Mental Attitude,1408.07,win
-1826,owcs_2024_emea_s4_groups,Twisted Minds,1505.34,loss
-1827,owcs_2024_emea_s4_groups,Negative Mental Attitude,1423.34,win
-1827,owcs_2024_emea_s4_groups,Twisted Minds,1490.07,loss
-1828,owcs_2024_emea_s4_groups,Twisted Minds,1499.79,win
-1828,owcs_2024_emea_s4_groups,Negative Mental Attitude,1413.62,loss
-1829,owcs_2024_emea_s4_groups,Twisted Minds,1508.87,win
-1829,owcs_2024_emea_s4_groups,Negative Mental Attitude,1404.54,loss
+1814,owcs_2024_emea_s4_groups,Spacestation Gaming,1601.57,win
+1814,owcs_2024_emea_s4_groups,Ex Oblivione,1415.42,loss
+1815,owcs_2024_emea_s4_groups,Spacestation Gaming,1607.70,win
+1815,owcs_2024_emea_s4_groups,Ex Oblivione,1409.30,loss
+1816,owcs_2024_emea_s4_groups,Spacestation Gaming,1613.50,win
+1816,owcs_2024_emea_s4_groups,Ex Oblivione,1403.49,loss
+1817,owcs_2024_emea_s4_groups,SrPeakCheck,1353.79,win
+1817,owcs_2024_emea_s4_groups,Hypnos,1377.46,loss
+1818,owcs_2024_emea_s4_groups,SrPeakCheck,1366.61,win
+1818,owcs_2024_emea_s4_groups,Hypnos,1364.64,loss
+1819,owcs_2024_emea_s4_groups,SrPeakCheck,1378.54,win
+1819,owcs_2024_emea_s4_groups,Hypnos,1352.71,loss
+1820,owcs_2024_emea_s4_groups,Ex Oblivione,1414.63,win
+1820,owcs_2024_emea_s4_groups,SrPeakCheck,1367.40,loss
+1821,owcs_2024_emea_s4_groups,SrPeakCheck,1381.02,win
+1821,owcs_2024_emea_s4_groups,Ex Oblivione,1401.01,loss
+1822,owcs_2024_emea_s4_groups,Ex Oblivione,1412.32,win
+1822,owcs_2024_emea_s4_groups,SrPeakCheck,1369.71,loss
+1823,owcs_2024_emea_s4_groups,SrPeakCheck,1383.18,win
+1823,owcs_2024_emea_s4_groups,Ex Oblivione,1398.86,loss
+1824,owcs_2024_emea_s4_groups,SrPeakCheck,1395.72,win
+1824,owcs_2024_emea_s4_groups,Ex Oblivione,1386.32,loss
+1825,owcs_2024_emea_s4_groups,Twisted Minds,1525.79,win
+1825,owcs_2024_emea_s4_groups,Negative Mental Attitude,1391.92,loss
+1826,owcs_2024_emea_s4_groups,Negative Mental Attitude,1408.32,win
+1826,owcs_2024_emea_s4_groups,Twisted Minds,1509.38,loss
+1827,owcs_2024_emea_s4_groups,Negative Mental Attitude,1423.72,win
+1827,owcs_2024_emea_s4_groups,Twisted Minds,1493.99,loss
+1828,owcs_2024_emea_s4_groups,Twisted Minds,1503.59,win
+1828,owcs_2024_emea_s4_groups,Negative Mental Attitude,1414.11,loss
+1829,owcs_2024_emea_s4_groups,Twisted Minds,1512.57,win
+1829,owcs_2024_emea_s4_groups,Negative Mental Attitude,1405.14,loss
 1830,owcs_2024_emea_s4_groups,Piece of Cake,1412.00,win
 1830,owcs_2024_emea_s4_groups,Team G4mbit,1388.00,loss
 1831,owcs_2024_emea_s4_groups,Piece of Cake,1423.17,win
 1831,owcs_2024_emea_s4_groups,Team G4mbit,1376.83,loss
 1832,owcs_2024_emea_s4_groups,Piece of Cake,1433.58,win
 1832,owcs_2024_emea_s4_groups,Team G4mbit,1366.42,loss
-1833,owcs_2024_emea_s4_groups,Piece of Cake,1448.14,win
-1833,owcs_2024_emea_s4_groups,Twisted Minds,1494.31,loss
-1834,owcs_2024_emea_s4_groups,Twisted Minds,1504.73,win
-1834,owcs_2024_emea_s4_groups,Piece of Cake,1437.73,loss
-1835,owcs_2024_emea_s4_groups,Piece of Cake,1452.01,win
-1835,owcs_2024_emea_s4_groups,Twisted Minds,1490.44,loss
-1836,owcs_2024_emea_s4_groups,Piece of Cake,1465.33,win
-1836,owcs_2024_emea_s4_groups,Twisted Minds,1477.12,loss
-1837,owcs_2024_emea_s4_groups,Negative Mental Attitude,1415.23,win
-1837,owcs_2024_emea_s4_groups,Team G4mbit,1355.73,loss
-1838,owcs_2024_emea_s4_groups,Team G4mbit,1369.77,win
-1838,owcs_2024_emea_s4_groups,Negative Mental Attitude,1401.19,loss
-1839,owcs_2024_emea_s4_groups,Negative Mental Attitude,1412.11,win
-1839,owcs_2024_emea_s4_groups,Team G4mbit,1358.85,loss
-1840,owcs_2024_emea_s4_groups,Negative Mental Attitude,1422.28,win
-1840,owcs_2024_emea_s4_groups,Team G4mbit,1348.67,loss
-1841,owcs_2024_emea_s4_groups,Twisted Minds,1487.24,win
-1841,owcs_2024_emea_s4_groups,Negative Mental Attitude,1412.16,loss
-1842,owcs_2024_emea_s4_groups,Twisted Minds,1496.69,win
-1842,owcs_2024_emea_s4_groups,Negative Mental Attitude,1402.72,loss
-1843,owcs_2024_emea_s4_groups,Twisted Minds,1505.52,win
-1843,owcs_2024_emea_s4_groups,Negative Mental Attitude,1393.88,loss
-1844,owcs_2024_asia_s2_main,Team Falcons,1701.83,win
-1844,owcs_2024_asia_s2_main,99DIVINE,1482.66,loss
-1845,owcs_2024_asia_s2_main,Team Falcons,1707.13,win
-1845,owcs_2024_asia_s2_main,99DIVINE,1477.37,loss
-1846,owcs_2024_asia_s2_main,Team Falcons,1712.18,win
-1846,owcs_2024_asia_s2_main,99DIVINE,1472.32,loss
-1847,owcs_2024_asia_s2_main,Poker Face,1605.42,win
-1847,owcs_2024_asia_s2_main,Lazuli,1521.74,loss
-1848,owcs_2024_asia_s2_main,Poker Face,1614.58,win
-1848,owcs_2024_asia_s2_main,Lazuli,1512.57,loss
-1849,owcs_2024_asia_s2_main,Poker Face,1623.16,win
-1849,owcs_2024_asia_s2_main,Lazuli,1504.00,loss
-1850,owcs_2024_asia_s2_main,Crazy Raccoon,1824.64,win
-1850,owcs_2024_asia_s2_main,Bleed Esports,1535.54,loss
-1851,owcs_2024_asia_s2_main,Crazy Raccoon,1828.46,win
-1851,owcs_2024_asia_s2_main,Bleed Esports,1531.72,loss
-1852,owcs_2024_asia_s2_main,Crazy Raccoon,1832.14,win
-1852,owcs_2024_asia_s2_main,Bleed Esports,1528.04,loss
-1853,owcs_2024_asia_s2_main,ZETA DIVISION,1622.53,win
-1853,owcs_2024_asia_s2_main,Nyam Gaming,1402.55,loss
-1854,owcs_2024_asia_s2_main,ZETA DIVISION,1627.81,win
-1854,owcs_2024_asia_s2_main,Nyam Gaming,1397.27,loss
-1855,owcs_2024_asia_s2_main,ZETA DIVISION,1632.84,win
-1855,owcs_2024_asia_s2_main,Nyam Gaming,1392.24,loss
-1856,owcs_2024_asia_s2_main,Team Falcons,1721.17,win
-1856,owcs_2024_asia_s2_main,Poker Face,1614.16,loss
-1857,owcs_2024_asia_s2_main,Poker Face,1629.75,win
-1857,owcs_2024_asia_s2_main,Team Falcons,1705.59,loss
-1858,owcs_2024_asia_s2_main,Team Falcons,1715.01,win
-1858,owcs_2024_asia_s2_main,Poker Face,1620.33,loss
-1859,owcs_2024_asia_s2_main,Team Falcons,1723.82,win
-1859,owcs_2024_asia_s2_main,Poker Face,1611.52,loss
-1860,owcs_2024_asia_s2_main,ZETA DIVISION,1651.06,win
-1860,owcs_2024_asia_s2_main,Crazy Raccoon,1813.92,loss
-1861,owcs_2024_asia_s2_main,Crazy Raccoon,1820.68,win
-1861,owcs_2024_asia_s2_main,ZETA DIVISION,1644.30,loss
-1862,owcs_2024_asia_s2_main,Crazy Raccoon,1827.06,win
-1862,owcs_2024_asia_s2_main,ZETA DIVISION,1637.92,loss
-1863,owcs_2024_asia_s2_main,Crazy Raccoon,1827.06,draw
-1863,owcs_2024_asia_s2_main,ZETA DIVISION,1637.92,draw
-1864,owcs_2024_asia_s2_main,Crazy Raccoon,1833.10,win
-1864,owcs_2024_asia_s2_main,ZETA DIVISION,1631.87,loss
-1865,owcs_2024_asia_s2_main,Crazy Raccoon,1841.45,win
-1865,owcs_2024_asia_s2_main,Team Falcons,1715.47,loss
-1866,owcs_2024_asia_s2_main,Team Falcons,1731.64,win
-1866,owcs_2024_asia_s2_main,Crazy Raccoon,1825.28,loss
-1867,owcs_2024_asia_s2_main,Team Falcons,1746.80,win
-1867,owcs_2024_asia_s2_main,Crazy Raccoon,1810.12,loss
-1868,owcs_2024_asia_s2_main,Crazy Raccoon,1819.96,win
-1868,owcs_2024_asia_s2_main,Team Falcons,1736.96,loss
-1869,owcs_2024_asia_s2_main,Crazy Raccoon,1829.15,win
-1869,owcs_2024_asia_s2_main,Team Falcons,1727.78,loss
-1870,owcs_2024_asia_s2_main,99DIVINE,1485.41,win
-1870,owcs_2024_asia_s2_main,Lazuli,1490.91,loss
-1871,owcs_2024_asia_s2_main,Lazuli,1502.72,win
-1871,owcs_2024_asia_s2_main,99DIVINE,1473.60,loss
-1872,owcs_2024_asia_s2_main,99DIVINE,1486.60,win
-1872,owcs_2024_asia_s2_main,Lazuli,1489.71,loss
-1873,owcs_2024_asia_s2_main,Lazuli,1501.61,win
-1873,owcs_2024_asia_s2_main,99DIVINE,1474.71,loss
-1874,owcs_2024_asia_s2_main,99DIVINE,1487.64,win
-1874,owcs_2024_asia_s2_main,Lazuli,1488.68,loss
-1875,owcs_2024_asia_s2_main,Bleed Esports,1535.58,win
-1875,owcs_2024_asia_s2_main,Nyam Gaming,1384.71,loss
-1876,owcs_2024_asia_s2_main,Bleed Esports,1542.67,win
-1876,owcs_2024_asia_s2_main,Nyam Gaming,1377.61,loss
-1877,owcs_2024_asia_s2_main,Bleed Esports,1549.36,win
-1877,owcs_2024_asia_s2_main,Nyam Gaming,1370.92,loss
-1878,owcs_2024_asia_s2_main,ZETA DIVISION,1639.16,win
-1878,owcs_2024_asia_s2_main,99DIVINE,1480.35,loss
-1879,owcs_2024_asia_s2_main,ZETA DIVISION,1646.03,win
-1879,owcs_2024_asia_s2_main,99DIVINE,1473.48,loss
-1880,owcs_2024_asia_s2_main,ZETA DIVISION,1652.51,win
-1880,owcs_2024_asia_s2_main,99DIVINE,1467.00,loss
-1881,owcs_2024_asia_s2_main,Poker Face,1621.39,win
-1881,owcs_2024_asia_s2_main,Bleed Esports,1539.49,loss
-1882,owcs_2024_asia_s2_main,Poker Face,1630.62,win
-1882,owcs_2024_asia_s2_main,Bleed Esports,1530.26,loss
-1883,owcs_2024_asia_s2_main,Poker Face,1639.24,win
-1883,owcs_2024_asia_s2_main,Bleed Esports,1521.64,loss
-1884,owcs_2024_asia_s2_main,ZETA DIVISION,1664.06,win
-1884,owcs_2024_asia_s2_main,Poker Face,1627.70,loss
-1885,owcs_2024_asia_s2_main,ZETA DIVISION,1674.81,win
-1885,owcs_2024_asia_s2_main,Poker Face,1616.95,loss
-1886,owcs_2024_asia_s2_main,Poker Face,1630.93,win
-1886,owcs_2024_asia_s2_main,ZETA DIVISION,1660.83,loss
-1887,owcs_2024_asia_s2_main,ZETA DIVISION,1671.80,win
-1887,owcs_2024_asia_s2_main,Poker Face,1619.96,loss
-1888,owcs_2024_asia_s2_main,Team Falcons,1737.86,win
-1888,owcs_2024_asia_s2_main,ZETA DIVISION,1661.71,loss
-1889,owcs_2024_asia_s2_main,ZETA DIVISION,1676.30,win
-1889,owcs_2024_asia_s2_main,Team Falcons,1723.27,loss
-1890,owcs_2024_asia_s2_main,Team Falcons,1733.66,win
-1890,owcs_2024_asia_s2_main,ZETA DIVISION,1665.91,loss
-1891,owcs_2024_asia_s2_main,ZETA DIVISION,1680.22,win
-1891,owcs_2024_asia_s2_main,Team Falcons,1719.35,loss
-1892,owcs_2024_asia_s2_main,Team Falcons,1730.00,win
-1892,owcs_2024_asia_s2_main,ZETA DIVISION,1669.57,loss
-1893,owcs_2024_asia_s2_main,Team Falcons,1745.34,win
-1893,owcs_2024_asia_s2_main,Crazy Raccoon,1813.81,loss
-1894,owcs_2024_asia_s2_main,Crazy Raccoon,1823.48,win
-1894,owcs_2024_asia_s2_main,Team Falcons,1735.67,loss
-1895,owcs_2024_asia_s2_main,Team Falcons,1750.64,win
-1895,owcs_2024_asia_s2_main,Crazy Raccoon,1808.51,loss
-1896,owcs_2024_asia_s2_main,Crazy Raccoon,1818.53,win
-1896,owcs_2024_asia_s2_main,Team Falcons,1740.62,loss
-1897,owcs_2024_asia_s2_main,Crazy Raccoon,1827.88,win
-1897,owcs_2024_asia_s2_main,Team Falcons,1731.27,loss
-1898,owcs_2024_asia_s2_main,Team Falcons,1746.52,win
-1898,owcs_2024_asia_s2_main,Crazy Raccoon,1812.63,loss
-1899,owcs_2024_asia_s2_main,Team Falcons,1760.78,win
-1899,owcs_2024_asia_s2_main,Crazy Raccoon,1798.37,loss
-1900,owcs_2024_na_s4_main,Toronto Defiant,1685.89,win
-1900,owcs_2024_na_s4_main,NRG Shock,1560.48,loss
-1901,owcs_2024_na_s4_main,Toronto Defiant,1693.74,win
-1901,owcs_2024_na_s4_main,NRG Shock,1552.63,loss
-1902,owcs_2024_na_s4_main,Toronto Defiant,1701.12,win
-1902,owcs_2024_na_s4_main,NRG Shock,1545.25,loss
-1903,owcs_2024_na_s4_main,Rad x Avidity,1432.41,win
+1833,owcs_2024_emea_s4_groups,Piece of Cake,1448.26,win
+1833,owcs_2024_emea_s4_groups,Twisted Minds,1497.89,loss
+1834,owcs_2024_emea_s4_groups,Twisted Minds,1508.19,win
+1834,owcs_2024_emea_s4_groups,Piece of Cake,1437.97,loss
+1835,owcs_2024_emea_s4_groups,Piece of Cake,1452.36,win
+1835,owcs_2024_emea_s4_groups,Twisted Minds,1493.79,loss
+1836,owcs_2024_emea_s4_groups,Piece of Cake,1465.78,win
+1836,owcs_2024_emea_s4_groups,Twisted Minds,1480.37,loss
+1837,owcs_2024_emea_s4_groups,Negative Mental Attitude,1415.81,win
+1837,owcs_2024_emea_s4_groups,Team G4mbit,1355.75,loss
+1838,owcs_2024_emea_s4_groups,Team G4mbit,1369.80,win
+1838,owcs_2024_emea_s4_groups,Negative Mental Attitude,1401.75,loss
+1839,owcs_2024_emea_s4_groups,Negative Mental Attitude,1412.65,win
+1839,owcs_2024_emea_s4_groups,Team G4mbit,1358.90,loss
+1840,owcs_2024_emea_s4_groups,Negative Mental Attitude,1422.81,win
+1840,owcs_2024_emea_s4_groups,Team G4mbit,1348.75,loss
+1841,owcs_2024_emea_s4_groups,Twisted Minds,1490.40,win
+1841,owcs_2024_emea_s4_groups,Negative Mental Attitude,1412.78,loss
+1842,owcs_2024_emea_s4_groups,Twisted Minds,1499.76,win
+1842,owcs_2024_emea_s4_groups,Negative Mental Attitude,1403.42,loss
+1843,owcs_2024_emea_s4_groups,Twisted Minds,1508.52,win
+1843,owcs_2024_emea_s4_groups,Negative Mental Attitude,1394.66,loss
+1844,owcs_2024_asia_s2_main,Team Falcons,1692.64,win
+1844,owcs_2024_asia_s2_main,99DIVINE,1482.43,loss
+1845,owcs_2024_asia_s2_main,Team Falcons,1698.15,win
+1845,owcs_2024_asia_s2_main,99DIVINE,1476.91,loss
+1846,owcs_2024_asia_s2_main,Team Falcons,1703.40,win
+1846,owcs_2024_asia_s2_main,99DIVINE,1471.67,loss
+1847,owcs_2024_asia_s2_main,Poker Face,1596.48,win
+1847,owcs_2024_asia_s2_main,Lazuli,1521.43,loss
+1848,owcs_2024_asia_s2_main,Poker Face,1605.93,win
+1848,owcs_2024_asia_s2_main,Lazuli,1511.98,loss
+1849,owcs_2024_asia_s2_main,Poker Face,1614.76,win
+1849,owcs_2024_asia_s2_main,Lazuli,1503.15,loss
+1850,owcs_2024_asia_s2_main,Crazy Raccoon,1819.64,win
+1850,owcs_2024_asia_s2_main,Bleed Esports,1535.45,loss
+1851,owcs_2024_asia_s2_main,Crazy Raccoon,1823.56,win
+1851,owcs_2024_asia_s2_main,Bleed Esports,1531.53,loss
+1852,owcs_2024_asia_s2_main,Crazy Raccoon,1827.32,win
+1852,owcs_2024_asia_s2_main,Bleed Esports,1527.77,loss
+1853,owcs_2024_asia_s2_main,ZETA DIVISION,1613.70,win
+1853,owcs_2024_asia_s2_main,Nyam Gaming,1402.33,loss
+1854,owcs_2024_asia_s2_main,ZETA DIVISION,1619.18,win
+1854,owcs_2024_asia_s2_main,Nyam Gaming,1396.84,loss
+1855,owcs_2024_asia_s2_main,ZETA DIVISION,1624.40,win
+1855,owcs_2024_asia_s2_main,Nyam Gaming,1391.62,loss
+1856,owcs_2024_asia_s2_main,Team Falcons,1712.40,win
+1856,owcs_2024_asia_s2_main,Poker Face,1605.76,loss
+1857,owcs_2024_asia_s2_main,Poker Face,1621.33,win
+1857,owcs_2024_asia_s2_main,Team Falcons,1696.83,loss
+1858,owcs_2024_asia_s2_main,Team Falcons,1706.26,win
+1858,owcs_2024_asia_s2_main,Poker Face,1611.90,loss
+1859,owcs_2024_asia_s2_main,Team Falcons,1715.08,win
+1859,owcs_2024_asia_s2_main,Poker Face,1603.08,loss
+1860,owcs_2024_asia_s2_main,ZETA DIVISION,1642.71,win
+1860,owcs_2024_asia_s2_main,Crazy Raccoon,1809.02,loss
+1861,owcs_2024_asia_s2_main,Crazy Raccoon,1815.67,win
+1861,owcs_2024_asia_s2_main,ZETA DIVISION,1636.05,loss
+1862,owcs_2024_asia_s2_main,Crazy Raccoon,1821.97,win
+1862,owcs_2024_asia_s2_main,ZETA DIVISION,1629.76,loss
+1863,owcs_2024_asia_s2_main,Crazy Raccoon,1821.97,draw
+1863,owcs_2024_asia_s2_main,ZETA DIVISION,1629.76,draw
+1864,owcs_2024_asia_s2_main,Crazy Raccoon,1827.93,win
+1864,owcs_2024_asia_s2_main,ZETA DIVISION,1623.79,loss
+1865,owcs_2024_asia_s2_main,Crazy Raccoon,1836.17,win
+1865,owcs_2024_asia_s2_main,Team Falcons,1706.85,loss
+1866,owcs_2024_asia_s2_main,Team Falcons,1723.12,win
+1866,owcs_2024_asia_s2_main,Crazy Raccoon,1819.90,loss
+1867,owcs_2024_asia_s2_main,Team Falcons,1738.38,win
+1867,owcs_2024_asia_s2_main,Crazy Raccoon,1804.64,loss
+1868,owcs_2024_asia_s2_main,Crazy Raccoon,1814.38,win
+1868,owcs_2024_asia_s2_main,Team Falcons,1728.64,loss
+1869,owcs_2024_asia_s2_main,Crazy Raccoon,1823.47,win
+1869,owcs_2024_asia_s2_main,Team Falcons,1719.54,loss
+1870,owcs_2024_asia_s2_main,99DIVINE,1484.75,win
+1870,owcs_2024_asia_s2_main,Lazuli,1490.06,loss
+1871,owcs_2024_asia_s2_main,Lazuli,1501.88,win
+1871,owcs_2024_asia_s2_main,99DIVINE,1472.93,loss
+1872,owcs_2024_asia_s2_main,99DIVINE,1485.93,win
+1872,owcs_2024_asia_s2_main,Lazuli,1488.88,loss
+1873,owcs_2024_asia_s2_main,Lazuli,1500.78,win
+1873,owcs_2024_asia_s2_main,99DIVINE,1474.03,loss
+1874,owcs_2024_asia_s2_main,99DIVINE,1486.96,win
+1874,owcs_2024_asia_s2_main,Lazuli,1487.86,loss
+1875,owcs_2024_asia_s2_main,Bleed Esports,1535.29,win
+1875,owcs_2024_asia_s2_main,Nyam Gaming,1384.10,loss
+1876,owcs_2024_asia_s2_main,Bleed Esports,1542.38,win
+1876,owcs_2024_asia_s2_main,Nyam Gaming,1377.01,loss
+1877,owcs_2024_asia_s2_main,Bleed Esports,1549.06,win
+1877,owcs_2024_asia_s2_main,Nyam Gaming,1370.33,loss
+1878,owcs_2024_asia_s2_main,ZETA DIVISION,1631.30,win
+1878,owcs_2024_asia_s2_main,99DIVINE,1479.45,loss
+1879,owcs_2024_asia_s2_main,ZETA DIVISION,1638.36,win
+1879,owcs_2024_asia_s2_main,99DIVINE,1472.39,loss
+1880,owcs_2024_asia_s2_main,ZETA DIVISION,1645.03,win
+1880,owcs_2024_asia_s2_main,99DIVINE,1465.72,loss
+1881,owcs_2024_asia_s2_main,Poker Face,1613.23,win
+1881,owcs_2024_asia_s2_main,Bleed Esports,1538.91,loss
+1882,owcs_2024_asia_s2_main,Poker Face,1622.70,win
+1882,owcs_2024_asia_s2_main,Bleed Esports,1529.44,loss
+1883,owcs_2024_asia_s2_main,Poker Face,1631.55,win
+1883,owcs_2024_asia_s2_main,Bleed Esports,1520.58,loss
+1884,owcs_2024_asia_s2_main,ZETA DIVISION,1656.56,win
+1884,owcs_2024_asia_s2_main,Poker Face,1620.02,loss
+1885,owcs_2024_asia_s2_main,ZETA DIVISION,1667.31,win
+1885,owcs_2024_asia_s2_main,Poker Face,1609.28,loss
+1886,owcs_2024_asia_s2_main,Poker Face,1623.26,win
+1886,owcs_2024_asia_s2_main,ZETA DIVISION,1653.32,loss
+1887,owcs_2024_asia_s2_main,ZETA DIVISION,1664.29,win
+1887,owcs_2024_asia_s2_main,Poker Face,1612.30,loss
+1888,owcs_2024_asia_s2_main,Team Falcons,1729.65,win
+1888,owcs_2024_asia_s2_main,ZETA DIVISION,1654.18,loss
+1889,owcs_2024_asia_s2_main,ZETA DIVISION,1668.74,win
+1889,owcs_2024_asia_s2_main,Team Falcons,1715.08,loss
+1890,owcs_2024_asia_s2_main,Team Falcons,1725.49,win
+1890,owcs_2024_asia_s2_main,ZETA DIVISION,1658.34,loss
+1891,owcs_2024_asia_s2_main,ZETA DIVISION,1672.63,win
+1891,owcs_2024_asia_s2_main,Team Falcons,1711.20,loss
+1892,owcs_2024_asia_s2_main,Team Falcons,1721.87,win
+1892,owcs_2024_asia_s2_main,ZETA DIVISION,1661.95,loss
+1893,owcs_2024_asia_s2_main,Team Falcons,1737.28,win
+1893,owcs_2024_asia_s2_main,Crazy Raccoon,1808.06,loss
+1894,owcs_2024_asia_s2_main,Crazy Raccoon,1817.65,win
+1894,owcs_2024_asia_s2_main,Team Falcons,1727.70,loss
+1895,owcs_2024_asia_s2_main,Team Falcons,1742.74,win
+1895,owcs_2024_asia_s2_main,Crazy Raccoon,1802.61,loss
+1896,owcs_2024_asia_s2_main,Crazy Raccoon,1812.56,win
+1896,owcs_2024_asia_s2_main,Team Falcons,1732.78,loss
+1897,owcs_2024_asia_s2_main,Crazy Raccoon,1821.86,win
+1897,owcs_2024_asia_s2_main,Team Falcons,1723.49,loss
+1898,owcs_2024_asia_s2_main,Team Falcons,1738.80,win
+1898,owcs_2024_asia_s2_main,Crazy Raccoon,1806.55,loss
+1899,owcs_2024_asia_s2_main,Team Falcons,1753.11,win
+1899,owcs_2024_asia_s2_main,Crazy Raccoon,1792.24,loss
+1900,owcs_2024_na_s4_main,Toronto Defiant,1685.96,win
+1900,owcs_2024_na_s4_main,NRG Shock,1560.50,loss
+1901,owcs_2024_na_s4_main,Toronto Defiant,1693.81,win
+1901,owcs_2024_na_s4_main,NRG Shock,1552.65,loss
+1902,owcs_2024_na_s4_main,Toronto Defiant,1701.18,win
+1902,owcs_2024_na_s4_main,NRG Shock,1545.28,loss
+1903,owcs_2024_na_s4_main,Rad x Avidity,1432.42,win
 1903,owcs_2024_na_s4_main,Citrus Nation,1448.53,loss
 1904,owcs_2024_na_s4_main,Citrus Nation,1459.98,win
-1904,owcs_2024_na_s4_main,Rad x Avidity,1420.97,loss
-1905,owcs_2024_na_s4_main,Citrus Nation,1470.63,win
-1905,owcs_2024_na_s4_main,Rad x Avidity,1410.31,loss
-1906,owcs_2024_na_s4_main,Rad x Avidity,1424.37,win
+1904,owcs_2024_na_s4_main,Rad x Avidity,1420.98,loss
+1905,owcs_2024_na_s4_main,Citrus Nation,1470.64,win
+1905,owcs_2024_na_s4_main,Rad x Avidity,1410.32,loss
+1906,owcs_2024_na_s4_main,Rad x Avidity,1424.38,win
 1906,owcs_2024_na_s4_main,Citrus Nation,1456.57,loss
-1907,owcs_2024_na_s4_main,Rad x Avidity,1437.48,win
+1907,owcs_2024_na_s4_main,Rad x Avidity,1437.49,win
 1907,owcs_2024_na_s4_main,Citrus Nation,1443.46,loss
 1908,owcs_2024_na_s4_main,Fluffy Aimers,1475.88,win
-1908,owcs_2024_na_s4_main,Shikigami,1427.22,loss
+1908,owcs_2024_na_s4_main,Shikigami,1427.23,loss
 1909,owcs_2024_na_s4_main,Fluffy Aimers,1486.21,win
 1909,owcs_2024_na_s4_main,Shikigami,1416.89,loss
-1910,owcs_2024_na_s4_main,Shikigami,1431.25,win
-1910,owcs_2024_na_s4_main,Fluffy Aimers,1471.84,loss
+1910,owcs_2024_na_s4_main,Shikigami,1431.26,win
+1910,owcs_2024_na_s4_main,Fluffy Aimers,1471.85,loss
 1911,owcs_2024_na_s4_main,Fluffy Aimers,1482.45,win
 1911,owcs_2024_na_s4_main,Shikigami,1420.65,loss
 1912,owcs_2024_na_s4_main,TSM,1481.83,win
-1912,owcs_2024_na_s4_main,NTMR,1526.25,loss
-1913,owcs_2024_na_s4_main,NTMR,1536.72,win
-1913,owcs_2024_na_s4_main,TSM,1471.35,loss
-1914,owcs_2024_na_s4_main,NTMR,1546.49,win
-1914,owcs_2024_na_s4_main,TSM,1461.58,loss
-1915,owcs_2024_na_s4_main,NTMR,1555.62,win
-1915,owcs_2024_na_s4_main,TSM,1452.46,loss
-1916,owcs_2024_na_s4_main,Toronto Defiant,1705.43,win
-1916,owcs_2024_na_s4_main,Rad x Avidity,1433.17,loss
-1917,owcs_2024_na_s4_main,Toronto Defiant,1709.58,win
-1917,owcs_2024_na_s4_main,Rad x Avidity,1429.02,loss
-1918,owcs_2024_na_s4_main,Toronto Defiant,1713.56,win
-1918,owcs_2024_na_s4_main,Rad x Avidity,1425.04,loss
-1919,owcs_2024_na_s4_main,NTMR,1565.12,win
+1912,owcs_2024_na_s4_main,NTMR,1526.26,loss
+1913,owcs_2024_na_s4_main,NTMR,1536.74,win
+1913,owcs_2024_na_s4_main,TSM,1471.36,loss
+1914,owcs_2024_na_s4_main,NTMR,1546.51,win
+1914,owcs_2024_na_s4_main,TSM,1461.59,loss
+1915,owcs_2024_na_s4_main,NTMR,1555.63,win
+1915,owcs_2024_na_s4_main,TSM,1452.47,loss
+1916,owcs_2024_na_s4_main,Toronto Defiant,1705.50,win
+1916,owcs_2024_na_s4_main,Rad x Avidity,1433.18,loss
+1917,owcs_2024_na_s4_main,Toronto Defiant,1709.64,win
+1917,owcs_2024_na_s4_main,Rad x Avidity,1429.03,loss
+1918,owcs_2024_na_s4_main,Toronto Defiant,1713.62,win
+1918,owcs_2024_na_s4_main,Rad x Avidity,1425.05,loss
+1919,owcs_2024_na_s4_main,NTMR,1565.14,win
 1919,owcs_2024_na_s4_main,Fluffy Aimers,1472.94,loss
 1920,owcs_2024_na_s4_main,Fluffy Aimers,1488.05,win
-1920,owcs_2024_na_s4_main,NTMR,1550.01,loss
-1921,owcs_2024_na_s4_main,NTMR,1559.90,win
+1920,owcs_2024_na_s4_main,NTMR,1550.03,loss
+1921,owcs_2024_na_s4_main,NTMR,1559.91,win
 1921,owcs_2024_na_s4_main,Fluffy Aimers,1478.17,loss
-1922,owcs_2024_na_s4_main,NTMR,1569.12,win
+1922,owcs_2024_na_s4_main,NTMR,1569.14,win
 1922,owcs_2024_na_s4_main,Fluffy Aimers,1468.94,loss
-1923,owcs_2024_na_s4_main,NTMR,1585.84,win
-1923,owcs_2024_na_s4_main,Toronto Defiant,1696.84,loss
-1924,owcs_2024_na_s4_main,Toronto Defiant,1705.13,win
-1924,owcs_2024_na_s4_main,NTMR,1577.55,loss
-1925,owcs_2024_na_s4_main,NTMR,1593.77,win
-1925,owcs_2024_na_s4_main,Toronto Defiant,1688.91,loss
-1926,owcs_2024_na_s4_main,Toronto Defiant,1697.70,win
-1926,owcs_2024_na_s4_main,NTMR,1584.98,loss
-1927,owcs_2024_na_s4_main,Toronto Defiant,1705.94,win
-1927,owcs_2024_na_s4_main,NTMR,1576.74,loss
-1928,owcs_2024_na_s4_main,NRG Shock,1553.84,win
+1923,owcs_2024_na_s4_main,NTMR,1585.86,win
+1923,owcs_2024_na_s4_main,Toronto Defiant,1696.90,loss
+1924,owcs_2024_na_s4_main,Toronto Defiant,1705.19,win
+1924,owcs_2024_na_s4_main,NTMR,1577.57,loss
+1925,owcs_2024_na_s4_main,NTMR,1593.79,win
+1925,owcs_2024_na_s4_main,Toronto Defiant,1688.97,loss
+1926,owcs_2024_na_s4_main,Toronto Defiant,1697.76,win
+1926,owcs_2024_na_s4_main,NTMR,1585.00,loss
+1927,owcs_2024_na_s4_main,Toronto Defiant,1706.00,win
+1927,owcs_2024_na_s4_main,NTMR,1576.76,loss
+1928,owcs_2024_na_s4_main,NRG Shock,1553.86,win
 1928,owcs_2024_na_s4_main,Citrus Nation,1434.88,loss
-1929,owcs_2024_na_s4_main,NRG Shock,1561.88,win
+1929,owcs_2024_na_s4_main,NRG Shock,1561.90,win
 1929,owcs_2024_na_s4_main,Citrus Nation,1426.84,loss
 1930,owcs_2024_na_s4_main,Citrus Nation,1443.28,win
-1930,owcs_2024_na_s4_main,NRG Shock,1545.44,loss
-1931,owcs_2024_na_s4_main,NRG Shock,1554.01,win
+1930,owcs_2024_na_s4_main,NRG Shock,1545.46,loss
+1931,owcs_2024_na_s4_main,NRG Shock,1554.03,win
 1931,owcs_2024_na_s4_main,Citrus Nation,1434.71,loss
-1932,owcs_2024_na_s4_main,TSM,1463.36,win
-1932,owcs_2024_na_s4_main,Shikigami,1409.74,loss
+1932,owcs_2024_na_s4_main,TSM,1463.37,win
+1932,owcs_2024_na_s4_main,Shikigami,1409.75,loss
 1933,owcs_2024_na_s4_main,TSM,1473.53,win
-1933,owcs_2024_na_s4_main,Shikigami,1399.58,loss
+1933,owcs_2024_na_s4_main,Shikigami,1399.59,loss
 1934,owcs_2024_na_s4_main,Shikigami,1414.10,win
-1934,owcs_2024_na_s4_main,TSM,1459.01,loss
-1935,owcs_2024_na_s4_main,TSM,1469.47,win
-1935,owcs_2024_na_s4_main,Shikigami,1403.64,loss
-1936,owcs_2024_na_s4_main,Fluffy Aimers,1483.82,win
-1936,owcs_2024_na_s4_main,NRG Shock,1539.13,loss
-1937,owcs_2024_na_s4_main,Fluffy Aimers,1497.71,win
-1937,owcs_2024_na_s4_main,NRG Shock,1525.23,loss
-1938,owcs_2024_na_s4_main,Fluffy Aimers,1510.66,win
-1938,owcs_2024_na_s4_main,NRG Shock,1512.28,loss
-1939,owcs_2024_na_s4_main,TSM,1479.94,win
-1939,owcs_2024_na_s4_main,Rad x Avidity,1414.57,loss
-1940,owcs_2024_na_s4_main,TSM,1489.71,win
-1940,owcs_2024_na_s4_main,Rad x Avidity,1404.80,loss
-1941,owcs_2024_na_s4_main,TSM,1498.83,win
-1941,owcs_2024_na_s4_main,Rad x Avidity,1395.68,loss
-1942,owcs_2024_na_s4_main,Fluffy Aimers,1522.25,win
-1942,owcs_2024_na_s4_main,TSM,1487.24,loss
-1943,owcs_2024_na_s4_main,TSM,1500.45,win
-1943,owcs_2024_na_s4_main,Fluffy Aimers,1509.05,loss
-1944,owcs_2024_na_s4_main,Fluffy Aimers,1520.75,win
-1944,owcs_2024_na_s4_main,TSM,1488.74,loss
+1934,owcs_2024_na_s4_main,TSM,1459.02,loss
+1935,owcs_2024_na_s4_main,TSM,1469.48,win
+1935,owcs_2024_na_s4_main,Shikigami,1403.65,loss
+1936,owcs_2024_na_s4_main,Fluffy Aimers,1483.83,win
+1936,owcs_2024_na_s4_main,NRG Shock,1539.15,loss
+1937,owcs_2024_na_s4_main,Fluffy Aimers,1497.72,win
+1937,owcs_2024_na_s4_main,NRG Shock,1525.25,loss
+1938,owcs_2024_na_s4_main,Fluffy Aimers,1510.67,win
+1938,owcs_2024_na_s4_main,NRG Shock,1512.30,loss
+1939,owcs_2024_na_s4_main,TSM,1479.95,win
+1939,owcs_2024_na_s4_main,Rad x Avidity,1414.58,loss
+1940,owcs_2024_na_s4_main,TSM,1489.72,win
+1940,owcs_2024_na_s4_main,Rad x Avidity,1404.81,loss
+1941,owcs_2024_na_s4_main,TSM,1498.84,win
+1941,owcs_2024_na_s4_main,Rad x Avidity,1395.69,loss
+1942,owcs_2024_na_s4_main,Fluffy Aimers,1522.26,win
+1942,owcs_2024_na_s4_main,TSM,1487.25,loss
+1943,owcs_2024_na_s4_main,TSM,1500.46,win
+1943,owcs_2024_na_s4_main,Fluffy Aimers,1509.06,loss
+1944,owcs_2024_na_s4_main,Fluffy Aimers,1520.76,win
+1944,owcs_2024_na_s4_main,TSM,1488.75,loss
 1945,owcs_2024_na_s4_main,TSM,1501.85,win
-1945,owcs_2024_na_s4_main,Fluffy Aimers,1507.65,loss
-1946,owcs_2024_na_s4_main,TSM,1514.05,win
-1946,owcs_2024_na_s4_main,Fluffy Aimers,1495.45,loss
-1947,owcs_2024_na_s4_main,NTMR,1586.60,win
-1947,owcs_2024_na_s4_main,TSM,1504.19,loss
-1948,owcs_2024_na_s4_main,NTMR,1595.80,win
-1948,owcs_2024_na_s4_main,TSM,1494.98,loss
-1949,owcs_2024_na_s4_main,NTMR,1604.42,win
-1949,owcs_2024_na_s4_main,TSM,1486.37,loss
-1950,owcs_2024_na_s4_main,NTMR,1619.83,win
-1950,owcs_2024_na_s4_main,Toronto Defiant,1690.53,loss
-1951,owcs_2024_na_s4_main,Toronto Defiant,1700.12,win
-1951,owcs_2024_na_s4_main,NTMR,1610.23,loss
-1952,owcs_2024_na_s4_main,NTMR,1625.27,win
-1952,owcs_2024_na_s4_main,Toronto Defiant,1685.09,loss
-1953,owcs_2024_na_s4_main,Toronto Defiant,1695.04,win
-1953,owcs_2024_na_s4_main,NTMR,1615.32,loss
-1954,owcs_2024_na_s4_main,NTMR,1630.02,win
-1954,owcs_2024_na_s4_main,Toronto Defiant,1680.33,loss
-1955,owcs_2024_na_s4_main,Toronto Defiant,1690.61,win
-1955,owcs_2024_na_s4_main,NTMR,1619.75,loss
-1956,owcs_2024_na_s4_main,Toronto Defiant,1700.19,win
-1956,owcs_2024_na_s4_main,NTMR,1610.16,loss
-1957,owcs_2024_emea_s4_main,ENCE,1686.51,win
-1957,owcs_2024_emea_s4_main,A One Man Army,1431.48,loss
-1958,owcs_2024_emea_s4_main,ENCE,1691.00,win
-1958,owcs_2024_emea_s4_main,A One Man Army,1426.99,loss
-1959,owcs_2024_emea_s4_main,ENCE,1695.31,win
-1959,owcs_2024_emea_s4_main,A One Man Army,1422.68,loss
-1960,owcs_2024_emea_s4_main,Piece of Cake,1474.96,win
-1960,owcs_2024_emea_s4_main,SrPeakCheck,1385.99,loss
-1961,owcs_2024_emea_s4_main,Piece of Cake,1483.95,win
-1961,owcs_2024_emea_s4_main,SrPeakCheck,1376.99,loss
-1962,owcs_2024_emea_s4_main,Piece of Cake,1492.37,win
-1962,owcs_2024_emea_s4_main,SrPeakCheck,1368.58,loss
-1963,owcs_2024_emea_s4_main,Virtus.pro,1568.99,win
-1963,owcs_2024_emea_s4_main,Vendetta (European team),1418.86,loss
-1964,owcs_2024_emea_s4_main,Virtus.pro,1576.11,win
-1964,owcs_2024_emea_s4_main,Vendetta (European team),1411.75,loss
-1965,owcs_2024_emea_s4_main,Vendetta (European team),1429.04,win
-1965,owcs_2024_emea_s4_main,Virtus.pro,1558.82,loss
-1966,owcs_2024_emea_s4_main,Virtus.pro,1566.53,win
-1966,owcs_2024_emea_s4_main,Vendetta (European team),1421.32,loss
-1967,owcs_2024_emea_s4_main,Spacestation Gaming,1618.93,win
-1967,owcs_2024_emea_s4_main,Twisted Minds,1497.04,loss
-1968,owcs_2024_emea_s4_main,Twisted Minds,1513.08,win
-1968,owcs_2024_emea_s4_main,Spacestation Gaming,1602.88,loss
-1969,owcs_2024_emea_s4_main,Spacestation Gaming,1611.85,win
-1969,owcs_2024_emea_s4_main,Twisted Minds,1504.12,loss
-1970,owcs_2024_emea_s4_main,Spacestation Gaming,1620.24,win
-1970,owcs_2024_emea_s4_main,Twisted Minds,1495.72,loss
-1971,owcs_2024_emea_s4_main,Piece of Cake,1510.68,win
+1945,owcs_2024_na_s4_main,Fluffy Aimers,1507.66,loss
+1946,owcs_2024_na_s4_main,TSM,1514.06,win
+1946,owcs_2024_na_s4_main,Fluffy Aimers,1495.46,loss
+1947,owcs_2024_na_s4_main,NTMR,1586.62,win
+1947,owcs_2024_na_s4_main,TSM,1504.20,loss
+1948,owcs_2024_na_s4_main,NTMR,1595.82,win
+1948,owcs_2024_na_s4_main,TSM,1494.99,loss
+1949,owcs_2024_na_s4_main,NTMR,1604.43,win
+1949,owcs_2024_na_s4_main,TSM,1486.38,loss
+1950,owcs_2024_na_s4_main,NTMR,1619.85,win
+1950,owcs_2024_na_s4_main,Toronto Defiant,1690.59,loss
+1951,owcs_2024_na_s4_main,Toronto Defiant,1700.18,win
+1951,owcs_2024_na_s4_main,NTMR,1610.26,loss
+1952,owcs_2024_na_s4_main,NTMR,1625.29,win
+1952,owcs_2024_na_s4_main,Toronto Defiant,1685.14,loss
+1953,owcs_2024_na_s4_main,Toronto Defiant,1695.09,win
+1953,owcs_2024_na_s4_main,NTMR,1615.34,loss
+1954,owcs_2024_na_s4_main,NTMR,1630.05,win
+1954,owcs_2024_na_s4_main,Toronto Defiant,1680.39,loss
+1955,owcs_2024_na_s4_main,Toronto Defiant,1690.66,win
+1955,owcs_2024_na_s4_main,NTMR,1619.77,loss
+1956,owcs_2024_na_s4_main,Toronto Defiant,1700.24,win
+1956,owcs_2024_na_s4_main,NTMR,1610.19,loss
+1957,owcs_2024_emea_s4_main,ENCE,1686.87,win
+1957,owcs_2024_emea_s4_main,A One Man Army,1422.61,loss
+1958,owcs_2024_emea_s4_main,ENCE,1691.17,win
+1958,owcs_2024_emea_s4_main,A One Man Army,1418.31,loss
+1959,owcs_2024_emea_s4_main,ENCE,1695.30,win
+1959,owcs_2024_emea_s4_main,A One Man Army,1414.18,loss
+1960,owcs_2024_emea_s4_main,Piece of Cake,1475.40,win
+1960,owcs_2024_emea_s4_main,SrPeakCheck,1386.11,loss
+1961,owcs_2024_emea_s4_main,Piece of Cake,1484.38,win
+1961,owcs_2024_emea_s4_main,SrPeakCheck,1377.12,loss
+1962,owcs_2024_emea_s4_main,Piece of Cake,1492.79,win
+1962,owcs_2024_emea_s4_main,SrPeakCheck,1368.72,loss
+1963,owcs_2024_emea_s4_main,Virtus.pro,1569.52,win
+1963,owcs_2024_emea_s4_main,Vendetta (European team),1418.97,loss
+1964,owcs_2024_emea_s4_main,Virtus.pro,1576.63,win
+1964,owcs_2024_emea_s4_main,Vendetta (European team),1411.87,loss
+1965,owcs_2024_emea_s4_main,Vendetta (European team),1429.17,win
+1965,owcs_2024_emea_s4_main,Virtus.pro,1559.33,loss
+1966,owcs_2024_emea_s4_main,Virtus.pro,1567.03,win
+1966,owcs_2024_emea_s4_main,Vendetta (European team),1421.47,loss
+1967,owcs_2024_emea_s4_main,Spacestation Gaming,1621.98,win
+1967,owcs_2024_emea_s4_main,Twisted Minds,1500.04,loss
+1968,owcs_2024_emea_s4_main,Twisted Minds,1516.08,win
+1968,owcs_2024_emea_s4_main,Spacestation Gaming,1605.94,loss
+1969,owcs_2024_emea_s4_main,Spacestation Gaming,1614.90,win
+1969,owcs_2024_emea_s4_main,Twisted Minds,1507.12,loss
+1970,owcs_2024_emea_s4_main,Spacestation Gaming,1623.29,win
+1970,owcs_2024_emea_s4_main,Twisted Minds,1498.73,loss
+1971,owcs_2024_emea_s4_main,Piece of Cake,1511.08,win
 1971,owcs_2024_emea_s4_main,ENCE,1677.00,loss
-1972,owcs_2024_emea_s4_main,ENCE,1683.66,win
-1972,owcs_2024_emea_s4_main,Piece of Cake,1504.02,loss
-1973,owcs_2024_emea_s4_main,ENCE,1689.95,win
-1973,owcs_2024_emea_s4_main,Piece of Cake,1497.72,loss
-1974,owcs_2024_emea_s4_main,ENCE,1695.92,win
-1974,owcs_2024_emea_s4_main,Piece of Cake,1491.76,loss
-1975,owcs_2024_emea_s4_main,Spacestation Gaming,1630.40,win
-1975,owcs_2024_emea_s4_main,Virtus.pro,1556.37,loss
-1976,owcs_2024_emea_s4_main,Spacestation Gaming,1639.88,win
-1976,owcs_2024_emea_s4_main,Virtus.pro,1546.89,loss
-1977,owcs_2024_emea_s4_main,Virtus.pro,1562.03,win
-1977,owcs_2024_emea_s4_main,Spacestation Gaming,1624.75,loss
-1978,owcs_2024_emea_s4_main,Spacestation Gaming,1634.60,win
-1978,owcs_2024_emea_s4_main,Virtus.pro,1552.17,loss
-1979,owcs_2024_emea_s4_main,Spacestation Gaming,1648.70,win
-1979,owcs_2024_emea_s4_main,ENCE,1681.82,loss
-1980,owcs_2024_emea_s4_main,ENCE,1692.68,win
-1980,owcs_2024_emea_s4_main,Spacestation Gaming,1637.84,loss
-1981,owcs_2024_emea_s4_main,ENCE,1702.80,win
-1981,owcs_2024_emea_s4_main,Spacestation Gaming,1627.72,loss
-1982,owcs_2024_emea_s4_main,ENCE,1712.25,win
-1982,owcs_2024_emea_s4_main,Spacestation Gaming,1618.27,loss
-1983,owcs_2024_emea_s4_main,A One Man Army,1432.82,win
-1983,owcs_2024_emea_s4_main,SrPeakCheck,1358.43,loss
-1984,owcs_2024_emea_s4_main,SrPeakCheck,1372.96,win
-1984,owcs_2024_emea_s4_main,A One Man Army,1418.29,loss
-1985,owcs_2024_emea_s4_main,A One Man Army,1428.74,win
-1985,owcs_2024_emea_s4_main,SrPeakCheck,1362.52,loss
-1986,owcs_2024_emea_s4_main,SrPeakCheck,1376.78,win
-1986,owcs_2024_emea_s4_main,A One Man Army,1414.48,loss
-1987,owcs_2024_emea_s4_main,SrPeakCheck,1390.07,win
-1987,owcs_2024_emea_s4_main,A One Man Army,1401.18,loss
-1988,owcs_2024_emea_s4_main,Twisted Minds,1505.19,win
-1988,owcs_2024_emea_s4_main,Vendetta (European team),1411.85,loss
-1989,owcs_2024_emea_s4_main,Twisted Minds,1514.04,win
-1989,owcs_2024_emea_s4_main,Vendetta (European team),1403.00,loss
-1990,owcs_2024_emea_s4_main,Vendetta (European team),1418.71,win
-1990,owcs_2024_emea_s4_main,Twisted Minds,1498.33,loss
-1991,owcs_2024_emea_s4_main,Twisted Minds,1507.63,win
-1991,owcs_2024_emea_s4_main,Vendetta (European team),1409.41,loss
-1992,owcs_2024_emea_s4_main,Virtus.pro,1558.95,win
-1992,owcs_2024_emea_s4_main,SrPeakCheck,1383.30,loss
-1993,owcs_2024_emea_s4_main,Virtus.pro,1565.35,win
-1993,owcs_2024_emea_s4_main,SrPeakCheck,1376.90,loss
-1994,owcs_2024_emea_s4_main,SrPeakCheck,1394.83,win
-1994,owcs_2024_emea_s4_main,Virtus.pro,1547.41,loss
-1995,owcs_2024_emea_s4_main,SrPeakCheck,1411.79,win
-1995,owcs_2024_emea_s4_main,Virtus.pro,1530.46,loss
-1996,owcs_2024_emea_s4_main,Virtus.pro,1538.51,win
-1996,owcs_2024_emea_s4_main,SrPeakCheck,1403.74,loss
-1997,owcs_2024_emea_s4_main,Twisted Minds,1519.08,win
-1997,owcs_2024_emea_s4_main,Piece of Cake,1480.31,loss
-1998,owcs_2024_emea_s4_main,Twisted Minds,1529.75,win
-1998,owcs_2024_emea_s4_main,Piece of Cake,1469.64,loss
-1999,owcs_2024_emea_s4_main,Twisted Minds,1539.69,win
-1999,owcs_2024_emea_s4_main,Piece of Cake,1459.70,loss
-2000,owcs_2024_emea_s4_main,Twisted Minds,1551.65,win
-2000,owcs_2024_emea_s4_main,Virtus.pro,1526.55,loss
-2001,owcs_2024_emea_s4_main,Twisted Minds,1562.79,win
-2001,owcs_2024_emea_s4_main,Virtus.pro,1515.42,loss
-2002,owcs_2024_emea_s4_main,Virtus.pro,1529.04,win
-2002,owcs_2024_emea_s4_main,Twisted Minds,1549.16,loss
-2003,owcs_2024_emea_s4_main,Virtus.pro,1541.74,win
-2003,owcs_2024_emea_s4_main,Twisted Minds,1536.47,loss
-2004,owcs_2024_emea_s4_main,Twisted Minds,1548.65,win
-2004,owcs_2024_emea_s4_main,Virtus.pro,1529.56,loss
-2005,owcs_2024_emea_s4_main,Spacestation Gaming,1627.90,win
-2005,owcs_2024_emea_s4_main,Twisted Minds,1539.02,loss
-2006,owcs_2024_emea_s4_main,Spacestation Gaming,1636.89,win
-2006,owcs_2024_emea_s4_main,Twisted Minds,1530.03,loss
-2007,owcs_2024_emea_s4_main,Twisted Minds,1545.60,win
-2007,owcs_2024_emea_s4_main,Spacestation Gaming,1621.32,loss
-2008,owcs_2024_emea_s4_main,Spacestation Gaming,1630.74,win
-2008,owcs_2024_emea_s4_main,Twisted Minds,1536.18,loss
-2009,owcs_2024_emea_s4_main,Spacestation Gaming,1645.51,win
-2009,owcs_2024_emea_s4_main,ENCE,1697.48,loss
-2010,owcs_2024_emea_s4_main,Spacestation Gaming,1659.29,win
-2010,owcs_2024_emea_s4_main,ENCE,1683.70,loss
-2011,owcs_2024_emea_s4_main,Spacestation Gaming,1672.13,win
-2011,owcs_2024_emea_s4_main,ENCE,1670.86,loss
-2012,owcs_2024_emea_s4_main,Spacestation Gaming,1684.09,win
-2012,owcs_2024_emea_s4_main,ENCE,1658.90,loss
-2013,owcs_2024_world_finals,Twisted Minds,1555.01,win
-2013,owcs_2024_world_finals,Team Falcons,1741.95,loss
-2014,owcs_2024_world_finals,Team Falcons,1748.05,win
-2014,owcs_2024_world_finals,Twisted Minds,1548.91,loss
-2015,owcs_2024_world_finals,Team Falcons,1753.84,win
-2015,owcs_2024_world_finals,Twisted Minds,1543.12,loss
-2016,owcs_2024_world_finals,NTMR,1624.68,win
-2016,owcs_2024_world_finals,Spacestation Gaming,1669.57,loss
-2017,owcs_2024_world_finals,NTMR,1638.22,win
-2017,owcs_2024_world_finals,Spacestation Gaming,1656.03,loss
-2018,owcs_2024_world_finals,Crazy Raccoon,1802.25,win
-2018,owcs_2024_world_finals,NRG Shock,1508.41,loss
-2019,owcs_2024_world_finals,Crazy Raccoon,1805.98,win
-2019,owcs_2024_world_finals,NRG Shock,1504.67,loss
-2020,owcs_2024_world_finals,Toronto Defiant,1710.77,win
-2020,owcs_2024_world_finals,ENCE,1648.32,loss
-2021,owcs_2024_world_finals,Toronto Defiant,1720.64,win
-2021,owcs_2024_world_finals,ENCE,1638.46,loss
-2022,owcs_2024_world_finals,Team Falcons,1761.98,win
-2022,owcs_2024_world_finals,NTMR,1630.07,loss
-2023,owcs_2024_world_finals,Team Falcons,1769.64,win
-2023,owcs_2024_world_finals,NTMR,1622.42,loss
-2024,owcs_2024_world_finals,Team Falcons,1776.83,win
-2024,owcs_2024_world_finals,NTMR,1615.22,loss
-2025,owcs_2024_world_finals,Crazy Raccoon,1815.09,win
-2025,owcs_2024_world_finals,Toronto Defiant,1711.53,loss
-2026,owcs_2024_world_finals,Crazy Raccoon,1823.62,win
-2026,owcs_2024_world_finals,Toronto Defiant,1703.00,loss
-2027,owcs_2024_world_finals,Crazy Raccoon,1831.61,win
-2027,owcs_2024_world_finals,Toronto Defiant,1695.01,loss
-2028,owcs_2024_world_finals,Team Falcons,1790.71,win
-2028,owcs_2024_world_finals,Crazy Raccoon,1817.73,loss
-2029,owcs_2024_world_finals,Team Falcons,1803.64,win
-2029,owcs_2024_world_finals,Crazy Raccoon,1804.80,loss
-2030,owcs_2024_world_finals,Team Falcons,1815.68,win
-2030,owcs_2024_world_finals,Crazy Raccoon,1792.76,loss
-2031,owcs_2024_world_finals,Spacestation Gaming,1664.26,win
-2031,owcs_2024_world_finals,Twisted Minds,1534.89,loss
-2032,owcs_2024_world_finals,Twisted Minds,1551.16,win
-2032,owcs_2024_world_finals,Spacestation Gaming,1647.99,loss
-2033,owcs_2024_world_finals,Twisted Minds,1566.42,win
-2033,owcs_2024_world_finals,Spacestation Gaming,1632.73,loss
-2034,owcs_2024_world_finals,Twisted Minds,1580.68,win
-2034,owcs_2024_world_finals,Spacestation Gaming,1618.46,loss
-2035,owcs_2024_world_finals,NRG Shock,1521.08,win
-2035,owcs_2024_world_finals,ENCE,1622.05,loss
-2036,owcs_2024_world_finals,NRG Shock,1536.47,win
-2036,owcs_2024_world_finals,ENCE,1606.66,loss
-2037,owcs_2024_world_finals,NRG Shock,1550.86,win
-2037,owcs_2024_world_finals,ENCE,1592.27,loss
-2038,owcs_2024_world_finals,Toronto Defiant,1703.20,win
-2038,owcs_2024_world_finals,Twisted Minds,1572.50,loss
-2039,owcs_2024_world_finals,Twisted Minds,1588.81,win
-2039,owcs_2024_world_finals,Toronto Defiant,1686.89,loss
-2040,owcs_2024_world_finals,Toronto Defiant,1695.59,win
-2040,owcs_2024_world_finals,Twisted Minds,1580.11,loss
-2041,owcs_2024_world_finals,Twisted Minds,1595.96,win
-2041,owcs_2024_world_finals,Toronto Defiant,1679.74,loss
-2042,owcs_2024_world_finals,Toronto Defiant,1688.90,win
-2042,owcs_2024_world_finals,Twisted Minds,1586.80,loss
-2043,owcs_2024_world_finals,NRG Shock,1565.06,win
-2043,owcs_2024_world_finals,NTMR,1601.02,loss
-2044,owcs_2024_world_finals,NRG Shock,1578.30,win
-2044,owcs_2024_world_finals,NTMR,1587.79,loss
-2045,owcs_2024_world_finals,NRG Shock,1590.63,win
-2045,owcs_2024_world_finals,NTMR,1575.46,loss
-2046,owcs_2024_world_finals,Toronto Defiant,1697.59,win
-2046,owcs_2024_world_finals,NRG Shock,1581.93,loss
-2047,owcs_2024_world_finals,Toronto Defiant,1705.74,win
-2047,owcs_2024_world_finals,NRG Shock,1573.79,loss
-2048,owcs_2024_world_finals,Toronto Defiant,1713.39,win
-2048,owcs_2024_world_finals,NRG Shock,1566.14,loss
-2049,owcs_2024_world_finals,Crazy Raccoon,1802.07,win
-2049,owcs_2024_world_finals,Toronto Defiant,1704.08,loss
-2050,owcs_2024_world_finals,Crazy Raccoon,1810.77,win
-2050,owcs_2024_world_finals,Toronto Defiant,1695.38,loss
-2051,owcs_2024_world_finals,Crazy Raccoon,1818.93,win
-2051,owcs_2024_world_finals,Toronto Defiant,1687.23,loss
-2052,owcs_2024_world_finals,Team Falcons,1827.79,win
-2052,owcs_2024_world_finals,Crazy Raccoon,1806.81,loss
-2053,owcs_2024_world_finals,Team Falcons,1839.07,win
-2053,owcs_2024_world_finals,Crazy Raccoon,1795.54,loss
-2054,owcs_2024_world_finals,Crazy Raccoon,1809.03,win
-2054,owcs_2024_world_finals,Team Falcons,1825.57,loss
-2055,owcs_2024_world_finals,Team Falcons,1837.00,win
-2055,owcs_2024_world_finals,Crazy Raccoon,1797.60,loss
-2056,owcs_2024_world_finals,Team Falcons,1847.65,win
-2056,owcs_2024_world_finals,Crazy Raccoon,1786.96,loss
+1972,owcs_2024_emea_s4_main,ENCE,1683.67,win
+1972,owcs_2024_emea_s4_main,Piece of Cake,1504.41,loss
+1973,owcs_2024_emea_s4_main,ENCE,1689.98,win
+1973,owcs_2024_emea_s4_main,Piece of Cake,1498.11,loss
+1974,owcs_2024_emea_s4_main,ENCE,1695.95,win
+1974,owcs_2024_emea_s4_main,Piece of Cake,1492.14,loss
+1975,owcs_2024_emea_s4_main,Spacestation Gaming,1633.37,win
+1975,owcs_2024_emea_s4_main,Virtus.pro,1556.96,loss
+1976,owcs_2024_emea_s4_main,Spacestation Gaming,1642.77,win
+1976,owcs_2024_emea_s4_main,Virtus.pro,1547.55,loss
+1977,owcs_2024_emea_s4_main,Virtus.pro,1562.76,win
+1977,owcs_2024_emea_s4_main,Spacestation Gaming,1627.56,loss
+1978,owcs_2024_emea_s4_main,Spacestation Gaming,1637.35,win
+1978,owcs_2024_emea_s4_main,Virtus.pro,1552.97,loss
+1979,owcs_2024_emea_s4_main,Spacestation Gaming,1651.35,win
+1979,owcs_2024_emea_s4_main,ENCE,1681.95,loss
+1980,owcs_2024_emea_s4_main,ENCE,1692.89,win
+1980,owcs_2024_emea_s4_main,Spacestation Gaming,1640.41,loss
+1981,owcs_2024_emea_s4_main,ENCE,1703.09,win
+1981,owcs_2024_emea_s4_main,Spacestation Gaming,1630.21,loss
+1982,owcs_2024_emea_s4_main,ENCE,1712.61,win
+1982,owcs_2024_emea_s4_main,Spacestation Gaming,1620.69,loss
+1983,owcs_2024_emea_s4_main,A One Man Army,1424.62,win
+1983,owcs_2024_emea_s4_main,SrPeakCheck,1358.28,loss
+1984,owcs_2024_emea_s4_main,SrPeakCheck,1372.54,win
+1984,owcs_2024_emea_s4_main,A One Man Army,1410.35,loss
+1985,owcs_2024_emea_s4_main,A One Man Army,1421.05,win
+1985,owcs_2024_emea_s4_main,SrPeakCheck,1361.84,loss
+1986,owcs_2024_emea_s4_main,SrPeakCheck,1375.87,win
+1986,owcs_2024_emea_s4_main,A One Man Army,1407.03,loss
+1987,owcs_2024_emea_s4_main,SrPeakCheck,1388.94,win
+1987,owcs_2024_emea_s4_main,A One Man Army,1393.95,loss
+1988,owcs_2024_emea_s4_main,Twisted Minds,1508.10,win
+1988,owcs_2024_emea_s4_main,Vendetta (European team),1412.09,loss
+1989,owcs_2024_emea_s4_main,Twisted Minds,1516.87,win
+1989,owcs_2024_emea_s4_main,Vendetta (European team),1403.33,loss
+1990,owcs_2024_emea_s4_main,Vendetta (European team),1419.11,win
+1990,owcs_2024_emea_s4_main,Twisted Minds,1501.08,loss
+1991,owcs_2024_emea_s4_main,Twisted Minds,1510.30,win
+1991,owcs_2024_emea_s4_main,Vendetta (European team),1409.89,loss
+1992,owcs_2024_emea_s4_main,Virtus.pro,1559.70,win
+1992,owcs_2024_emea_s4_main,SrPeakCheck,1382.22,loss
+1993,owcs_2024_emea_s4_main,Virtus.pro,1566.05,win
+1993,owcs_2024_emea_s4_main,SrPeakCheck,1375.87,loss
+1994,owcs_2024_emea_s4_main,SrPeakCheck,1393.85,win
+1994,owcs_2024_emea_s4_main,Virtus.pro,1548.07,loss
+1995,owcs_2024_emea_s4_main,SrPeakCheck,1410.85,win
+1995,owcs_2024_emea_s4_main,Virtus.pro,1531.06,loss
+1996,owcs_2024_emea_s4_main,Virtus.pro,1539.07,win
+1996,owcs_2024_emea_s4_main,SrPeakCheck,1402.84,loss
+1997,owcs_2024_emea_s4_main,Twisted Minds,1521.67,win
+1997,owcs_2024_emea_s4_main,Piece of Cake,1480.76,loss
+1998,owcs_2024_emea_s4_main,Twisted Minds,1532.27,win
+1998,owcs_2024_emea_s4_main,Piece of Cake,1470.17,loss
+1999,owcs_2024_emea_s4_main,Twisted Minds,1542.14,win
+1999,owcs_2024_emea_s4_main,Piece of Cake,1460.29,loss
+2000,owcs_2024_emea_s4_main,Twisted Minds,1554.04,win
+2000,owcs_2024_emea_s4_main,Virtus.pro,1527.18,loss
+2001,owcs_2024_emea_s4_main,Twisted Minds,1565.11,win
+2001,owcs_2024_emea_s4_main,Virtus.pro,1516.10,loss
+2002,owcs_2024_emea_s4_main,Virtus.pro,1529.78,win
+2002,owcs_2024_emea_s4_main,Twisted Minds,1551.43,loss
+2003,owcs_2024_emea_s4_main,Virtus.pro,1542.53,win
+2003,owcs_2024_emea_s4_main,Twisted Minds,1538.68,loss
+2004,owcs_2024_emea_s4_main,Twisted Minds,1550.82,win
+2004,owcs_2024_emea_s4_main,Virtus.pro,1530.40,loss
+2005,owcs_2024_emea_s4_main,Spacestation Gaming,1630.31,win
+2005,owcs_2024_emea_s4_main,Twisted Minds,1541.20,loss
+2006,owcs_2024_emea_s4_main,Spacestation Gaming,1639.29,win
+2006,owcs_2024_emea_s4_main,Twisted Minds,1532.21,loss
+2007,owcs_2024_emea_s4_main,Twisted Minds,1547.80,win
+2007,owcs_2024_emea_s4_main,Spacestation Gaming,1623.71,loss
+2008,owcs_2024_emea_s4_main,Spacestation Gaming,1633.13,win
+2008,owcs_2024_emea_s4_main,Twisted Minds,1538.38,loss
+2009,owcs_2024_emea_s4_main,Spacestation Gaming,1647.83,win
+2009,owcs_2024_emea_s4_main,ENCE,1697.91,loss
+2010,owcs_2024_emea_s4_main,Spacestation Gaming,1661.54,win
+2010,owcs_2024_emea_s4_main,ENCE,1684.20,loss
+2011,owcs_2024_emea_s4_main,Spacestation Gaming,1674.32,win
+2011,owcs_2024_emea_s4_main,ENCE,1671.41,loss
+2012,owcs_2024_emea_s4_main,Spacestation Gaming,1686.22,win
+2012,owcs_2024_emea_s4_main,ENCE,1659.51,loss
+2013,owcs_2024_world_finals,Twisted Minds,1556.97,win
+2013,owcs_2024_world_finals,Team Falcons,1734.51,loss
+2014,owcs_2024_world_finals,Team Falcons,1740.87,win
+2014,owcs_2024_world_finals,Twisted Minds,1550.62,loss
+2015,owcs_2024_world_finals,Team Falcons,1746.88,win
+2015,owcs_2024_world_finals,Twisted Minds,1544.61,loss
+2016,owcs_2024_world_finals,NTMR,1624.77,win
+2016,owcs_2024_world_finals,Spacestation Gaming,1671.64,loss
+2017,owcs_2024_world_finals,NTMR,1638.38,win
+2017,owcs_2024_world_finals,Spacestation Gaming,1658.03,loss
+2018,owcs_2024_world_finals,Crazy Raccoon,1796.23,win
+2018,owcs_2024_world_finals,NRG Shock,1508.31,loss
+2019,owcs_2024_world_finals,Crazy Raccoon,1800.07,win
+2019,owcs_2024_world_finals,NRG Shock,1504.47,loss
+2020,owcs_2024_world_finals,Toronto Defiant,1710.84,win
+2020,owcs_2024_world_finals,ENCE,1648.91,loss
+2021,owcs_2024_world_finals,Toronto Defiant,1720.73,win
+2021,owcs_2024_world_finals,ENCE,1639.03,loss
+2022,owcs_2024_world_finals,Team Falcons,1755.25,win
+2022,owcs_2024_world_finals,NTMR,1630.01,loss
+2023,owcs_2024_world_finals,Team Falcons,1763.10,win
+2023,owcs_2024_world_finals,NTMR,1622.16,loss
+2024,owcs_2024_world_finals,Team Falcons,1770.49,win
+2024,owcs_2024_world_finals,NTMR,1614.78,loss
+2025,owcs_2024_world_finals,Crazy Raccoon,1809.38,win
+2025,owcs_2024_world_finals,Toronto Defiant,1711.42,loss
+2026,owcs_2024_world_finals,Crazy Raccoon,1818.08,win
+2026,owcs_2024_world_finals,Toronto Defiant,1702.72,loss
+2027,owcs_2024_world_finals,Crazy Raccoon,1826.24,win
+2027,owcs_2024_world_finals,Toronto Defiant,1694.56,loss
+2028,owcs_2024_world_finals,Team Falcons,1784.40,win
+2028,owcs_2024_world_finals,Crazy Raccoon,1812.33,loss
+2029,owcs_2024_world_finals,Team Falcons,1797.36,win
+2029,owcs_2024_world_finals,Crazy Raccoon,1799.36,loss
+2030,owcs_2024_world_finals,Team Falcons,1809.43,win
+2030,owcs_2024_world_finals,Crazy Raccoon,1787.30,loss
+2031,owcs_2024_world_finals,Spacestation Gaming,1666.25,win
+2031,owcs_2024_world_finals,Twisted Minds,1536.39,loss
+2032,owcs_2024_world_finals,Twisted Minds,1552.68,win
+2032,owcs_2024_world_finals,Spacestation Gaming,1649.96,loss
+2033,owcs_2024_world_finals,Twisted Minds,1567.95,win
+2033,owcs_2024_world_finals,Spacestation Gaming,1634.68,loss
+2034,owcs_2024_world_finals,Twisted Minds,1582.23,win
+2034,owcs_2024_world_finals,Spacestation Gaming,1620.41,loss
+2035,owcs_2024_world_finals,NRG Shock,1520.90,win
+2035,owcs_2024_world_finals,ENCE,1622.60,loss
+2036,owcs_2024_world_finals,NRG Shock,1536.31,win
+2036,owcs_2024_world_finals,ENCE,1607.19,loss
+2037,owcs_2024_world_finals,NRG Shock,1550.73,win
+2037,owcs_2024_world_finals,ENCE,1592.77,loss
+2038,owcs_2024_world_finals,Toronto Defiant,1702.81,win
+2038,owcs_2024_world_finals,Twisted Minds,1573.98,loss
+2039,owcs_2024_world_finals,Twisted Minds,1590.24,win
+2039,owcs_2024_world_finals,Toronto Defiant,1686.55,loss
+2040,owcs_2024_world_finals,Toronto Defiant,1695.31,win
+2040,owcs_2024_world_finals,Twisted Minds,1581.48,loss
+2041,owcs_2024_world_finals,Twisted Minds,1597.28,win
+2041,owcs_2024_world_finals,Toronto Defiant,1679.51,loss
+2042,owcs_2024_world_finals,Toronto Defiant,1688.73,win
+2042,owcs_2024_world_finals,Twisted Minds,1588.07,loss
+2043,owcs_2024_world_finals,NRG Shock,1564.91,win
+2043,owcs_2024_world_finals,NTMR,1600.59,loss
+2044,owcs_2024_world_finals,NRG Shock,1578.14,win
+2044,owcs_2024_world_finals,NTMR,1587.36,loss
+2045,owcs_2024_world_finals,NRG Shock,1590.46,win
+2045,owcs_2024_world_finals,NTMR,1575.04,loss
+2046,owcs_2024_world_finals,Toronto Defiant,1697.42,win
+2046,owcs_2024_world_finals,NRG Shock,1581.77,loss
+2047,owcs_2024_world_finals,Toronto Defiant,1705.57,win
+2047,owcs_2024_world_finals,NRG Shock,1573.62,loss
+2048,owcs_2024_world_finals,Toronto Defiant,1713.22,win
+2048,owcs_2024_world_finals,NRG Shock,1565.97,loss
+2049,owcs_2024_world_finals,Crazy Raccoon,1796.78,win
+2049,owcs_2024_world_finals,Toronto Defiant,1703.74,loss
+2050,owcs_2024_world_finals,Crazy Raccoon,1805.64,win
+2050,owcs_2024_world_finals,Toronto Defiant,1694.88,loss
+2051,owcs_2024_world_finals,Crazy Raccoon,1813.94,win
+2051,owcs_2024_world_finals,Toronto Defiant,1686.58,loss
+2052,owcs_2024_world_finals,Team Falcons,1821.58,win
+2052,owcs_2024_world_finals,Crazy Raccoon,1801.78,loss
+2053,owcs_2024_world_finals,Team Falcons,1832.90,win
+2053,owcs_2024_world_finals,Crazy Raccoon,1790.46,loss
+2054,owcs_2024_world_finals,Crazy Raccoon,1803.92,win
+2054,owcs_2024_world_finals,Team Falcons,1819.44,loss
+2055,owcs_2024_world_finals,Team Falcons,1830.91,win
+2055,owcs_2024_world_finals,Crazy Raccoon,1792.46,loss
+2056,owcs_2024_world_finals,Team Falcons,1841.58,win
+2056,owcs_2024_world_finals,Crazy Raccoon,1781.78,loss

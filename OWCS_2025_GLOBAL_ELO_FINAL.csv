@@ -1,88 +1,85 @@
 rank,team,elo,home_region,maps_played,maps_won,maps_lost,maps_drawn,win_pct,first_event,last_event
-1,Twisted Minds,1831.9,EMEA,161,107,54,0,66.5%,owcs_2025_emea_s1,owcs_2025_world_finals
-2,Crazy Raccoon,1817.6,Korea,240,173,67,0,72.1%,owcs_2025_asia_s1_korea,owcs_2025_world_finals
-3,Al Qadsiah,1786.2,EMEA,161,106,55,0,65.8%,owcs_2025_emea_s1,owcs_2025_world_finals
-4,Team Falcons,1782.8,Korea,229,141,88,0,61.6%,owcs_2025_asia_s1_korea,owcs_2025_world_finals
-5,VARREL,1741.3,Japan,136,104,32,0,76.5%,owcs_2025_asia_s1_japan,owcs_2025_world_finals
-6,Weibo Gaming,1711.2,China,93,73,20,0,78.5%,owcs_2025_china_s2,owcs_2025_world_finals
-7,T1,1707.3,Korea,169,104,65,0,61.5%,owcs_2025_asia_s1_korea,owcs_2025_world_finals
-8,Team Liquid,1683.7,NA,139,89,50,0,64.0%,owcs_2025_na_s1,owcs_2025_world_finals
-9,WAE,1622.8,Korea,180,89,91,0,49.4%,owcs_2025_asia_s1_korea,owcs_2025_korea_road_to_wf
-10,Spacestation Gaming,1622.5,NA,148,88,60,0,59.5%,owcs_2025_na_s1,owcs_2025_world_finals
-11,Nosebleed Esports,1613.2,Pacific,40,31,9,0,77.5%,owcs_2025_asia_s3_pacific,owcs_2025_apac_championship
-12,Geekay Esports,1606.0,NA,104,67,37,0,64.4%,owcs_2025_na_s2,owcs_2025_world_finals
-13,Once Again,1603.4,China,31,23,8,0,74.2%,owcs_2025_china_s1,owcs_2025_champions_clash
-14,Team CC,1590.5,China,123,74,49,0,60.2%,owcs_2025_china_s1,owcs_2025_world_finals
-15,Virtus.pro,1582.0,EMEA,134,87,47,0,64.9%,owcs_2025_emea_s1,owcs_2025_emea_s3
-16,REJECT,1574.1,Japan,77,51,26,0,66.2%,owcs_2025_asia_s2_japan,owcs_2025_apac_championship
-17,99DIVINE,1538.2,Pacific,74,51,23,0,68.9%,owcs_2025_asia_s1_pacific,owcs_2025_asia_s3_japan
-18,ROC Esports,1536.9,China,100,61,39,0,61.0%,owcs_2025_china_s1,owcs_2025_china_s3
-19,The Gatos Guapos,1529.3,Pacific,73,46,27,0,63.0%,owcs_2025_asia_s2_pacific,owcs_2025_apac_championship
-20,ZETA DIVISION,1523.1,Korea,184,98,86,0,53.3%,owcs_2025_asia_s1_korea,owcs_2025_korea_road_to_wf
-21,ONSIDE GAMING,1521.2,Korea,85,34,51,0,40.0%,owcs_2025_asia_s2_korea,owcs_2025_korea_road_to_wf
-22,NTMR,1518.1,NA,131,80,51,0,61.1%,owcs_2025_na_s1,owcs_2025_na_s3
-23,Aplomb Tiger,1509.0,Japan,61,34,27,0,55.7%,owcs_2025_asia_s1_japan,owcs_2025_asia_s2_japan
-24,Timeless,1505.6,NA,37,22,15,0,59.5%,owcs_2025_na_s1,owcs_2025_na_s1
-25,From the Gamer,1501.1,Korea,41,21,20,0,51.2%,owcs_2025_asia_s1_korea,owcs_2025_asia_s1_korea
-26,Please Not Hero Ban,1489.9,Japan,99,55,44,0,55.6%,owcs_2025_asia_s1_japan,owcs_2025_asia_s3_japan
-27,Full House,1463.6,Pacific,39,20,19,0,51.3%,owcs_2025_asia_s1_pacific,owcs_2025_asia_s2_pacific
-28,VortexWolf,1444.9,Japan,41,21,20,0,51.2%,owcs_2025_asia_s1_japan,owcs_2025_asia_s1_main
-29,INVADERS,1441.4,Pacific,28,15,13,0,53.6%,owcs_2025_asia_s3_pacific,owcs_2025_asia_s3_pacific
-30,Sakura Esports,1428.2,NA,82,28,54,0,34.1%,owcs_2025_emea_s1,owcs_2025_na_s3
-31,The Ultimates,1421.8,EMEA,74,33,41,0,44.6%,owcs_2025_emea_s1,owcs_2025_emea_s2
-32,Inferno (Japanese team),1420.8,Japan,49,23,26,0,46.9%,owcs_2025_asia_s1_japan,owcs_2025_asia_s2_japan
-33,Gen.G,1418.7,EMEA,95,41,54,0,43.2%,owcs_2025_emea_s1,owcs_2025_emea_s3
-34,Insomnia (Japanese team),1417.4,Japan,21,8,13,0,38.1%,owcs_2025_asia_s1_japan,owcs_2025_asia_s1_japan
-35,Poker Face,1414.8,Korea,68,23,45,0,33.8%,owcs_2025_asia_s1_korea,owcs_2025_asia_s2_korea
-36,I LOVE YOU,1413.1,Pacific,61,35,26,0,57.4%,owcs_2025_asia_s2_pacific,owcs_2025_asia_s3_pacific
-37,Milk Tea,1408.9,China,72,31,41,0,43.1%,owcs_2025_china_s2,owcs_2025_china_s3
-38,Team Peps,1407.0,EMEA,102,42,60,0,41.2%,owcs_2025_emea_s1,owcs_2025_world_finals
-39,Sign Esports,1404.3,Intl,9,2,7,0,22.2%,owcs_2025_midseason,owcs_2025_midseason
-40,YNB Esports,1403.5,China,37,17,20,0,45.9%,owcs_2025_china_s3,owcs_2025_china_s3
-41,FURY,1402.5,Pacific,69,30,39,0,43.5%,owcs_2025_asia_s2_pacific,owcs_2025_asia_s3_pacific
-42,Lazuli,1392.5,Japan,87,49,38,0,56.3%,owcs_2025_asia_s1_japan,owcs_2025_asia_s3_japan
-43,Old Ocean,1390.3,Korea,72,26,46,0,36.1%,owcs_2025_asia_s2_korea,owcs_2025_asia_s3_korea
-44,Antic x Odium,1385.7,Pacific,4,1,3,0,25.0%,owcs_2025_asia_s1_pacific,owcs_2025_asia_s1_pacific
-45,MONSTARGEAR GAMING,1384.2,Pacific,8,3,5,0,37.5%,owcs_2025_asia_s1_pacific,owcs_2025_asia_s2_pacific
-46,MFC,1376.2,Pacific,18,4,14,0,22.2%,owcs_2025_asia_s1_pacific,owcs_2025_asia_s1_main
-47,Blade,1374.0,China,15,6,9,0,40.0%,owcs_2025_china_s1,owcs_2025_china_s1
-48,Rad Esports,1369.1,NA,26,8,18,0,30.8%,owcs_2025_na_s1,owcs_2025_na_s1
-49,ZoKorp Esports,1367.5,Intl,5,0,5,0,0.0%,owcs_2025_midseason,owcs_2025_midseason
-50,New Era,1366.6,Korea,36,10,26,0,27.8%,owcs_2025_asia_s1_korea,owcs_2025_asia_s1_korea
-51,Team Vision,1362.4,EMEA,57,20,37,0,35.1%,owcs_2025_emea_s1,owcs_2025_emea_s3
-52,Goud Guys x Anomaly,1348.9,EMEA,24,7,17,0,29.2%,owcs_2025_emea_s3,owcs_2025_emea_s3
-53,Extinction,1347.6,NA,81,29,52,0,35.8%,owcs_2025_na_s1,owcs_2025_na_s3
-54,VEC,1345.4,Korea,92,24,68,0,26.1%,owcs_2025_asia_s1_korea,owcs_2025_asia_s3_japan
-55,REVATI,1342.3,Japan,24,10,14,0,41.7%,owcs_2025_asia_s2_japan,owcs_2025_asia_s2_japan
-56,Team Z,1341.3,NA,25,6,19,0,24.0%,owcs_2025_na_s3,owcs_2025_na_s3
-57,1DIPVS100GORILLAS,1340.4,EMEA,15,3,12,0,20.0%,owcs_2025_emea_s2,owcs_2025_emea_s2
-58,Toxic Hamster,1339.9,Japan,21,7,14,0,33.3%,owcs_2025_asia_s3_japan,owcs_2025_asia_s3_japan
-59,Telomere,1329.8,Japan,36,16,20,0,44.4%,owcs_2025_asia_s3_japan,owcs_2025_asia_s3_japan
-60,Cheeseburger,1327.9,Korea,33,8,25,0,24.2%,owcs_2025_asia_s3_korea,owcs_2025_asia_s3_korea
-61,MENG GONG 2,1322.0,Pacific,32,11,21,0,34.4%,owcs_2025_asia_s1_pacific,owcs_2025_asia_s2_pacific
-62,MDY,1321.5,China,23,5,18,0,21.7%,owcs_2025_china_s3,owcs_2025_china_s3
-63,Super Levi,1314.5,China,9,0,9,0,0.0%,owcs_2025_china_s1,owcs_2025_china_s1
-64,Cold Metal,1311.2,Pacific,50,17,33,0,34.0%,owcs_2025_asia_s2_pacific,owcs_2025_asia_s3_pacific
-65,Little Sheep,1309.2,China,51,20,31,0,39.2%,owcs_2025_china_s1,owcs_2025_china_s2
-66,Stronghold,1308.5,Pacific,18,3,15,0,16.7%,owcs_2025_asia_s3_pacific,owcs_2025_asia_s3_pacific
-67,Team Equal,1308.2,China,9,0,9,0,0.0%,owcs_2025_china_s1,owcs_2025_china_s1
-68,Homie E,1308.0,China,26,8,18,0,30.8%,owcs_2025_china_s2,owcs_2025_china_s2
-69,ZONES,1306.1,China,57,19,38,0,33.3%,owcs_2025_china_s2,owcs_2025_china_s3
-70,JKOT,1305.1,Japan,38,12,26,0,31.6%,owcs_2025_asia_s1_japan,owcs_2025_asia_s2_japan
-71,Nyam Gaming,1298.0,Japan,66,29,37,0,43.9%,owcs_2025_asia_s1_japan,owcs_2025_asia_s3_japan
-72,Supernova (American team),1297.4,NA,24,5,19,0,20.8%,owcs_2025_na_s2,owcs_2025_na_s2
-73,Shikigami,1293.0,NA,22,3,19,0,13.6%,owcs_2025_na_s1,owcs_2025_na_s1
-74,Frost Tails Esport,1289.1,EMEA,24,3,21,0,12.5%,owcs_2025_emea_s2,owcs_2025_emea_s2
-75,Amplify,1286.2,NA,25,4,21,0,16.0%,owcs_2025_na_s1,owcs_2025_na_s1
-76,ZG (Japanese team),1280.6,Japan,18,3,15,0,16.7%,owcs_2025_asia_s2_japan,owcs_2025_asia_s2_japan
-77,BOOM,1273.6,China,25,4,21,0,16.0%,owcs_2025_china_s3,owcs_2025_china_s3
-78,Under Cat,1273.0,Japan,15,0,15,0,0.0%,owcs_2025_asia_s1_japan,owcs_2025_asia_s1_japan
-79,Mir Gaming,1270.5,Korea,25,1,24,0,4.0%,owcs_2025_asia_s3_korea,owcs_2025_asia_s3_korea
-80,Quick Esports,1269.3,EMEA,37,9,28,0,24.3%,owcs_2025_emea_s2,owcs_2025_emea_s3
-81,Newgens,1259.1,Pacific,22,2,20,0,9.1%,owcs_2025_asia_s3_pacific,owcs_2025_asia_s3_pacific
-82,Mud Dog,1258.1,Pacific,21,3,18,0,14.3%,owcs_2025_asia_s2_pacific,owcs_2025_asia_s2_pacific
-83,Arise Project,1253.5,Japan,37,11,26,0,29.7%,owcs_2025_asia_s2_japan,owcs_2025_asia_s3_japan
-84,LostNever Gaming,1248.2,Japan,39,11,28,0,28.2%,owcs_2025_asia_s1_japan,owcs_2025_asia_s3_japan
-85,Team XX,1215.5,China,36,6,30,0,16.7%,owcs_2025_china_s1,owcs_2025_china_s2
-86,DhillDucks,1169.7,NA,43,1,42,0,2.3%,owcs_2025_na_s2,owcs_2025_na_s3
-87,Hayabusa Gaming,1078.0,Japan,48,3,45,0,6.2%,owcs_2025_asia_s1_japan,owcs_2025_asia_s3_japan
+1,Twisted Minds,1830.0,EMEA,161,107,54,0,66.5%,owcs_2025_emea_s1,owcs_2025_world_finals
+2,Crazy Raccoon,1816.8,Korea,240,173,67,0,72.1%,owcs_2025_asia_s1_korea,owcs_2025_world_finals
+3,Al Qadsiah,1784.0,EMEA,161,106,55,0,65.8%,owcs_2025_emea_s1,owcs_2025_world_finals
+4,Team Falcons,1782.7,Korea,229,141,88,0,61.6%,owcs_2025_asia_s1_korea,owcs_2025_world_finals
+5,VARREL,1745.4,Japan,136,104,32,0,76.5%,owcs_2025_asia_s1_japan,owcs_2025_world_finals
+6,Weibo Gaming,1710.3,China,93,73,20,0,78.5%,owcs_2025_china_s2,owcs_2025_world_finals
+7,T1,1706.3,Korea,169,104,65,0,61.5%,owcs_2025_asia_s1_korea,owcs_2025_world_finals
+8,Team Liquid,1680.2,NA,139,89,50,0,64.0%,owcs_2025_na_s1,owcs_2025_world_finals
+9,Nosebleed Esports,1658.1,Pacific,114,82,32,0,71.9%,owcs_2025_asia_s1_pacific,owcs_2025_apac_championship
+10,WAE,1623.9,Korea,180,89,91,0,49.4%,owcs_2025_asia_s1_korea,owcs_2025_korea_road_to_wf
+11,Spacestation Gaming,1618.9,NA,148,88,60,0,59.5%,owcs_2025_na_s1,owcs_2025_world_finals
+12,Once Again,1602.5,China,31,23,8,0,74.2%,owcs_2025_china_s1,owcs_2025_champions_clash
+13,Geekay Esports,1602.1,NA,104,67,37,0,64.4%,owcs_2025_na_s2,owcs_2025_world_finals
+14,Team CC,1590.0,China,123,74,49,0,60.2%,owcs_2025_china_s1,owcs_2025_world_finals
+15,Virtus.pro,1579.3,EMEA,134,87,47,0,64.9%,owcs_2025_emea_s1,owcs_2025_emea_s3
+16,REJECT,1571.3,Japan,77,51,26,0,66.2%,owcs_2025_asia_s2_japan,owcs_2025_apac_championship
+17,The Gatos Guapos,1550.0,Pacific,73,46,27,0,63.0%,owcs_2025_asia_s2_pacific,owcs_2025_apac_championship
+18,ROC Esports,1536.0,China,100,61,39,0,61.0%,owcs_2025_china_s1,owcs_2025_china_s3
+19,ONSIDE GAMING,1529.5,Korea,126,55,71,0,43.7%,owcs_2025_asia_s1_korea,owcs_2025_korea_road_to_wf
+20,ZETA DIVISION,1525.6,Korea,184,98,86,0,53.3%,owcs_2025_asia_s1_korea,owcs_2025_korea_road_to_wf
+21,NTMR,1512.7,NA,131,80,51,0,61.1%,owcs_2025_na_s1,owcs_2025_na_s3
+22,Timeless,1505.2,NA,37,22,15,0,59.5%,owcs_2025_na_s1,owcs_2025_na_s1
+23,Aplomb Tiger,1497.0,Japan,61,34,27,0,55.7%,owcs_2025_asia_s1_japan,owcs_2025_asia_s2_japan
+24,Please Not Hero Ban,1485.6,Japan,99,55,44,0,55.6%,owcs_2025_asia_s1_japan,owcs_2025_asia_s3_japan
+25,Full House,1463.4,Pacific,39,20,19,0,51.3%,owcs_2025_asia_s1_pacific,owcs_2025_asia_s2_pacific
+26,INVADERS,1447.8,Pacific,28,15,13,0,53.6%,owcs_2025_asia_s3_pacific,owcs_2025_asia_s3_pacific
+27,VortexWolf,1434.8,Japan,41,21,20,0,51.2%,owcs_2025_asia_s1_japan,owcs_2025_asia_s1_main
+28,Sakura Esports,1422.8,NA,82,28,54,0,34.1%,owcs_2025_emea_s1,owcs_2025_na_s3
+29,Poker Face,1420.6,Korea,68,23,45,0,33.8%,owcs_2025_asia_s1_korea,owcs_2025_asia_s2_korea
+30,The Ultimates,1418.1,EMEA,74,33,41,0,44.6%,owcs_2025_emea_s1,owcs_2025_emea_s2
+31,Gen.G,1415.5,EMEA,95,41,54,0,43.2%,owcs_2025_emea_s1,owcs_2025_emea_s3
+32,I LOVE YOU,1414.4,Pacific,61,35,26,0,57.4%,owcs_2025_asia_s2_pacific,owcs_2025_asia_s3_pacific
+33,Insomnia (Japanese team),1414.1,Japan,21,8,13,0,38.1%,owcs_2025_asia_s1_japan,owcs_2025_asia_s1_japan
+34,FURY,1410.0,Pacific,69,30,39,0,43.5%,owcs_2025_asia_s2_pacific,owcs_2025_asia_s3_pacific
+35,Milk Tea,1408.6,China,72,31,41,0,43.1%,owcs_2025_china_s2,owcs_2025_china_s3
+36,Sign Esports,1403.8,Intl,9,2,7,0,22.2%,owcs_2025_midseason,owcs_2025_midseason
+37,YNB Esports,1403.2,China,37,17,20,0,45.9%,owcs_2025_china_s3,owcs_2025_china_s3
+38,Team Peps,1402.7,EMEA,102,42,60,0,41.2%,owcs_2025_emea_s1,owcs_2025_world_finals
+39,Avidity,1391.2,NA,27,11,16,0,40.7%,owcs_2025_na_s1,owcs_2025_na_s1
+40,Old Ocean,1389.5,Korea,72,26,46,0,36.1%,owcs_2025_asia_s2_korea,owcs_2025_asia_s3_korea
+41,VEC,1388.5,Japan,141,47,94,0,33.3%,owcs_2025_asia_s1_japan,owcs_2025_asia_s3_japan
+42,Antic x Odium,1385.7,Pacific,4,1,3,0,25.0%,owcs_2025_asia_s1_pacific,owcs_2025_asia_s1_pacific
+43,MONSTARGEAR GAMING,1384.2,Pacific,8,3,5,0,37.5%,owcs_2025_asia_s1_pacific,owcs_2025_asia_s2_pacific
+44,Lazuli,1380.1,Japan,87,49,38,0,56.3%,owcs_2025_asia_s1_japan,owcs_2025_asia_s3_japan
+45,MFC,1374.7,Pacific,18,4,14,0,22.2%,owcs_2025_asia_s1_pacific,owcs_2025_asia_s1_main
+46,Blade,1374.0,China,15,6,9,0,40.0%,owcs_2025_china_s1,owcs_2025_china_s1
+47,Rad Esports,1368.9,NA,26,8,18,0,30.8%,owcs_2025_na_s1,owcs_2025_na_s1
+48,ZoKorp Esports,1367.4,Intl,5,0,5,0,0.0%,owcs_2025_midseason,owcs_2025_midseason
+49,New Era,1362.4,Korea,36,10,26,0,27.8%,owcs_2025_asia_s1_korea,owcs_2025_asia_s1_korea
+50,Team Vision,1359.1,EMEA,57,20,37,0,35.1%,owcs_2025_emea_s1,owcs_2025_emea_s3
+51,Goud Guys x Anomaly,1347.2,EMEA,24,7,17,0,29.2%,owcs_2025_emea_s3,owcs_2025_emea_s3
+52,1DIPVS100GORILLAS,1338.3,EMEA,15,3,12,0,20.0%,owcs_2025_emea_s2,owcs_2025_emea_s2
+53,Team Z,1337.8,NA,25,6,19,0,24.0%,owcs_2025_na_s3,owcs_2025_na_s3
+54,Extinction,1334.0,NA,54,18,36,0,33.3%,owcs_2025_na_s2,owcs_2025_na_s3
+55,Toxic Hamster,1332.6,Japan,21,7,14,0,33.3%,owcs_2025_asia_s3_japan,owcs_2025_asia_s3_japan
+56,REVATI,1329.7,Japan,24,10,14,0,41.7%,owcs_2025_asia_s2_japan,owcs_2025_asia_s2_japan
+57,Cheeseburger,1328.5,Korea,33,8,25,0,24.2%,owcs_2025_asia_s3_korea,owcs_2025_asia_s3_korea
+58,Telomere,1324.3,Japan,36,16,20,0,44.4%,owcs_2025_asia_s3_japan,owcs_2025_asia_s3_japan
+59,MENG GONG 2,1321.9,Pacific,32,11,21,0,34.4%,owcs_2025_asia_s1_pacific,owcs_2025_asia_s2_pacific
+60,MDY,1321.4,China,23,5,18,0,21.7%,owcs_2025_china_s3,owcs_2025_china_s3
+61,Super Levi,1314.5,China,9,0,9,0,0.0%,owcs_2025_china_s1,owcs_2025_china_s1
+62,Cold Metal,1311.5,Pacific,50,17,33,0,34.0%,owcs_2025_asia_s2_pacific,owcs_2025_asia_s3_pacific
+63,Little Sheep,1309.2,China,51,20,31,0,39.2%,owcs_2025_china_s1,owcs_2025_china_s2
+64,Team Equal,1308.2,China,9,0,9,0,0.0%,owcs_2025_china_s1,owcs_2025_china_s1
+65,Homie E,1308.0,China,26,8,18,0,30.8%,owcs_2025_china_s2,owcs_2025_china_s2
+66,ZONES,1305.9,China,57,19,38,0,33.3%,owcs_2025_china_s2,owcs_2025_china_s3
+67,Supernova (American team),1293.4,NA,24,5,19,0,20.8%,owcs_2025_na_s2,owcs_2025_na_s2
+68,Shikigami,1292.7,NA,22,3,19,0,13.6%,owcs_2025_na_s1,owcs_2025_na_s1
+69,JKOT,1292.4,Japan,38,12,26,0,31.6%,owcs_2025_asia_s1_japan,owcs_2025_asia_s2_japan
+70,Frost Tails Esport,1287.2,EMEA,24,3,21,0,12.5%,owcs_2025_emea_s2,owcs_2025_emea_s2
+71,Amplify,1286.0,NA,25,4,21,0,16.0%,owcs_2025_na_s1,owcs_2025_na_s1
+72,ZG (Japanese team),1278.2,Japan,18,3,15,0,16.7%,owcs_2025_asia_s2_japan,owcs_2025_asia_s2_japan
+73,Nyam Gaming,1278.1,Japan,66,29,37,0,43.9%,owcs_2025_asia_s1_japan,owcs_2025_asia_s3_japan
+74,BOOM,1273.4,China,25,4,21,0,16.0%,owcs_2025_china_s3,owcs_2025_china_s3
+75,Under Cat,1273.0,Japan,15,0,15,0,0.0%,owcs_2025_asia_s1_japan,owcs_2025_asia_s1_japan
+76,Mir Gaming,1271.6,Korea,25,1,24,0,4.0%,owcs_2025_asia_s3_korea,owcs_2025_asia_s3_korea
+77,Quick Esports,1267.5,EMEA,37,9,28,0,24.3%,owcs_2025_emea_s2,owcs_2025_emea_s3
+78,Arise Project,1262.4,Japan,37,11,26,0,29.7%,owcs_2025_asia_s2_japan,owcs_2025_asia_s3_japan
+79,Newgens,1256.8,Pacific,22,2,20,0,9.1%,owcs_2025_asia_s3_pacific,owcs_2025_asia_s3_pacific
+80,LostNever Gaming,1253.6,Japan,39,11,28,0,28.2%,owcs_2025_asia_s1_japan,owcs_2025_asia_s3_japan
+81,Stronghold,1225.6,Pacific,39,6,33,0,15.4%,owcs_2025_asia_s2_pacific,owcs_2025_asia_s3_pacific
+82,Team XX,1215.5,China,36,6,30,0,16.7%,owcs_2025_china_s1,owcs_2025_china_s2
+83,DhillDucks,1165.2,NA,43,1,42,0,2.3%,owcs_2025_na_s2,owcs_2025_na_s3
+84,Hayabusa Gaming,1068.7,Japan,48,3,45,0,6.2%,owcs_2025_asia_s1_japan,owcs_2025_asia_s3_japan

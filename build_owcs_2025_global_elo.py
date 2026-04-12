@@ -39,9 +39,11 @@ K_INTERNATIONAL = 24.0   # same as K_BASE (FIDE flat-K principle)
 # Used when a team rebranded between seasons.
 # ---------------------------------------------------------------------------
 CARRY_OVER_2024_MAP: dict[str, str] = {
-    "Avidity":     "Rad x Avidity",   # same roster as Rad x Avidity 2024, back under Avidity brand
-    "Team Vision": "Vision Esports",  # Vision Esports renamed to Team Vision (Jan 2025)
-    "Full House":  "FullHouse",        # same Pacific team; Liquipedia renamed to "Full House" in 2025
+    "Avidity":           "Rad x Avidity",   # same roster as Rad x Avidity 2024, back under Avidity brand
+    "Team Vision":       "Vision Esports",  # Vision Esports renamed to Team Vision (Jan 2025)
+    "Full House":        "Full House",      # same Pacific team across 2024 -> 2025 after canonical spacing cleanup
+    "Extinction":        "EXN Zenith",      # EXN Zenith (2024 NA S4) rebranded to Extinction for 2025
+    "Nosebleed Esports": "99DIVINE",        # 99DIVINE (Pacific) rebranded to Nosebleed Esports (2025 S3)
 }
 
 # ---------------------------------------------------------------------------
