@@ -78,6 +78,7 @@ EVENT_ORDER: list[str] = [
     "owcs_2026_china_s1",
     "owcs_2026_emea_s1",
     "owcs_2026_na_s1",
+    "owcs_2026_asia_s1_main",
 ]
 
 EVENT_ORDER_IDX: dict[str, int] = {eid: i for i, eid in enumerate(EVENT_ORDER)}
