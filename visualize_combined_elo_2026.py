@@ -100,15 +100,11 @@ PHASE_DEFS: list[tuple[str, list[str]]] = [
     ("2026 Stage 1", [
         "owcs_2026_asia_s1_japan",
         "owcs_2026_asia_s1_korea",
+        "owcs_2026_asia_s1_korea_playoffs",
         "owcs_2026_asia_s1_pacific",
         "owcs_2026_china_s1",
         "owcs_2026_emea_s1",
         "owcs_2026_na_s1",
-    ]),
-    ("2026 Korea\nPlayoffs", [
-        "owcs_2026_asia_s1_korea_playoffs",
-    ]),
-    ("2026 Asia\nMain", [
         "owcs_2026_asia_s1_main",
     ]),
 ]
