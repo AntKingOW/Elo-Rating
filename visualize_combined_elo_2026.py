@@ -105,6 +105,9 @@ PHASE_DEFS: list[tuple[str, list[str]]] = [
         "owcs_2026_emea_s1",
         "owcs_2026_na_s1",
     ]),
+    ("2026 Korea\nPlayoffs", [
+        "owcs_2026_asia_s1_korea_playoffs",
+    ]),
 ]
 
 BOUNDARY_AFTER_PHASES = [4, 10]

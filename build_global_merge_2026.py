@@ -73,6 +73,7 @@ def is_china_swiss(row: dict) -> bool:
 EVENT_ORDER: list[str] = [
     "owcs_2026_asia_s1_japan",
     "owcs_2026_asia_s1_korea",
+    "owcs_2026_asia_s1_korea_playoffs",
     "owcs_2026_asia_s1_pacific",
     "owcs_2026_china_s1",
     "owcs_2026_emea_s1",
