@@ -3,9 +3,9 @@ rank,team,elo,home_region,maps_played,maps_won,maps_lost,maps_drawn,win_pct,firs
 2,ZETA DIVISION,1856.2,Korea,75,57,18,0,76.0%,owcs_2026_asia_s1_korea,owcs_2026_asia_s1_main
 3,Crazy Raccoon,1792.3,Korea,75,47,28,0,62.7%,owcs_2026_asia_s1_korea,owcs_2026_asia_s1_main
 4,Team Falcons,1743.3,Korea,60,37,23,0,61.7%,owcs_2026_asia_s1_korea,owcs_2026_asia_s1_main
-5,VARREL,1733.0,Japan,38,28,10,0,73.7%,owcs_2026_asia_s1_japan,owcs_2026_asia_s1_main
-6,T1,1710.7,Korea,64,37,27,0,57.8%,owcs_2026_asia_s1_korea,owcs_2026_asia_s1_main
-7,Weibo Gaming,1706.6,China,18,15,3,0,83.3%,owcs_2026_china_s1,owcs_2026_china_s1
+5,Weibo Gaming,1737.2,China,27,24,3,0,88.9%,owcs_2026_china_s1,owcs_2026_china_s1
+6,VARREL,1733.0,Japan,38,28,10,0,73.7%,owcs_2026_asia_s1_japan,owcs_2026_asia_s1_main
+7,T1,1710.7,Korea,64,37,27,0,57.8%,owcs_2026_asia_s1_korea,owcs_2026_asia_s1_main
 8,Al Qadsiah,1671.8,EMEA,20,9,11,0,45.0%,owcs_2026_emea_s1,owcs_2026_emea_s1
 9,Virtus.pro,1657.8,EMEA,17,12,5,0,70.6%,owcs_2026_emea_s1,owcs_2026_emea_s1
 10,Spacestation Gaming,1606.2,NA,20,14,6,0,70.0%,owcs_2026_na_s1,owcs_2026_na_s1
@@ -14,32 +14,32 @@ rank,team,elo,home_region,maps_played,maps_won,maps_lost,maps_drawn,win_pct,firs
 13,ONSIDE GAMING,1539.8,Korea,48,22,26,0,45.8%,owcs_2026_asia_s1_korea,owcs_2026_asia_s1_korea_playoffs
 14,Dallas Fuel,1533.7,NA,20,15,5,0,75.0%,owcs_2026_na_s1,owcs_2026_na_s1
 15,Team Liquid,1531.5,NA,19,7,12,0,36.8%,owcs_2026_na_s1,owcs_2026_na_s1
-16,Enter Force.36,1518.4,Japan,24,18,6,0,75.0%,owcs_2026_asia_s1_japan,owcs_2026_asia_s1_japan
-17,jdg,1492.1,China,13,10,3,0,76.9%,owcs_2026_china_s1,owcs_2026_china_s1
-18,Team Secret,1462.1,Pacific,6,6,0,0,100.0%,owcs_2026_asia_s1_pacific,owcs_2026_asia_s1_pacific
-19,ag,1457.6,China,13,8,5,0,61.5%,owcs_2026_china_s1,owcs_2026_china_s1
+16,All Gamers,1523.2,China,34,23,11,0,67.6%,owcs_2026_china_s1,owcs_2026_china_s1
+17,JD Gaming,1519.5,China,28,18,10,0,64.3%,owcs_2026_china_s1,owcs_2026_china_s1
+18,Enter Force.36,1518.4,Japan,24,18,6,0,75.0%,owcs_2026_asia_s1_japan,owcs_2026_asia_s1_japan
+19,Team Secret,1462.1,Pacific,6,6,0,0,100.0%,owcs_2026_asia_s1_pacific,owcs_2026_asia_s1_pacific
 20,Please Not Hero Ban,1457.4,Japan,31,15,16,0,48.4%,owcs_2026_asia_s1_japan,owcs_2026_asia_s1_main
 21,ZAN Esports,1446.6,Korea,37,15,22,0,40.5%,owcs_2026_asia_s1_korea,owcs_2026_asia_s1_korea_playoffs
-22,All Gamers,1433.7,China,9,6,3,0,66.7%,owcs_2026_china_s1,owcs_2026_china_s1
-23,LuneX Gaming,1431.8,NA,19,9,10,0,47.4%,owcs_2026_na_s1,owcs_2026_na_s1
-24,ENTER FORCE.36,1421.7,Intl,6,2,4,0,33.3%,owcs_2026_asia_s1_main,owcs_2026_asia_s1_main
-25,Tokyo Ta1yo's,1418.7,Japan,28,13,15,0,46.4%,owcs_2026_asia_s1_japan,owcs_2026_asia_s1_japan
-26,anyone's legend,1407.4,EMEA,19,5,14,0,26.3%,owcs_2026_emea_s1,owcs_2026_emea_s1
-27,99DIVINE,1405.9,Japan,25,13,12,0,52.0%,owcs_2026_asia_s1_japan,owcs_2026_asia_s1_japan
-28,Quasar Esports,1403.2,Pacific,9,5,4,0,55.6%,owcs_2026_asia_s1_pacific,owcs_2026_asia_s1_pacific
-29,disguised,1390.5,NA,19,7,12,0,36.8%,owcs_2026_na_s1,owcs_2026_na_s1
-30,JD Gaming,1387.9,China,5,2,3,0,40.0%,owcs_2026_china_s1,owcs_2026_china_s1
-31,Rankers,1385.3,Pacific,8,3,5,0,37.5%,owcs_2026_asia_s1_pacific,owcs_2026_asia_s1_pacific
-32,Team Peps,1379.4,EMEA,19,4,15,0,21.1%,owcs_2026_emea_s1,owcs_2026_emea_s1
+22,LuneX Gaming,1431.8,NA,19,9,10,0,47.4%,owcs_2026_na_s1,owcs_2026_na_s1
+23,ENTER FORCE.36,1421.7,Intl,6,2,4,0,33.3%,owcs_2026_asia_s1_main,owcs_2026_asia_s1_main
+24,Tokyo Ta1yo's,1418.7,Japan,28,13,15,0,46.4%,owcs_2026_asia_s1_japan,owcs_2026_asia_s1_japan
+25,anyone's legend,1407.4,EMEA,19,5,14,0,26.3%,owcs_2026_emea_s1,owcs_2026_emea_s1
+26,99DIVINE,1405.9,Japan,25,13,12,0,52.0%,owcs_2026_asia_s1_japan,owcs_2026_asia_s1_japan
+27,Quasar Esports,1403.2,Pacific,9,5,4,0,55.6%,owcs_2026_asia_s1_pacific,owcs_2026_asia_s1_pacific
+28,disguised,1390.5,NA,19,7,12,0,36.8%,owcs_2026_na_s1,owcs_2026_na_s1
+29,Rankers,1385.3,Pacific,8,3,5,0,37.5%,owcs_2026_asia_s1_pacific,owcs_2026_asia_s1_pacific
+30,Team Peps,1379.4,EMEA,19,4,15,0,21.1%,owcs_2026_emea_s1,owcs_2026_emea_s1
+31,Naive Piggy,1376.5,China,35,14,21,0,40.0%,owcs_2026_china_s1,owcs_2026_china_s1
+32,Solus Victorem,1374.7,China,28,12,16,0,42.9%,owcs_2026_china_s1,owcs_2026_china_s1
 33,FURY,1370.1,Pacific,7,1,6,0,14.3%,owcs_2026_asia_s1_pacific,owcs_2026_asia_s1_pacific
-34,Solus Victorem,1365.2,China,15,5,10,0,33.3%,owcs_2026_china_s1,owcs_2026_china_s1
-35,Naive Piggy,1353.9,China,18,5,13,0,27.8%,owcs_2026_china_s1,owcs_2026_china_s1
-36,MMY,1351.3,Pacific,6,0,6,0,0.0%,owcs_2026_asia_s1_pacific,owcs_2026_asia_s1_pacific
-37,Poker Face,1342.8,Korea,29,8,21,0,27.6%,owcs_2026_asia_s1_korea,owcs_2026_asia_s1_korea_playoffs
-38,Extinction,1339.3,NA,17,5,12,0,29.4%,owcs_2026_na_s1,owcs_2026_na_s1
-39,Milk Tea,1321.8,China,19,4,15,0,21.1%,owcs_2026_china_s1,owcs_2026_china_s1
-40,Lazuli,1320.1,Japan,24,7,17,0,29.2%,owcs_2026_asia_s1_japan,owcs_2026_asia_s1_japan
-41,Cheeseburger,1289.7,Korea,32,6,26,0,18.8%,owcs_2026_asia_s1_korea,owcs_2026_asia_s1_korea_playoffs
+34,MMY,1351.3,Pacific,6,0,6,0,0.0%,owcs_2026_asia_s1_pacific,owcs_2026_asia_s1_pacific
+35,Poker Face,1342.8,Korea,29,8,21,0,27.6%,owcs_2026_asia_s1_korea,owcs_2026_asia_s1_korea_playoffs
+36,Extinction,1339.3,NA,17,5,12,0,29.4%,owcs_2026_na_s1,owcs_2026_na_s1
+37,Lazuli,1320.1,Japan,24,7,17,0,29.2%,owcs_2026_asia_s1_japan,owcs_2026_asia_s1_japan
+38,DEG,1316.4,China,10,1,9,0,10.0%,owcs_2026_china_s1,owcs_2026_china_s1
+39,Milk Tea,1306.5,China,34,10,24,0,29.4%,owcs_2026_china_s1,owcs_2026_china_s1
+40,Cheeseburger,1289.7,Korea,32,6,26,0,18.8%,owcs_2026_asia_s1_korea,owcs_2026_asia_s1_korea_playoffs
+41,Homie E,1272.9,China,14,3,11,0,21.4%,owcs_2026_china_s1,owcs_2026_china_s1
 42,Nyam Gaming,1269.7,Japan,26,9,17,0,34.6%,owcs_2026_asia_s1_japan,owcs_2026_asia_s1_japan
 43,New Era,1238.8,Korea,24,0,24,0,0.0%,owcs_2026_asia_s1_korea,owcs_2026_asia_s1_korea
 44,Telomere,1223.9,Japan,24,3,21,0,12.5%,owcs_2026_asia_s1_japan,owcs_2026_asia_s1_japan

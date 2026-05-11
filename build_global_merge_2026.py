@@ -45,6 +45,10 @@ CASE_NORM: dict[str, str] = {
     # EMEA
     "geekay esports": "Geekay Esports",
     "al qadsiah": "Al Qadsiah",
+    # China
+    "jdg":       "JD Gaming",
+    "JDG":       "JD Gaming",
+    "ag":        "All Gamers",
     # Common style fixes
     "Team peps": "Team Peps",
     "twisted minds": "Twisted Minds",
@@ -172,9 +176,7 @@ def main() -> None:
     print(f"    {len(rows)} rows from {len(list(DRAFTS_DIR.glob('*.csv')))} files")
 
     print("\n[2] Filtering China Swiss-stage rows ...")
-    before = len(rows)
-    rows = [r for r in rows if not is_china_swiss(r)]
-    print(f"    Removed {before - len(rows)} rows")
+    print(f"    Skipped (Swiss Stage now included)")
 
     print("\n[3] Normalizing team names ...")
     rows = normalize_all(rows)
