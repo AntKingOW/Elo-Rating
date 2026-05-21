@@ -2,51 +2,48 @@
 
 - **Base Elo**: 1400.0 (new teams) | carry-over: 2025 final Elo
 - **K**: 24.0
-- **Scope**: 2026 Stage 1 regular-season results collected so far
+- **Scope**: 2026 Stage 1 results collected so far
 
 | Rank | Team | Elo | Region | Maps | W | L | D | Win% |
 |------|------|-----|--------|------|---|---|---|------|
-| 1 | Twisted Minds | 1890.0 | EMEA | 15 | 15 | 0 | 0 | 100.0% |
-| 2 | ZETA DIVISION | 1856.2 | Korea | 75 | 57 | 18 | 0 | 76.0% |
-| 3 | Crazy Raccoon | 1792.3 | Korea | 75 | 47 | 28 | 0 | 62.7% |
-| 4 | Team Falcons | 1743.3 | Korea | 60 | 37 | 23 | 0 | 61.7% |
-| 5 | Weibo Gaming | 1737.2 | China | 27 | 24 | 3 | 0 | 88.9% |
-| 6 | VARREL | 1733.0 | Japan | 38 | 28 | 10 | 0 | 73.7% |
-| 7 | T1 | 1710.7 | Korea | 64 | 37 | 27 | 0 | 57.8% |
-| 8 | Al Qadsiah | 1671.8 | EMEA | 20 | 9 | 11 | 0 | 45.0% |
-| 9 | Virtus.pro | 1657.8 | EMEA | 17 | 12 | 5 | 0 | 70.6% |
-| 10 | Spacestation Gaming | 1606.2 | NA | 20 | 14 | 6 | 0 | 70.0% |
-| 11 | Geekay Esports | 1591.6 | EMEA | 20 | 10 | 10 | 0 | 50.0% |
-| 12 | The Gatos Guapos | 1544.8 | Pacific | 10 | 6 | 4 | 0 | 60.0% |
-| 13 | ONSIDE GAMING | 1539.8 | Korea | 48 | 22 | 26 | 0 | 45.8% |
-| 14 | Dallas Fuel | 1533.7 | NA | 20 | 15 | 5 | 0 | 75.0% |
-| 15 | Team Liquid | 1531.5 | NA | 19 | 7 | 12 | 0 | 36.8% |
-| 16 | All Gamers | 1523.2 | China | 34 | 23 | 11 | 0 | 67.6% |
-| 17 | JD Gaming | 1519.5 | China | 28 | 18 | 10 | 0 | 64.3% |
-| 18 | Enter Force.36 | 1518.4 | Japan | 24 | 18 | 6 | 0 | 75.0% |
-| 19 | Team Secret | 1462.1 | Pacific | 6 | 6 | 0 | 0 | 100.0% |
-| 20 | Please Not Hero Ban | 1457.4 | Japan | 31 | 15 | 16 | 0 | 48.4% |
-| 21 | ZAN Esports | 1446.6 | Korea | 37 | 15 | 22 | 0 | 40.5% |
-| 22 | LuneX Gaming | 1431.8 | NA | 19 | 9 | 10 | 0 | 47.4% |
-| 23 | ENTER FORCE.36 | 1421.7 | Intl | 6 | 2 | 4 | 0 | 33.3% |
-| 24 | Tokyo Ta1yo's | 1418.7 | Japan | 28 | 13 | 15 | 0 | 46.4% |
-| 25 | anyone's legend | 1407.4 | EMEA | 19 | 5 | 14 | 0 | 26.3% |
-| 26 | 99DIVINE | 1405.9 | Japan | 25 | 13 | 12 | 0 | 52.0% |
-| 27 | Quasar Esports | 1403.2 | Pacific | 9 | 5 | 4 | 0 | 55.6% |
-| 28 | disguised | 1390.5 | NA | 19 | 7 | 12 | 0 | 36.8% |
-| 29 | Rankers | 1385.3 | Pacific | 8 | 3 | 5 | 0 | 37.5% |
-| 30 | Team Peps | 1379.4 | EMEA | 19 | 4 | 15 | 0 | 21.1% |
-| 31 | Naive Piggy | 1376.5 | China | 35 | 14 | 21 | 0 | 40.0% |
-| 32 | Solus Victorem | 1374.7 | China | 28 | 12 | 16 | 0 | 42.9% |
-| 33 | FURY | 1370.1 | Pacific | 7 | 1 | 6 | 0 | 14.3% |
-| 34 | MMY | 1351.3 | Pacific | 6 | 0 | 6 | 0 | 0.0% |
-| 35 | Poker Face | 1342.8 | Korea | 29 | 8 | 21 | 0 | 27.6% |
-| 36 | Extinction | 1339.3 | NA | 17 | 5 | 12 | 0 | 29.4% |
-| 37 | Lazuli | 1320.1 | Japan | 24 | 7 | 17 | 0 | 29.2% |
-| 38 | DEG | 1316.4 | China | 10 | 1 | 9 | 0 | 10.0% |
-| 39 | Milk Tea | 1306.5 | China | 34 | 10 | 24 | 0 | 29.4% |
-| 40 | Cheeseburger | 1289.7 | Korea | 32 | 6 | 26 | 0 | 18.8% |
-| 41 | Homie E | 1272.9 | China | 14 | 3 | 11 | 0 | 21.4% |
-| 42 | Nyam Gaming | 1269.7 | Japan | 26 | 9 | 17 | 0 | 34.6% |
-| 43 | New Era | 1238.8 | Korea | 24 | 0 | 24 | 0 | 0.0% |
-| 44 | Telomere | 1223.9 | Japan | 24 | 3 | 21 | 0 | 12.5% |
+| 1 | Twisted Minds | 1918.5 | EMEA | 26 | 25 | 1 | 0 | 96.2% |
+| 2 | ZETA DIVISION | 1843.7 | Korea | 75 | 57 | 18 | 0 | 76.0% |
+| 3 | Crazy Raccoon | 1778.8 | Korea | 75 | 47 | 28 | 0 | 62.7% |
+| 4 | Team Falcons | 1725.8 | Korea | 60 | 37 | 23 | 0 | 61.7% |
+| 5 | Weibo Gaming | 1723.8 | China | 30 | 25 | 5 | 0 | 83.3% |
+| 6 | T1 | 1702.0 | Korea | 64 | 37 | 27 | 0 | 57.8% |
+| 7 | VARREL | 1701.3 | Japan | 50 | 36 | 14 | 0 | 72.0% |
+| 8 | Virtus.pro | 1684.6 | EMEA | 34 | 21 | 13 | 0 | 61.8% |
+| 9 | Al Qadsiah | 1621.0 | EMEA | 26 | 9 | 17 | 0 | 34.6% |
+| 10 | Dallas Fuel | 1620.3 | NA | 32 | 25 | 7 | 0 | 78.1% |
+| 11 | Enter Force.36 | 1599.3 | Japan | 42 | 28 | 14 | 0 | 66.7% |
+| 12 | Geekay Esports | 1587.2 | EMEA | 32 | 14 | 18 | 0 | 43.8% |
+| 13 | Spacestation Gaming | 1575.7 | NA | 37 | 22 | 15 | 0 | 59.5% |
+| 14 | Team Secret | 1542.5 | Pacific | 26 | 19 | 7 | 0 | 73.1% |
+| 15 | The Gatos Guapos | 1527.5 | Pacific | 31 | 19 | 12 | 0 | 61.3% |
+| 16 | Team Liquid | 1521.9 | NA | 30 | 12 | 18 | 0 | 40.0% |
+| 17 | All Gamers | 1514.5 | China | 39 | 22 | 17 | 0 | 56.4% |
+| 18 | ONSIDE Gaming | 1499.6 | Korea | 48 | 22 | 26 | 0 | 45.8% |
+| 19 | JD Gaming | 1469.2 | China | 29 | 17 | 12 | 0 | 58.6% |
+| 20 | Rankers | 1440.5 | Pacific | 22 | 12 | 10 | 0 | 54.5% |
+| 21 | ZAN Esports | 1434.2 | Korea | 37 | 15 | 22 | 0 | 40.5% |
+| 22 | Please Not Hero Ban | 1420.2 | Japan | 35 | 15 | 20 | 0 | 42.9% |
+| 23 | Tokyo Ta1yo's | 1418.7 | Japan | 28 | 13 | 15 | 0 | 46.4% |
+| 24 | Anyone's Legend | 1407.4 | EMEA | 19 | 5 | 14 | 0 | 26.3% |
+| 25 | 99DIVINE | 1396.1 | Japan | 29 | 13 | 16 | 0 | 44.8% |
+| 26 | Disguised | 1390.5 | NA | 19 | 7 | 12 | 0 | 36.8% |
+| 27 | LuneX Gaming | 1385.3 | NA | 25 | 9 | 16 | 0 | 36.0% |
+| 28 | Team Peps | 1379.4 | EMEA | 19 | 4 | 15 | 0 | 21.1% |
+| 29 | Quasar Esports | 1377.0 | Pacific | 23 | 9 | 14 | 0 | 39.1% |
+| 30 | Naive Piggy | 1357.3 | China | 18 | 5 | 13 | 0 | 27.8% |
+| 31 | FURY | 1349.1 | Pacific | 16 | 4 | 12 | 0 | 25.0% |
+| 32 | Extinction | 1339.3 | NA | 17 | 5 | 12 | 0 | 29.4% |
+| 33 | Poker Face | 1335.7 | Korea | 29 | 8 | 21 | 0 | 27.6% |
+| 34 | Solus Victorem | 1333.1 | China | 21 | 5 | 16 | 0 | 23.8% |
+| 35 | Milk Tea | 1321.0 | China | 19 | 4 | 15 | 0 | 21.1% |
+| 36 | Lazuli | 1320.1 | Japan | 24 | 7 | 17 | 0 | 29.2% |
+| 37 | MMY | 1296.2 | Pacific | 18 | 3 | 15 | 0 | 16.7% |
+| 38 | Cheeseburger | 1282.6 | Korea | 32 | 6 | 26 | 0 | 18.8% |
+| 39 | Nyam Gaming | 1269.7 | Japan | 26 | 9 | 17 | 0 | 34.6% |
+| 40 | New Era | 1231.9 | Korea | 24 | 0 | 24 | 0 | 0.0% |
+| 41 | Telomere | 1223.9 | Japan | 24 | 3 | 21 | 0 | 12.5% |

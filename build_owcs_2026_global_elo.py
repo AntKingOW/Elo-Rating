@@ -33,7 +33,7 @@ CARRY_OVER_2025_MAP: dict[str, str] = {}
 # Add same-name-but-different-team resets here when confirmed.
 FORCE_RESET_2026: set[str] = set()
 
-INTERNATIONAL_EVENTS: set[str] = set()
+INTERNATIONAL_EVENTS: set[str] = {"owcs_2026_asia_s1_main"}
 
 REGION_LABEL: dict[str, str] = {
     "korea": "Korea",
@@ -206,7 +206,7 @@ def _write_markdown(ranked: list[TeamStats]) -> None:
         "",
         f"- **Base Elo**: {BASE_ELO} (new teams) | carry-over: 2025 final Elo",
         f"- **K**: {K_BASE}",
-        "- **Scope**: 2026 Stage 1 regular-season results collected so far",
+        "- **Scope**: 2026 Stage 1 results collected so far",
         "",
         "| Rank | Team | Elo | Region | Maps | W | L | D | Win% |",
         "|------|------|-----|--------|------|---|---|---|------|",

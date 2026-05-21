@@ -25,7 +25,11 @@ SUCCESSION: dict[str, str] = {
 CASE_NORM: dict[str, str] = {
     # Japan
     "Varrel": "VARREL",
+    "varrel": "VARREL",
     "please not hero ban": "Please Not Hero Ban",
+    "Please not Hero Ban": "Please Not Hero Ban",
+    "ENTER FORCE.36": "Enter Force.36",
+    "enter force.36": "Enter Force.36",
     # Cross-year carry-over case / spacing fixes
     "FullHouse": "Full House",
     "team liquid": "Team Liquid",
@@ -37,18 +41,32 @@ CASE_NORM: dict[str, str] = {
     "rankers": "Rankers",
     # Korea
     "ZETA Division": "ZETA DIVISION",
-    "ONSIDE Gaming": "ONSIDE GAMING",
-    "ONSIDE Gaming.": "ONSIDE GAMING",
+    "ONSIDE Gaming": "ONSIDE Gaming",
+    "ONSIDE Gaming.": "ONSIDE Gaming",
+    "ONSIDE GAMING": "ONSIDE Gaming",
     # NA
     "dallas fuel": "Dallas Fuel",
     "spacestation gaming": "Spacestation Gaming",
+    "disguised": "Disguised",
     # EMEA
     "geekay esports": "Geekay Esports",
     "al qadsiah": "Al Qadsiah",
+    "anyone's legend": "Anyone's Legend",
+    "Virtus.Pro": "Virtus.pro",
+    "virtus.pro": "Virtus.pro",
     # China
     "jdg":       "JD Gaming",
     "JDG":       "JD Gaming",
     "ag":        "All Gamers",
+    "weibo gaming": "Weibo Gaming",
+    "all gamers": "All Gamers",
+    "solus victorem": "Solus Victorem",
+    "naive piggy": "Naive Piggy",
+    # Pacific
+    "the gatos guapos": "The Gatos Guapos",
+    "team secret": "Team Secret",
+    "quasar esports": "Quasar Esports",
+    "Quasar esports": "Quasar Esports",
     # Common style fixes
     "Team peps": "Team Peps",
     "twisted minds": "Twisted Minds",
@@ -77,11 +95,16 @@ def is_china_swiss(row: dict) -> bool:
 EVENT_ORDER: list[str] = [
     "owcs_2026_asia_s1_japan",
     "owcs_2026_asia_s1_korea",
-    "owcs_2026_asia_s1_korea_playoffs",
     "owcs_2026_asia_s1_pacific",
     "owcs_2026_china_s1",
     "owcs_2026_emea_s1",
     "owcs_2026_na_s1",
+    "owcs_2026_asia_s1_japan_playoffs",
+    "owcs_2026_asia_s1_korea_playoffs",
+    "owcs_2026_asia_s1_pacific_playoffs",
+    "owcs_2026_china_s1_playoffs",
+    "owcs_2026_emea_s1_playoffs",
+    "owcs_2026_na_s1_playoffs",
     "owcs_2026_asia_s1_main",
 ]
 
@@ -176,7 +199,7 @@ def main() -> None:
     print(f"    {len(rows)} rows from {len(list(DRAFTS_DIR.glob('*.csv')))} files")
 
     print("\n[2] Filtering China Swiss-stage rows ...")
-    print(f"    Skipped (Swiss Stage now included)")
+    print("    Skipped (Swiss Stage remains included)")
 
     print("\n[3] Normalizing team names ...")
     rows = normalize_all(rows)
