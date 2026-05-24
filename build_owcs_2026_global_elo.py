@@ -33,7 +33,7 @@ CARRY_OVER_2025_MAP: dict[str, str] = {}
 # Add same-name-but-different-team resets here when confirmed.
 FORCE_RESET_2026: set[str] = set()
 
-INTERNATIONAL_EVENTS: set[str] = {"owcs_2026_asia_s1_main"}
+INTERNATIONAL_EVENTS: set[str] = {"owcs_2026_asia_s1_main", "owcs_2026_champions_clash"}
 
 REGION_LABEL: dict[str, str] = {
     "korea": "Korea",

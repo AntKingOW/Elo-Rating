@@ -6,24 +6,24 @@
 
 | Rank | Team | Elo | Region | Maps | W | L | D | Win% |
 |------|------|-----|--------|------|---|---|---|------|
-| 1 | Twisted Minds | 1918.5 | EMEA | 26 | 25 | 1 | 0 | 96.2% |
-| 2 | ZETA DIVISION | 1843.7 | Korea | 75 | 57 | 18 | 0 | 76.0% |
-| 3 | Crazy Raccoon | 1778.8 | Korea | 75 | 47 | 28 | 0 | 62.7% |
-| 4 | Team Falcons | 1725.8 | Korea | 60 | 37 | 23 | 0 | 61.7% |
-| 5 | Weibo Gaming | 1723.8 | China | 30 | 25 | 5 | 0 | 83.3% |
-| 6 | T1 | 1702.0 | Korea | 64 | 37 | 27 | 0 | 57.8% |
-| 7 | VARREL | 1701.3 | Japan | 50 | 36 | 14 | 0 | 72.0% |
-| 8 | Virtus.pro | 1684.6 | EMEA | 34 | 21 | 13 | 0 | 61.8% |
+| 1 | Twisted Minds | 1874.4 | EMEA | 51 | 39 | 12 | 0 | 76.5% |
+| 2 | Crazy Raccoon | 1871.7 | Korea | 91 | 59 | 32 | 0 | 64.8% |
+| 3 | ZETA DIVISION | 1814.7 | Korea | 89 | 64 | 25 | 0 | 71.9% |
+| 4 | Weibo Gaming | 1737.2 | China | 40 | 30 | 10 | 0 | 75.0% |
+| 5 | Team Falcons | 1725.8 | Korea | 60 | 37 | 23 | 0 | 61.7% |
+| 6 | Virtus.pro | 1706.4 | EMEA | 49 | 28 | 21 | 0 | 57.1% |
+| 7 | T1 | 1702.0 | Korea | 64 | 37 | 27 | 0 | 57.8% |
+| 8 | VARREL | 1701.3 | Japan | 50 | 36 | 14 | 0 | 72.0% |
 | 9 | Al Qadsiah | 1621.0 | EMEA | 26 | 9 | 17 | 0 | 34.6% |
-| 10 | Dallas Fuel | 1620.3 | NA | 32 | 25 | 7 | 0 | 78.1% |
+| 10 | Dallas Fuel | 1609.1 | NA | 40 | 28 | 12 | 0 | 70.0% |
 | 11 | Enter Force.36 | 1599.3 | Japan | 42 | 28 | 14 | 0 | 66.7% |
 | 12 | Geekay Esports | 1587.2 | EMEA | 32 | 14 | 18 | 0 | 43.8% |
-| 13 | Spacestation Gaming | 1575.7 | NA | 37 | 22 | 15 | 0 | 59.5% |
+| 13 | Spacestation Gaming | 1553.1 | NA | 41 | 22 | 19 | 0 | 53.7% |
 | 14 | Team Secret | 1542.5 | Pacific | 26 | 19 | 7 | 0 | 73.1% |
 | 15 | The Gatos Guapos | 1527.5 | Pacific | 31 | 19 | 12 | 0 | 61.3% |
 | 16 | Team Liquid | 1521.9 | NA | 30 | 12 | 18 | 0 | 40.0% |
-| 17 | All Gamers | 1514.5 | China | 39 | 22 | 17 | 0 | 56.4% |
-| 18 | ONSIDE Gaming | 1499.6 | Korea | 48 | 22 | 26 | 0 | 45.8% |
+| 17 | ONSIDE Gaming | 1499.6 | Korea | 48 | 22 | 26 | 0 | 45.8% |
+| 18 | All Gamers | 1493.3 | China | 43 | 22 | 21 | 0 | 51.2% |
 | 19 | JD Gaming | 1469.2 | China | 29 | 17 | 12 | 0 | 58.6% |
 | 20 | Rankers | 1440.5 | Pacific | 22 | 12 | 10 | 0 | 54.5% |
 | 21 | ZAN Esports | 1434.2 | Korea | 37 | 15 | 22 | 0 | 40.5% |
