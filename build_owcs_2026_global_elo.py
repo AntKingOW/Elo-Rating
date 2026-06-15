@@ -30,10 +30,34 @@ K_BASE = 24.0
 # Add confirmed 2025 -> 2026 rebrand carry-overs here.
 CARRY_OVER_2025_MAP: dict[str, str] = {}
 
+# Stage 2 rebrand/succession (within 2026): new_name -> source_name.
+# When the new team first appears in the match CSV, it inherits the source team's
+# current Elo (last computed value during the build run).
+STAGE2_REBRAND_MAP: dict[str, str] = {
+    # Korea: ZANSIDE GAMING is a merger; inherits the higher-Elo Onside Gaming.
+    "ZANSIDE GAMING":   "Onside Gaming",
+    # Pacific: roster-core succession.
+    "SHENGSHI Esports": "The Gatos Guapos",
+    "Najdorf Esports":  "Rankers",
+    "Trap12":           "Quasar Esports",
+    # NA: Extinction roster acquired.
+    "The Kafe":         "Extinction",
+    # EMEA: Anyone's Legend (China S1) succeeded by 1234 (EMEA S2).
+    "1234":             "Anyone's Legend",
+    # Note: Team KK -> Kitsune Kage rebrand. KK has no S1 data, so Kitsune Kage
+    # starts at BASE_ELO automatically — no entry needed here.
+}
+
 # Add same-name-but-different-team resets here when confirmed.
 FORCE_RESET_2026: set[str] = set()
 
-INTERNATIONAL_EVENTS: set[str] = {"owcs_2026_asia_s1_main", "owcs_2026_champions_clash"}
+INTERNATIONAL_EVENTS: set[str] = {
+    "owcs_2026_asia_s1_main",
+    "owcs_2026_champions_clash",
+    "owcs_2026_champions_clash_day1",
+    "owcs_2026_champions_clash_day2",
+    "owcs_2026_champions_clash_day3",
+}
 
 REGION_LABEL: dict[str, str] = {
     "korea": "Korea",
@@ -92,6 +116,14 @@ def main() -> None:
             ts = TeamStats(name=name)
             if name in FORCE_RESET_2026:
                 ts.elo = BASE_ELO
+            elif name in STAGE2_REBRAND_MAP:
+                # Stage 2 승계: 원 팀이 이미 빌드 중에 처리되었다면 그 ELO를 가져옴.
+                # 없으면 prior_elo(2025 final) → BASE_ELO 순으로 fallback.
+                source_name = STAGE2_REBRAND_MAP[name]
+                if source_name in teams:
+                    ts.elo = teams[source_name].elo
+                else:
+                    ts.elo = prior_elo.get(source_name, BASE_ELO)
             else:
                 lookup = CARRY_OVER_2025_MAP.get(name, name)
                 ts.elo = prior_elo.get(lookup, BASE_ELO)
